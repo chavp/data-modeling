@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T04:39:28.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="T4LGZBidMvrzwoXxWstV" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-25T04:39:56.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="xtrMxMB8wqhSRbwkomr2" version="13.5.3" type="github">
   <diagram id="7pcdScLeFBV-4vA4IE1a" name="Page-1">
     <mxGraphModel dx="1865" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,17 +31,17 @@
             <mxPoint x="190" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xecTp9EdF2CIEmMlDXdN-20" value="Charactor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="790" y="50" width="240" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="xecTp9EdF2CIEmMlDXdN-21" value="+Strength&#xa;+Agility&#xa;+Defense&#xa;+MaxHP&#xa;+MAxMP&#xa;+ActackPercentage&#xa;+DefensePercentage&#xa;+Experience&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xecTp9EdF2CIEmMlDXdN-20">
-          <mxGeometry y="30" width="240" height="150" as="geometry" />
-        </mxCell>
         <mxCell id="xecTp9EdF2CIEmMlDXdN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="xecTp9EdF2CIEmMlDXdN-20" target="xecTp9EdF2CIEmMlDXdN-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="175" as="sourcePoint" />
             <mxPoint x="240" y="175" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xecTp9EdF2CIEmMlDXdN-20" value="Charactor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="690" y="75" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xecTp9EdF2CIEmMlDXdN-21" value="+Strength&#xa;+Agility&#xa;+Defense&#xa;+MaxHP&#xa;+MAxMP&#xa;+ActackPercentage&#xa;+DefensePercentage&#xa;+Experience&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xecTp9EdF2CIEmMlDXdN-20">
+          <mxGeometry y="30" width="240" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
