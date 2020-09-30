@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T12:50:02.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="3mqgY1AEgJbeKVjWbcjW" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-30T12:50:31.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="m_vMyvUHPMdXAwM6MkPI" version="13.7.6" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="2071" dy="2882" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1635,21 +1635,6 @@
         <mxCell id="zbo5BHDHcFBrp6IUXttY-36" value="TierValue" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zbo5BHDHcFBrp6IUXttY-31" vertex="1">
           <mxGeometry y="130" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="y9WaQy7SfSh5tK5Xxpux-13" value="TravelPolicyDetail" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2830" y="-230" width="197.5" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="y9WaQy7SfSh5tK5Xxpux-14" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
-          <mxGeometry y="26" width="197.5" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="y9WaQy7SfSh5tK5Xxpux-15" value="DepartureDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
-          <mxGeometry y="52" width="197.5" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="y9WaQy7SfSh5tK5Xxpux-16" value="ReturnDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
-          <mxGeometry y="78" width="197.5" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="y9WaQy7SfSh5tK5Xxpux-17" value="CountryOfDeparture" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
-          <mxGeometry y="104" width="197.5" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="y9WaQy7SfSh5tK5Xxpux-18" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;" edge="1" parent="1" source="y9WaQy7SfSh5tK5Xxpux-9" target="y9WaQy7SfSh5tK5Xxpux-3">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="3160" y="-180" as="sourcePoint" />
@@ -1734,6 +1719,31 @@
         </mxCell>
         <mxCell id="y9WaQy7SfSh5tK5Xxpux-11" value="Name { TRAVEL }" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-9">
           <mxGeometry y="52" width="197.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y9WaQy7SfSh5tK5Xxpux-13" value="TravelPolicyDetail" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="-350" width="197.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="y9WaQy7SfSh5tK5Xxpux-14" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
+          <mxGeometry y="26" width="197.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y9WaQy7SfSh5tK5Xxpux-15" value="DepartureDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
+          <mxGeometry y="52" width="197.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y9WaQy7SfSh5tK5Xxpux-16" value="ReturnDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
+          <mxGeometry y="78" width="197.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y9WaQy7SfSh5tK5Xxpux-17" value="CountryOfDeparture" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="y9WaQy7SfSh5tK5Xxpux-13">
+          <mxGeometry y="104" width="197.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y9WaQy7SfSh5tK5Xxpux-20" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;" edge="1" parent="1" source="y9WaQy7SfSh5tK5Xxpux-3" target="y9WaQy7SfSh5tK5Xxpux-13">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="3160" y="-290" as="sourcePoint" />
+            <mxPoint x="3260" y="-390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2979" y="-430" />
+              <mxPoint x="2979" y="-430" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
