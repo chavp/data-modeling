@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T02:05:29.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="JVUU8m5b_8FDblVq547O" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T02:08:02.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_o6mqeRjJsisZylaMXGB" version="14.5.4" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
-    <mxGraphModel dx="3183" dy="4129" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2333" dy="4129" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1858,10 +1858,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k9SwmCuPC3DZCN2We-uc-1" value="Clients" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="150" width="160" height="120" as="geometry" />
+          <mxGeometry x="4290" y="-870" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k9SwmCuPC3DZCN2We-uc-2" value="+ClientId&#xa;+ProtocolType&#xa;+RequireClientSecret" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="k9SwmCuPC3DZCN2We-uc-1">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="k9SwmCuPC3DZCN2We-uc-3" value="ClientScopes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4590" y="-870" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9SwmCuPC3DZCN2We-uc-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;" edge="1" parent="1" source="k9SwmCuPC3DZCN2We-uc-1" target="k9SwmCuPC3DZCN2We-uc-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="4470" y="-700" as="sourcePoint" />
+            <mxPoint x="4570" y="-800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9SwmCuPC3DZCN2We-uc-6" value="ClientSecrets" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="4590" y="-770" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9SwmCuPC3DZCN2We-uc-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;" edge="1" parent="1" source="k9SwmCuPC3DZCN2We-uc-1" target="k9SwmCuPC3DZCN2We-uc-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="4480" y="-660" as="sourcePoint" />
+            <mxPoint x="4580" y="-760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
