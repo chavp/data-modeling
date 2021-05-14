@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T01:45:29.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="c0jH5jWZp69L38Z5kIE9" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T01:47:05.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="bJYt8ahrrT6FRDwGTMmW" version="14.6.10" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="2071" dy="3982" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2436,7 +2436,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KicFonQ5j9ose7yz8ALU-57" value="Quote" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#FFCCE6;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="-1570" width="280" height="182" as="geometry" />
+          <mxGeometry x="1130" y="-1710" width="280" height="182" as="geometry" />
         </mxCell>
         <mxCell id="KicFonQ5j9ose7yz8ALU-58" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KicFonQ5j9ose7yz8ALU-57">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -2455,6 +2455,21 @@
         </mxCell>
         <mxCell id="KicFonQ5j9ose7yz8ALU-65" value="Quantity" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KicFonQ5j9ose7yz8ALU-57">
           <mxGeometry y="156" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KicFonQ5j9ose7yz8ALU-67" value="QuoteItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#FFCCE6;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-1420" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KicFonQ5j9ose7yz8ALU-68" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KicFonQ5j9ose7yz8ALU-67">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KicFonQ5j9ose7yz8ALU-69" value="Line" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KicFonQ5j9ose7yz8ALU-67">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KicFonQ5j9ose7yz8ALU-72" value="Price" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KicFonQ5j9ose7yz8ALU-67">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KicFonQ5j9ose7yz8ALU-73" value="Quantity" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KicFonQ5j9ose7yz8ALU-67">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
