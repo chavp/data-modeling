@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T07:06:45.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="B9KfFIVcqbSOyIU5Hsec" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T07:07:30.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="XSHOzs1Eq9acDy2PH4uq" version="16.0.3" type="github">
   <diagram id="LjoO7NFVbJmHt4rmLPar" name="Page-1">
     <mxGraphModel dx="2138" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -65,23 +65,16 @@
           <mxGeometry x="170" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="BLckT2Vn7VJcxvCxK2wA-20" target="BLckT2Vn7VJcxvCxK2wA-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1000" y="255" />
-              <mxPoint x="1000" y="255" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-20" value="Address" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="831.25" y="225" width="128.75" height="60" as="geometry" />
+          <mxGeometry x="831.25" y="235" width="128.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BLckT2Vn7VJcxvCxK2wA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="BLckT2Vn7VJcxvCxK2wA-24" target="BLckT2Vn7VJcxvCxK2wA-30" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="375" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="670" y="400" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="BLckT2Vn7VJcxvCxK2wA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="BLckT2Vn7VJcxvCxK2wA-22" target="BLckT2Vn7VJcxvCxK2wA-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLckT2Vn7VJcxvCxK2wA-22" value="Communication" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="345" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="BLckT2Vn7VJcxvCxK2wA-24" target="BLckT2Vn7VJcxvCxK2wA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -89,18 +82,27 @@
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="BLckT2Vn7VJcxvCxK2wA-24" target="BLckT2Vn7VJcxvCxK2wA-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="670" y="255" />
+              <mxPoint x="670" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-24" value="PartyAddress" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="290" width="140" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="BLckT2Vn7VJcxvCxK2wA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="BLckT2Vn7VJcxvCxK2wA-22" target="BLckT2Vn7VJcxvCxK2wA-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="345" as="sourcePoint" />
+            <mxPoint x="750" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-30" value="CommunicationType" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="831.25" y="370" width="128.75" height="60" as="geometry" />
+          <mxGeometry x="1020" y="345" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-32" value="AddressType" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="225" width="120" height="60" as="geometry" />
+          <mxGeometry x="1020" y="235" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-35" value="from" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" parent="1" source="BLckT2Vn7VJcxvCxK2wA-34" target="BLckT2Vn7VJcxvCxK2wA-20" edge="1">
           <mxGeometry relative="1" as="geometry">
