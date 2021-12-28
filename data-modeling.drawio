@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T07:15:06.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ZPlY4cL8GdlCDHD5341L" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T07:20:42.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mPUkyyLGwOCfvvtFTV_w" version="16.0.3" type="github">
   <diagram id="LjoO7NFVbJmHt4rmLPar" name="Page-1">
     <mxGraphModel dx="2138" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -141,6 +141,45 @@
         </mxCell>
         <mxCell id="BLckT2Vn7VJcxvCxK2wA-41" value="NameType" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0R7QLWv_NO9CNXAiDbuL-3" target="0R7QLWv_NO9CNXAiDbuL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0R7QLWv_NO9CNXAiDbuL-3" target="0R7QLWv_NO9CNXAiDbuL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0R7QLWv_NO9CNXAiDbuL-3" target="0R7QLWv_NO9CNXAiDbuL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0R7QLWv_NO9CNXAiDbuL-3" target="0R7QLWv_NO9CNXAiDbuL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0R7QLWv_NO9CNXAiDbuL-3" target="0R7QLWv_NO9CNXAiDbuL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0R7QLWv_NO9CNXAiDbuL-3" target="0R7QLWv_NO9CNXAiDbuL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-3" value="Microservices" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="120" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-4" value="Individually deployable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-5" value="Responsible for a single capability" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-6" value="Consists of one or more processes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-7" value="Owns its own data store" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-8" value="A small team can maintain a handful of microservices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0R7QLWv_NO9CNXAiDbuL-9" value="Replaceable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="20" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
