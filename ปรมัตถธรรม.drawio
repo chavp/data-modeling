@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T04:39:55.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="B4r4puQa9msWx3DkC_o6" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T04:43:00.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HocbXL71xoqQV81NwBFF" version="16.2.1" type="github">
   <diagram id="NXEd3F06SdvpRlzZAtwD" name="Page-1">
     <mxGraphModel dx="529" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BVzkEmnIKLTDEYWlBooW-47" value="ปรมัตถธรรม" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="480" width="120" height="80" as="geometry" />
+          <mxGeometry x="480" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BVzkEmnIKLTDEYWlBooW-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="BVzkEmnIKLTDEYWlBooW-48" target="BVzkEmnIKLTDEYWlBooW-47">
           <mxGeometry relative="1" as="geometry" />
@@ -62,13 +62,40 @@
           <mxGeometry x="270" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BVzkEmnIKLTDEYWlBooW-59" value="อนิจจลักษณะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BVzkEmnIKLTDEYWlBooW-60" value="ทุกขลักษณะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BVzkEmnIKLTDEYWlBooW-61" value="อนัตตลักษณะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-76" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="BVzkEmnIKLTDEYWlBooW-74" target="BVzkEmnIKLTDEYWlBooW-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-78" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="BVzkEmnIKLTDEYWlBooW-74" target="BVzkEmnIKLTDEYWlBooW-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-74" value="วิเสสลักษณะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-75" value="ลักษณะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-80" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="BVzkEmnIKLTDEYWlBooW-77" target="BVzkEmnIKLTDEYWlBooW-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-82" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="BVzkEmnIKLTDEYWlBooW-77" target="BVzkEmnIKLTDEYWlBooW-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-77" value="รสะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-79" value="กิจรสะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVzkEmnIKLTDEYWlBooW-81" value="สัมปัตติรสะ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
