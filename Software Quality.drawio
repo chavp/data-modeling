@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T03:49:19.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="m1wsWsNkFglxiZzxrgWF" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-04T03:53:29.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="6Dq-wBa0yaVv3j1Lynri" version="16.5.3" type="github">
   <diagram id="G9URGlftVFYS-OsgE3q_" name="Page-1">
-    <mxGraphModel dx="2321" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2314" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,6 +40,11 @@
         <mxCell id="IYnw7WudZfnkX5wU1Qxr-4" value="Code" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="470" y="440" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-5" target="IYnw7WudZfnkX5wU1Qxr-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109.99999999999955" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IYnw7WudZfnkX5wU1Qxr-5" value="OWASP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="210" y="-70" width="80" height="80" as="geometry" />
         </mxCell>
@@ -59,6 +64,45 @@
         </mxCell>
         <mxCell id="IYnw7WudZfnkX5wU1Qxr-15" value="Refactoring" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="760" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-22" target="IYnw7WudZfnkX5wU1Qxr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-22" target="IYnw7WudZfnkX5wU1Qxr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-22" target="IYnw7WudZfnkX5wU1Qxr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-22" target="IYnw7WudZfnkX5wU1Qxr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-22" target="IYnw7WudZfnkX5wU1Qxr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-22" target="IYnw7WudZfnkX5wU1Qxr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-22" value="&lt;span&gt;API Security Risk&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-23" value="Threat Agents" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-24" value="Exploitability" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-25" value="&lt;div&gt;Weakness&lt;/div&gt;&lt;div&gt;Prevalence&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-26" value="&lt;div&gt;Weakness&lt;/div&gt;&lt;div&gt;Detectability&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-27" value="&lt;div&gt;Technical&lt;/div&gt;&lt;div&gt;Impact&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-28" value="&lt;div&gt;Business&lt;/div&gt;&lt;div&gt;Impacts&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="110" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
