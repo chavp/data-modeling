@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T06:48:52.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.81 Safari/537.36" etag="OvDWkkpdSXu9RyKx7IWQ" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T04:23:29.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="k_bY9TnigZydX8-u23F5" version="16.5.4" type="github">
   <diagram id="G9URGlftVFYS-OsgE3q_" name="Page-1">
     <mxGraphModel dx="2138" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
             <mxPoint x="250" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_qzqNRUxwpT8pTBVUL0-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYnw7WudZfnkX5wU1Qxr-2" target="x_qzqNRUxwpT8pTBVUL0-1">
+        <mxCell id="x_qzqNRUxwpT8pTBVUL0-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IYnw7WudZfnkX5wU1Qxr-2" target="x_qzqNRUxwpT8pTBVUL0-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IYnw7WudZfnkX5wU1Qxr-2" value="Products" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -139,34 +139,34 @@
         <mxCell id="IYnw7WudZfnkX5wU1Qxr-28" value="&lt;div&gt;Business&lt;/div&gt;&lt;div&gt;Impacts&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-210" y="210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-35" value="Broken Object Level Authorization" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-35" value="A01:2021-Broken Access Control&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry y="-325" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-36" value="Broken User Authentication" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-36" value="A02:2021-Cryptographic Failures" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="90" y="-410" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-37" value="Excessive Data Exposure" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-37" value="A03:2021-Injection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="190" y="-450" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-38" value="Lack of Resources &amp;amp; Rate Limiting" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-38" value="A04:2021-Insecure Design" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="300" y="-430" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-39" value="&lt;div&gt;Broken Function Level&lt;/div&gt;&lt;div&gt;Authorization&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-39" value="A05:2021-Security Misconfiguration" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="400" y="-380" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-40" value="Mass Assignment" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-40" value="A06:2021-Vulnerable and Outdated Components" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="460" y="-290" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-41" value="Security Misconfiguration" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-41" value="A07:2021-Identification and Authentication Failures" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="500" y="-190" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-42" value="Injection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-42" value="A08:2021-Software and Data Integrity Failures" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="500" y="-80" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-43" value="Improper Assets Management" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-43" value="A09:2021-Security Logging and Monitoring Failures" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="440" y="10" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYnw7WudZfnkX5wU1Qxr-44" value="Insufficient Logging &amp;amp; Monitoring" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="IYnw7WudZfnkX5wU1Qxr-44" value="A10:2021-Server-Side Request Forgery" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="330" y="40" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="IYnw7WudZfnkX5wU1Qxr-56" value="Attact Vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
@@ -178,13 +178,13 @@
         <mxCell id="IYnw7WudZfnkX5wU1Qxr-58" value="Impacts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-280" y="90" width="170" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="x_qzqNRUxwpT8pTBVUL0-1" value="&lt;span&gt;API Security Goal&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="x_qzqNRUxwpT8pTBVUL0-1" value="&lt;span&gt;API Security Goal&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="520" y="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="x_qzqNRUxwpT8pTBVUL0-9" value="Security as Code" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x_qzqNRUxwpT8pTBVUL0-3" target="IYnw7WudZfnkX5wU1Qxr-13">
+        <mxCell id="x_qzqNRUxwpT8pTBVUL0-9" value="Security as Code" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="x_qzqNRUxwpT8pTBVUL0-3" target="IYnw7WudZfnkX5wU1Qxr-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x_qzqNRUxwpT8pTBVUL0-3" value="&lt;a href=&quot;https://www.devsecops.org/&quot;&gt;DevSecOps&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="x_qzqNRUxwpT8pTBVUL0-3" value="&lt;a href=&quot;https://www.devsecops.org/&quot;&gt;DevSecOps&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="560" y="290" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
