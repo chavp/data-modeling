@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T06:55:09.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="wB8_8F8CZDRBWDaSDsmW" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T06:56:31.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="tMVro4fVrozU8PdV4gmk" version="17.1.3" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
-    <mxGraphModel dx="2277" dy="3622" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3430" dy="4265" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,7 +181,7 @@
             <mxPoint x="770" y="-44" as="sourcePoint" />
             <mxPoint x="911.4213562373095" y="-144" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="770" y="-100" />
+              <mxPoint x="770" y="-70" />
               <mxPoint x="770" y="-240" />
             </Array>
           </mxGeometry>
@@ -2240,7 +2240,7 @@
             <mxPoint x="350" y="-420" as="sourcePoint" />
             <mxPoint x="1160" y="-1302" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="-120" />
+              <mxPoint x="680" y="-90" />
               <mxPoint x="680" y="-1080" />
               <mxPoint x="1170" y="-1080" />
             </Array>
@@ -3217,6 +3217,15 @@
         </mxCell>
         <mxCell id="z0UVSCkYmkkg_hFkaq9J-29" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="2120" y="2140" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z0UVSCkYmkkg_hFkaq9J-35" value="PlanPremiumType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-240" width="160" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="z0UVSCkYmkkg_hFkaq9J-36" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="z0UVSCkYmkkg_hFkaq9J-35">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z0UVSCkYmkkg_hFkaq9J-37" value="Name { SALE, RENEW }" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="z0UVSCkYmkkg_hFkaq9J-35">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
