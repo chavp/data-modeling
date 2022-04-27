@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T08:33:40.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="YJeRmth3LE8w3MJtTUi4" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T08:34:51.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_1Wt_Fgl8UOK67RDHuTi" version="17.4.6" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="2603" dy="3803" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1383,13 +1383,13 @@
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5tScs2i6ls9q81FOWfNb-14" value="PolicyPartyRoleType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="3037.5" y="-1024" width="520" height="78" as="geometry" />
+          <mxGeometry x="3037.5" y="-1024" width="592.5" height="78" as="geometry" />
         </mxCell>
         <mxCell id="5tScs2i6ls9q81FOWfNb-15" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="5tScs2i6ls9q81FOWfNb-14" vertex="1">
-          <mxGeometry y="26" width="520" height="26" as="geometry" />
+          <mxGeometry y="26" width="592.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5tScs2i6ls9q81FOWfNb-16" value="Name { CUSTOMER, INSURED, INSURER, BENEFICIARY, AGENT, TAX_EXCEMPTION }" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="5tScs2i6ls9q81FOWfNb-14" vertex="1">
-          <mxGeometry y="52" width="520" height="26" as="geometry" />
+        <mxCell id="5tScs2i6ls9q81FOWfNb-16" value="Name { CUSTOMER, INSURED, SUB_INSURED, INSURER, BENEFICIARY, AGENT, TAX_EXCEMPTION }" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="5tScs2i6ls9q81FOWfNb-14" vertex="1">
+          <mxGeometry y="52" width="592.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WDwS9hlg-Zl9L9CRXzQi-89" value="PolicyPeriod" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="2587.5" y="-948" width="160" height="130" as="geometry" />
