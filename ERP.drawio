@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T06:56:45.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="EAxUqffZDy46o9yXCG1Q" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T06:59:41.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="FOeOgz2sYLzxBYgVZ8dC" version="18.2.0" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="3183" dy="4127" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3535,8 +3535,11 @@
         <mxCell id="v2nuYEAHHiXLzjcLL305-14" value="Order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1130" y="2240" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="drgSn94ylBJqUrJq4HDD-1" value="notify and payment&amp;nbsp;phase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="1920" width="450" height="30" as="geometry" />
+        <mxCell id="drgSn94ylBJqUrJq4HDD-1" value="notify and payment&amp;nbsp;phase: process every 1 minutes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeWidth=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1920" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="drgSn94ylBJqUrJq4HDD-2" value="backfill renew policy phase: process every weekdays at 16:00" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeWidth=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1920" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
