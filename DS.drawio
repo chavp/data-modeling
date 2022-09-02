@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T04:52:01.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7SCIw0wr4hQ5JR45_Q7E" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T05:23:40.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="K-IjFni4-KEAd5BPdRt6" version="20.2.7" type="github">
   <diagram id="AqMoiznXCZGiWsd2ppC3" name="Page-1">
     <mxGraphModel dx="3683" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DiZXjh_aEqviNDpe_JiY-19" value="PartyRelationshipType { CITY, STATE }" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="DiZXjh_aEqviNDpe_JiY-19" value="PartyRelationshipType { STATE, CITY&lt;br&gt;,&amp;nbsp;CLUSTER }" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-580" y="565" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DiZXjh_aEqviNDpe_JiY-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" parent="1" source="DiZXjh_aEqviNDpe_JiY-19" target="DiZXjh_aEqviNDpe_JiY-15" edge="1">
@@ -334,6 +334,25 @@
         </mxCell>
         <mxCell id="UxaYWRvRHPkxiGg4G-dx-40" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="910" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UxaYWRvRHPkxiGg4G-dx-42" value="City" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UxaYWRvRHPkxiGg4G-dx-43" value="State" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UxaYWRvRHPkxiGg4G-dx-45" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;" edge="1" parent="1" source="DiZXjh_aEqviNDpe_JiY-2" target="UxaYWRvRHPkxiGg4G-dx-42">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-510" y="925" as="sourcePoint" />
+            <mxPoint x="-440" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UxaYWRvRHPkxiGg4G-dx-46" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;" edge="1" parent="1" source="DiZXjh_aEqviNDpe_JiY-2" target="UxaYWRvRHPkxiGg4G-dx-43">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-570" y="955" as="sourcePoint" />
+            <mxPoint x="-650" y="1020" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
