@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T03:14:37.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qiiBb_ulGKGGl-1kn-DJ" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T03:15:54.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ToSc6smvvh2_VzrXXl92" version="20.2.8" type="github">
   <diagram id="AqMoiznXCZGiWsd2ppC3" name="Page-1">
     <mxGraphModel dx="3421" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -354,15 +354,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UQxZv_VmtrtVXWc6xAbR-1" value="ProductItem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1920" y="880" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UQxZv_VmtrtVXWc6xAbR-2" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="UxaYWRvRHPkxiGg4G-dx-1" target="UQxZv_VmtrtVXWc6xAbR-1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-1720" y="526.25" as="sourcePoint" />
-            <mxPoint x="-1790" y="526.25" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-3" value="ProductRelationship" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="710" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
