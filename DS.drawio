@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T02:28:46.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Cdm_imxCc76s_yhIYyG3" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T02:31:56.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0oOG4AsLaXC0U2AuIZf8" version="20.2.8" type="github">
   <diagram id="AqMoiznXCZGiWsd2ppC3" name="Page-1">
     <mxGraphModel dx="4783" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -588,6 +588,28 @@
               <mxPoint x="-1110" y="470" />
               <mxPoint x="-1110" y="470" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-67" value="Bill" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-68" value="BillItem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-71" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UQxZv_VmtrtVXWc6xAbR-55" target="UQxZv_VmtrtVXWc6xAbR-68">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-1270" y="510" as="sourcePoint" />
+            <mxPoint x="-1270" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1310" y="550" />
+              <mxPoint x="-1460" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-72" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="UQxZv_VmtrtVXWc6xAbR-67" target="UQxZv_VmtrtVXWc6xAbR-68">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-1270" y="510" as="sourcePoint" />
+            <mxPoint x="-1270" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
