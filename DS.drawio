@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T02:46:04.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_6MrTXsSj9_uGfO-mBX9" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T02:46:37.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WbH25eF4tr6i5mLdKOFn" version="20.2.8" type="github">
   <diagram id="AqMoiznXCZGiWsd2ppC3" name="Page-1">
     <mxGraphModel dx="5030" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -506,7 +506,7 @@
             <mxPoint x="-1440" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UQxZv_VmtrtVXWc6xAbR-50" value="ProductRelationshipType &lt;br&gt;{ OPTIONS, COMPOSE, FEATURES }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-50" value="ProductRelationshipType &lt;br&gt;{ OPTIONS, RAW, FEATURES }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-2520" y="1090" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UQxZv_VmtrtVXWc6xAbR-51" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="UQxZv_VmtrtVXWc6xAbR-50" target="UQxZv_VmtrtVXWc6xAbR-3">
