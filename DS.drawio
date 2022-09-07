@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T02:22:03.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bEmmgLT31mh7oj3DslU8" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T02:22:37.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NRMApezNW_f18fCphA5N" version="20.2.8" type="github">
   <diagram id="AqMoiznXCZGiWsd2ppC3" name="Page-1">
     <mxGraphModel dx="4783" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -525,6 +525,15 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-1960" y="698.75" as="sourcePoint" />
             <mxPoint x="-1960" y="746.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-57" value="InvoiceItemContract" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UQxZv_VmtrtVXWc6xAbR-58" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="UQxZv_VmtrtVXWc6xAbR-55" target="UQxZv_VmtrtVXWc6xAbR-57">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-1410" y="620" as="sourcePoint" />
+            <mxPoint x="-1330" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
