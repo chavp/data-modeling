@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T04:40:04.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yHtVtcBHCBFE51RN4AEO" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T04:41:40.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zdEx9n3YlHdbOxgYvJxp" version="20.3.0" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="3183" dy="4081" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3746,7 +3746,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-1" value="AXADirect" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="3650" y="1610" width="90" height="100" as="geometry" />
+          <mxGeometry x="3610" y="1500" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-2" value="AXADirectData" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="4130" y="1380" width="90" height="100" as="geometry" />
@@ -3835,11 +3835,26 @@
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-31" value="Connect" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="4290" y="1130" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="SkCnVIG6_EQmYGEz1iY9-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SkCnVIG6_EQmYGEz1iY9-45" target="SkCnVIG6_EQmYGEz1iY9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkCnVIG6_EQmYGEz1iY9-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SkCnVIG6_EQmYGEz1iY9-45" target="SkCnVIG6_EQmYGEz1iY9-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-45" value="Axa.Direct.InsurancesProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="1540" width="210" height="60" as="geometry" />
+          <mxGeometry x="3860" y="1520" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SkCnVIG6_EQmYGEz1iY9-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SkCnVIG6_EQmYGEz1iY9-46" target="SkCnVIG6_EQmYGEz1iY9-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkCnVIG6_EQmYGEz1iY9-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SkCnVIG6_EQmYGEz1iY9-46" target="SkCnVIG6_EQmYGEz1iY9-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-46" value="Axa.Direct.ClientsProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
-          <mxGeometry x="4120" y="1540" width="210" height="60" as="geometry" />
+          <mxGeometry x="3860" y="1640" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SkCnVIG6_EQmYGEz1iY9-48" value="Connect API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4410" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
