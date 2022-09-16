@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T02:57:52.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8jmEQDoABaV0D0KagQfY" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-16T02:59:21.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AQTr2272jT4YNmzCWXGT" version="20.3.0" type="github">
   <diagram id="AqMoiznXCZGiWsd2ppC3" name="Page-1">
     <mxGraphModel dx="4521" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -726,6 +726,15 @@
         <mxCell id="Tzw8wJe3DSU2HGbEKApv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tzw8wJe3DSU2HGbEKApv-2" target="Tzw8wJe3DSU2HGbEKApv-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Tzw8wJe3DSU2HGbEKApv-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tzw8wJe3DSU2HGbEKApv-2" target="Tzw8wJe3DSU2HGbEKApv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tzw8wJe3DSU2HGbEKApv-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tzw8wJe3DSU2HGbEKApv-2" target="Tzw8wJe3DSU2HGbEKApv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tzw8wJe3DSU2HGbEKApv-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tzw8wJe3DSU2HGbEKApv-2" target="Tzw8wJe3DSU2HGbEKApv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Tzw8wJe3DSU2HGbEKApv-2" value="Prepare" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2460" y="-400" width="120" height="60" as="geometry" />
         </mxCell>
@@ -752,6 +761,18 @@
         </mxCell>
         <mxCell id="Tzw8wJe3DSU2HGbEKApv-12" value="Import data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-2740" y="-250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tzw8wJe3DSU2HGbEKApv-16" value="Explore data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2550" y="-570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tzw8wJe3DSU2HGbEKApv-17" value="Visualize ideas" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2460" y="-620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tzw8wJe3DSU2HGbEKApv-18" value="Cleaning data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2370" y="-560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tzw8wJe3DSU2HGbEKApv-22" value="Feature selection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2370" y="-280" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
