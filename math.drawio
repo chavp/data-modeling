@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T07:00:06.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8CNBcoEzq4-pwRegvW8F" version="20.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T04:11:48.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="n7273Hi8raV7zzAl1wdy" version="20.3.1" type="github">
   <diagram id="C-yN11XaQHERJCoyUqDr" name="หน้า-1">
-    <mxGraphModel dx="2138" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2138" dy="1339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,8 +34,11 @@
         <mxCell id="EYg5Czc74dAmpDCZTBrX-1" value="Math" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="420" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYg5Czc74dAmpDCZTBrX-2" target="EYg5Czc74dAmpDCZTBrX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EYg5Czc74dAmpDCZTBrX-2" value="Algebra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="150" width="120" height="80" as="geometry" />
+          <mxGeometry x="150" y="100" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EYg5Czc74dAmpDCZTBrX-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYg5Czc74dAmpDCZTBrX-4" target="EYg5Czc74dAmpDCZTBrX-8">
           <mxGeometry relative="1" as="geometry" />
@@ -110,6 +113,33 @@
         </mxCell>
         <mxCell id="EYg5Czc74dAmpDCZTBrX-37" value="Mathematical Physics" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYg5Czc74dAmpDCZTBrX-39" target="EYg5Czc74dAmpDCZTBrX-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYg5Czc74dAmpDCZTBrX-39" target="EYg5Czc74dAmpDCZTBrX-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYg5Czc74dAmpDCZTBrX-39" target="EYg5Czc74dAmpDCZTBrX-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYg5Czc74dAmpDCZTBrX-39" target="EYg5Czc74dAmpDCZTBrX-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-39" value="Algebra Structure" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-41" value="Groups" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-42" value="Fields" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-43" value="Vector Space" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EYg5Czc74dAmpDCZTBrX-44" value="Rings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-240" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
