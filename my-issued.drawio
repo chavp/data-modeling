@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T04:27:00.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="fqMTaa2KInZdK0XhyRTY" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T04:28:18.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="O-T3BQywtdI5G8mvxbee" type="github">
   <diagram id="725YP466rwQ9yF5KesJ6" name="หน้า-1">
     <mxGraphModel dx="2583" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l0HiNboqYedKOfi41QnO-53" value="Party" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="-60" width="140" height="104" as="geometry" />
+          <mxGeometry x="680" y="-80" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="l0HiNboqYedKOfi41QnO-54" value="+ Id: guid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0HiNboqYedKOfi41QnO-53">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -162,13 +162,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l0HiNboqYedKOfi41QnO-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="l0HiNboqYedKOfi41QnO-57" target="l0HiNboqYedKOfi41QnO-53">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="-28" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="l0HiNboqYedKOfi41QnO-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="l0HiNboqYedKOfi41QnO-57" target="l0HiNboqYedKOfi41QnO-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0HiNboqYedKOfi41QnO-57" value="PartyIssue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="-200" width="140" height="104" as="geometry" />
+        <mxCell id="l0HiNboqYedKOfi41QnO-57" value="IssueParty" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-80" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="l0HiNboqYedKOfi41QnO-58" value="+ Id: guid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0HiNboqYedKOfi41QnO-57">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -195,7 +197,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l0HiNboqYedKOfi41QnO-68" value="IssueRole" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="-320" width="140" height="78" as="geometry" />
+          <mxGeometry x="370" y="-290" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="l0HiNboqYedKOfi41QnO-69" value="+ Id: guid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l0HiNboqYedKOfi41QnO-68">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
