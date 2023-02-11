@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T14:50:56.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eAAbI_5IbtGOzi4U-sSe" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T15:02:05.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WLqU9yFHe4IdU_CGTsAh" version="20.8.20" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
-    <mxGraphModel dx="2990" dy="3849" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3313" dy="3986" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4543,7 +4543,7 @@
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-44" value="ClaimState" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8MmScVsO80p_Hw2hRNgJ-1" vertex="1">
           <mxGeometry y="308" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8MmScVsO80p_Hw2hRNgJ-51" value="ClaimSourceType" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8MmScVsO80p_Hw2hRNgJ-1" vertex="1">
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-51" value="ClaimSource" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8MmScVsO80p_Hw2hRNgJ-1" vertex="1">
           <mxGeometry y="334" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-45" value="SubmitedLabourAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8MmScVsO80p_Hw2hRNgJ-1" vertex="1">
@@ -4591,7 +4591,7 @@
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-24" value="PolicyModifiedDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8MmScVsO80p_Hw2hRNgJ-11" vertex="1">
           <mxGeometry y="204" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8MmScVsO80p_Hw2hRNgJ-52" value="PolicySourceType" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8MmScVsO80p_Hw2hRNgJ-11" vertex="1">
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-52" value="PolicySource" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8MmScVsO80p_Hw2hRNgJ-11" vertex="1">
           <mxGeometry y="230" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;" parent="1" source="8MmScVsO80p_Hw2hRNgJ-11" target="8MmScVsO80p_Hw2hRNgJ-1" edge="1">
@@ -4683,6 +4683,45 @@
               <mxPoint x="-480" y="-2642" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-2" value="ClaimPartyRemarkDim" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="-2770" width="270" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-3" value="Key" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="22" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-4" value="ActionByPartyId" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="48" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-5" value="FromPartyId" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="74" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-6" value="ToPartyId" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="100" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-7" value="RemarkValue" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="126" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-8" value="RemarkType" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="152" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-9" value="InsurerCode" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="178" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-10" value="InsurerShortName" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="204" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-11" value="InsurerComment" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="230" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-12" value="ClientPartyId" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="256" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-13" value="ClientTempName" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="282" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KXnBBuG0qDGxBJaPqwph-14" value="ClientContactNumber" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="KXnBBuG0qDGxBJaPqwph-2">
+          <mxGeometry y="308" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
