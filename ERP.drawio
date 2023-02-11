@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T08:19:15.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dWoUMWgMcPlgxMmWwOpF" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T08:20:19.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jUR58UlCc97bOQe2Fn9w" version="20.8.20" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="3013" dy="3986" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4576,6 +4576,24 @@
               <mxPoint x="-100" y="-2690" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-26" value="OrderItemDim" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-2520" width="240" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-27" value="Key" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-26">
+          <mxGeometry y="22" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-28" value="OrderItemId" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-26">
+          <mxGeometry y="48" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-29" value="OrderItemLine" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-26">
+          <mxGeometry y="74" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-30" value="OrderItemCreateDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-26">
+          <mxGeometry y="100" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-31" value="OrderItemTime" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-26">
+          <mxGeometry y="126" width="240" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
