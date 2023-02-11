@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T08:25:52.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7aypH85StRQ6NPrPPsfK" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T08:29:44.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6Fg1OHkkrfmOI7-pKsQd" version="20.8.20" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="3013" dy="3986" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4505,7 +4505,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-1" value="ClaimFact" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-460" y="-2730" width="240" height="412" as="geometry" />
+          <mxGeometry x="-460" y="-2730" width="240" height="490" as="geometry" />
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-2" value="Key" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
           <mxGeometry y="22" width="240" height="26" as="geometry" />
@@ -4543,14 +4543,23 @@
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-44" value="ClaimState" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
           <mxGeometry y="308" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8MmScVsO80p_Hw2hRNgJ-45" value="CurrentLabourAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-45" value="SubmitedLabourAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
           <mxGeometry y="334" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8MmScVsO80p_Hw2hRNgJ-46" value="CurrentSparePartsAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-46" value="SubmitedSparePartsAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
           <mxGeometry y="360" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8MmScVsO80p_Hw2hRNgJ-47" value="CurrentDeductibleAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-47" value="SubmitedDeductibleAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
           <mxGeometry y="386" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-48" value="ApprovedLabourAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
+          <mxGeometry y="412" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-49" value="ApprovedSparePartsAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
+          <mxGeometry y="438" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8MmScVsO80p_Hw2hRNgJ-50" value="ApprovedDeductibleAmount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-1">
+          <mxGeometry y="464" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-11" value="PolicyDim" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-2870" width="240" height="230" as="geometry" />
