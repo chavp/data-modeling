@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T09:13:03.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SpIFlQ3UesgRidaxqr-O" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T09:14:22.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wyHlLr-hukrvFldDXVDy" version="20.8.20" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="3685" dy="4145" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4636,7 +4636,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-53" value="ClaimPartyRoleDim" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="-2700" width="190" height="126" as="geometry" />
+          <mxGeometry x="-770" y="-2680" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-54" value="Key" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-53">
           <mxGeometry y="22" width="190" height="26" as="geometry" />
@@ -4646,9 +4646,6 @@
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-100" value="ClaimOrderItemRoleTypeName" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-53">
           <mxGeometry y="74" width="190" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="8MmScVsO80p_Hw2hRNgJ-102" value="OrderItemRoleRemarkId" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="8MmScVsO80p_Hw2hRNgJ-53">
-          <mxGeometry y="100" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8MmScVsO80p_Hw2hRNgJ-82" value="ClaimPartyDim" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="-2770" width="270" height="308" as="geometry" />
