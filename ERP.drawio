@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T02:08:22.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VjKLdjbsVDMh3byJt_1q" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T02:11:53.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fwoD1WITbUmiXV8tFwP2" version="20.8.21" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="4045" dy="4298" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4151,8 +4151,8 @@
             <mxPoint x="2730" y="-1414" as="targetPoint" />
             <mxPoint x="3262.5" y="-1330" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="2890" y="-1420" />
-              <mxPoint x="2890" y="-1424" />
+              <mxPoint x="2590" y="-1420" />
+              <mxPoint x="2590" y="-1420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4844,6 +4844,15 @@
             <mxPoint x="3120" y="-299" as="sourcePoint" />
             <mxPoint x="2932" y="-390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NtaM97X2QOo7bBWNmvDd-11" value="BacklogItemOrderItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#FFCCE6;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="-180" width="200" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NtaM97X2QOo7bBWNmvDd-12" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="NtaM97X2QOo7bBWNmvDd-11">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NtaM97X2QOo7bBWNmvDd-13" value="Name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="NtaM97X2QOo7bBWNmvDd-11">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
