@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T03:19:40.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="oOofEWd6bHmiKC9VsE8t" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T03:20:13.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="IPD2_Bx04YSY4mpmHzm1" version="20.8.22" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="3543" dy="4084" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4847,16 +4847,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NtaM97X2QOo7bBWNmvDd-11" value="ClaimBacklogItemRole" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#FFCCE6;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="-530" width="250" height="104" as="geometry" />
+          <mxGeometry x="2020" y="-530" width="210" height="104" as="geometry" />
         </mxCell>
         <mxCell id="NtaM97X2QOo7bBWNmvDd-12" value="Id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="NtaM97X2QOo7bBWNmvDd-11" vertex="1">
-          <mxGeometry y="26" width="250" height="26" as="geometry" />
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NtaM97X2QOo7bBWNmvDd-17" value="EffectiveFromDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="NtaM97X2QOo7bBWNmvDd-11" vertex="1">
-          <mxGeometry y="52" width="250" height="26" as="geometry" />
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NtaM97X2QOo7bBWNmvDd-18" value="EffectiveToDate" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="NtaM97X2QOo7bBWNmvDd-11" vertex="1">
-          <mxGeometry y="78" width="250" height="26" as="geometry" />
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NtaM97X2QOo7bBWNmvDd-14" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;" parent="1" source="5gzvUNVXyqJ5f4gv4QZ_-89" target="NtaM97X2QOo7bBWNmvDd-11" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -4883,9 +4883,7 @@
             <mxPoint x="3120" y="-550" as="sourcePoint" />
             <mxPoint x="2260" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1910" y="390" />
-              <mxPoint x="1970" y="390" />
-              <mxPoint x="1970" y="110" />
+              <mxPoint x="1950" y="110" />
               <mxPoint x="2650" y="110" />
               <mxPoint x="2650" y="-481" />
             </Array>
