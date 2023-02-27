@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T02:50:58.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kCsHqKX84Ya1VS62rTVN" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T02:54:31.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0EVFSzRd6dNrRVcxQ29T" version="20.8.23" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
     <mxGraphModel dx="2935" dy="3946" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3771,7 +3771,7 @@
           <mxGeometry x="3760" y="2290" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-2" value="AXADirectData" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="4310" y="2190" width="90" height="100" as="geometry" />
+          <mxGeometry x="4350" y="2290" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-3" value="organizations" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3520" y="2610" width="90" height="100" as="geometry" />
@@ -3795,7 +3795,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-13" value="Axa.Direct.WebApi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="3890" y="2050" width="170" height="70" as="geometry" />
+          <mxGeometry x="3890" y="2030" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-21" target="SkCnVIG6_EQmYGEz1iY9-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3888,10 +3888,10 @@
           <mxGeometry x="4040" y="2430" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-48" value="Connect API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="4590" y="2350" width="140" height="80" as="geometry" />
+          <mxGeometry x="4580" y="2500" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3280" y="1800" width="1520" height="940" as="geometry" />
+          <mxGeometry x="3280" y="1800" width="60" height="940" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-56" target="SkCnVIG6_EQmYGEz1iY9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -4998,7 +4998,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L_xqou2zjFM4FAKa_Hia-1" value="Axa.ClaimOrders.WebApi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="4280" y="2060" width="180" height="50" as="geometry" />
+          <mxGeometry x="4340" y="2030" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L_xqou2zjFM4FAKa_Hia-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L_xqou2zjFM4FAKa_Hia-6" target="SkCnVIG6_EQmYGEz1iY9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_xqou2zjFM4FAKa_Hia-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L_xqou2zjFM4FAKa_Hia-6" target="L_xqou2zjFM4FAKa_Hia-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_xqou2zjFM4FAKa_Hia-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L_xqou2zjFM4FAKa_Hia-6" target="SkCnVIG6_EQmYGEz1iY9-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4531.646943933823" y="2419.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_xqou2zjFM4FAKa_Hia-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L_xqou2zjFM4FAKa_Hia-6" target="SkCnVIG6_EQmYGEz1iY9-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_xqou2zjFM4FAKa_Hia-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L_xqou2zjFM4FAKa_Hia-6" target="SkCnVIG6_EQmYGEz1iY9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_xqou2zjFM4FAKa_Hia-6" value="Axa.Direct.ClaimsProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="4490" y="2140" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
