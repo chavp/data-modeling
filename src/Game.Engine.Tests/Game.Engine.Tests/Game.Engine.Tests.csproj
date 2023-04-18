@@ -20,4 +20,8 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Game.Organizations\Game.Organizations.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Game.Engine.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class TestSQLiteEF
     {
         // https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=visual-studio
 
@@ -72,7 +72,6 @@ namespace Game.Engine.Tests
     public class Blog : DomainModel
     {
         public string Url { get; set; }
-
         public List<Post>? Posts { get; } = new();
     }
 

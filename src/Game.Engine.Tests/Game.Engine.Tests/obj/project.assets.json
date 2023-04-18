@@ -2463,6 +2463,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "Game.Organizations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Game.Organizations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Game.Organizations.dll": {}
+        }
       }
     }
   },
@@ -8050,10 +8063,16 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Game.Organizations/1.0.0": {
+      "type": "project",
+      "path": "../Game.Organizations/Game.Organizations.csproj",
+      "msbuildProject": "../Game.Organizations/Game.Organizations.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Game.Organizations >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.5",
@@ -8094,7 +8113,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\parinya\\source\\repos\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj": {
+              "projectPath": "C:\\Users\\parinya\\source\\repos\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
