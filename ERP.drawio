@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T04:44:29.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ujYWIKpRzCy54cJy7q3U" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T03:57:58.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="moIEWT3CGR9Nf33luEiY" version="21.1.6" type="github">
   <diagram id="PjSpE_dmqOtsdUptbFbl" name="Page-1">
-    <mxGraphModel dx="3850" dy="4118" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3218" dy="3946" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3842,14 +3842,19 @@
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-27" value="Axa.Direct.OpenGateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="4110" y="1750" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SkCnVIG6_EQmYGEz1iY9-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-28" target="SkCnVIG6_EQmYGEz1iY9-27" edge="1">
+        <mxCell id="SkCnVIG6_EQmYGEz1iY9-29" value="orders/orderitems/create, orders/payment, orders/paid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-28" target="SkCnVIG6_EQmYGEz1iY9-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-28" value="Partner { TQM }" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="4180" y="1600" width="30" height="60" as="geometry" />
+          <mxGeometry x="4310" y="1520" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-30" target="SkCnVIG6_EQmYGEz1iY9-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4wbh1zXJlsTN5LrbS32M-1" value="orders/new, orders/orderitems/add, orders/payment, orders/paid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SkCnVIG6_EQmYGEz1iY9-32">
+          <mxGeometry x="-0.1416" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="L_xqou2zjFM4FAKa_Hia-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-30" target="SkCnVIG6_EQmYGEz1iY9-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3857,14 +3862,14 @@
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-30" value="Direct { CUSTOMER, INSURED, SERVICE PROVIDERS }" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="3880" y="1530" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SkCnVIG6_EQmYGEz1iY9-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-31" target="SkCnVIG6_EQmYGEz1iY9-13" edge="1">
+        <mxCell id="SkCnVIG6_EQmYGEz1iY9-36" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;orders/orderitems/create, orders/issuepolicy&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-31" target="SkCnVIG6_EQmYGEz1iY9-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-37" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-31" target="SkCnVIG6_EQmYGEz1iY9-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-31" value="Connect { AXA }" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="4560" y="1930" width="30" height="60" as="geometry" />
+          <mxGeometry x="4560" y="1900" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-45" target="SkCnVIG6_EQmYGEz1iY9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3891,7 +3896,7 @@
           <mxGeometry x="4460" y="2520" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3280" y="1800" width="1460" height="940" as="geometry" />
+          <mxGeometry x="3280" y="1800" width="1400" height="940" as="geometry" />
         </mxCell>
         <mxCell id="SkCnVIG6_EQmYGEz1iY9-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SkCnVIG6_EQmYGEz1iY9-56" target="SkCnVIG6_EQmYGEz1iY9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
