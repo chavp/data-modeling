@@ -3,6 +3,7 @@ using System;
 using Game.Organizations.Models.Mappings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,79 +11,16 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Game.Organizations.Migrations
 {
     [DbContext(typeof(OrganizationContext))]
-    partial class OrganizationContextModelSnapshot : ModelSnapshot
+    [Migration("20230418093802_init")]
+    partial class init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasDefaultSchema("organization")
                 .HasAnnotation("ProductVersion", "7.0.5");
-
-            modelBuilder.Entity("Game.Organizations.Models.Experience", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ModifiedBy")
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime?>("ModifiedDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<Guid>("PartyId")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PartyId");
-
-                    b.ToTable("Experiences", "organization");
-                });
-
-            modelBuilder.Entity("Game.Organizations.Models.ExperienceItem", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CreatedBy")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<Guid>("ExperienceId")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ModifiedBy")
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime?>("ModifiedDate")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ExperienceId");
-
-                    b.ToTable("ExperienceItem", "organization");
-                });
 
             modelBuilder.Entity("Game.Organizations.Models.Party", b =>
                 {
@@ -206,28 +144,6 @@ namespace Game.Organizations.Migrations
                     b.HasDiscriminator().HasValue("Team");
                 });
 
-            modelBuilder.Entity("Game.Organizations.Models.Experience", b =>
-                {
-                    b.HasOne("Game.Organizations.Models.Party", "Party")
-                        .WithMany()
-                        .HasForeignKey("PartyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Party");
-                });
-
-            modelBuilder.Entity("Game.Organizations.Models.ExperienceItem", b =>
-                {
-                    b.HasOne("Game.Organizations.Models.Experience", "Experience")
-                        .WithMany("ExperienceItems")
-                        .HasForeignKey("ExperienceId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Experience");
-                });
-
             modelBuilder.Entity("Game.Organizations.Models.Stat", b =>
                 {
                     b.HasOne("Game.Organizations.Models.Party", "Party")
@@ -237,11 +153,6 @@ namespace Game.Organizations.Migrations
                         .IsRequired();
 
                     b.Navigation("Party");
-                });
-
-            modelBuilder.Entity("Game.Organizations.Models.Experience", b =>
-                {
-                    b.Navigation("ExperienceItems");
                 });
 #pragma warning restore 612, 618
         }

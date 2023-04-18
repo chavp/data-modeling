@@ -24,6 +24,7 @@ namespace Game.Organizations.Models
         {
             modifiedBy = modifiedBy ?? Environment.MachineName;
             ModifiedBy = Environment.MachineName;
+            ModifiedDate = DateTime.Now;
         }
     }
 }

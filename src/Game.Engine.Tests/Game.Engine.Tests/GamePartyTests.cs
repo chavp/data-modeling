@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Tests
 {
+    // https://game.andaplus.com/web/index.php/th/162-walkthroughgame/dragon-quest-1-guides/5907-dragon-quest-1-by-arrpeegeez-com
+
     [TestClass]
     public class GamePartyTests
     {
@@ -16,12 +18,12 @@ namespace Game.Engine.Tests
         {
             using var db = new OrganizationContext();
 
-            var hero = new Person
+            var hero = new Team
             {
                 Name = "Dai",
             };
 
-            db.People.Add(hero);
+            db.Parties.Add(hero);
 
             db.SaveChanges();
         }
@@ -31,8 +33,11 @@ namespace Game.Engine.Tests
         {
             using var db = new OrganizationContext();
 
-            var hero = db.People.Single(x => x.Name == "Dai");
+            var hero = db.Parties.OfType<Person>().Single(x => x.Name == "Dai");
+            var stat = db.Stats.Single(x => x.Party == hero);
+
             hero.Name = "DaiDai";
+            hero.Modified();
             db.SaveChanges();
         }
     }

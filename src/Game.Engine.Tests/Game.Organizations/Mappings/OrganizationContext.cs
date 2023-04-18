@@ -11,9 +11,9 @@ namespace Game.Organizations.Models.Mappings
 {
     public class OrganizationContext : DbContext
     {
-        public DbSet<Person> People { get; set; }
-        public DbSet<Team> Teams { get; set; }
-
+        public DbSet<Party> Parties { get; set; }
+        public DbSet<Stat> Stats { get; set; }
+        public DbSet<Experience> Experiences { get; set; }
         public string DbPath { get; }
 
         public OrganizationContext()
@@ -26,9 +26,11 @@ namespace Game.Organizations.Models.Mappings
         {
             modelBuilder.HasDefaultSchema("organization");
 
-            modelBuilder.Entity<Person>().Property(b => b.ModifiedDate)
-                .ValueGeneratedOnUpdate()
-                .Metadata.SetAfterSaveBehavior(PropertySaveBehavior.Save);
+            modelBuilder.Entity<Party>()
+                .HasDiscriminator<string>("PartyType")
+                .HasValue<Person>("Person")
+                .HasValue<Team>("Team")
+                ;
         }
 
         // The following configures EF to create a Sqlite database file in the
