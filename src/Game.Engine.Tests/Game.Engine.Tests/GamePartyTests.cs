@@ -25,5 +25,15 @@ namespace Game.Engine.Tests
 
             db.SaveChanges();
         }
+
+        [TestMethod]
+        public void TestPersonRead()
+        {
+            using var db = new OrganizationContext();
+
+            var hero = db.People.Single(x => x.Name == "Dai");
+            hero.Name = "DaiDai";
+            db.SaveChanges();
+        }
     }
 }
