@@ -69,7 +69,7 @@ namespace Game.Engine.Tests
         public void TestPersonUpdateStat()
         {
             // https://gamefaqs.gamespot.com/snes/564868-dragon-quest-i-and-ii/faqs/61640
-
+            // https://gamefaqs.gamespot.com/nes/563408-dragon-warrior/faqs/18342
             using var db = new OrganizationContext();
             var hero = db.Parties.OfType<Person>().Single(x => x.Name == "Dai");
             var stat = db.Stats.Single(x => x.Party == hero);
@@ -77,7 +77,7 @@ namespace Game.Engine.Tests
             var totalExp = exp.ExperienceItems.Sum(x => x.Amount);
 
             stat.Experience = totalExp;
-            stat.Level = getLevel((double)totalExp);
+            stat.Level = getLevel(totalExp);
             stat.HP = 200;
             stat.Modified();
 
@@ -87,9 +87,9 @@ namespace Game.Engine.Tests
             db.SaveChanges();
         }
 
-        decimal getLevel(double x)
+        double getLevel(double x)
         {
-            return (decimal)(7.805775683 + 0.000379 * x);
+            return (7.805775683 + 0.000379 * x);
         }
     }
 }

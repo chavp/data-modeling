@@ -56,8 +56,8 @@ namespace Game.Organizations.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("TEXT");
+                    b.Property<double>("Amount")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("CreatedBy")
                         .IsRequired()
@@ -124,8 +124,8 @@ namespace Game.Organizations.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal?>("Agility")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("Agility")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("CreatedBy")
                         .IsRequired()
@@ -135,17 +135,17 @@ namespace Game.Organizations.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal?>("Experience")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("Experience")
+                        .HasColumnType("REAL");
 
-                    b.Property<decimal?>("HP")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("HP")
+                        .HasColumnType("REAL");
 
-                    b.Property<decimal?>("Level")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("Level")
+                        .HasColumnType("REAL");
 
-                    b.Property<decimal?>("MP")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("MP")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("ModifiedBy")
                         .HasMaxLength(200)
@@ -157,11 +157,11 @@ namespace Game.Organizations.Migrations
                     b.Property<Guid>("PartyId")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal?>("Resilience")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("Resilience")
+                        .HasColumnType("REAL");
 
-                    b.Property<decimal?>("Strength")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("Strength")
+                        .HasColumnType("REAL");
 
                     b.HasKey("Id");
 

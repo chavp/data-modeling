@@ -1,0 +1,39 @@
+﻿@page "/players"
+@using Game.Blazor.Data
+
+@inject PlayersService PlayersService
+
+<h3>Players</h3>
+<input type="text" @bind-value="Name" />
+<button class="btn btn-primary" @onclick="GetPlayer">Get</button>
+
+@if (Player != null)
+{
+    <div>Id: @Player?.Id</div>
+    <div>Name: @Player?.Name</div>
+    <div>Level: @Player?.Stat?.Level</div>
+    <div>HP: @Player?.Stat?.HP</div>
+    <div>HP: @Player?.Stat?.MP</div>
+    <div>Experience: @Player?.Stat?.Experience</div>
+}
+
+<h3>Monster</h3>
+<input type="number" @bind-value="Experience" />
+<button class="btn btn-primary" @onclick="KillMonster">Kill</button>
+
+@code {
+    private string Name;
+    private Player? Player;
+
+    private double Experience;
+
+    private void GetPlayer()
+    {
+        Player = PlayersService.GetPlayerByName(Name);
+    }
+
+    private void KillMonster()
+    {
+        Player = PlayersService.GetPlayerKillMonster(Name, Experience);
+    }
+}

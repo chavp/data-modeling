@@ -8,7 +8,7 @@ namespace Game.Organizations.Models
 {
     public class ExperienceItem : IdentityModel
     {
-        public decimal Amount { get; set; }
+        public double Amount { get; set; }
 
         public Guid ExperienceId { get; set; }
         public Experience Experience { get; set; }

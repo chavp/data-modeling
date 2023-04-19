@@ -8,13 +8,13 @@ namespace Game.Organizations.Models
 {
     public class Stat : IdentityModel
     {
-        public decimal? Level { get; set; }
-        public decimal? HP { get; set; }
-        public decimal? MP { get; set; }
-        public decimal? Strength { get; set; }
-        public decimal? Agility { get; set; }
-        public decimal? Resilience { get; set; }
-        public decimal? Experience { get; set; }
+        public double? Level { get; set; }
+        public double? HP { get; set; }
+        public double? MP { get; set; }
+        public double? Strength { get; set; }
+        public double? Agility { get; set; }
+        public double? Resilience { get; set; }
+        public double? Experience { get; set; }
 
         public Guid PartyId { get; set; }
         public Party Party { get; set; }
