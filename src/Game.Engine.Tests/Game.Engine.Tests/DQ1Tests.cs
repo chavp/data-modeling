@@ -87,6 +87,14 @@ namespace Game.Engine.Tests
             db.SaveChanges();
         }
 
+        [TestMethod]
+        public void TestGameLevel()
+        {
+            var name = "Parinya";
+            var daiScore = GameLevel.NameScore(name);
+            var stat = GameLevel.NameStat(name);
+        }
+
         double getLevel(double x)
         {
             return (7.805775683 + 0.000379 * x);
