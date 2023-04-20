@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Game.Organizations.Migrations
 {
     [DbContext(typeof(OrganizationContext))]
-    [Migration("20230419085842_init")]
+    [Migration("20230420082208_init")]
     partial class init
     {
         /// <inheritdoc />

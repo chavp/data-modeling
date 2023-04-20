@@ -21,6 +21,7 @@ namespace Game.Organizations.Models.Mappings
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
             DbPath = System.IO.Path.Join(path, "organization.db");
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,6 +32,8 @@ namespace Game.Organizations.Models.Mappings
                 .HasValue<Person>("Person")
                 .HasValue<Team>("Team")
                 ;
+
+            base.OnModelCreating(modelBuilder);
         }
 
         // The following configures EF to create a Sqlite database file in the

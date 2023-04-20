@@ -7,6 +7,35 @@ namespace Game.Blazor.Data
 {
     public class PlayersService
     {
+        public Player AddPlayer(string name)
+        {
+            using var db = new OrganizationContext();
+
+            var hero = db.Parties.OfType<Person>().SingleOrDefault(x => x.Name == name);
+            if (hero == null)
+            {
+                hero = new Person
+                {
+                    Name = name,
+                };
+                db.Parties.Add(hero);
+
+                var initStat = new Game.Organizations.Models.Stat
+                {
+                    Level = 1,
+                    Experience = 0,
+                    Party = hero
+                };
+                db.Stats.Add(initStat);
+
+                db.SaveChanges();
+            }
+
+            var result = getPlayer(db, hero);
+
+            return result;
+        }
+
         public Player GetPlayerByName(string name)
         {
             using var db = new OrganizationContext();
