@@ -93,7 +93,26 @@ namespace Game.Organizations.Models
             { 14, (6, 4, 16, 5, "C") },
             { 15, (4, 4, 16, 7, "D") },
         };
-
+        static Dictionary<string, (int, int, int, int)> GrowthRates = new Dictionary<string, (int, int, int, int)>
+        {
+            { "A", (1,2,1,2) },
+            { "B", (2,1,2,1) },
+            { "C", (1,1,2,2) },
+            { "D", (2,2,1,1) },
+        };
+        static Dictionary<int, (int, (int, int), (int, int), (int, int), (int, int), string)> Levels = new Dictionary<int, (int, (int, int), (int, int), (int, int), (int, int), string)>
+        {
+            { 1, (0, (0,0), (0,0), (0,0), (0,0), string.Empty ) },
+            { 2, (7, (1,1), (0,0), (7,6), (0,0), string.Empty ) },
+            { 3, (23, (3,3), (2,2), (9,8), (0,0), "HEAL" ) },
+            { 4, (47, (3,3), (4,4), (16,14), (11,10), "HURT" ) },
+            { 5, (110, (8,7), (6,6), (23,21), (19,17), string.Empty ) },
+            { 6, (220, (12,11), (6,6), (23,21), (19,17), string.Empty ) },
+            { 7, (450, (14,13), (13,12), (25,23), (21,19), "SLEEP" ) },
+            { 8, (800, (18,16), (16,15), (31,28), (24,22), string.Empty ) },
+            { 9, (1300, (26,24), (18,16), (35,32), (31,28), "RADIANT" ) },
+            { 10, (2000, (31,28), (27,24), (39,35), (35,32), "STOPSPELL" ) },
+        };
         public static int NameScore(string name)
         {
             var chars = name.ToCharArray();
@@ -110,6 +129,11 @@ namespace Game.Organizations.Models
         {
             var score = NameScore(name);
             return PlayerStats[score % 15];
+        }
+
+        public static (int, int, int, int) GrowthRate(string nameStat)
+        {
+            return GrowthRates[nameStat];
         }
     }
 }
