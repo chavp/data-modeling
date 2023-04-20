@@ -22,6 +22,8 @@ namespace Game.Organizations.Models.Mappings
             var path = Environment.GetFolderPath(folder);
             DbPath = System.IO.Path.Join(path, "organization.db");
 
+            Database.Migrate();
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
