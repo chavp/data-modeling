@@ -13,5 +13,7 @@ namespace Game.Organizations.Models
     {
         [StringLength(500)]
         public string Name { get; set; }
+
+        public DateOnly? BirthDate { get; set; }
     }
 }

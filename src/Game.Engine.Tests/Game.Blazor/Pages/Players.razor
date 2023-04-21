@@ -4,6 +4,10 @@
 @inject PlayersService PlayersService
 
 <h3>Players</h3>
+<h4>New</h4>
+<input type="text" @bind-value="NewName" />
+<button class="btn btn-primary" @onclick="AddPlayer">Add</button>
+<h4>Get</h4>
 <input type="text" @bind-value="Name" />
 <button class="btn btn-primary" @onclick="GetPlayer">Get</button>
 
@@ -11,6 +15,7 @@
 {
     <div>Id: @Player?.Id</div>
     <div>Name: @Player?.Name</div>
+    <div>BirthDate: @Player?.BirthDate?.ToString("dd/MM/yyyy")</div>
     <div>Level: @Player?.Stat?.Level</div>
     <div>HP: @Player?.Stat?.HP</div>
     <div>HP: @Player?.Stat?.MP</div>
@@ -22,6 +27,7 @@
 <button class="btn btn-primary" @onclick="KillMonster">Kill</button>
 
 @code {
+    private string NewName;
     private string Name;
     private Player? Player;
 
@@ -35,5 +41,10 @@
     private void KillMonster()
     {
         Player = PlayersService.GetPlayerKillMonster(Name, Experience);
+    }
+
+    private void AddPlayer()
+    {
+        Player = PlayersService.AddPlayer(NewName);
     }
 }

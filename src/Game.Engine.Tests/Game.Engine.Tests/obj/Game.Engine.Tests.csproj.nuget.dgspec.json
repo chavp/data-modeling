@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj": {}
+    "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj": {}
   },
   "projects": {
-    "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj": {
+    "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj",
+        "projectUniqueName": "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj",
         "projectName": "Game.Engine.Tests",
-        "projectPath": "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj",
-        "packagesPath": "C:\\Users\\parinya\\.nuget\\packages\\",
-        "outputPath": "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\obj\\",
+        "projectPath": "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\Game.Engine.Tests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Engine.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\parinya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -33,8 +36,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj": {
-                "projectPath": "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj"
+              "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj": {
+                "projectPath": "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj"
               }
             }
           }
@@ -92,26 +95,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj": {
+    "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj",
+        "projectUniqueName": "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj",
         "projectName": "Game.Organizations",
-        "projectPath": "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj",
-        "packagesPath": "C:\\Users\\parinya\\.nuget\\packages\\",
-        "outputPath": "D:\\data\\blogs\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\obj\\",
+        "projectPath": "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\Game.Organizations.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\ebook\\k8s\\src\\data-modeling\\src\\Game.Engine.Tests\\Game.Organizations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\parinya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -164,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

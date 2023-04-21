@@ -174,6 +174,9 @@ namespace Game.Organizations.Migrations
                 {
                     b.HasBaseType("Game.Organizations.Models.Party");
 
+                    b.Property<DateOnly?>("BirthDate")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(500)

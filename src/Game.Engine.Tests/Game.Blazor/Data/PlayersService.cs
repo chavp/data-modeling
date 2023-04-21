@@ -7,6 +7,35 @@ namespace Game.Blazor.Data
 {
     public class PlayersService
     {
+        public Player AddPlayer(string name)
+        {
+            using var db = new OrganizationContext();
+
+            var hero = db.Parties.OfType<Person>().SingleOrDefault(x => x.Name == name);
+            if (hero == null)
+            {
+                hero = new Person
+                {
+                    Name = name,
+                };
+                db.Parties.Add(hero);
+
+                var initStat = new Game.Organizations.Models.Stat
+                {
+                    Level = 1,
+                    Experience = 0,
+                    Party = hero
+                };
+                db.Stats.Add(initStat);
+
+                db.SaveChanges();
+            }
+
+            var result = getPlayer(db, hero);
+
+            return result;
+        }
+
         public Player GetPlayerByName(string name)
         {
             using var db = new OrganizationContext();
@@ -21,7 +50,7 @@ namespace Game.Blazor.Data
 
         Player getPlayer(OrganizationContext db, Game.Organizations.Models.Person person)
         {
-            var result = new Player { Id = person.Id, Name = person.Name };
+            var result = new Player { Id = person.Id, Name = person.Name, BirthDate = person.BirthDate };
             var stat = db.Stats.SingleOrDefault(x => x.Party == person);
             if (stat != null)
             {
@@ -46,6 +75,8 @@ namespace Game.Blazor.Data
 
             var hero = db.Parties.OfType<Person>().SingleOrDefault(x => x.Name == name);
             if (hero == null) return null;
+
+            hero.BirthDate = DateOnly.FromDateTime(DateTime.Today);
 
             var exp = db.Experiences.Include(x => x.ExperienceItems).SingleOrDefault(x => x.Party == hero);
             if(exp == null)
@@ -89,6 +120,7 @@ namespace Game.Blazor.Data
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
+        public DateOnly? BirthDate { get; set; }
 
         public Stat? Stat { get; set; }
     }
