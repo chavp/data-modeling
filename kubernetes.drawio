@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T08:38:08.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Qk61ZLblOriW7WBuT3jD" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T08:43:18.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="14YjIHe99DFeHHnFYYmT" version="21.1.9" type="github">
   <diagram id="xQNse8xgCa5r1MksHwUH" name="หน้า-1">
     <mxGraphModel dx="2670" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -377,14 +377,6 @@
             <mxPoint x="875" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D4TIQq5gjR-vQWRy2sLY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4TIQq5gjR-vQWRy2sLY-14" target="IYAs4d1nV_LzOTD07XO1-112">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="475" y="1120" />
-              <mxPoint x="1320" y="1120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="D4TIQq5gjR-vQWRy2sLY-14" value="Build" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="630" width="130" height="90" as="geometry" />
         </mxCell>
@@ -474,6 +466,15 @@
               <mxPoint x="855" y="860" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="D4TIQq5gjR-vQWRy2sLY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4TIQq5gjR-vQWRy2sLY-32" target="D4TIQq5gjR-vQWRy2sLY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4TIQq5gjR-vQWRy2sLY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4TIQq5gjR-vQWRy2sLY-32" target="IYAs4d1nV_LzOTD07XO1-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D4TIQq5gjR-vQWRy2sLY-32" value="Docker compose" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="1150" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
