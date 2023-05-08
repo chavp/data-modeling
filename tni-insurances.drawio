@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T02:13:29.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2sU2znYZvy4ROcsxYmpk" version="21.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T06:57:24.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ROzb2bxcjsOHTPQIK2dr" version="21.2.9" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="1621" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-12" value="NoticeItem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="-280" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-16" value="ProductOrderItem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="370" width="120" height="60" as="geometry" />
@@ -57,7 +57,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-18" value="ProductNoticeItem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="500" width="140" height="60" as="geometry" />
+          <mxGeometry x="-70" y="370" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="E_q2j0-W4uADCQufRSa3-18" target="E_q2j0-W4uADCQufRSa3-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -73,8 +73,8 @@
             <mxPoint x="20" y="510" as="sourcePoint" />
             <mxPoint x="170" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint y="590" />
-              <mxPoint y="590" />
+              <mxPoint x="-60" y="400" />
+              <mxPoint x="-60" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
