@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T15:04:20.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SQZqp_gzQC3RDUw_uVm-" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T15:05:48.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NV9PPsMkMu4QIlypLRKV" version="21.2.9" type="github">
   <diagram name="หน้า-1" id="xT70k1N3Pbm8d9o1cy2z">
     <mxGraphModel dx="1134" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,10 +35,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-10" value="Products" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pentagon" vertex="1" parent="1">
-          <mxGeometry x="130" y="1180" width="100" height="90" as="geometry" />
+          <mxGeometry x="70" y="1390" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-11" value="prducts" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1300" width="60" height="80" as="geometry" />
+          <mxGeometry x="90" y="1510" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDGMdZ3vwe_FPq7Faetc-13" target="XDGMdZ3vwe_FPq7Faetc-14">
           <mxGeometry relative="1" as="geometry" />
@@ -53,31 +53,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-13" value="Orders" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pentagon" vertex="1" parent="1">
-          <mxGeometry x="310" y="1180" width="100" height="90" as="geometry" />
+          <mxGeometry x="250" y="1390" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-14" value="orders" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1300" width="60" height="80" as="geometry" />
+          <mxGeometry x="270" y="1510" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDGMdZ3vwe_FPq7Faetc-16" target="XDGMdZ3vwe_FPq7Faetc-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDGMdZ3vwe_FPq7Faetc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDGMdZ3vwe_FPq7Faetc-16" target="XDGMdZ3vwe_FPq7Faetc-28">
+        <mxCell id="XDGMdZ3vwe_FPq7Faetc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="XDGMdZ3vwe_FPq7Faetc-16" target="XDGMdZ3vwe_FPq7Faetc-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-16" value="Invoices" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pentagon" vertex="1" parent="1">
-          <mxGeometry x="480" y="1180" width="100" height="90" as="geometry" />
+          <mxGeometry x="420" y="1390" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-17" value="invoices" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1300" width="60" height="80" as="geometry" />
+          <mxGeometry x="440" y="1510" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-22" value="GET /products&lt;br&gt;GET /products/price" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-23" value="GET /orders/{id}&lt;br&gt;POST /orders&lt;br&gt;POST /orders/items&lt;br&gt;DELETE /orders/items&lt;br&gt;POST /orders/payment&lt;br&gt;POST /orders/paid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="269.61" y="1020" width="240.78" height="120" as="geometry" />
+          <mxGeometry x="209.61" y="1230" width="240.78" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-28" value="POST /invoices&lt;br&gt;POST /invoices/payment&lt;br&gt;POST /invoices/billing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1060" width="240.78" height="80" as="geometry" />
+          <mxGeometry x="510" y="1270" width="240.78" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDGMdZ3vwe_FPq7Faetc-30" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="970" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
