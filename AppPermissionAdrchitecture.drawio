@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T14:59:47.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2WnKcc-1PccOmTMYqIkv" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T15:01:11.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SgrW-MUJLxNr52EMBrju" version="21.2.9" type="github">
   <diagram name="หน้า-1" id="xT70k1N3Pbm8d9o1cy2z">
     <mxGraphModel dx="1134" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-23" value="GET /orders/{id}&lt;br&gt;POST /orders&lt;br&gt;POST /orders/items&lt;br&gt;DELETE /orders/items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="269.61" y="1060" width="240.78" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XDGMdZ3vwe_FPq7Faetc-28" value="GET /orders/{id}&lt;br&gt;POST /orders&lt;br&gt;POST /orders/items&lt;br&gt;DELETE /orders/items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1080" width="240.78" height="80" as="geometry" />
+        <mxCell id="XDGMdZ3vwe_FPq7Faetc-28" value="POST /invoices&lt;br&gt;POST /invoices/payment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1060" width="240.78" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
