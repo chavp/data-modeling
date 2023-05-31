@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T14:32:50.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="knl_DEnLni8kdn6tiAL3" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T14:41:11.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="n4v98j0wfY-9gXLOz2aI" version="21.2.9" type="github">
   <diagram name="หน้า-1" id="xT70k1N3Pbm8d9o1cy2z">
     <mxGraphModel dx="1134" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,15 @@
         </mxCell>
         <mxCell id="XDGMdZ3vwe_FPq7Faetc-5" value="&lt;ul style=&quot;box-sizing: inherit; outline-color: inherit; margin: 16px 0px 16px 38px; padding: 0px; list-style: none; color: rgb(22, 22, 22); font-family: &amp;quot;Segoe UI&amp;quot;, SegoeUI, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: inherit; outline-color: inherit; margin: 0px; padding: 0px; outline-style: initial; outline-width: 0px; list-style: disc;&quot;&gt;&lt;b&gt;Application permissions:&lt;/b&gt; Also called&amp;nbsp;&lt;em style=&quot;box-sizing: inherit; outline-color: inherit;&quot;&gt;app roles&lt;/em&gt;, allow the app to access data on its own, without a signed-in user.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="460" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDGMdZ3vwe_FPq7Faetc-6" value="Microsoft identity platform endpoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="590" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDGMdZ3vwe_FPq7Faetc-7" value="&lt;ul style=&quot;box-sizing: inherit; outline-color: inherit; margin: 16px 0px 16px 38px; padding: 0px; list-style: none; color: rgb(22, 22, 22); font-family: &amp;quot;Segoe UI&amp;quot;, SegoeUI, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: inherit; outline-color: inherit; margin: 0px; padding: 0px; outline-style: initial; outline-width: 0px; list-style: disc;&quot;&gt;Microsoft Authentication Library (MSAL) client libraries are available for various frameworks including for .NET, JavaScript, Android, and iOS. All platforms are in production-supported preview, and, in the event breaking changes are introduced, Microsoft guarantees a path to upgrade.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="138.45" y="670" width="590" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XDGMdZ3vwe_FPq7Faetc-8" value="&lt;ul style=&quot;box-sizing: inherit; outline-color: inherit; margin: 16px 0px 16px 38px; padding: 0px; list-style: none; color: rgb(22, 22, 22); font-family: &amp;quot;Segoe UI&amp;quot;, SegoeUI, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: inherit; outline-color: inherit; margin: 0px; padding: 0px; outline-style: initial; outline-width: 0px; list-style: disc;&quot;&gt;Server middleware from Microsoft is available for .NET core and ASP.NET (OWIN OpenID Connect and OAuth) and for Node.js (Microsoft identity platform Passport.js).&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="138.45" y="790" width="590" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
