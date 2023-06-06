@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T08:17:52.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aVO84laLQvDTxLE1TMOk" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T08:18:58.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BC8jTGPcd7PeVWCTtydN" version="21.3.7" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="2591" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2271" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="E_q2j0-W4uADCQufRSa3-2" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="110" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="E_q2j0-W4uADCQufRSa3-3" target="E_q2j0-W4uADCQufRSa3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-3" value="ProductItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="100" y="930" width="140" height="60" as="geometry" />
+          <mxGeometry x="210" y="930" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-4" value="RenewProductItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1060" width="140" height="60" as="geometry" />
+          <mxGeometry x="210" y="1060" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=none;startFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="E_q2j0-W4uADCQufRSa3-4" target="E_q2j0-W4uADCQufRSa3-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="940" as="sourcePoint" />
-            <mxPoint x="270" y="860" as="targetPoint" />
+            <mxPoint x="290" y="940" as="sourcePoint" />
+            <mxPoint x="380" y="860" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="170" y="1020" />
-              <mxPoint x="170" y="1020" />
+              <mxPoint x="280" y="1020" />
+              <mxPoint x="280" y="1020" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -45,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-12" value="NoticeItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="-190" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-16" value="OrderItemProductItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="570" y="930" width="140" height="60" as="geometry" />
@@ -57,25 +57,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-18" value="ProductNoticeItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="930" width="140" height="60" as="geometry" />
+          <mxGeometry y="930" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="E_q2j0-W4uADCQufRSa3-18" target="E_q2j0-W4uADCQufRSa3-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="970" as="sourcePoint" />
-            <mxPoint x="20" y="970" as="targetPoint" />
+            <mxPoint x="220" y="970" as="sourcePoint" />
+            <mxPoint x="130" y="970" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-40" y="960" />
+              <mxPoint x="70" y="960" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="E_q2j0-W4uADCQufRSa3-18" target="E_q2j0-W4uADCQufRSa3-12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20" y="1070" as="sourcePoint" />
-            <mxPoint x="130" y="1000" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-100" y="960" />
-              <mxPoint x="-100" y="960" />
-            </Array>
+            <mxPoint x="90" y="1070" as="sourcePoint" />
+            <mxPoint x="-70" y="960" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HsJcJ7ZprTByXrsruYGj-1" value="OrderRole" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -106,16 +103,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-9" value="tni_telesales_api" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="340" y="160" width="195" height="195" as="geometry" />
+          <mxGeometry x="340" y="172.5" width="195" height="195" as="geometry" />
         </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-11" value="services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="490" width="120" height="220" as="geometry" />
+          <mxGeometry x="-430" y="490" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-12" value="models" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="730" width="120" height="400" as="geometry" />
+          <mxGeometry x="-430" y="730" width="220" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="ewMh2MggA7eMJWgJc9Aw-13" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scopes&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;tni_telesales_api:orders&lt;/div&gt;&lt;div&gt;tni_telesales_api:orders.write&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;tni_telesales_api:products&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-425" y="140" width="260" height="260" as="geometry" />
+        <mxCell id="ewMh2MggA7eMJWgJc9Aw-14" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;scopes&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;tni_telesales_api:orders&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;tni_telesales_api:orders.write&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;tni_telesales_api:products&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="140" width="220" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
