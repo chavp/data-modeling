@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T08:16:59.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hUC5Vkf4z2LCWlmDf5jn" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T08:17:52.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aVO84laLQvDTxLE1TMOk" version="21.3.7" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2591" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
           <mxGeometry x="-430" y="410" width="1720" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-2" value="component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-425" y="30" width="1710" height="60" as="geometry" />
+          <mxGeometry x="-425" y="70" width="1710" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-3" value="IProductService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="530" width="180" height="100" as="geometry" />
@@ -105,17 +105,17 @@
             <mxPoint x="1240" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ewMh2MggA7eMJWgJc9Aw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ewMh2MggA7eMJWgJc9Aw-9" target="ewMh2MggA7eMJWgJc9Aw-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-9" value="tni_telesales_api" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="355" y="160" width="150" height="150" as="geometry" />
+          <mxGeometry x="340" y="160" width="195" height="195" as="geometry" />
         </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-11" value="services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-430" y="490" width="120" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ewMh2MggA7eMJWgJc9Aw-12" value="models" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-430" y="730" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ewMh2MggA7eMJWgJc9Aw-13" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;scopes&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;tni_telesales_api:orders&lt;/div&gt;&lt;div&gt;tni_telesales_api:orders.write&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;tni_telesales_api:products&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="140" width="260" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
