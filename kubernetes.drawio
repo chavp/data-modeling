@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T02:57:15.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_xlwtATIS2choO3n7say" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T03:12:57.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="o9YMmYoVupGPZEzyU1Uf" version="21.5.2" type="github">
   <diagram id="xQNse8xgCa5r1MksHwUH" name="หน้า-1">
     <mxGraphModel dx="1663" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -539,7 +539,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rq6-9luaKzYRp39GoSgn-2" value="GitHub" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1300" width="60" height="80" as="geometry" />
+          <mxGeometry x="-440" y="1300" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Rq6-9luaKzYRp39GoSgn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rq6-9luaKzYRp39GoSgn-5" target="Rq6-9luaKzYRp39GoSgn-7">
           <mxGeometry relative="1" as="geometry">
@@ -558,11 +558,18 @@
         <mxCell id="Rq6-9luaKzYRp39GoSgn-7" value="Dockerfile&lt;br&gt;&lt;br&gt;RUN&amp;nbsp;dotnet restore&lt;br&gt;RUN dotnet build&lt;br&gt;RUN dotnet publish&lt;br&gt;ENTRYPOINT [cmd, components]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-700" y="1465" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Rq6-9luaKzYRp39GoSgn-9" value="Artifact Repository" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="1470" width="100" height="80" as="geometry" />
+        <mxCell id="Rq6-9luaKzYRp39GoSgn-9" value="DockerHub" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1930" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rq6-9luaKzYRp39GoSgn-11" value="docker build" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="1590" width="200" height="30" as="geometry" />
+        <mxCell id="Rq6-9luaKzYRp39GoSgn-13" value="&lt;br&gt;&lt;span style=&quot;color: rgb(54, 70, 78); font-family: &amp;quot;Roboto Mono&amp;quot;, SFMono-Regular, Consolas, Menlo, monospace; font-size: 13.6px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 245, 245); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;docker tag&amp;nbsp;&lt;/span&gt;&amp;lt;local-your-id&amp;gt;/&amp;lt;image-name&amp;gt;:&amp;lt;image-ver&amp;gt;&amp;nbsp;&amp;lt;your-docker-hub-id&amp;gt;/&amp;lt;image-name&amp;gt;:&amp;lt;image-ver&amp;gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;docker push &amp;lt;your-docker-hub-id&amp;gt;/&amp;lt;image-name&amp;gt;:&amp;lt;image-ver&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rq6-9luaKzYRp39GoSgn-11" target="Rq6-9luaKzYRp39GoSgn-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-600" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rq6-9luaKzYRp39GoSgn-11" value="docker build &amp;lt;local-your-id&amp;gt;/&amp;lt;image-name&amp;gt;:&amp;lt;image-ver&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-755" y="1600" width="375" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
