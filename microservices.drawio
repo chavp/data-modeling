@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T06:57:12.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J_8-zeIRB7j8h0wyvXNz" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T06:58:46.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VbI5qJ3LL2_U2dFlgTCd" version="21.5.2" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="794" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7wkQh-Zvsg0QSBGbQNZC-4" value="resilient patterns" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="7wkQh-Zvsg0QSBGbQNZC-4" value="Resilient patterns" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7wkQh-Zvsg0QSBGbQNZC-5" value="Client-side load balancing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
@@ -21,6 +21,12 @@
         </mxCell>
         <mxCell id="7wkQh-Zvsg0QSBGbQNZC-9" value="Timeout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7wkQh-Zvsg0QSBGbQNZC-10" value="Retries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="554.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7wkQh-Zvsg0QSBGbQNZC-11" value="Retry budget" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
