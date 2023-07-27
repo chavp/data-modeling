@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T05:05:41.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OwbGkZvfxQ_12TyQ-3p-" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T05:06:49.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AGs3HhyMiQKBgM_JswGN" version="21.6.2" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="1761" dy="2903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,14 +223,19 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-32" value="write" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="xb22m2wRmIAnjBOvWS0P-15" target="xb22m2wRmIAnjBOvWS0P-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="-1100" />
+              <mxPoint x="535" y="-1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-15" value="Watch&lt;br&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="620" y="-1264.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-18" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
           <mxGeometry x="525" y="-1250" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="xb22m2wRmIAnjBOvWS0P-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xb22m2wRmIAnjBOvWS0P-21" target="xb22m2wRmIAnjBOvWS0P-15">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xb22m2wRmIAnjBOvWS0P-21" target="xb22m2wRmIAnjBOvWS0P-26">
           <mxGeometry relative="1" as="geometry" />
@@ -249,6 +254,13 @@
         <mxCell id="xb22m2wRmIAnjBOvWS0P-24" value="Handle partial frailer&lt;br&gt;&lt;br&gt;Polly lib&lt;br&gt;Type Client&lt;br&gt;Linkerd mesh" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="820" y="-1290" width="210" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-33" value="read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xb22m2wRmIAnjBOvWS0P-26" target="xb22m2wRmIAnjBOvWS0P-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="-1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-26" value="Monitor" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="-1040" width="120" height="80" as="geometry" />
         </mxCell>
@@ -262,6 +274,9 @@
         </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-29" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="-1110" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-31" value="Log" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="475" y="-1140" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
