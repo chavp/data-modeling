@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T02:56:45.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ex26fgp57I0jJpRtHnyU" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T04:12:37.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8v7l4fLmRVu_-CRWM5aP" version="21.6.2" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="1961" dy="2942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1761" dy="2903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,29 +185,38 @@
         <mxCell id="hBxCbHja6DZnaEhl_VUs-7" value="SubmitApi" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1085" y="10" width="195" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-3" value="Context" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-3" value="Context" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-490" y="-1450" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-4" value="Containers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-4" value="Containers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-490" y="-1320" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-5" value="Components" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-5" value="Components" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-490" y="-1190" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-6" value="Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-6" value="Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-490" y="-1060" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-7" value="Enterprise Architecture&lt;br&gt;Business Operations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-7" value="Enterprise Architecture&lt;br&gt;Business Operations" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-304" y="-1450" width="314" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-8" value="Hardware &amp;amp; Network Infrastructure Architecture&lt;br&gt;Up and Running Containers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-8" value="Hardware &amp;amp; Network Infrastructure Architecture&lt;br&gt;Up and Running Containers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-304" y="-1320" width="314" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-9" value="Components Ready to Deploy&lt;br&gt;API, UI, Database, Mobile, Device, DeskTop, Image&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-9" value="Components Ready to Deploy&lt;br&gt;API, UI, Database, Mobile, Device, DeskTop, Image&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-304" y="-1190" width="314" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="48ZIiQU0bEIf2DOtREDY-10" value="Github Repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48ZIiQU0bEIf2DOtREDY-10" value="Github Repository" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-304" y="-1060" width="314" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-1" value="App" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="226" y="-1259" width="124" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-13" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1234.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-14" value="health check&lt;br&gt;- readyness&lt;br&gt;- liveness&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xb22m2wRmIAnjBOvWS0P-1" target="xb22m2wRmIAnjBOvWS0P-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
