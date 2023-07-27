@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T04:58:14.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DQ29w8QvuaSmy9-LiXoy" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T05:05:02.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2OrzsgOszwFAeeWKwTIB" version="21.6.2" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="1761" dy="2903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
         <mxCell id="48ZIiQU0bEIf2DOtREDY-10" value="Github Repository" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-304" y="-1060" width="314" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="xb22m2wRmIAnjBOvWS0P-1" value="App" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-1" value="App&lt;br&gt;- transparent&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- configurable" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="256" y="-1259" width="124" height="69" as="geometry" />
         </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="xb22m2wRmIAnjBOvWS0P-13" target="xb22m2wRmIAnjBOvWS0P-15">
@@ -223,7 +223,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xb22m2wRmIAnjBOvWS0P-15" value="Watch&lt;br&gt;- transparent&lt;br&gt;- configurable" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-15" value="Watch&lt;br&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="620" y="-1264.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-18" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
@@ -245,6 +245,20 @@
         </mxCell>
         <mxCell id="xb22m2wRmIAnjBOvWS0P-24" value="Handle partial frailer&lt;br&gt;&lt;br&gt;Polly lib&lt;br&gt;Type Client&lt;br&gt;Linkerd mesh" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="820" y="-1290" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-26" value="Monitor" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-1040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-27" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;" edge="1" target="xb22m2wRmIAnjBOvWS0P-29" parent="1" source="xb22m2wRmIAnjBOvWS0P-1">
+          <mxGeometry x="328" y="-1110" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-28" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;" edge="1" target="xb22m2wRmIAnjBOvWS0P-29" parent="1" source="xb22m2wRmIAnjBOvWS0P-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="298" y="-1105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xb22m2wRmIAnjBOvWS0P-29" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="-1110" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
