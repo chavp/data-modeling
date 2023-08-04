@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T02:01:39.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Xvarw0i6ii7MP_3Q84Uk" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T02:08:27.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-RaRi7x8vduujD3swAgA" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
-    <mxGraphModel dx="1444" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,6 +103,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OcXs_SolH9g82rhRqtJv-27" value="tag: messaging" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OcXs_SolH9g82rhRqtJv-3" target="OcXs_SolH9g82rhRqtJv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-3" value="API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1050" y="600" width="180" height="120" as="geometry" />
         </mxCell>
@@ -159,6 +162,9 @@
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-20" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="1770" y="610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OcXs_SolH9g82rhRqtJv-26" value="Message Broker" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="400" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
