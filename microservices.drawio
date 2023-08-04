@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T01:59:59.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TqhmU0FlB5M1Accwp7y8" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T02:00:21.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3eqeTFvAnszipLHaUiBt" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="1134" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,16 +103,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcXs_SolH9g82rhRqtJv-3" value="API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OcXs_SolH9g82rhRqtJv-3" value="API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1050" y="600" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="OcXs_SolH9g82rhRqtJv-4" value="Database" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OcXs_SolH9g82rhRqtJv-4" value="Database" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1050" y="800" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="OcXs_SolH9g82rhRqtJv-6" value="Unmanage API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OcXs_SolH9g82rhRqtJv-6" value="Unmanage API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="790" y="600" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="OcXs_SolH9g82rhRqtJv-11" value="Watch" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OcXs_SolH9g82rhRqtJv-11" value="Watch" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1435" y="595" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-24" value="sms, slack, line, msteam, ..." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OcXs_SolH9g82rhRqtJv-13">
@@ -120,7 +120,7 @@
             <mxPoint x="1780" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcXs_SolH9g82rhRqtJv-13" value="Notify" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OcXs_SolH9g82rhRqtJv-13" value="Notify" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1430" y="800" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-14" value="webhook" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0;exitY=0;exitDx=120;exitDy=95;exitPerimeter=0;" edge="1" target="OcXs_SolH9g82rhRqtJv-16" parent="1" source="OcXs_SolH9g82rhRqtJv-11">
