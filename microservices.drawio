@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T02:13:28.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AfkkNulKOiNs2spBC9GH" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T02:16:56.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="d8jFzow4gvUMYJIztV_5" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="993" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,6 +165,14 @@
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-26" value="Message Broker" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1050" y="400" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OcXs_SolH9g82rhRqtJv-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="OcXs_SolH9g82rhRqtJv-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OcXs_SolH9g82rhRqtJv-28" value="- readiness { healthy, degrade, unhealthy }&lt;br&gt;- liveness { healthy, unhealthy }&lt;br&gt;&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="440" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
