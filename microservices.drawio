@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T02:47:32.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8nF7CtuDIEXS5FseMtNN" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T02:48:47.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XR5VxzmJEEVfiMd3r--P" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="1444" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,9 +220,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-42" value="-&amp;nbsp;rolling&amp;nbsp;deployment&amp;nbsp;&lt;br&gt;-&amp;nbsp;restarting a container" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.7778" y="-60" relative="1" as="geometry">
             <mxPoint x="1140" y="570" as="sourcePoint" />
             <mxPoint x="1140" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-43" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
@@ -245,7 +246,7 @@
           <mxGeometry x="1665" y="355" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-56" value="cluster" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;align=left;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="490" width="240" height="250" as="geometry" />
+          <mxGeometry x="1010" y="520" width="240" height="220" as="geometry" />
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-57" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0;exitY=0;exitDx=65;exitDy=180;exitPerimeter=0;" edge="1" target="OcXs_SolH9g82rhRqtJv-59" parent="1" source="OcXs_SolH9g82rhRqtJv-60">
           <mxGeometry relative="1" as="geometry">
@@ -255,9 +256,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcXs_SolH9g82rhRqtJv-58" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="OcXs_SolH9g82rhRqtJv-59" parent="1" source="OcXs_SolH9g82rhRqtJv-56">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="OcXs_SolH9g82rhRqtJv-58" value="-&amp;nbsp;routing traffic" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" target="OcXs_SolH9g82rhRqtJv-59" parent="1" source="OcXs_SolH9g82rhRqtJv-56">
+          <mxGeometry x="0.5652" y="40" relative="1" as="geometry">
             <mxPoint x="1050" y="405" as="sourcePoint" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-59" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
