@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T06:50:59.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hjFIAW8xee-MHGbPqyqz" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T06:52:24.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pYGuWmG8rWjUJNjSRFvQ" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="993" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-18" value="health check&lt;br&gt;- ready&lt;br&gt;- live" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0;exitY=0;exitDx=55;exitDy=0;exitPerimeter=0;align=left;" edge="1" target="OcXs_SolH9g82rhRqtJv-19" parent="1" source="OcXs_SolH9g82rhRqtJv-3">
-          <mxGeometry x="-0.3043" y="-35" relative="1" as="geometry">
+          <mxGeometry x="-0.3043" y="-25" relative="1" as="geometry">
             <mxPoint x="1570" y="745" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -342,6 +342,14 @@
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-84" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="480" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OcXs_SolH9g82rhRqtJv-87" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;entryX=1.2;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" target="OcXs_SolH9g82rhRqtJv-19" parent="1" source="OcXs_SolH9g82rhRqtJv-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1495" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OcXs_SolH9g82rhRqtJv-88" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="400" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
