@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T04:59:34.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2ORrCInkmBQdQ6L5oi85" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T05:00:08.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aB9X3Th2AZSKipF-4zPy" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="993" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,9 +132,13 @@
           <mxGeometry x="1435" y="595" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-24" value="sms, slack, line, msteam, ..." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OcXs_SolH9g82rhRqtJv-13">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0016" y="-20" relative="1" as="geometry">
             <mxPoint x="1780" y="710" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OcXs_SolH9g82rhRqtJv-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OcXs_SolH9g82rhRqtJv-13" target="OcXs_SolH9g82rhRqtJv-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OcXs_SolH9g82rhRqtJv-13" value="Notify" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1430" y="800" width="180" height="120" as="geometry" />
