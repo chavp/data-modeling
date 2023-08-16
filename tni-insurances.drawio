@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T05:54:16.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wc3w_wG0fmqjKbvlaH4v" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T05:54:39.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="k-_wxNEA3uqktRutTJOO" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2150" dy="3138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -767,8 +767,11 @@
         <mxCell id="umau1oA5AZ1StltOR-z_-98" value="FeatureTypes&lt;br&gt;&amp;nbsp;{ Menu, Page, Function, Field }" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5550" y="600" width="194" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="umau1oA5AZ1StltOR-z_-101" value="FeatureRelationshipTypes&lt;br&gt;{ Main, Master, SubMenu }" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5550" y="410" width="194" height="60" as="geometry" />
+        <mxCell id="umau1oA5AZ1StltOR-z_-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="umau1oA5AZ1StltOR-z_-101" target="umau1oA5AZ1StltOR-z_-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umau1oA5AZ1StltOR-z_-101" value="FeatureRelationshipTypes&lt;br&gt;{ Main, Master, SubMenu, Compose }" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5550" y="410" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
