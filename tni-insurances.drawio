@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T02:29:40.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tkYHlXxXsw4kuJspgg1m" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T03:21:10.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9VOjlAEZXEi6F8QI30VW" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2235" dy="3138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -834,7 +834,7 @@
           <mxGeometry x="5290" y="940" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-117" value="UI" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="5763" y="1000" width="150" height="150" as="geometry" />
+          <mxGeometry x="5763" y="1015" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="umau1oA5AZ1StltOR-z_-118" target="umau1oA5AZ1StltOR-z_-117">
           <mxGeometry relative="1" as="geometry" />
@@ -881,6 +881,12 @@
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-147" value="UserLogs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="4660" y="1155" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="umau1oA5AZ1StltOR-z_-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="umau1oA5AZ1StltOR-z_-158" target="umau1oA5AZ1StltOR-z_-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umau1oA5AZ1StltOR-z_-158" value="Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="5065" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
