@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T01:33:03.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="R3RvxuYMSWQGPBde15_s" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T01:35:17.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8lBEd_G5uDpdBr9Pupcm" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="1761" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -433,6 +433,12 @@
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-14" target="wQZfQYnOkCqt_-u9G6CQ-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wQZfQYnOkCqt_-u9G6CQ-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-14" target="wQZfQYnOkCqt_-u9G6CQ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQZfQYnOkCqt_-u9G6CQ-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-14" target="wQZfQYnOkCqt_-u9G6CQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-14" value="Security" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="459" y="1220" width="81" height="81" as="geometry" />
         </mxCell>
@@ -446,7 +452,7 @@
           <mxGeometry x="440" y="1460" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-21" value="OAuth2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="509.5" y="1100" width="81" height="81" as="geometry" />
+          <mxGeometry x="440" y="1080" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-23" target="wQZfQYnOkCqt_-u9G6CQ-25">
           <mxGeometry relative="1" as="geometry" />
@@ -462,6 +468,12 @@
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-29" value="Pull-based" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="780" y="1330" width="79" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="wQZfQYnOkCqt_-u9G6CQ-35" value="OWAP &lt;br&gt;TOP10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="569" y="1109" width="81" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="wQZfQYnOkCqt_-u9G6CQ-38" value="Sonar Quality Gate" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="309" y="1130" width="81" height="81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
