@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T02:08:08.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="niglV9fHh9BaK1eujrVw" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T02:09:52.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ry21pDshSyKTe1Ve-CHo" version="21.6.6" type="github">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
     <mxGraphModel dx="1761" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -496,59 +496,63 @@
           <mxGeometry x="333" y="1120" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-40" value="Health check&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="631" y="1470" width="90" height="90" as="geometry" />
+          <mxGeometry x="640" y="1455" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-42" target="wQZfQYnOkCqt_-u9G6CQ-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-42" value="Log aggregation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1610" width="80" height="80" as="geometry" />
+          <mxGeometry x="650" y="1610" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-43" target="wQZfQYnOkCqt_-u9G6CQ-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-43" value="Distributed tracing" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1630" width="80" height="80" as="geometry" />
+          <mxGeometry x="540" y="1660" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-44" target="wQZfQYnOkCqt_-u9G6CQ-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-44" value="Exception tracking" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="374" y="1630" width="80" height="80" as="geometry" />
+          <mxGeometry x="414" y="1640" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-45" target="wQZfQYnOkCqt_-u9G6CQ-46">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335.97214794665933" y="1680.7519587125603" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wQZfQYnOkCqt_-u9G6CQ-45" target="wQZfQYnOkCqt_-u9G6CQ-66">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352.207112499334" y="1703.2118528071146" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-45" value="Application metrics" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1580" width="80" height="80" as="geometry" />
+          <mxGeometry x="300" y="1590" width="80" height="80" as="geometry" />
         </mxCell>
         <UserObject label="Prometheus" link="https://prometheus.io/" id="wQZfQYnOkCqt_-u9G6CQ-46">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-            <mxGeometry x="120" y="1620" width="80" height="80" as="geometry" />
+            <mxGeometry x="155" y="1610" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-48" value="Audit logging" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="260" y="1475" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wQZfQYnOkCqt_-u9G6CQ-57" value="ELK" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="721" y="1670" width="70" height="70" as="geometry" />
+          <mxGeometry x="770" y="1690" width="70" height="70" as="geometry" />
         </mxCell>
         <UserObject label="Open Zipkin" link="https://zipkin.io/" id="wQZfQYnOkCqt_-u9G6CQ-59">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-            <mxGeometry x="521" y="1754" width="70" height="70" as="geometry" />
+            <mxGeometry x="595.5" y="1804" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Sentry" link="https://sentry.io/welcome/" id="wQZfQYnOkCqt_-u9G6CQ-64">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-            <mxGeometry x="290" y="1730" width="70" height="70" as="geometry" />
+            <mxGeometry x="364.5" y="1780" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Grafana" link="https://grafana.com/" id="wQZfQYnOkCqt_-u9G6CQ-66">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-            <mxGeometry x="180" y="1700" width="80" height="80" as="geometry" />
+            <mxGeometry x="235" y="1710" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
