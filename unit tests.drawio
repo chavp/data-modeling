@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T08:33:08.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="EVMpTdB3hKr5ux8bPGM3" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T08:36:09.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Bf8-mRx8Y9UzPlaJA6Q_" version="21.6.8" type="github">
   <diagram name="หน้า-1" id="V54rJkGDe6UenH7iF8Wh">
     <mxGraphModel dx="794" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,24 @@
         </mxCell>
         <mxCell id="IcwU3DTUadqm8QiGpATD-9" value="Test Suite" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="500" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IcwU3DTUadqm8QiGpATD-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IcwU3DTUadqm8QiGpATD-11" target="IcwU3DTUadqm8QiGpATD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcwU3DTUadqm8QiGpATD-11" value="Test suite" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IcwU3DTUadqm8QiGpATD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IcwU3DTUadqm8QiGpATD-13" target="IcwU3DTUadqm8QiGpATD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcwU3DTUadqm8QiGpATD-13" value="Test Code" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IcwU3DTUadqm8QiGpATD-14" value="System under test (SUT)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="492.5" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="IcwU3DTUadqm8QiGpATD-18" value="Production Code" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;align=center;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="250" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
