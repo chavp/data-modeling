@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T09:15:19.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mRccO8jRd4-JB7uIhkHi" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T09:18:54.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2d4ZbGp3CWJPUVU597JD" version="21.6.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2415" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -827,7 +827,7 @@
         <mxCell id="umau1oA5AZ1StltOR-z_-113" value="UserRoles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="5532.5" y="1180" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="umau1oA5AZ1StltOR-z_-117" value="&amp;lt;&amp;lt;protected&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;Product&lt;br style=&quot;font-size: 15px;&quot;&gt;Mobile / Desktop /&amp;nbsp; WEB / API" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="umau1oA5AZ1StltOR-z_-117" value="&amp;lt;&amp;lt;Product&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;Mobile / Desktop /&amp;nbsp; WEB / API" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="5833.5" y="1262.5" width="227" height="227" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="umau1oA5AZ1StltOR-z_-118" target="umau1oA5AZ1StltOR-z_-117" edge="1">
@@ -841,13 +841,6 @@
         <mxCell id="umau1oA5AZ1StltOR-z_-122" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="umau1oA5AZ1StltOR-z_-120" vertex="1" connectable="0">
           <mxGeometry x="-0.2221" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="umau1oA5AZ1StltOR-z_-123" value="membership" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="umau1oA5AZ1StltOR-z_-118" target="umau1oA5AZ1StltOR-z_-103" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="5010" y="1370" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-118" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
@@ -924,6 +917,9 @@
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-8" value="RESTfull API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="5718.5" y="960" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wr4o7l6KcdaQNvGVVhsW-9" value="&amp;lt;&amp;lt;Authorization Server&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;Azure AD" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="5479.5" y="1648" width="210.5" height="210.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
