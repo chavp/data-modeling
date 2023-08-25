@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T09:52:13.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="yZZ_NkJvrSlCmXaYabRs" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T09:52:27.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Dnf5-Wnpr83yTkdIyREt" version="21.6.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="2591" dy="3391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2812" dy="3523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -967,7 +967,7 @@
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-7" value="&lt;h1&gt;Protected product with scopes&lt;/h1&gt;&lt;p&gt;FEATURES : [&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{ type: MENU, scopes: [ M1, M1.WRITE, M2 ] },&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{ type: PROG, scopes: [ P01, P02 ],&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{ type: DATA, scopes: [ NAME_WRITE, CARD_UNMASK ] ,&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{ type: SELECT_AGENT, scopes [ A01, A02, A03 ]&lt;/p&gt;&lt;p&gt;]&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6056.5" y="1660" width="480" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Wr4o7l6KcdaQNvGVVhsW-8" value="&amp;lt;&amp;lt;Services&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;Features RESTfull API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Wr4o7l6KcdaQNvGVVhsW-8" value="&amp;lt;&amp;lt;Services&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;Features RESTfull API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="4560" y="1320" width="2110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-12" value="4 - Authorization Code" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-9" target="umau1oA5AZ1StltOR-z_-117">
