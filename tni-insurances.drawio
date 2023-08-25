@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T04:02:28.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="zc4KqektodEFOMSIS7tc" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T04:03:03.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Tyx3mIA57oPD1awXNsvD" version="21.6.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2415" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -765,7 +765,7 @@
           <mxGeometry x="5230" y="1025" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-95" value="FeatureRoles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=4" parent="1" vertex="1">
-          <mxGeometry x="5475" y="825" width="170" height="60" as="geometry" />
+          <mxGeometry x="5520" y="825" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-98" target="umau1oA5AZ1StltOR-z_-89" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -802,8 +802,8 @@
         <mxCell id="umau1oA5AZ1StltOR-z_-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-103" target="umau1oA5AZ1StltOR-z_-147" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4880" y="1190" />
-              <mxPoint x="4880" y="1190" />
+              <mxPoint x="4880" y="1227.5" />
+              <mxPoint x="4880" y="1227.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -817,7 +817,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-103" value="Users" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="4945" y="1120" width="120" height="105" as="geometry" />
+          <mxGeometry x="4945" y="1157.5" width="120" height="105" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-103" target="umau1oA5AZ1StltOR-z_-113" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -825,7 +825,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-113" value="UserRoles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=4" parent="1" vertex="1">
-          <mxGeometry x="5480" y="1142.5" width="145" height="60" as="geometry" />
+          <mxGeometry x="5532.5" y="1180" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-117" value="UI" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="5870" y="1052.5" width="150" height="150" as="geometry" />
@@ -841,12 +841,12 @@
         <mxCell id="umau1oA5AZ1StltOR-z_-123" value="map" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="umau1oA5AZ1StltOR-z_-118" target="umau1oA5AZ1StltOR-z_-103" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="5010" y="1295" />
+              <mxPoint x="5010" y="1370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-118" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="5422.5" y="1265" width="30" height="60" as="geometry" />
+          <mxGeometry x="5427" y="1340" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-124" target="umau1oA5AZ1StltOR-z_-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -878,7 +878,7 @@
           <mxGeometry x="4800" y="840" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-147" value="UserLogs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="4660" y="1150" width="120" height="90" as="geometry" />
+          <mxGeometry x="4660" y="1187.5" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-158" target="umau1oA5AZ1StltOR-z_-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -887,7 +887,7 @@
           <mxGeometry x="5213.75" y="820" width="152.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-1" value="Roles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="5480" y="1010" width="160" height="90" as="geometry" />
+          <mxGeometry x="5525" y="1010" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-1" target="umau1oA5AZ1StltOR-z_-94">
           <mxGeometry relative="1" as="geometry">
@@ -897,23 +897,21 @@
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-1" target="umau1oA5AZ1StltOR-z_-113">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5075" y="1113" as="sourcePoint" />
-            <mxPoint x="5270" y="1113" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5560" y="1170" />
-            </Array>
+            <mxPoint x="5120" y="1113" as="sourcePoint" />
+            <mxPoint x="5315" y="1113" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-4" value="UserParties" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="4660" y="1030" width="120" height="90" as="geometry" />
+          <mxGeometry x="4660" y="1067.5" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="umau1oA5AZ1StltOR-z_-103" target="Wr4o7l6KcdaQNvGVVhsW-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4980" y="1070" />
+              <mxPoint x="4980" y="1107.5" />
             </Array>
-            <mxPoint x="4990" y="1130" as="sourcePoint" />
-            <mxPoint x="4930" y="895" as="targetPoint" />
+            <mxPoint x="4990" y="1167.5" as="sourcePoint" />
+            <mxPoint x="4930" y="932.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
