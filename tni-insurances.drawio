@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T09:28:16.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="w05sezURT4EV3dD2khoo" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T09:29:05.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mVEKS_-oD7zGdi_bzibR" version="21.6.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="1961" dy="3015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -741,8 +741,13 @@
         <mxCell id="umau1oA5AZ1StltOR-z_-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-89" target="umau1oA5AZ1StltOR-z_-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="umau1oA5AZ1StltOR-z_-121" value="get features scopes by username@domain" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="umau1oA5AZ1StltOR-z_-89" target="umau1oA5AZ1StltOR-z_-117" edge="1">
+        <mxCell id="umau1oA5AZ1StltOR-z_-121" value="get features scopes by username@domain" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=5;" parent="1" source="umau1oA5AZ1StltOR-z_-89" target="umau1oA5AZ1StltOR-z_-117" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wr4o7l6KcdaQNvGVVhsW-17" value="protect by access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="umau1oA5AZ1StltOR-z_-121">
+          <mxGeometry x="0.4463" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-89" target="umau1oA5AZ1StltOR-z_-124" edge="1">
           <mxGeometry relative="1" as="geometry">
