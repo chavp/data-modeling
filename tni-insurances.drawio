@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T03:49:02.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="AtMAL7CXx18HHCJ5ZEXh" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T03:51:01.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YgIoi8QV98Sk0Jt7cKPU" version="21.6.9" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="3710" dy="3918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5247" dy="4234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -998,6 +998,9 @@
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="4560" y="1020" width="2110" height="840" as="geometry" />
         </mxCell>
+        <mxCell id="4Jn-CupxS-RkWT2SqA-o-3" value="Add user to organization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-26" target="4Jn-CupxS-RkWT2SqA-o-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-26" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="4930" y="2440.5" width="60" height="93" as="geometry" />
         </mxCell>
@@ -1012,6 +1015,9 @@
         </mxCell>
         <mxCell id="4Jn-CupxS-RkWT2SqA-o-2" value="&amp;lt;&amp;lt;Services&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;Organizations API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="3970" y="1531.88" width="330" height="241.25" as="geometry" />
+        </mxCell>
+        <mxCell id="4Jn-CupxS-RkWT2SqA-o-4" value="Protected" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="4240" y="1720" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
