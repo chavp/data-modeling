@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T13:37:54.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="owYtr2YwohYsNqGkd-R4" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T13:38:50.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fzmGgD-aRrxQNh3UU6gW" version="21.7.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="3096" dy="3692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2150" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1064,6 +1064,34 @@
         </mxCell>
         <mxCell id="IZX8jO2DoJM7nCG2Uu-J-19" value="BilItemAccounts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="4850" y="-370" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;dashed=1;" edge="1" parent="1" source="IZX8jO2DoJM7nCG2Uu-J-1" target="IZX8jO2DoJM7nCG2Uu-J-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4670" y="120" as="sourcePoint" />
+            <mxPoint x="4220" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4900" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-21" value="From" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZX8jO2DoJM7nCG2Uu-J-20">
+          <mxGeometry x="0.8278" y="2" relative="1" as="geometry">
+            <mxPoint y="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;dashed=1;" edge="1" parent="1" source="IZX8jO2DoJM7nCG2Uu-J-1" target="IZX8jO2DoJM7nCG2Uu-J-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4540" y="70" as="sourcePoint" />
+            <mxPoint x="4910" y="-280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4970" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-23" value="To" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZX8jO2DoJM7nCG2Uu-J-22">
+          <mxGeometry x="0.8278" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="40" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
