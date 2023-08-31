@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T13:31:50.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gLhsC1eeyYK0pQBISGzs" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T13:34:00.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="spHp99epar1nuvciis9_" version="21.7.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="3474" dy="3918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2415" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -639,7 +639,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-69" value="Invocies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=25;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="4840" y="-575" width="180" height="90" as="geometry" />
+          <mxGeometry x="4850" y="-908" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;dashed=1;" parent="1" source="umau1oA5AZ1StltOR-z_-70" target="umau1oA5AZ1StltOR-z_-73" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -649,13 +649,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-70" value="InvocieItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4500" y="-573" width="180" height="90" as="geometry" />
+          <mxGeometry x="4510" y="-908" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-73" value="OrderItemInvocieItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="3800" y="-910" width="230" height="94" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-78" value="Bill" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4850" y="-370" width="160" height="80" as="geometry" />
+          <mxGeometry x="4860" y="-705" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-83" target="a6CrXQ2l9qOM6Z4fCI5_-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1036,6 +1036,18 @@
               <mxPoint x="3025" y="467" />
               <mxPoint x="3230" y="467" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-11" value="InvocieItemBills" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4520" y="-710" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-12" value="BillItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4860" y="-540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="umau1oA5AZ1StltOR-z_-78" target="IZX8jO2DoJM7nCG2Uu-J-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4950" y="-808" as="sourcePoint" />
+            <mxPoint x="4950" y="-695" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
