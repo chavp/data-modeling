@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T08:13:56.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TsQ4py0yNvIIAIXK_urP" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T08:14:42.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="39t4bh8h4we-rvtl93WD" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="794" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,7 +266,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-92" value="Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;horizontal=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="70" width="20" height="460" as="geometry" />
+          <mxGeometry x="1930" y="70" width="20" height="460" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-93" value=":Users Management" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2110" y="50" width="100" height="500" as="geometry" />
@@ -348,6 +348,11 @@
               <mxPoint x="2050" y="510" />
               <mxPoint x="2050" y="510" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPORaski806ezNV8seyP-123" value="display features can application select" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IPORaski806ezNV8seyP-120">
+          <mxGeometry x="-0.1014" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IPORaski806ezNV8seyP-94" target="IPORaski806ezNV8seyP-92">
