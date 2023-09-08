@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T08:04:31.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="m_L_qVmOnDN1JayN3GWq" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T08:08:11.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="t0xDDUESm-IFt2PGV8XR" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1034" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -275,7 +275,7 @@
           <mxGeometry x="45" y="80" width="10" height="380" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-96" value=":Features API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="50" width="100" height="440" as="geometry" />
+          <mxGeometry x="2570" y="50" width="100" height="440" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-100" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IPORaski806ezNV8seyP-96">
           <mxGeometry x="45" y="190" width="10" height="40" as="geometry" />
@@ -287,7 +287,7 @@
           <mxGeometry x="45" y="260" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-114" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IPORaski806ezNV8seyP-96">
-          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="330" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-101" value="POST api/v1/features" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-100" parent="1" source="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
@@ -319,7 +319,7 @@
             <mxPoint x="2295" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IPORaski806ezNV8seyP-115" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-114" parent="1" source="IPORaski806ezNV8seyP-94">
+        <mxCell id="IPORaski806ezNV8seyP-115" value="POST api/v1/applications/{target application id}/features/{new feature id}/scopes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-114" parent="1" source="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2345" y="375" as="sourcePoint" />
           </mxGeometry>
