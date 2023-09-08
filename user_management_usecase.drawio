@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T06:05:57.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="h41bo4wMqUZJROX6vRTl" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T06:09:31.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rBNvgfiZ6eDcnOrFfZZj" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1034" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
             <mxPoint x="515" y="315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IPORaski806ezNV8seyP-30" value="POST api/v1/Parties/search/people" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-29" parent="1" source="IPORaski806ezNV8seyP-18">
+        <mxCell id="IPORaski806ezNV8seyP-30" value="POST api/v1/Parties/search/people, { first_name, last_name }" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-29" parent="1" source="IPORaski806ezNV8seyP-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="815" y="305" as="sourcePoint" />
           </mxGeometry>
