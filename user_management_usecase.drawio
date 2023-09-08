@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T06:33:18.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="OE_YQLaxJ55irHnG7Iun" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T06:34:04.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="zLDU9iCH17nvlqEdowUS" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1034" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -188,7 +188,7 @@
             <mxPoint x="1550" y="235" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IPORaski806ezNV8seyP-74" value="200 - Ok , old party_id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-72" parent="1" target="IPORaski806ezNV8seyP-61">
+        <mxCell id="IPORaski806ezNV8seyP-74" value="200 - Ok , old party id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-72" parent="1" target="IPORaski806ezNV8seyP-61">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1550" y="305" as="targetPoint" />
           </mxGeometry>
@@ -213,7 +213,7 @@
             <mxPoint x="1645" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IPORaski806ezNV8seyP-85" value="POST api/v1/users/{UserId}/parties/{PartyId}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-84" parent="1" source="IPORaski806ezNV8seyP-61">
+        <mxCell id="IPORaski806ezNV8seyP-85" value="POST api/v1/users/{old user id}/parties/{new party id}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-84" parent="1" source="IPORaski806ezNV8seyP-61">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1645" y="415" as="sourcePoint" />
           </mxGeometry>
