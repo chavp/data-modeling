@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T06:21:36.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2gfzpJS9h-lQvMyZx3yF" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T06:22:11.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZU_bOA9mJwOPbTxYagVS" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1034" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,14 +7,14 @@
         <mxCell id="IPORaski806ezNV8seyP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="IPORaski806ezNV8seyP-13" target="IPORaski806ezNV8seyP-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="190" y="200" />
-              <mxPoint x="190" y="200" />
+              <mxPoint x="150" y="210" />
+              <mxPoint x="150" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-16" value="org profile and user name login&lt;br&gt;{ first_name, last_name }&lt;br&gt;{ user_name_domain}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IPORaski806ezNV8seyP-15">
           <mxGeometry x="0.0449" y="2" relative="1" as="geometry">
-            <mxPoint x="-8" y="22" as="offset" />
+            <mxPoint x="-8" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-13" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;horizontal=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="1">
@@ -29,9 +29,10 @@
         <mxCell id="IPORaski806ezNV8seyP-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IPORaski806ezNV8seyP-17">
           <mxGeometry x="45" y="105" width="10" height="305" as="geometry" />
         </mxCell>
-        <mxCell id="IPORaski806ezNV8seyP-19" value="new member" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-18" parent="1" source="IPORaski806ezNV8seyP-14">
+        <mxCell id="IPORaski806ezNV8seyP-19" value="new member" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
           <mxGeometry x="-0.0059" relative="1" as="geometry">
-            <mxPoint x="330" y="225" as="sourcePoint" />
+            <mxPoint x="249.5" y="220.00000000000034" as="sourcePoint" />
+            <mxPoint x="395" y="220.00000000000034" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
