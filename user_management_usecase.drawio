@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T08:54:18.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="lfCJOHd-4fUDH7GXzh_4" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T08:55:38.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FXzH68wEmUT1x7gkG5Qb" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="794" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -473,6 +473,21 @@
         <mxCell id="IPORaski806ezNV8seyP-152" value="US2-SCEN2:&amp;nbsp;New feature for any application" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=400;height=30;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="950" y="640" width="620" height="410" as="geometry" />
         </mxCell>
+        <mxCell id="IPORaski806ezNV8seyP-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1689.5" y="940" as="sourcePoint" />
+            <mxPoint x="1995" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1930" y="940" />
+              <mxPoint x="1930" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPORaski806ezNV8seyP-196" value="selected feature" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IPORaski806ezNV8seyP-195">
+          <mxGeometry x="0.0115" y="-3" relative="1" as="geometry">
+            <mxPoint x="-4" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-156" value="Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;horizontal=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="1680" y="700" width="20" height="460" as="geometry" />
         </mxCell>
@@ -515,6 +530,14 @@
         <mxCell id="IPORaski806ezNV8seyP-190" value="200 - Ok, all features scopes on your target application" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-188" parent="1" target="IPORaski806ezNV8seyP-174">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2460" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPORaski806ezNV8seyP-194" value="display features for select" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IPORaski806ezNV8seyP-174" target="IPORaski806ezNV8seyP-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1850" y="910" />
+              <mxPoint x="1850" y="910" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
