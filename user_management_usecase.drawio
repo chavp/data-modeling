@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T08:55:38.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FXzH68wEmUT1x7gkG5Qb" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T08:57:21.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ASwLsLRhhh_Cl1I13mM5" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="794" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -522,6 +522,9 @@
         <mxCell id="IPORaski806ezNV8seyP-188" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IPORaski806ezNV8seyP-177">
           <mxGeometry x="45" y="180" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IPORaski806ezNV8seyP-197" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IPORaski806ezNV8seyP-177">
+          <mxGeometry x="45" y="270" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-189" value="GET api/v1/applications/{target application id}/features/type-code/{selectd feature type code}/scopes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-188" parent="1" source="IPORaski806ezNV8seyP-174">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2140" y="865" as="sourcePoint" />
@@ -538,6 +541,16 @@
               <mxPoint x="1850" y="910" />
               <mxPoint x="1850" y="910" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPORaski806ezNV8seyP-198" value="GET api/v1/applications/{target application id}/roles" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-197" parent="1" source="IPORaski806ezNV8seyP-174">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2455" y="955" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPORaski806ezNV8seyP-199" value="200 - Ok, all roles for your target application" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-197" parent="1" target="IPORaski806ezNV8seyP-174">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2455" y="1025" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
