@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T08:17:19.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fofa3mGKemlO1RVRx1Dk" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T08:21:44.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_yQCrKPLK7Sjwq5cJ4yJ" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1134" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3447" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,8 +246,8 @@
         <mxCell id="IPORaski806ezNV8seyP-95" value="click new feature&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="IPORaski806ezNV8seyP-92" target="IPORaski806ezNV8seyP-94">
           <mxGeometry x="-0.0198" y="10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2060" y="170" />
-              <mxPoint x="2060" y="170" />
+              <mxPoint x="190" y="800" />
+              <mxPoint x="190" y="800" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -255,8 +255,8 @@
         <mxCell id="IPORaski806ezNV8seyP-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="IPORaski806ezNV8seyP-92" target="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2120" y="240" />
-              <mxPoint x="2120" y="240" />
+              <mxPoint x="250" y="870" />
+              <mxPoint x="250" y="870" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -266,16 +266,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-92" value="Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;horizontal=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="70" width="20" height="460" as="geometry" />
+          <mxGeometry x="60" y="700" width="20" height="460" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-93" value=":Users Management" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="50" width="100" height="500" as="geometry" />
+          <mxGeometry x="240" y="680" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-94" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IPORaski806ezNV8seyP-93">
           <mxGeometry x="45" y="80" width="10" height="400" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-96" value=":Features API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2640" y="50" width="100" height="480" as="geometry" />
+          <mxGeometry x="770" y="680" width="100" height="480" as="geometry" />
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-100" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="IPORaski806ezNV8seyP-96">
           <mxGeometry x="45" y="200" width="10" height="30" as="geometry" />
@@ -294,59 +294,59 @@
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-101" value="POST api/v1/features" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-100" parent="1" source="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2295" y="195" as="sourcePoint" />
+            <mxPoint x="425" y="825" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-102" value="201 - Created, new feature id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-100" parent="1" target="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2295" y="265" as="targetPoint" />
+            <mxPoint x="425" y="895" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-104" value="GET api/v1/features/types" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-103" parent="1" source="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2295" y="175" as="sourcePoint" />
+            <mxPoint x="425" y="805" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-105" value="200 - Ok , all feature types" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-103" parent="1" target="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2295" y="245" as="targetPoint" />
+            <mxPoint x="425" y="875" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-112" value="GET api/v1/applications/code" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-111" parent="1" source="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2295" y="315" as="sourcePoint" />
+            <mxPoint x="425" y="945" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-113" value="200 - Ok, target application id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-111" parent="1" target="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2295" y="385" as="targetPoint" />
+            <mxPoint x="425" y="1015" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-115" value="POST api/v1/applications/{target application id}/features/{new feature id}/scopes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-114" parent="1" source="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2345" y="375" as="sourcePoint" />
+            <mxPoint x="475" y="1005" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-116" value="201 - Created" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-114" parent="1" target="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2345" y="445" as="targetPoint" />
+            <mxPoint x="475" y="1075" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-118" value="GET api/v1/applications/{target application id}/features/code/{selectd feature type code}/scopes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="IPORaski806ezNV8seyP-117" parent="1" source="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2545" y="455" as="sourcePoint" />
+            <mxPoint x="675" y="1085" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-119" value="200 - Ok, all features scopes on your target application" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="IPORaski806ezNV8seyP-117" parent="1" target="IPORaski806ezNV8seyP-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2615" y="525" as="targetPoint" />
+            <mxPoint x="745" y="1155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IPORaski806ezNV8seyP-94" target="IPORaski806ezNV8seyP-92">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2050" y="510" />
-              <mxPoint x="2050" y="510" />
+              <mxPoint x="180" y="1140" />
+              <mxPoint x="180" y="1140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -358,8 +358,8 @@
         <mxCell id="IPORaski806ezNV8seyP-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="IPORaski806ezNV8seyP-94" target="IPORaski806ezNV8seyP-92">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2060" y="220" />
-              <mxPoint x="2060" y="220" />
+              <mxPoint x="190" y="850" />
+              <mxPoint x="190" y="850" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -369,7 +369,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IPORaski806ezNV8seyP-124" value="US2-SCEN1:&amp;nbsp;New feature for application can selection(scopes)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=400;height=30;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="10" width="880" height="540" as="geometry" />
+          <mxGeometry x="10" y="640" width="880" height="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
