@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T13:52:46.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="AXXJfWkmh13ikuD543qZ" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T13:53:45.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pFHJAxNrCp68VXVfJjmN" version="21.7.5" type="github">
   <diagram name="หน้า-1" id="V54rJkGDe6UenH7iF8Wh">
     <mxGraphModel dx="1235" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,21 +297,17 @@
         <mxCell id="rgRRa4uVCQyOLxnNqHUD-63" value="Write Test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="710" y="940" width="151.88" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rgRRa4uVCQyOLxnNqHUD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rgRRa4uVCQyOLxnNqHUD-64" target="rgRRa4uVCQyOLxnNqHUD-65">
+        <mxCell id="rgRRa4uVCQyOLxnNqHUD-68" value="test failed&lt;br&gt;fix bug" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rgRRa4uVCQyOLxnNqHUD-64" target="rgRRa4uVCQyOLxnNqHUD-95">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="861.8800000000001" y="1070" as="targetPoint" />
             <Array as="points">
               <mxPoint x="996" y="1070" />
+              <mxPoint x="568" y="1070" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rgRRa4uVCQyOLxnNqHUD-64" value="Run All Test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="920" y="940" width="151.88" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rgRRa4uVCQyOLxnNqHUD-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rgRRa4uVCQyOLxnNqHUD-65" target="rgRRa4uVCQyOLxnNqHUD-95">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rgRRa4uVCQyOLxnNqHUD-65" value="Fix Bug" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1040" width="151.88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rgRRa4uVCQyOLxnNqHUD-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rgRRa4uVCQyOLxnNqHUD-70" target="rgRRa4uVCQyOLxnNqHUD-71">
           <mxGeometry relative="1" as="geometry" />
