@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T05:03:53.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HQintjREkIR7y9zmJiWh" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T05:12:20.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hfQN4xaheii3-siGIBVq" version="21.8.2" type="github">
   <diagram id="xQNse8xgCa5r1MksHwUH" name="หน้า-1">
-    <mxGraphModel dx="2788" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2977" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -686,8 +686,20 @@
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-4" value="Services and networking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="711" y="1970" width="120" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98zSbKUf5Hd5RVdEeoW5-5" target="98zSbKUf5Hd5RVdEeoW5-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98zSbKUf5Hd5RVdEeoW5-5" target="98zSbKUf5Hd5RVdEeoW5-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98zSbKUf5Hd5RVdEeoW5-5" target="98zSbKUf5Hd5RVdEeoW5-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98zSbKUf5Hd5RVdEeoW5-5" target="98zSbKUf5Hd5RVdEeoW5-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-5" value="Storage" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1580" width="120" height="100" as="geometry" />
+          <mxGeometry x="630" y="1610" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-6" value="Troubleshooting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="1530" width="120" height="100" as="geometry" />
@@ -739,6 +751,18 @@
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-37" value="Choose an appropriate container network interface plugin." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="2130" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-44" value="Understand storage classes and persistent volumes." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="676.5" y="1405" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-45" value="Understand volume and access modes and reclaim policies for volumes." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1420" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-46" value="Understand persistent volume claims primitive." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="1540" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-47" value="Know how to configure applications with persistent storage." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376" y="1680" width="189" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
