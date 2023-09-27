@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T04:38:11.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gcUHKfSQ6wXqX2_n79Ws" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T04:39:12.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oycfAZUm6D8tEVZnzZTz" version="21.8.2" type="github">
   <diagram id="xQNse8xgCa5r1MksHwUH" name="หน้า-1">
     <mxGraphModel dx="3242" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -669,16 +669,22 @@
           <mxGeometry x="1510" y="1750" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-20" value="Understand Deployments and how to perform rolling updates and rollbacks." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="1900" width="160" height="100" as="geometry" />
+          <mxGeometry x="1360" y="1820" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-21" value="Use ConfigMaps and Secrets to configure applications." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="2040" width="160" height="100" as="geometry" />
+          <mxGeometry x="1520" y="1910" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-22" value="Know how to scale applications." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="2170" width="160" height="100" as="geometry" />
+          <mxGeometry x="1420" y="2040" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-23" value="Understand the primitives used to create robust, self-healing application Deployments." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1141" y="2260" width="189" height="120" as="geometry" />
+          <mxGeometry x="1280" y="2170" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-24" value="Understand how resource limits can affect Pod scheduling." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2240" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="98zSbKUf5Hd5RVdEeoW5-25" value="Awareness of manifest management and common templating tools." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="2160" width="189" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
