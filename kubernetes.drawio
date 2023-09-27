@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T05:31:38.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_dYpJXKjYB5mifJGn1Kr" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T05:35:18.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="O7nugz3_voKfAtcUEG-H" version="21.8.2" type="github">
   <diagram id="xQNse8xgCa5r1MksHwUH" name="หน้า-1">
-    <mxGraphModel dx="2977" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3242" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -627,7 +627,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-1" value="CKAE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="1865" width="120" height="80" as="geometry" />
+          <mxGeometry x="900" y="1830" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98zSbKUf5Hd5RVdEeoW5-2" target="98zSbKUf5Hd5RVdEeoW5-12">
           <mxGeometry relative="1" as="geometry" />
@@ -753,16 +753,16 @@
           <mxGeometry x="1081" y="2110" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-32" value="Understand host networking configuration on the cluster nodes." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1860" width="189" height="120" as="geometry" />
+          <mxGeometry x="450" y="1890" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-33" value="Understand connectivity between Pods." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="319" y="1980" width="189" height="120" as="geometry" />
+          <mxGeometry x="291" y="2010" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-34" value="Understand ClusterIP, NodePort, and LoadBalancer Service types and Endpoints." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400.5" y="2110" width="189" height="120" as="geometry" />
+          <mxGeometry x="480" y="2080" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-35" value="Know how to use Ingress controllers and Ingress resources." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="541" y="2218" width="189" height="120" as="geometry" />
+          <mxGeometry x="565" y="2218" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-36" value="Know how to configure and use CoreDNS." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="2230" width="189" height="120" as="geometry" />
@@ -771,16 +771,16 @@
           <mxGeometry x="881" y="2110" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-44" value="Understand storage classes and persistent volumes." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="391" y="1450" width="189" height="120" as="geometry" />
+          <mxGeometry x="480" y="1390" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-45" value="Understand volume and access modes and reclaim policies for volumes." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1600" width="189" height="120" as="geometry" />
+          <mxGeometry x="340" y="1505" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-46" value="Understand persistent volume claims primitive." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1734" width="189" height="120" as="geometry" />
+          <mxGeometry x="319" y="1645" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-47" value="Know how to configure applications with persistent storage." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1790" width="189" height="120" as="geometry" />
+          <mxGeometry x="450" y="1754" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="98zSbKUf5Hd5RVdEeoW5-52" value="Evaluate cluster and node logging." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="1510" width="189" height="120" as="geometry" />
