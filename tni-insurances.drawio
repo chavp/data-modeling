@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T18:17:19.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="NLn7j4rShy2IJeNI5cx0" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T18:17:40.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="l2nXj016KZDb0FkW3uxu" version="22.0.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2577" dy="3241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1387,6 +1387,16 @@
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-40" value="AccountTypes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="4780" y="230" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uILPEVpwb9jzu4xVaEj5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="uILPEVpwb9jzu4xVaEj5-40" target="IZX8jO2DoJM7nCG2Uu-J-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4975" y="105" as="sourcePoint" />
+            <mxPoint x="5145" y="105" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4875" y="180" />
+              <mxPoint x="4875" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
