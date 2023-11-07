@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T17:38:12.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VsoV56UB678T50t0Vm1g" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T17:38:31.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="aVBphFx41jUJJGEQ8VCZ" version="22.0.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2577" dy="3241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1263,7 +1263,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-10" value="Measurements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="2770" y="1230" width="190" height="60" as="geometry" />
+          <mxGeometry x="2770" y="1190" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="uILPEVpwb9jzu4xVaEj5-1" target="uILPEVpwb9jzu4xVaEj5-10">
           <mxGeometry relative="1" as="geometry">
@@ -1272,7 +1272,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-12" value="PhenomenonTypes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="3040" y="1235" width="210" height="60" as="geometry" />
+          <mxGeometry x="3040" y="1190" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uILPEVpwb9jzu4xVaEj5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="uILPEVpwb9jzu4xVaEj5-12" target="uILPEVpwb9jzu4xVaEj5-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2875" y="1090" as="sourcePoint" />
+            <mxPoint x="2875" y="1200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
