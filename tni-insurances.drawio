@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T17:45:56.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="J8j9MYYA6FxZLDld--hO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T17:53:20.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LxAx3hZsUbRClBuYSQn2" version="22.0.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2062" dy="2976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1294,15 +1294,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-16" value="ObservationCatagories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="3000" y="1190" width="290" height="60" as="geometry" />
+          <mxGeometry x="3080" y="1330" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-17" value="Catagories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="3050" y="1060" width="190" height="60" as="geometry" />
+          <mxGeometry x="3130" y="1200" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="uILPEVpwb9jzu4xVaEj5-17" target="uILPEVpwb9jzu4xVaEj5-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2875" y="1130" as="sourcePoint" />
-            <mxPoint x="2875" y="1200" as="targetPoint" />
+            <mxPoint x="2955" y="1270" as="sourcePoint" />
+            <mxPoint x="2955" y="1340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uILPEVpwb9jzu4xVaEj5-20" value="ObservationRelationships" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
@@ -1325,6 +1325,29 @@
             <Array as="points">
               <mxPoint x="2890" y="1450" />
               <mxPoint x="2890" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uILPEVpwb9jzu4xVaEj5-23" value="Phenomenons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1480" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uILPEVpwb9jzu4xVaEj5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="uILPEVpwb9jzu4xVaEj5-23" target="uILPEVpwb9jzu4xVaEj5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2640" y="1370" as="sourcePoint" />
+            <mxPoint x="2780" y="1370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3225" y="1330" />
+              <mxPoint x="3225" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uILPEVpwb9jzu4xVaEj5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="uILPEVpwb9jzu4xVaEj5-12" target="uILPEVpwb9jzu4xVaEj5-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2640" y="1370" as="sourcePoint" />
+            <mxPoint x="2780" y="1370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2530" y="1600" />
+              <mxPoint x="3225" y="1600" />
             </Array>
           </mxGeometry>
         </mxCell>
