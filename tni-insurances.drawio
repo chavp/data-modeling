@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T00:29:38.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JcL2P6y8-boUg47aVYqs" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T00:30:00.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mQxWyqrIS3VcvumQvdQa" version="22.0.8" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2327" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
           <mxGeometry x="900" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-8" value="OrderItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="900" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;dashed=1;" parent="1" source="E_q2j0-W4uADCQufRSa3-16" target="E_q2j0-W4uADCQufRSa3-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -42,6 +42,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="790" as="sourcePoint" />
             <mxPoint x="550" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="910" />
+              <mxPoint x="940" y="910" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="E_q2j0-W4uADCQufRSa3-16" value="OrderItemProductItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
@@ -1406,7 +1410,7 @@
             <mxPoint x="1150" y="810" as="sourcePoint" />
             <mxPoint x="1030" y="810" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="990" y="890" />
+              <mxPoint x="970" y="890" />
             </Array>
           </mxGeometry>
         </mxCell>
