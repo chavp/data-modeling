@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T09:49:23.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YlbwEONaXfLs49YewDIi" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T09:53:34.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ZJt9e5SRDZomg2ndWCP2" version="22.1.0" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2479" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1577,6 +1577,33 @@
             </Array>
             <mxPoint x="1940" y="158" as="sourcePoint" />
             <mxPoint x="1940" y="53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80cJgZTo8neaZMs5Tdwe-16" value="FollowUps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="-1080" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="80cJgZTo8neaZMs5Tdwe-17" value="FollowUpItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="-1080" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="80cJgZTo8neaZMs5Tdwe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#f8cecc;strokeColor=#000000;" edge="1" parent="1" source="80cJgZTo8neaZMs5Tdwe-17" target="80cJgZTo8neaZMs5Tdwe-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2745" y="-853" as="sourcePoint" />
+            <mxPoint x="2830" y="-853" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80cJgZTo8neaZMs5Tdwe-20" value="FollowUpOrderItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="3210" y="-1080" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="80cJgZTo8neaZMs5Tdwe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#f8cecc;strokeColor=#000000;" edge="1" parent="1" source="80cJgZTo8neaZMs5Tdwe-20" target="80cJgZTo8neaZMs5Tdwe-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2925" y="-1080" as="sourcePoint" />
+            <mxPoint x="2765" y="-1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80cJgZTo8neaZMs5Tdwe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#f8cecc;strokeColor=#000000;" edge="1" parent="1" source="80cJgZTo8neaZMs5Tdwe-20" target="a6CrXQ2l9qOM6Z4fCI5_-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3215" y="-1080" as="sourcePoint" />
+            <mxPoint x="3120" y="-1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
