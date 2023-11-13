@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T08:58:23.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Vyc1uuzJsggOBECd1hab" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T09:00:32.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="rCcG8xgoPANsumRQfjwA" version="22.1.0" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="3096" dy="3692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2415" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1536,8 +1536,8 @@
         <mxCell id="80cJgZTo8neaZMs5Tdwe-5" value="Features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="2180" y="400" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="80cJgZTo8neaZMs5Tdwe-7" value="FeatureTypes&lt;br&gt;{ BRAND, MODEL }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="525" width="200" height="60" as="geometry" />
+        <mxCell id="80cJgZTo8neaZMs5Tdwe-7" value="FeatureTypes&lt;br&gt;{ BRAND, MODEL, REGISTER_YEAR }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="525" width="280" height="95" as="geometry" />
         </mxCell>
         <mxCell id="80cJgZTo8neaZMs5Tdwe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="80cJgZTo8neaZMs5Tdwe-7" target="80cJgZTo8neaZMs5Tdwe-5">
           <mxGeometry relative="1" as="geometry">
