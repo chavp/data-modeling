@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T16:59:32.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_DaS_fWgBzDyqKPg03mi" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T17:03:12.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LeticISDwzYRGMl1fVli" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2327" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -374,7 +374,7 @@
         <mxCell id="umau1oA5AZ1StltOR-z_-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-7" target="umau1oA5AZ1StltOR-z_-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3370" y="-920" />
+              <mxPoint x="3370" y="-950" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -656,7 +656,7 @@
           <mxGeometry x="4855" y="-1085" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-73" value="OrderItemInvocieItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="3850" y="-984" width="230" height="94" as="geometry" />
+          <mxGeometry x="3850" y="-980" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-78" value="Bills" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=25;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="5455" y="-890" width="200" height="95" as="geometry" />
@@ -1468,7 +1468,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-11" value="ProductBacklogOrderItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;fontStyle=4" parent="1" vertex="1">
-          <mxGeometry x="3830" y="-872.5" width="280" height="60" as="geometry" />
+          <mxGeometry x="3510" y="-876.5" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" parent="1" source="Kz4ybRWmbaLbFIKAV1Ck-11" target="a6CrXQ2l9qOM6Z4fCI5_-7" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1482,13 +1482,6 @@
         </mxCell>
         <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-13" value="ProductBacklogs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="4180" y="-872.5" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="Kz4ybRWmbaLbFIKAV1Ck-13" target="Kz4ybRWmbaLbFIKAV1Ck-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="3596" y="-207.5" as="targetPoint" />
-            <mxPoint x="3596" y="-287.5" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-15" value="SprintBacklogOrderItemRoles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="3810" y="-660" width="320" height="60" as="geometry" />
@@ -1590,13 +1583,6 @@
             <mxPoint x="4216" y="-825" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="Kz4ybRWmbaLbFIKAV1Ck-11" target="szl0HhXGUQ4rDhUaG-1X-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="4110" y="-772.5" as="targetPoint" />
-            <mxPoint x="4216" y="-772.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-6" target="Kz4ybRWmbaLbFIKAV1Ck-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -1608,7 +1594,7 @@
           <mxGeometry x="3562" y="-520" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-12" value="SprintBacklogItemTypes&lt;br&gt;{ FOLLOW_UP, CALL }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="3520" y="-780" width="260" height="60" as="geometry" />
+          <mxGeometry x="3490" y="-780" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-12" target="szl0HhXGUQ4rDhUaG-1X-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1688,6 +1674,9 @@
             <mxPoint x="3655" y="-640" as="targetPoint" />
             <mxPoint x="3940" y="-700" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T5_G4uP8fSC-M1kqnRae-7" value="ProductBacklogItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="3847.88" y="-880" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
