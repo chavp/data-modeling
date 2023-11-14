@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T17:52:17.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="GKoG4uV6MxH5BYXSz-sT" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T17:53:31.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="GXfN9g2830ppWqwRqjbt" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2062" dy="2976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -953,11 +953,16 @@
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="4560" y="1040" width="2110" height="820" as="geometry" />
         </mxCell>
-        <mxCell id="4Jn-CupxS-RkWT2SqA-o-3" value="0.2 - Add person to organization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-26" target="4Jn-CupxS-RkWT2SqA-o-2" edge="1">
+        <mxCell id="4Jn-CupxS-RkWT2SqA-o-3" value="0.2 - Add person to organization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-20" target="4Jn-CupxS-RkWT2SqA-o-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uz_zVMIFrrCqKW_ZjzIu-3" value="0.1 search members" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-26" target="uz_zVMIFrrCqKW_ZjzIu-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uz_zVMIFrrCqKW_ZjzIu-3" value="0.1 search members" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wr4o7l6KcdaQNvGVVhsW-20" target="uz_zVMIFrrCqKW_ZjzIu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4740" y="2220" />
+              <mxPoint x="4740" y="2780" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Wr4o7l6KcdaQNvGVVhsW-26" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="4930" y="2440.5" width="60" height="93" as="geometry" />
