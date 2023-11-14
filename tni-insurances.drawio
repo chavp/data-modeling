@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T07:27:44.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="xS90Oj3WvCgqy7047uct" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T07:33:15.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HmGh6ZzL3IO2UmVPU-mI" version="22.1.0" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2150" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1638,18 +1638,8 @@
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-14" value="ProductItemTypes&lt;br&gt;&amp;nbsp;{ HERO, MOBILE, CM,&amp;nbsp;CMPAFORCHILDDIRECT }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1220" y="312.5" width="470" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="szl0HhXGUQ4rDhUaG-1X-14" target="a6CrXQ2l9qOM6Z4fCI5_-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1980" y="293" as="sourcePoint" />
-            <mxPoint x="1980" y="350" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1400" y="60" />
-              <mxPoint x="1930" y="60" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-16" value="Campaigns" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="-310" width="140" height="60" as="geometry" />
+          <mxGeometry x="1630" y="-320" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-19" value="Channels" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1630" y="-390" width="140" height="60" as="geometry" />
@@ -1670,7 +1660,21 @@
             <mxPoint x="2050" y="130" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2470" y="-851" />
-              <mxPoint x="2470" y="-280" />
+              <mxPoint x="2470" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szl0HhXGUQ4rDhUaG-1X-22" value="LeadType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="-460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="szl0HhXGUQ4rDhUaG-1X-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#f8cecc;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-11" target="szl0HhXGUQ4rDhUaG-1X-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2960" y="-860" as="sourcePoint" />
+            <mxPoint x="1780" y="-340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3075" y="-930" />
+              <mxPoint x="2420" y="-930" />
+              <mxPoint x="2420" y="-430" />
             </Array>
           </mxGeometry>
         </mxCell>
