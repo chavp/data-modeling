@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T16:46:10.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="s4CTE4ZC7I4EooZrmJbK" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T16:47:46.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_m6-aMh4XPvFsh0LkOvT" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2577" dy="3241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1605,16 +1605,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-10" value="Notes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="4180" y="-695" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-6" target="szl0HhXGUQ4rDhUaG-1X-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4010" y="-665" />
-            </Array>
-            <mxPoint x="3980" y="-610" as="targetPoint" />
-            <mxPoint x="3980" y="-710" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="3590" y="-520" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-12" value="SprintBacklogItemTypes&lt;br&gt;{ FOLLOW_UP, CALL }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="3520" y="-780" width="260" height="60" as="geometry" />
@@ -1670,6 +1661,19 @@
             <mxPoint x="3230" y="-1121" as="sourcePoint" />
             <mxPoint x="3110" y="-1120" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5_G4uP8fSC-M1kqnRae-2" value="SprinttBacklogItemNotes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="3500" y="-660" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5_G4uP8fSC-M1kqnRae-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="szl0HhXGUQ4rDhUaG-1X-6" target="T5_G4uP8fSC-M1kqnRae-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3920" y="-690" />
+              <mxPoint x="3635" y="-690" />
+            </Array>
+            <mxPoint x="3980" y="-634" as="targetPoint" />
+            <mxPoint x="3980" y="-710" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
