@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T05:59:34.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="qx5WoEKQwVYwyAMmXnMg" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T05:59:52.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="cNvkq6Jmsn112cT8MzZm" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2895" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1754,7 +1754,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-9" value="CostItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2745" y="280" width="150" height="60" as="geometry" />
+          <mxGeometry x="2690" y="282.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-6" target="1llj6NmBr_UUqzQ1d8rH-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1980" y="168" as="sourcePoint" />
+            <mxPoint x="1980" y="233" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
