@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T05:56:52.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="FEWZ856TKxg8c4BoPdQz" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T05:57:54.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="b-OKCrpjUWqr3HK9XB0h" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2895" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1741,8 +1741,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-6" value="Premium" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2470" y="280" width="150" height="60" as="geometry" />
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-6" value="Prices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="282.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;dashed=1;" edge="1" parent="1" source="szl0HhXGUQ4rDhUaG-1X-24" target="1llj6NmBr_UUqzQ1d8rH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2915" y="-850" as="sourcePoint" />
+            <mxPoint x="2050" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2510" y="-830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-8" value="Costs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="292.5" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
