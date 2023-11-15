@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T06:54:42.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="BRbx8VWVTrUpPUJknSJj" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T06:55:18.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4BHtcmEovpJ6ziaZR37Z" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="4896" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1565,10 +1565,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-5" value="SprintBacklogs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="4375" y="-785" width="190" height="60" as="geometry" />
+          <mxGeometry x="4375" y="-772.5" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-6" value="SprintBacklogItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="4052.88" y="-785" width="220" height="60" as="geometry" />
+          <mxGeometry x="4052.88" y="-772.5" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-5" target="szl0HhXGUQ4rDhUaG-1X-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1588,13 +1588,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-12" value="SprintBacklogItemTypes&lt;br&gt;{ FOLLOW_UP, CHANGE_OWNER, NOTE, PHONE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="3440" y="-795" width="545" height="80" as="geometry" />
+          <mxGeometry x="3440.5" y="-782.5" width="545" height="80" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-12" target="szl0HhXGUQ4rDhUaG-1X-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4035" y="-755" />
-              <mxPoint x="4035" y="-755" />
+              <mxPoint x="4020" y="-742" />
+              <mxPoint x="4020" y="-742" />
             </Array>
             <mxPoint x="4175" y="-760" as="targetPoint" />
             <mxPoint x="4175" y="-832" as="sourcePoint" />
