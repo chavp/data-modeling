@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T06:06:15.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="57Y09vH_tSeLfF0hDhVj" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T06:09:19.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="3zlmH51UCf6d6gx3yx7J" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="2895" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1741,33 +1741,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-6" value="Prices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2440" y="282.5" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;dashed=1;" edge="1" parent="1" source="szl0HhXGUQ4rDhUaG-1X-24" target="1llj6NmBr_UUqzQ1d8rH-6">
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;dashed=1;" edge="1" parent="1" source="szl0HhXGUQ4rDhUaG-1X-24" target="1llj6NmBr_UUqzQ1d8rH-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2915" y="-850" as="sourcePoint" />
-            <mxPoint x="2050" y="130" as="targetPoint" />
+            <mxPoint x="2510" y="282.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2510" y="-830" />
+              <mxPoint x="2510" y="313" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-9" value="CostItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2675" y="435" width="150" height="60" as="geometry" />
+          <mxGeometry x="2690" y="280" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-13" target="1llj6NmBr_UUqzQ1d8rH-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2750" y="390" />
-              <mxPoint x="2750" y="390" />
+              <mxPoint x="2750" y="313" />
             </Array>
             <mxPoint x="1980" y="168" as="sourcePoint" />
-            <mxPoint x="1980" y="233" as="targetPoint" />
+            <mxPoint x="2650" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-11" value="CostItemTypes&lt;br&gt;{ PREMIUM, NET_PREMIUM,PREMIUM_&lt;br&gt;VAT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="675" width="600" height="80" as="geometry" />
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-11" value="CostItemTypes&lt;br&gt;{ PREMIUM, NET_PREMIUM,PREMIUM_&lt;br&gt;VAT, DISCOUNT_NCB, DISCOUNT_ETC }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2535" y="400" width="460" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-11" target="1llj6NmBr_UUqzQ1d8rH-9">
           <mxGeometry relative="1" as="geometry">
@@ -1777,14 +1774,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-13" value="Costs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="2675" y="282.5" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-6" target="1llj6NmBr_UUqzQ1d8rH-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="2760" y="353" as="sourcePoint" />
-            <mxPoint x="2760" y="415" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="2450" y="282.5" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
