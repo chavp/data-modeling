@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T02:15:00.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="G14e4IC6naV9N3CgsxFi" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T02:16:35.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="pgOAwDQDLbPFL8n8QjKt" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="4367" dy="2970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1475,13 +1475,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-15" value="BacklogPartyAssignments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="4060" y="-480" width="320" height="60" as="geometry" />
+          <mxGeometry x="3950" y="-480" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-17" value="responsible" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;dashed=1;" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-18" target="Kz4ybRWmbaLbFIKAV1Ck-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3810" y="-450" />
-              <mxPoint x="4280" y="-450" />
             </Array>
             <mxPoint x="3795" y="-350" as="targetPoint" />
             <mxPoint x="3795" y="-420" as="sourcePoint" />
@@ -1621,7 +1620,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T5_G4uP8fSC-M1kqnRae-13" value="BacklogRoleTypes&lt;br&gt;{ OWNER }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="4500" y="-480" width="240" height="60" as="geometry" />
+          <mxGeometry x="3990" y="-320" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T5_G4uP8fSC-M1kqnRae-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="T5_G4uP8fSC-M1kqnRae-13" target="Kz4ybRWmbaLbFIKAV1Ck-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1794,11 +1793,11 @@
             <mxPoint x="4115" y="-732" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-53" target="Kz4ybRWmbaLbFIKAV1Ck-15">
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="T5_G4uP8fSC-M1kqnRae-7" target="Kz4ybRWmbaLbFIKAV1Ck-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4220" y="-550" />
-              <mxPoint x="4220" y="-550" />
+              <mxPoint x="4250" y="-770" />
+              <mxPoint x="4110" y="-770" />
             </Array>
             <mxPoint x="4430" y="-440" as="targetPoint" />
             <mxPoint x="4510" y="-440" as="sourcePoint" />
