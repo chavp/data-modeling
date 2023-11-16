@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T02:32:46.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="TV5M2Zbud6nsXDEY49yk" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T02:33:16.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Jv_UA_Dc35mfpH_a1Ya6" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="5031" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1809,7 +1809,7 @@
             <mxPoint x="4510" y="-440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-53" value="WorkEfforts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-53" value="Efforts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="4165" y="-750" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="T5_G4uP8fSC-M1kqnRae-7" target="1llj6NmBr_UUqzQ1d8rH-53">
@@ -1822,7 +1822,7 @@
             <mxPoint x="4295" y="-800" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-55" value="WorkEffortTypes&lt;br&gt;{ PHONE, NOTE, SAVE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-55" value="EffortTypes&lt;br&gt;{ PHONE, NOTE, SAVE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="4490" y="-762.5" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-55" target="1llj6NmBr_UUqzQ1d8rH-53">
