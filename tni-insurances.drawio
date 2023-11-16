@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T01:41:09.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="3FsFclfPtNMeIzyzOxgs" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T01:44:09.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="7GWF2bBjeKZqKyCFyP0S" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="4631" dy="3128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1561,42 +1561,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-5" value="Actions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="4510" y="-772.5" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-6" value="ActionItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="4175" y="-772.5" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-5" target="szl0HhXGUQ4rDhUaG-1X-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="4305" y="-815" as="targetPoint" />
-            <mxPoint x="4411" y="-815" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-6" target="Kz4ybRWmbaLbFIKAV1Ck-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4285" y="-650" />
-              <mxPoint x="4285" y="-650" />
-            </Array>
-            <mxPoint x="4279.999999999998" y="-625" as="targetPoint" />
-            <mxPoint x="4290" y="-735" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-12" value="ActionItemTypes&lt;br&gt;{ FOLLOW_UP, CHANGE_OWNER, NOTE, PHONE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="3560" y="-782.5" width="545" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="szl0HhXGUQ4rDhUaG-1X-12" target="szl0HhXGUQ4rDhUaG-1X-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4020" y="-742" />
-              <mxPoint x="4020" y="-742" />
-            </Array>
-            <mxPoint x="4175" y="-760" as="targetPoint" />
-            <mxPoint x="4175" y="-832" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-24" value="OrderItemProductItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="2905" y="-876.5" width="250" height="63" as="geometry" />
         </mxCell>
@@ -1654,13 +1618,6 @@
             <Array as="points" />
             <mxPoint x="4293" y="-830" as="targetPoint" />
             <mxPoint x="4375" y="-830" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="T5_G4uP8fSC-M1kqnRae-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="T5_G4uP8fSC-M1kqnRae-7" target="szl0HhXGUQ4rDhUaG-1X-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="4065" y="-730" as="targetPoint" />
-            <mxPoint x="3985" y="-730" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T5_G4uP8fSC-M1kqnRae-13" value="AccountabilityTypes&lt;br&gt;{ OWNER }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
@@ -1836,6 +1793,12 @@
             <mxPoint x="4185" y="-732" as="targetPoint" />
             <mxPoint x="4115" y="-732" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-47" value="Programs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4070" y="-742.5" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-48" value="Tasks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4360" y="-742.5" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
