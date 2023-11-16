@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T02:08:24.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="bF44XiOf8k2PeXY-dDqd" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T02:15:00.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="G14e4IC6naV9N3CgsxFi" version="22.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="4367" dy="2970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1474,8 +1474,8 @@
             <mxPoint x="3390" y="-510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-15" value="WorkEffortPartyAssignments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="4100" y="-480" width="320" height="60" as="geometry" />
+        <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-15" value="BacklogPartyAssignments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="4060" y="-480" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Kz4ybRWmbaLbFIKAV1Ck-17" value="responsible" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;dashed=1;" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-18" target="Kz4ybRWmbaLbFIKAV1Ck-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1620,7 +1620,7 @@
             <mxPoint x="4375" y="-830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T5_G4uP8fSC-M1kqnRae-13" value="WorkEffortRoleTypes&lt;br&gt;{ OWNER }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="T5_G4uP8fSC-M1kqnRae-13" value="BacklogRoleTypes&lt;br&gt;{ OWNER }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="4500" y="-480" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T5_G4uP8fSC-M1kqnRae-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="T5_G4uP8fSC-M1kqnRae-13" target="Kz4ybRWmbaLbFIKAV1Ck-15" edge="1">
@@ -1794,50 +1794,31 @@
             <mxPoint x="4115" y="-732" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-47" target="T5_G4uP8fSC-M1kqnRae-7">
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-53" target="Kz4ybRWmbaLbFIKAV1Ck-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4190" y="-780" />
-              <mxPoint x="4190" y="-780" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-47" value="Actors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="4030" y="-772.5" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-48" target="T5_G4uP8fSC-M1kqnRae-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4380" y="-790" />
-              <mxPoint x="4380" y="-790" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-48" value="Tasks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="4340" y="-770" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="T5_G4uP8fSC-M1kqnRae-7" target="Kz4ybRWmbaLbFIKAV1Ck-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4285" y="-560" />
-              <mxPoint x="4285" y="-560" />
+              <mxPoint x="4220" y="-550" />
+              <mxPoint x="4220" y="-550" />
             </Array>
             <mxPoint x="4430" y="-440" as="targetPoint" />
             <mxPoint x="4510" y="-440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1llj6NmBr_UUqzQ1d8rH-53" value="WorkEffortItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="4380" y="-680" width="240" height="60" as="geometry" />
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-53" value="WorkEfforts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4165" y="-720" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1llj6NmBr_UUqzQ1d8rH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="T5_G4uP8fSC-M1kqnRae-7" target="1llj6NmBr_UUqzQ1d8rH-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4320" y="-650" />
-              <mxPoint x="4520" y="-650" />
+              <mxPoint x="4290" y="-840" />
+              <mxPoint x="4290" y="-840" />
             </Array>
             <mxPoint x="4295" y="-470" as="targetPoint" />
             <mxPoint x="4295" y="-800" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1llj6NmBr_UUqzQ1d8rH-55" value="WorkEffortTypes&lt;br&gt;{ PHONE, NOTE, SAVE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4500" y="-730" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
