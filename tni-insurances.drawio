@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T02:20:29.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QrTpBS3xlacmyve-cIwg" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T02:22:48.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8bdF4AUqP3gSRRluQsPf" version="22.1.3" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="5293" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1960,8 +1960,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_bdVk2H4wEA6Rbma76s-14" value="OrderNumberTypes&lt;br&gt;{ LEAD, QUATATION }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="-300" width="220" height="85" as="geometry" />
+        <mxCell id="e_bdVk2H4wEA6Rbma76s-14" value="OrderNumberTypes&lt;br&gt;{ SALE, CLAIM, LEAD, QUATATION }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2315" y="-300" width="590" height="85" as="geometry" />
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="e_bdVk2H4wEA6Rbma76s-12" target="e_bdVk2H4wEA6Rbma76s-14">
           <mxGeometry relative="1" as="geometry">
@@ -1970,7 +1970,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-16" value="LeadOrderItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="3575" y="-995" width="185" height="60" as="geometry" />
+          <mxGeometry x="3575" y="-1010" width="185" height="85" as="geometry" />
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-7" target="e_bdVk2H4wEA6Rbma76s-16">
           <mxGeometry relative="1" as="geometry">
