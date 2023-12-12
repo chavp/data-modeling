@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T09:28:31.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mQxGSvqjbEdwDnYFcYcx" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T09:29:19.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BmXCNTZA-ID-RT_31q9-" version="22.1.7" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="5606" dy="4538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,13 +396,13 @@
         <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-16" target="a6CrXQ2l9qOM6Z4fCI5_-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3510" y="-520" />
+              <mxPoint x="3510" y="-470" />
               <mxPoint x="3510" y="50" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-16" value="OrderRoles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="3191" y="-560" width="160" height="60" as="geometry" />
+          <mxGeometry x="3191" y="-500" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#f8cecc;strokeColor=#000000;" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-16" target="a6CrXQ2l9qOM6Z4fCI5_-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -576,7 +576,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-34" value="OrderRoleTypes &lt;br&gt;{ CUSTOMER_INTENT, CUSTOMER, SALE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="2650" y="-567.5" width="471" height="75" as="geometry" />
+          <mxGeometry x="2649" y="-507.5" width="471" height="75" as="geometry" />
         </mxCell>
         <mxCell id="umau1oA5AZ1StltOR-z_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-39" target="umau1oA5AZ1StltOR-z_-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1963,12 +1963,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-14" value="OrderNumberTypes&lt;br&gt;{ SALE, CLAIM, LEAD, QUATATION }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="2310" y="-460" width="380" height="85" as="geometry" />
+          <mxGeometry x="2170" y="-460" width="380" height="85" as="geometry" />
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;strokeColor=#000000;" parent="1" source="e_bdVk2H4wEA6Rbma76s-12" target="e_bdVk2H4wEA6Rbma76s-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3231" y="-525" as="sourcePoint" />
             <mxPoint x="3315" y="-525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2360" y="-582" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-16" value="LeadOrderItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
