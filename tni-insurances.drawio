@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T09:35:24.432Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WlubUiZ5_CzDlzOf6Naa" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T07:52:51.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SemsXJg4yj_RNeTvWPCO" version="22.1.7" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5072" dy="4538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4530" dy="4221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2032,6 +2032,21 @@
             <Array as="points">
               <mxPoint x="3260" y="-460" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DlkWvAiW3rwqGObD8p4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#f8cecc;strokeColor=#000000;" edge="1" parent="1" source="1llj6NmBr_UUqzQ1d8rH-2" target="1llj6NmBr_UUqzQ1d8rH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2720" y="-980" as="sourcePoint" />
+            <mxPoint x="2610" y="-840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2740" y="-880" />
+              <mxPoint x="2580" y="-880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DlkWvAiW3rwqGObD8p4-8" value="parent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3DlkWvAiW3rwqGObD8p4-7">
+          <mxGeometry x="-0.0361" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
