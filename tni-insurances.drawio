@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T08:52:11.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="v-8eKrnIEJwpf8Ieeloz" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T08:54:38.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zjLVxUUMmS1GdM334ub8" version="22.1.11" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5031" dy="4280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4631" dy="4280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2060,7 +2060,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tgcsUMUl633oyMr5OD5r-2" value="ProductItemTypes&lt;br&gt;{ MOTOR, HEALTH, PA, HOME }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="380" y="100" width="350" height="60" as="geometry" />
+          <mxGeometry x="360" y="50" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tgcsUMUl633oyMr5OD5r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-3" target="tgcsUMUl633oyMr5OD5r-2">
           <mxGeometry relative="1" as="geometry">
@@ -2086,6 +2086,18 @@
             </Array>
             <mxPoint x="740" y="514" as="sourcePoint" />
             <mxPoint x="624" y="514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcsUMUl633oyMr5OD5r-7" value="ProductItemAttributeTypes&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="-60" y="116.25" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcsUMUl633oyMr5OD5r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="tgcsUMUl633oyMr5OD5r-7" target="tgcsUMUl633oyMr5OD5r-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="95" y="70" />
+            </Array>
+            <mxPoint x="535" y="359" as="sourcePoint" />
+            <mxPoint x="535" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
