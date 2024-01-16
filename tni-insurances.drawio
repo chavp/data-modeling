@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T09:08:51.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JQtTTvBgX6l4ODPmpy-5" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T09:09:23.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P5GSCh29ie6Qj-x3Vif0" version="22.1.18" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="5293" dy="4582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2173,6 +2173,23 @@
         </mxCell>
         <mxCell id="1RlycagNoNxxHCS8ll6e-15" value="AttributeFactors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="110" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1RlycagNoNxxHCS8ll6e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="1RlycagNoNxxHCS8ll6e-15" target="tgcsUMUl633oyMr5OD5r-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="390" />
+              <mxPoint x="480" y="390" />
+            </Array>
+            <mxPoint x="460" y="320" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1RlycagNoNxxHCS8ll6e-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="1RlycagNoNxxHCS8ll6e-15" target="1RlycagNoNxxHCS8ll6e-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="260" y="500" as="sourcePoint" />
+            <mxPoint x="490" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
