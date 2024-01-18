@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T04:06:37.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Aib6ewcz8Bxm6lPM6xk_" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T01:28:44.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Cf1U107PMtx0xG7jXHuC" version="22.1.18" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="4896" dy="4435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5293" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1412,7 +1412,7 @@
             <mxPoint x="1150" y="810" as="sourcePoint" />
             <mxPoint x="1030" y="810" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2060" y="800" />
+              <mxPoint x="2060" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2236,6 +2236,22 @@
               <mxPoint x="3900" y="550" />
             </Array>
             <mxPoint x="3667" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDWvEaG3h0DeX0HaB05n-16" value="ProductFeatureFields" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="745" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BDWvEaG3h0DeX0HaB05n-17" value="ProductFeatureFieldTypes&lt;br&gt;{ COMP_CODE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="745" width="310" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="BDWvEaG3h0DeX0HaB05n-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="BDWvEaG3h0DeX0HaB05n-16" target="BDWvEaG3h0DeX0HaB05n-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="783" />
+              <mxPoint x="40" y="783" />
+            </Array>
+            <mxPoint x="460" y="310" as="sourcePoint" />
+            <mxPoint x="170" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
