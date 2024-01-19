@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T08:24:52.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2oyl6H8DWZk-oIjpMaZW" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T08:27:21.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="N8Yr20V8tC847p9uUFxE" version="22.1.18" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="4896" dy="4435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5376" dy="4435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2269,7 +2269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-25" value="Cards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="4710" y="-360" width="220" height="70" as="geometry" />
+          <mxGeometry x="4690" y="-360" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-26" value="GroupCommisions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="4360" y="-500" width="220" height="70" as="geometry" />
@@ -2278,10 +2278,10 @@
           <mxGeometry x="4810" y="28.75" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-30" value="MinorSources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="4690" y="-70" width="220" height="70" as="geometry" />
+          <mxGeometry x="4680" y="-101.25" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-31" value="CardMinorSources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="4680" y="-200" width="220" height="70" as="geometry" />
+          <mxGeometry x="4680" y="-220" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="BDWvEaG3h0DeX0HaB05n-31" target="BDWvEaG3h0DeX0HaB05n-30">
           <mxGeometry relative="1" as="geometry">
@@ -2303,17 +2303,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-34" value="PartyMinorSources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="4240" y="-180" width="220" height="70" as="geometry" />
+          <mxGeometry x="4240" y="-91.25" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-35" value="CardGroupCommisions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="4680" y="-500" width="276.5" height="70" as="geometry" />
+          <mxGeometry x="4660" y="-500" width="276.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="BDWvEaG3h0DeX0HaB05n-34" target="a6CrXQ2l9qOM6Z4fCI5_-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4020" y="-140" />
-              <mxPoint x="4020" y="-40" />
-              <mxPoint x="3760" y="-40" />
+              <mxPoint x="3760" y="-50" />
             </Array>
             <mxPoint x="4810" y="-120" as="sourcePoint" />
             <mxPoint x="4810" y="30" as="targetPoint" />
@@ -2322,14 +2320,15 @@
         <mxCell id="BDWvEaG3h0DeX0HaB05n-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="BDWvEaG3h0DeX0HaB05n-34" target="BDWvEaG3h0DeX0HaB05n-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4350" y="-30" />
+              <mxPoint x="4570" y="-66" />
+              <mxPoint x="4570" y="-66" />
             </Array>
             <mxPoint x="4810" y="-120" as="sourcePoint" />
             <mxPoint x="4810" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-39" value="AgentCards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="4395" y="-360" width="220" height="70" as="geometry" />
+          <mxGeometry x="4360" y="-360" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="BDWvEaG3h0DeX0HaB05n-39" target="BDWvEaG3h0DeX0HaB05n-25">
           <mxGeometry relative="1" as="geometry">
