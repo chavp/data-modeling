@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T09:52:38.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SKZ39MX9Yop_Tx588rSK" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T12:45:45.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IfXDvI8cYqAhYXLUSXDM" version="22.1.21" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5293" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4896" dy="4435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2274,7 +2274,7 @@
           <mxGeometry x="4360" y="-500" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-29" value="SendDocumentTypes&lt;br&gt;{ B18, B25, B28 }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="4460" y="-640" width="260" height="70" as="geometry" />
+          <mxGeometry x="4430" y="-770" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-30" value="Minors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="4680" y="-101.25" width="220" height="70" as="geometry" />
@@ -2346,6 +2346,19 @@
             </Array>
             <mxPoint x="3400" y="30" as="targetPoint" />
             <mxPoint x="3600" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZCGnnvC1hBtVrkfR_3-1" value="MotorPriceComponent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="400" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZCGnnvC1hBtVrkfR_3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=none;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="JiZCGnnvC1hBtVrkfR_3-1" target="1RlycagNoNxxHCS8ll6e-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="501" as="sourcePoint" />
+            <mxPoint x="200" y="605" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="570" />
+              <mxPoint x="-120" y="570" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
