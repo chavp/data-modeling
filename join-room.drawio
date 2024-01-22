@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T03:37:13.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZrTqAcU8R36Sl_78wzl4" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T03:38:08.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tT0d4FhS94OcLwVHv30Z" version="22.1.21" type="github">
   <diagram name="หน้า-1" id="nbXUcrdM-XwJvHEKahno">
-    <mxGraphModel dx="662" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
           <mxGeometry x="130" y="50" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VO47c2otUsLpDvjMp0nM-2" value=":Rooms" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="313.5" y="90" width="100" height="330" as="geometry" />
+          <mxGeometry x="314" y="80" width="100" height="330" as="geometry" />
         </mxCell>
         <mxCell id="VO47c2otUsLpDvjMp0nM-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VO47c2otUsLpDvjMp0nM-2">
           <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
@@ -61,19 +61,19 @@
         <mxCell id="VO47c2otUsLpDvjMp0nM-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="140" y="150" width="10" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="VO47c2otUsLpDvjMp0nM-12" value="new room &amp;lt;caller id&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="VO47c2otUsLpDvjMp0nM-7" target="VO47c2otUsLpDvjMp0nM-11">
+        <mxCell id="VO47c2otUsLpDvjMp0nM-12" value="new room &amp;lt;caller id&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="VO47c2otUsLpDvjMp0nM-7" target="VO47c2otUsLpDvjMp0nM-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="165" />
-              <mxPoint x="210" y="165" />
+              <mxPoint x="310" y="160" />
+              <mxPoint x="310" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VO47c2otUsLpDvjMp0nM-13" value="&amp;lt;room id&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1" source="VO47c2otUsLpDvjMp0nM-11" target="VO47c2otUsLpDvjMp0nM-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="190" />
-              <mxPoint x="210" y="190" />
+              <mxPoint x="260" y="180" />
+              <mxPoint x="260" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
