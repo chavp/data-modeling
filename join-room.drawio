@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T03:34:15.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UGgTzy9AXbDrL_0iKF5L" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T03:36:23.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="A5oDFZ_xtBSmEdOjOqrA" version="22.1.21" type="github">
   <diagram name="หน้า-1" id="nbXUcrdM-XwJvHEKahno">
     <mxGraphModel dx="662" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VO47c2otUsLpDvjMp0nM-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VO47c2otUsLpDvjMp0nM-2">
-          <mxGeometry x="45" y="170" width="10" height="60" as="geometry" />
+          <mxGeometry x="45" y="170" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VO47c2otUsLpDvjMp0nM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="VO47c2otUsLpDvjMp0nM-3">
           <mxGeometry relative="1" as="geometry">
@@ -45,8 +45,16 @@
         <mxCell id="VO47c2otUsLpDvjMp0nM-34" value="connected stream" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="VO47c2otUsLpDvjMp0nM-7" target="VO47c2otUsLpDvjMp0nM-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="360" />
-              <mxPoint x="450" y="360" />
+              <mxPoint x="430" y="370" />
+              <mxPoint x="430" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VO47c2otUsLpDvjMp0nM-36" value="get callee candidates &amp;lt;room id&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="VO47c2otUsLpDvjMp0nM-7" target="VO47c2otUsLpDvjMp0nM-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="330" />
+              <mxPoint x="250" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -88,7 +96,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VO47c2otUsLpDvjMp0nM-32" value="answer &amp;lt;callee id&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="VO47c2otUsLpDvjMp0nM-32" value="answer &amp;lt;callee id&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="VO47c2otUsLpDvjMp0nM-7">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="358.5" y="309.58" as="sourcePoint" />
             <mxPoint x="149.9999999999999" y="309.58" as="targetPoint" />
