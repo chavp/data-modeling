@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T04:17:33.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ly8vne8Jd7DSZHRuhyFk" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T04:36:47.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="k-Yn_Ig-l82zzzfWL0n8" version="22.1.21" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5893" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5293" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2166,13 +2166,13 @@
           <mxGeometry x="90" y="421.25" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-4" value="PLAN_NAME" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="BDWvEaG3h0DeX0HaB05n-3" target="tgcsUMUl633oyMr5OD5r-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0037" y="-20" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="370" />
-              <mxPoint x="470" y="370" />
+              <mxPoint x="200" y="330" />
             </Array>
             <mxPoint x="460" y="310" as="sourcePoint" />
             <mxPoint x="170" y="310" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=none;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="BDWvEaG3h0DeX0HaB05n-3" target="BDWvEaG3h0DeX0HaB05n-1" edge="1">
@@ -2186,7 +2186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-7" value="VoluntaryFeatures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="420" y="595" width="220" height="70" as="geometry" />
+          <mxGeometry x="550" y="595" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=none;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="BDWvEaG3h0DeX0HaB05n-7" target="BDWvEaG3h0DeX0HaB05n-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2196,7 +2196,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-9" value="PLAN_NAME, BRAND, MODEL, YEAR_MUNU, VEHICLE_TYPE,FUNT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="BDWvEaG3h0DeX0HaB05n-7" target="tgcsUMUl633oyMr5OD5r-5" edge="1">
-          <mxGeometry x="-0.4634" y="-200" relative="1" as="geometry">
+          <mxGeometry x="-0.8462" y="-190" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="690" y="630" />
               <mxPoint x="690" y="380" />
@@ -2374,7 +2374,7 @@
             <mxPoint x="3581" y="-1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JiZCGnnvC1hBtVrkfR_3-15" value="OrderItemProducFeatures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="JiZCGnnvC1hBtVrkfR_3-15" value="OrderItemProducFeatures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1530" y="-1030" width="270" height="93" as="geometry" />
         </mxCell>
         <mxCell id="JiZCGnnvC1hBtVrkfR_3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERone;startFill=0;fillColor=#f8cecc;strokeColor=#000000;" edge="1" parent="1" source="JiZCGnnvC1hBtVrkfR_3-15" target="a6CrXQ2l9qOM6Z4fCI5_-7">
