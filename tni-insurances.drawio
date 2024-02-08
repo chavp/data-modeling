@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T23:31:04.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="30QGQ76e0_hJntCE78hq" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T23:32:39.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HRdVB5eOa46MW8hU7rlB" version="23.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="6755" dy="5054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5293" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1118,27 +1118,6 @@
             <mxPoint x="5845" y="-872.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-25" value="Payments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;strokeColor=#9673a6;fontSize=25;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="5776" y="-1290" width="210" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-26" value="PaymentItem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;strokeColor=#9673a6;fontSize=20;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="5471" y="-1280" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="IZX8jO2DoJM7nCG2Uu-J-25" target="IZX8jO2DoJM7nCG2Uu-J-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5711" y="-795" as="sourcePoint" />
-            <mxPoint x="5711" y="-710" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IZX8jO2DoJM7nCG2Uu-J-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="umau1oA5AZ1StltOR-z_-70" target="IZX8jO2DoJM7nCG2Uu-J-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="6336" y="-802" as="sourcePoint" />
-            <mxPoint x="6336" y="-707" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5526" y="-1220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="IZX8jO2DoJM7nCG2Uu-J-35" value="Level" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="3722" y="390" width="190" height="60" as="geometry" />
         </mxCell>
@@ -1519,8 +1498,8 @@
             <mxPoint x="1240" y="61.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="szl0HhXGUQ4rDhUaG-1X-1" value="Payments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;strokeColor=#9673a6;fontSize=20;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="6332" y="-890" width="160" height="80" as="geometry" />
+        <mxCell id="szl0HhXGUQ4rDhUaG-1X-1" value="Payments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;strokeColor=#9673a6;fontSize=25;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+          <mxGeometry x="6308" y="-970" width="208" height="120" as="geometry" />
         </mxCell>
         <mxCell id="szl0HhXGUQ4rDhUaG-1X-2" value="PaymentItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;strokeColor=#9673a6;fontSize=20;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="6332" y="-710" width="160" height="80" as="geometry" />
