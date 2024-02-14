@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T07:53:51.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IEFChpUecrcfkuBgt8zo" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T14:59:12.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="u3ou_sMRxJlIPgX15RWy" version="23.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="5293" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1988,13 +1988,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tgcsUMUl633oyMr5OD5r-7" value="ProductItemTypeAttributeTypes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=4;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="20" width="310" height="70" as="geometry" />
+          <mxGeometry x="-290" y="30" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tgcsUMUl633oyMr5OD5r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="tgcsUMUl633oyMr5OD5r-7" target="tgcsUMUl633oyMr5OD5r-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="60" />
-              <mxPoint x="220" y="60" />
+              <mxPoint x="270" y="70" />
+              <mxPoint x="270" y="70" />
             </Array>
             <mxPoint x="535" y="359" as="sourcePoint" />
             <mxPoint x="535" y="300" as="targetPoint" />
@@ -2429,6 +2429,9 @@
           <mxGeometry x="-0.5507" y="6" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FY2zZrfqjb9-OZRRqBDu-1" value="ProductItemTypeAttributes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="-140" width="310" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
