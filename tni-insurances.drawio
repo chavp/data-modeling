@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T14:59:51.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VyAWPdx7k43FhxTMxT2C" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T15:00:52.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SwCSGWR5QD50wYtgT78f" version="23.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="5293" dy="4667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2432,6 +2432,16 @@
         </mxCell>
         <mxCell id="FY2zZrfqjb9-OZRRqBDu-1" value="ProductItemTypeAttributes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="-280" y="-140" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FY2zZrfqjb9-OZRRqBDu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="FY2zZrfqjb9-OZRRqBDu-1" target="tgcsUMUl633oyMr5OD5r-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-125" y="-200" />
+              <mxPoint x="510" y="-200" />
+            </Array>
+            <mxPoint x="30" y="80" as="sourcePoint" />
+            <mxPoint x="370" y="80" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
