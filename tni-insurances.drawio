@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T00:45:34.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="oZUsTELvLvdmeW2P0qp5" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-16T00:46:13.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CLel3BFXaXu_BXyYpo4t" version="23.1.1" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
     <mxGraphModel dx="5376" dy="4435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2322,30 +2322,6 @@
             <mxPoint x="1130" y="-1220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FY2zZrfqjb9-OZRRqBDu-17" value="SaleInvoiceItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontStyle=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-1234.5" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="FY2zZrfqjb9-OZRRqBDu-18" value="PurchaseInvoiceItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontStyle=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="-1100" width="240" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="FY2zZrfqjb9-OZRRqBDu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="FY2zZrfqjb9-OZRRqBDu-17" target="umau1oA5AZ1StltOR-z_-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="-1189" />
-            </Array>
-            <mxPoint x="1130" y="-1090" as="targetPoint" />
-            <mxPoint x="1130" y="-1220" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FY2zZrfqjb9-OZRRqBDu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="FY2zZrfqjb9-OZRRqBDu-18" target="umau1oA5AZ1StltOR-z_-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="470" y="-1055" />
-            </Array>
-            <mxPoint x="390" y="-1000" as="targetPoint" />
-            <mxPoint x="390" y="-855" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FY2zZrfqjb9-OZRRqBDu-21" value="PaymentApplications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontStyle=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="710" y="-730" width="270" height="90" as="geometry" />
         </mxCell>
@@ -2388,18 +2364,6 @@
             </Array>
             <mxPoint x="1160" y="116" as="sourcePoint" />
             <mxPoint x="420" y="-1000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FY2zZrfqjb9-OZRRqBDu-28" value="AdjustmentInvoiceItems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=20;fontStyle=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-950" width="240" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="FY2zZrfqjb9-OZRRqBDu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="FY2zZrfqjb9-OZRRqBDu-28" target="umau1oA5AZ1StltOR-z_-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="-905" />
-            </Array>
-            <mxPoint x="320" y="-1045" as="targetPoint" />
-            <mxPoint x="220" y="-1045" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
