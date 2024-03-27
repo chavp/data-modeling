@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T08:22:21.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PJ586BNtOuABHeNZuxPg" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T03:42:22.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wqJvBRzbxVwu9Kzz6pbD" version="24.0.6" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5982" dy="5024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5268" dy="4392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1973,7 +1973,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-9" value="PLAN_NAME, BRAND, MODEL, YEAR_MUNU, VEHICLE_TYPE,FUNT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="BDWvEaG3h0DeX0HaB05n-7" target="tgcsUMUl633oyMr5OD5r-5" edge="1">
-          <mxGeometry x="-0.8462" y="-190" relative="1" as="geometry">
+          <mxGeometry x="-0.4118" y="-30" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="620" y="430" />
               <mxPoint x="620" y="430" />
@@ -2429,6 +2429,12 @@
             </Array>
             <mxPoint x="3830" y="575" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vC4SXE2IXtq-ySlgrreQ-1" value="RepairGradeMotors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="615" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vC4SXE2IXtq-ySlgrreQ-2" value="FuntMotors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="615" width="220" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
