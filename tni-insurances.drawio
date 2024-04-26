@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T07:24:28.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="fQ9y3_ydnt4Sj2mAW_lG" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T13:18:14.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="eA_o1j_etWQ0Lj-Pe5sj" version="24.2.7" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="6095" dy="4687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5660" dy="4569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2368,19 +2368,13 @@
             <mxPoint x="3830" y="575" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-1" value="RepairGradeMotors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="615" width="220" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-2" value="FuntMotors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="vC4SXE2IXtq-ySlgrreQ-2" value="FuntMotors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="790" y="600" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-5" value="FuntMotorAttributes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=4;" vertex="1" parent="1">
+        <mxCell id="vC4SXE2IXtq-ySlgrreQ-5" value="FuntMotorAttributes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=4;" parent="1" vertex="1">
           <mxGeometry x="690" y="450" width="230" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-6" value="RepairGradeMotorAttributes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="496.25" width="310" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="vC4SXE2IXtq-ySlgrreQ-5" target="tgcsUMUl633oyMr5OD5r-5">
+        <mxCell id="vC4SXE2IXtq-ySlgrreQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="vC4SXE2IXtq-ySlgrreQ-5" target="tgcsUMUl633oyMr5OD5r-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="800" y="390" />
@@ -2390,7 +2384,7 @@
             <mxPoint x="680" y="314" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="vC4SXE2IXtq-ySlgrreQ-5" target="vC4SXE2IXtq-ySlgrreQ-2">
+        <mxCell id="vC4SXE2IXtq-ySlgrreQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="vC4SXE2IXtq-ySlgrreQ-5" target="vC4SXE2IXtq-ySlgrreQ-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="830" y="550" />
@@ -2398,27 +2392,6 @@
             </Array>
             <mxPoint x="810" y="460" as="sourcePoint" />
             <mxPoint x="650" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="vC4SXE2IXtq-ySlgrreQ-6" target="vC4SXE2IXtq-ySlgrreQ-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1190" y="600" />
-              <mxPoint x="1190" y="600" />
-            </Array>
-            <mxPoint x="840" y="530" as="sourcePoint" />
-            <mxPoint x="840" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vC4SXE2IXtq-ySlgrreQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="vC4SXE2IXtq-ySlgrreQ-6" target="tgcsUMUl633oyMr5OD5r-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="940" y="530" />
-              <mxPoint x="940" y="370" />
-              <mxPoint x="650" y="370" />
-            </Array>
-            <mxPoint x="1200" y="576" as="sourcePoint" />
-            <mxPoint x="1200" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
