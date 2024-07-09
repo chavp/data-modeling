@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T06:35:45.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aDK83luYFjtj-jfo_U1M" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T06:37:28.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3JvQTaeFo9-dKJDym98o" version="24.6.4" type="github">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="4988" dy="4266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4484" dy="4004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2386,7 +2386,7 @@
         <mxCell id="p0j_GSneO_7HmV30ZERG-5" value="Inform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2240" y="2030" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="p0j_GSneO_7HmV30ZERG-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="p0j_GSneO_7HmV30ZERG-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1630" y="2170" as="sourcePoint" />
             <mxPoint x="2530" y="2170" as="targetPoint" />
@@ -2396,7 +2396,7 @@
           <mxGeometry x="1750" y="2230" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="p0j_GSneO_7HmV30ZERG-9" value="Product &amp;amp; Pricing" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="2010" y="2220" width="140" height="130" as="geometry" />
+          <mxGeometry x="2010" y="2230" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="p0j_GSneO_7HmV30ZERG-12" value="Submit Motor 2 Front" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pentagon" vertex="1" parent="1">
           <mxGeometry x="2265" y="2220" width="170" height="155" as="geometry" />
@@ -2406,6 +2406,18 @@
         </mxCell>
         <mxCell id="p0j_GSneO_7HmV30ZERG-14" value="automate RPA email file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1720" y="2440.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p0j_GSneO_7HmV30ZERG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p0j_GSneO_7HmV30ZERG-16" target="p0j_GSneO_7HmV30ZERG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p0j_GSneO_7HmV30ZERG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p0j_GSneO_7HmV30ZERG-16" target="p0j_GSneO_7HmV30ZERG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p0j_GSneO_7HmV30ZERG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p0j_GSneO_7HmV30ZERG-16" target="p0j_GSneO_7HmV30ZERG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p0j_GSneO_7HmV30ZERG-16" value="Marketing&lt;div&gt;&amp;lt;&amp;lt;Staff&amp;gt;&amp;gt;&amp;nbsp;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2065" y="1828.12" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
