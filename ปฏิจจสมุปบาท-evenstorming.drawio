@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-23T08:10:43.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="QsdEftUzqX9nT_ifv-ld" version="24.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T08:12:09.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qJRol6Umgg64VrSu33ZA" version="24.7.3" type="github">
   <diagram name="หน้า-1" id="Qw0tFIXeSHWyljzNwAIm">
-    <mxGraphModel dx="2211" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3038" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,14 +101,25 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-18" value="มนุษย์" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-310" y="-704" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-21" target="zm-q0sMNVzzizTku4tt9-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-820" y="-840" />
+              <mxPoint x="-820" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-21" value="Actors" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="-1080" width="80" height="80" as="geometry" />
+          <mxGeometry x="-860" y="-800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-22" target="zm-q0sMNVzzizTku4tt9-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-22" value="Commands" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="-990" width="80" height="80" as="geometry" />
+          <mxGeometry x="-860" y="-950" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-23" value="Domain Events" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="-900" width="80" height="80" as="geometry" />
+          <mxGeometry x="-710" y="-950" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-24" value="Artifacts" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-630" y="-810" width="80" height="80" as="geometry" />
