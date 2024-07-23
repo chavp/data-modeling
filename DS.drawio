@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T09:43:16.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9y-nR-Vo8D9kiPBM7Tgz" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T02:19:00.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="nPyIm3eG0sATbYyltCEc" version="24.7.3" type="github">
   <diagram id="AqMoiznXCZGiWsd2ppC3" name="Page-1">
-    <mxGraphModel dx="4578" dy="1397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="4684" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,30 +161,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DiZXjh_aEqviNDpe_JiY-15" value="PartyRelationship" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1080" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1080" y="716.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiZXjh_aEqviNDpe_JiY-16" value="From" style="fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DiZXjh_aEqviNDpe_JiY-1" target="DiZXjh_aEqviNDpe_JiY-15" edge="1">
+        <mxCell id="DiZXjh_aEqviNDpe_JiY-16" value="From" style="fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="tyw55_ljlSV-3yup8lgk-1" target="DiZXjh_aEqviNDpe_JiY-15" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-940" y="1015.0000000000002" as="sourcePoint" />
+            <mxPoint x="-1030" y="910" as="sourcePoint" />
             <mxPoint x="-869.9473684210525" y="1145" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1020" y="910" />
-              <mxPoint x="-1020" y="910" />
+              <mxPoint x="-1040" y="840" />
+              <mxPoint x="-1040" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DiZXjh_aEqviNDpe_JiY-18" value="To" style="fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DiZXjh_aEqviNDpe_JiY-1" target="DiZXjh_aEqviNDpe_JiY-15" edge="1">
+        <mxCell id="DiZXjh_aEqviNDpe_JiY-18" value="To" style="fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="tyw55_ljlSV-3yup8lgk-1" target="DiZXjh_aEqviNDpe_JiY-15" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-1029.9473684210525" y="985" as="sourcePoint" />
+            <mxPoint x="-990" y="900" as="sourcePoint" />
             <mxPoint x="-1029.9473684210525" y="885" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-990" y="895" />
-              <mxPoint x="-990" y="895" />
+              <mxPoint x="-990" y="800" />
+              <mxPoint x="-990" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DiZXjh_aEqviNDpe_JiY-19" value="PartyRelationshipType { STATE_OF, CITY_OF&lt;br&gt;,&amp;nbsp;CLUSTER }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="815" width="330" height="60" as="geometry" />
+          <mxGeometry x="-870" y="716.25" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DiZXjh_aEqviNDpe_JiY-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" parent="1" source="DiZXjh_aEqviNDpe_JiY-19" target="DiZXjh_aEqviNDpe_JiY-15" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -824,6 +824,19 @@
         </mxCell>
         <mxCell id="Tzw8wJe3DSU2HGbEKApv-39" value="Main goal" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1720" y="-310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tyw55_ljlSV-3yup8lgk-1" value="PartyRole" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyw55_ljlSV-3yup8lgk-4" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" source="DiZXjh_aEqviNDpe_JiY-1" target="tyw55_ljlSV-3yup8lgk-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-1380" y="870" as="sourcePoint" />
+            <mxPoint x="-1290" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-990" y="880" />
+              <mxPoint x="-990" y="880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
