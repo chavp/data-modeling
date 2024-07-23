@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-23T08:18:08.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aezq3a_0Gwkyih4JBNkV" version="24.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T08:23:04.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x0tMFIRfeanTyDuG5nk1" version="24.7.3" type="github">
   <diagram name="หน้า-1" id="Qw0tFIXeSHWyljzNwAIm">
     <mxGraphModel dx="2211" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,12 +158,11 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-27" value="Policies" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-550" y="-1040" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-30" target="zm-q0sMNVzzizTku4tt9-62">
+        <mxCell id="zm-q0sMNVzzizTku4tt9-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-38" target="zm-q0sMNVzzizTku4tt9-75">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-130" y="-744" />
-              <mxPoint x="-130" y="-590" />
-              <mxPoint x="10" y="-590" />
+              <mxPoint x="-120" y="-660" />
+              <mxPoint x="-120" y="-660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -173,29 +172,11 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-32" value="รับรู้" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-110" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-34" target="zm-q0sMNVzzizTku4tt9-64">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="70" y="-744" />
-              <mxPoint x="70" y="-590" />
-              <mxPoint x="210" y="-590" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-34" value="สังขาร" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="zm-q0sMNVzzizTku4tt9-34" value="สังขาร" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-30" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-35" value="กระทำ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="90" y="-784" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-37" target="zm-q0sMNVzzizTku4tt9-67">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="270" y="-744" />
-              <mxPoint x="270" y="-600" />
-              <mxPoint x="410" y="-600" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-37" value="วิญญาณ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="170" y="-784" width="80" height="80" as="geometry" />
@@ -214,29 +195,11 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-39" value="รับรู้" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="290" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-40" target="zm-q0sMNVzzizTku4tt9-68">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="470" y="-744" />
-              <mxPoint x="470" y="-600" />
-              <mxPoint x="620" y="-600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-40" value="นามรูป" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="370" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-41" value="รับรู้" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="500" y="-784" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-42" target="zm-q0sMNVzzizTku4tt9-69">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="-744" />
-              <mxPoint x="680" y="-600" />
-              <mxPoint x="830" y="-600" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-42" value="สฬายตนะ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="580" y="-784" width="80" height="80" as="geometry" />
@@ -244,29 +207,11 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-44" value="รับรู้" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="710" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-45" target="zm-q0sMNVzzizTku4tt9-63">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="900" y="-744" />
-              <mxPoint x="900" y="-604" />
-              <mxPoint x="1050" y="-604" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-45" value="ผัสสะ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="790" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-46" value="รับรู้" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="930" y="-784" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-47" target="zm-q0sMNVzzizTku4tt9-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1120" y="-744" />
-              <mxPoint x="1120" y="-600" />
-              <mxPoint x="1270" y="-600" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-47" value="เวทนา" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1010" y="-784" width="80" height="80" as="geometry" />
@@ -274,29 +219,11 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-48" value="รับรู้" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1150" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-49" target="zm-q0sMNVzzizTku4tt9-71">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1340" y="-744" />
-              <mxPoint x="1340" y="-600" />
-              <mxPoint x="1480" y="-600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-49" value="ตัณหา" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1230" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-50" value="รับรู้" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1360" y="-784" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-51" target="zm-q0sMNVzzizTku4tt9-72">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1540" y="-744" />
-              <mxPoint x="1540" y="-604" />
-              <mxPoint x="1680" y="-604" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-51" value="อุปาทาน" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1440" y="-784" width="80" height="80" as="geometry" />
@@ -304,26 +231,8 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-52" value="กระทำ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1560" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-53" target="zm-q0sMNVzzizTku4tt9-73">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1740" y="-744" />
-              <mxPoint x="1740" y="-600" />
-              <mxPoint x="1880" y="-600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-53" value="ภพ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1640" y="-784" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zm-q0sMNVzzizTku4tt9-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-54" target="zm-q0sMNVzzizTku4tt9-74">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1940" y="-744" />
-              <mxPoint x="1940" y="-604" />
-              <mxPoint x="2080" y="-604" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-54" value="ชาติ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1840" y="-784" width="80" height="80" as="geometry" />
@@ -337,32 +246,62 @@
         <mxCell id="zm-q0sMNVzzizTku4tt9-57" value="กระทำ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1960" y="-784" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-62" target="zm-q0sMNVzzizTku4tt9-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-62" value="ปรุงแต่ง" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-30" y="-704" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-63" target="zm-q0sMNVzzizTku4tt9-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-63" value="สุข / ทุกข์" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1010" y="-704" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-64" target="zm-q0sMNVzzizTku4tt9-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-64" value="รูป, รส, กลิ่น, เสียง, สัมผัส" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="-704" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-67" target="zm-q0sMNVzzizTku4tt9-78">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-67" value="ปรุงแต่ง" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="370" y="-704" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-68" target="zm-q0sMNVzzizTku4tt9-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-68" value="ตา, หู, จมูก, ลิ้น, กาย, ใจ" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="-704" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-69" target="zm-q0sMNVzzizTku4tt9-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-69" value="ปรุงแต่ง" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="790" y="-704" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-70" target="zm-q0sMNVzzizTku4tt9-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-70" value="ความอยาก" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1230" y="-704" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-71" target="zm-q0sMNVzzizTku4tt9-83">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-71" value="ยึดติด" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1440" y="-704" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-72" target="zm-q0sMNVzzizTku4tt9-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-72" value="เกิด" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1640" y="-704" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zm-q0sMNVzzizTku4tt9-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zm-q0sMNVzzizTku4tt9-73" target="zm-q0sMNVzzizTku4tt9-85">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zm-q0sMNVzzizTku4tt9-73" value="ตั้งอยู่" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1840" y="-704" width="80" height="80" as="geometry" />
