@@ -367,14 +367,19 @@
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-26" value="Money" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-700" y="880" width="1230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ku2YqbDavBAdnSKKJJDl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ku2YqbDavBAdnSKKJJDl-27" target="Ku2YqbDavBAdnSKKJJDl-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ku2YqbDavBAdnSKKJJDl-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ku2YqbDavBAdnSKKJJDl-27" target="Ku2YqbDavBAdnSKKJJDl-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-490" y="720" />
+              <mxPoint x="-490" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-27" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="-630" y="630" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-30" value="Investment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="-400" y="630" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-31" value="Goverment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="690" width="120" height="60" as="geometry" />
@@ -394,7 +399,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-34" value="Labor" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-433" y="700" width="40" height="40" as="geometry" />
+          <mxGeometry x="-420" y="700" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
