@@ -395,7 +395,7 @@
           <mxGeometry x="-687.5" y="790" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-30" value="Investment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-457.5" y="790" width="120" height="120" as="geometry" />
+          <mxGeometry x="-468.25" y="780" width="142.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-31" value="Government" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-237.5" y="790" width="120" height="120" as="geometry" />
@@ -428,6 +428,17 @@
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-42" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-720" y="630" width="1090" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ku2YqbDavBAdnSKKJJDl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ku2YqbDavBAdnSKKJJDl-43" target="Ku2YqbDavBAdnSKKJJDl-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-400" y="720" />
+              <mxPoint x="-400" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ku2YqbDavBAdnSKKJJDl-43" value="Delivery" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-427" y="757" width="53" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
