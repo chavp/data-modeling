@@ -433,10 +433,18 @@
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-38" value="Save" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-477.5" y="810" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Ku2YqbDavBAdnSKKJJDl-46" value="consume" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ku2YqbDavBAdnSKKJJDl-42" target="Ku2YqbDavBAdnSKKJJDl-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-670" y="720" />
+              <mxPoint x="-670" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-42" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-720" y="630" width="1090" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ku2YqbDavBAdnSKKJJDl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ku2YqbDavBAdnSKKJJDl-43" target="Ku2YqbDavBAdnSKKJJDl-42">
+        <mxCell id="Ku2YqbDavBAdnSKKJJDl-44" value="ship" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ku2YqbDavBAdnSKKJJDl-43" target="Ku2YqbDavBAdnSKKJJDl-42">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-400" y="720" />
@@ -445,7 +453,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ku2YqbDavBAdnSKKJJDl-43" value="Delivery" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-427" y="757" width="53" height="53" as="geometry" />
+          <mxGeometry x="-427" y="750" width="53" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
