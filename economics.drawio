@@ -423,7 +423,7 @@
             <mxPoint x="1270" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rf4-6NycuzfkZmCrk1vN-16" value="PartyRoleRelationships" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rf4-6NycuzfkZmCrk1vN-16" value="PartyRelationships" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1106" y="360" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rf4-6NycuzfkZmCrk1vN-17" value="From" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;rounded=0;" edge="1" parent="1" source="rf4-6NycuzfkZmCrk1vN-6" target="rf4-6NycuzfkZmCrk1vN-16">
@@ -446,7 +446,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rf4-6NycuzfkZmCrk1vN-19" value="PartyRoleRelationshipTypes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rf4-6NycuzfkZmCrk1vN-19" value="PartyRelationshipTypes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="360" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rf4-6NycuzfkZmCrk1vN-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;" edge="1" parent="1" source="rf4-6NycuzfkZmCrk1vN-19" target="rf4-6NycuzfkZmCrk1vN-16">
