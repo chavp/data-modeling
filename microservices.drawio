@@ -715,10 +715,10 @@
           <mxGeometry x="1760" y="2230" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-24" value="Multiple-Receiver Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="2248" width="170" height="90" as="geometry" />
+          <mxGeometry x="1450" y="2290" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-26" value="Asynchronous Request-Reply Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="2110" width="190" height="90" as="geometry" />
+          <mxGeometry x="1464" y="2170" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-28" target="5MLR0NAgEwwxBrkMKCbL-30">
           <mxGeometry relative="1" as="geometry" />
@@ -892,17 +892,35 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-96" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-89" target="5MLR0NAgEwwxBrkMKCbL-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-98" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-89" target="5MLR0NAgEwwxBrkMKCbL-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-89" target="5MLR0NAgEwwxBrkMKCbL-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-89" target="5MLR0NAgEwwxBrkMKCbL-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-89" value="Event-Delivery Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1580" y="1940" width="117.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-91" value="Producer-Consumer Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="2000" width="140" height="90" as="geometry" />
+          <mxGeometry x="1500" y="2070" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-92" value="Publisher-Subscriber Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="1880" width="140" height="90" as="geometry" />
+          <mxGeometry x="1380" y="1970" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-95" value="Fire and Forget Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="1770" width="110" height="90" as="geometry" />
+          <mxGeometry x="1410" y="1870" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-97" value="Store and Forward Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1780" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-99" value="Polling Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="1770" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-101" value="Request Callback Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="2110" width="110" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
