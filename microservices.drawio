@@ -697,6 +697,9 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-146" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-7" target="5MLR0NAgEwwxBrkMKCbL-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-158" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-7" target="5MLR0NAgEwwxBrkMKCbL-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-7" value="API Management and Consumption Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2720" y="2300" width="222" height="90" as="geometry" />
         </mxCell>
@@ -1072,14 +1075,26 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-149" value="Service Mesh Sidecar as an API Gateway Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2870" y="2720" width="249" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-159" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-153" target="5MLR0NAgEwwxBrkMKCbL-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-160" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-153" target="5MLR0NAgEwwxBrkMKCbL-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-161" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-153" target="5MLR0NAgEwwxBrkMKCbL-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-153" value="API Consumption Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3060" y="2428" width="135.5" height="90" as="geometry" />
+          <mxGeometry x="3090" y="2440" width="135.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-154" value="Direct Frontend-to-Microservices Communication Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3040" y="2640" width="299" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-156" value="Frontends Consuming Services Through API Gateway Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3206" y="2560" width="314" height="90" as="geometry" />
+          <mxGeometry x="3330" y="2680" width="314" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-157" value="Backend for Frontends Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3377.5" y="2540" width="135" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
