@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
-    <mxGraphModel dx="1928" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2211" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -652,20 +652,23 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-3" target="5MLR0NAgEwwxBrkMKCbL-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-3" target="5MLR0NAgEwwxBrkMKCbL-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-3" value="Connectivity and Composition Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="2390" width="190" height="90" as="geometry" />
+          <mxGeometry x="2481" y="2410" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-4" value="Data Management Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="2010" width="190" height="90" as="geometry" />
+          <mxGeometry x="2220" y="1920" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-5" value="Event-Driven Architecture Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1985" y="2074" width="220" height="90" as="geometry" />
+          <mxGeometry x="1935.5" y="2000" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-6" value="Stream-Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="2010" width="190" height="90" as="geometry" />
+          <mxGeometry x="2580" y="1910" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-7" value="API Management and Consumption Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="2130" width="190" height="90" as="geometry" />
+          <mxGeometry x="2761" y="2130" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-2" target="5MLR0NAgEwwxBrkMKCbL-22">
           <mxGeometry relative="1" as="geometry" />
@@ -718,10 +721,14 @@
           <mxGeometry x="1895" y="2670" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-35" target="5MLR0NAgEwwxBrkMKCbL-37">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2527.171558298197" y="2835.814164976209" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-35" target="5MLR0NAgEwwxBrkMKCbL-39">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2562.0832619777666" y="2925.308100698821" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-35" target="5MLR0NAgEwwxBrkMKCbL-41">
           <mxGeometry relative="1" as="geometry" />
@@ -739,28 +746,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-35" value="Connectivity Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="2560" width="190" height="90" as="geometry" />
+          <mxGeometry x="2481" y="2650" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-37" value="Service Connectivity Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="2620" width="185" height="90" as="geometry" />
+          <mxGeometry x="2180" y="2560" width="185" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-39" value="Service Abstraction Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2215" y="2730" width="185" height="90" as="geometry" />
+          <mxGeometry x="2180" y="2730" width="185" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-41" value="Service Registry and Discovery Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2430" y="2760" width="194" height="90" as="geometry" />
+          <mxGeometry x="2270" y="2870" width="194" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-43" value="Resilient Connectivity Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2630" y="2700" width="185" height="90" as="geometry" />
+          <mxGeometry x="2520" y="2840" width="185" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-45" value="Sidecar Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="2590" width="140" height="90" as="geometry" />
+          <mxGeometry x="2740" y="2810" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-47" value="Service Mesh Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2700" y="2470" width="150" height="90" as="geometry" />
+          <mxGeometry x="2840" y="2690" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-49" value="Sidecarless Service Mesh Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2580" y="2360" width="160" height="90" as="geometry" />
+          <mxGeometry x="2791" y="2570" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-51" value="Service Composition Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="2360" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
