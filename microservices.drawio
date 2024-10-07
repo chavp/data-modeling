@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="หน้า-1" id="d8-UFD6SmvWyo62A5cIa">
-    <mxGraphModel dx="3167" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1763" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -641,7 +641,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-1" value="Cloud Native Patterns" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2240" y="2110" width="240" height="150" as="geometry" />
+          <mxGeometry x="2313" y="2090" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-2" target="5MLR0NAgEwwxBrkMKCbL-14">
           <mxGeometry relative="1" as="geometry" />
@@ -685,8 +685,11 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-116" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-6" target="5MLR0NAgEwwxBrkMKCbL-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-6" target="5MLR0NAgEwwxBrkMKCbL-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-6" value="Stream-Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2680" y="2040" width="140" height="90" as="geometry" />
+          <mxGeometry x="2841" y="1980" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-7" value="API Management and Consumption Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2728" y="2280" width="190" height="90" as="geometry" />
@@ -959,7 +962,7 @@
           <mxGeometry x="2860" y="1850" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-114" value="Filters and Thresholds Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3010" y="1804" width="140" height="90" as="geometry" />
+          <mxGeometry x="3015.5" y="1635" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-117" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-115" target="5MLR0NAgEwwxBrkMKCbL-113">
           <mxGeometry relative="1" as="geometry" />
@@ -980,19 +983,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-115" value="Streaming Data Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2941" y="1960" width="190" height="90" as="geometry" />
+          <mxGeometry x="3050" y="1784" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-119" value="Windowed Aggregation Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3168" y="1850" width="140" height="90" as="geometry" />
+          <mxGeometry x="3190" y="1655" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-120" value="Stream Join Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3218" y="1970" width="90" height="90" as="geometry" />
+          <mxGeometry x="3280" y="1760" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-121" value="Temporal Event Ordering Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3155.5" y="2080" width="165" height="90" as="geometry" />
+          <mxGeometry x="3242.5" y="1880" width="165" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-122" value="Machine Learner Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3020" y="2120" width="120" height="90" as="geometry" />
+          <mxGeometry x="3160" y="1980" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-127" value="Streaming Data Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="2110" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
