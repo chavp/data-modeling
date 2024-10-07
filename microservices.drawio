@@ -643,6 +643,9 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-2" target="5MLR0NAgEwwxBrkMKCbL-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-2" target="5MLR0NAgEwwxBrkMKCbL-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-2" value="Communication Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2010" y="2320" width="170" height="90" as="geometry" />
         </mxCell>
@@ -676,10 +679,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-17" value="Request-Response Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="2400" width="170" height="90" as="geometry" />
+          <mxGeometry x="1450" y="2360" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-20" value="Remote Procedure Calls Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="2600" width="170" height="90" as="geometry" />
+          <mxGeometry x="1500" y="2540" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-22" target="5MLR0NAgEwwxBrkMKCbL-24">
           <mxGeometry relative="1" as="geometry" />
@@ -691,10 +694,13 @@
           <mxGeometry x="1700" y="2185" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-24" value="Multiple-Receiver Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="2230" width="170" height="90" as="geometry" />
+          <mxGeometry x="1415" y="2204" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-26" value="Asynchronous Request-Reply Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="2010" width="190" height="90" as="geometry" />
+          <mxGeometry x="1510" y="2074" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-28" value="Service Definition Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2510" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
