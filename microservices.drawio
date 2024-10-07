@@ -661,6 +661,9 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-4" target="5MLR0NAgEwwxBrkMKCbL-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-4" target="5MLR0NAgEwwxBrkMKCbL-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-4" value="Data Management Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2250" y="1920" width="190" height="90" as="geometry" />
         </mxCell>
@@ -803,16 +806,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-59" value="Data Composition Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2260" y="1735" width="170" height="90" as="geometry" />
+          <mxGeometry x="2240" y="1754" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-60" value="Data Service Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="1690" width="110" height="90" as="geometry" />
+          <mxGeometry x="2060" y="1794" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-61" value="Composite Data Service Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="1580" width="162" height="90" as="geometry" />
+          <mxGeometry x="2088" y="1660" width="152" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-65" value="Client-Side Mashup Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2365" y="1570" width="140" height="90" as="geometry" />
+          <mxGeometry x="2260" y="1600" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-67" value="Data Scaling Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2464" y="1735" width="116" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
