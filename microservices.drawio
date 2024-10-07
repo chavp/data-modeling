@@ -664,14 +664,17 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-4" target="5MLR0NAgEwwxBrkMKCbL-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-4" target="5MLR0NAgEwwxBrkMKCbL-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-4" value="Data Management Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2250" y="1920" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-5" value="Event-Driven Architecture Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1895" y="1960" width="220" height="90" as="geometry" />
+          <mxGeometry x="1815" y="1984" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-6" value="Stream-Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2590" y="1890" width="190" height="90" as="geometry" />
+          <mxGeometry x="2660" y="1910" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-7" value="API Management and Consumption Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2770" y="2074" width="190" height="90" as="geometry" />
@@ -806,16 +809,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-59" value="Data Composition Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="1780" width="140" height="90" as="geometry" />
+          <mxGeometry x="2100" y="1714" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-60" value="Data Service Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1958" y="1790" width="110" height="90" as="geometry" />
+          <mxGeometry x="1910" y="1750" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-61" value="Composite Data Service Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1998" y="1605" width="152" height="90" as="geometry" />
+          <mxGeometry x="1948" y="1570" width="152" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-65" value="Client-Side Mashup Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="1570" width="140" height="90" as="geometry" />
+          <mxGeometry x="2155" y="1545" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-67" target="5MLR0NAgEwwxBrkMKCbL-69">
           <mxGeometry relative="1" as="geometry" />
@@ -824,13 +827,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-67" value="Data Scaling Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="1735" width="116" height="90" as="geometry" />
+          <mxGeometry x="2309" y="1709" width="116" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-69" value="Data Sharding Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2371" y="1560" width="110" height="90" as="geometry" />
+          <mxGeometry x="2330" y="1530" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-70" value="Command and Query Responsibility Segregation Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="1580" width="230" height="90" as="geometry" />
+          <mxGeometry x="2475" y="1570" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-73" value="Performance Optimization Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="1735" width="178" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
