@@ -685,14 +685,14 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-116" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-6" target="5MLR0NAgEwwxBrkMKCbL-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5MLR0NAgEwwxBrkMKCbL-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-6" target="5MLR0NAgEwwxBrkMKCbL-127">
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-6" target="5MLR0NAgEwwxBrkMKCbL-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-6" value="Stream-Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2841" y="1980" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-7" value="API Management and Consumption Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2728" y="2280" width="190" height="90" as="geometry" />
+          <mxGeometry x="2728" y="2280" width="222" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-2" target="5MLR0NAgEwwxBrkMKCbL-22">
           <mxGeometry relative="1" as="geometry" />
@@ -997,8 +997,26 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-122" value="Machine Learner Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3160" y="1980" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5MLR0NAgEwwxBrkMKCbL-127" value="Streaming Data Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3110" y="2110" width="190" height="90" as="geometry" />
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-131" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-127" target="5MLR0NAgEwwxBrkMKCbL-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-127" target="5MLR0NAgEwwxBrkMKCbL-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-134" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-127" target="5MLR0NAgEwwxBrkMKCbL-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-127" value="Scaling and Performance Optimization Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3155.5" y="2130" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-129" value="Sequential Convoy Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3385.5" y="1980" width="114.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-130" value="Buffered Event Ordering Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="2100" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-133" value="Course Correction Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3410" y="2220" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
