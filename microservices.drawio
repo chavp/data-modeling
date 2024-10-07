@@ -967,17 +967,32 @@
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-118" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-115" target="5MLR0NAgEwwxBrkMKCbL-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-123" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-115" target="5MLR0NAgEwwxBrkMKCbL-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-124" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-115" target="5MLR0NAgEwwxBrkMKCbL-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-125" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-115" target="5MLR0NAgEwwxBrkMKCbL-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-126" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5MLR0NAgEwwxBrkMKCbL-115" target="5MLR0NAgEwwxBrkMKCbL-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-115" value="Streaming Data Processing Patterns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2941" y="1960" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-119" value="Windowed Aggregation Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3190" y="1934" width="140" height="90" as="geometry" />
+          <mxGeometry x="3250" y="1910" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-120" value="Stream Join Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3200" y="2050" width="90" height="90" as="geometry" />
+          <mxGeometry x="3260" y="2020" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5MLR0NAgEwwxBrkMKCbL-121" value="Temporal Event Ordering Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3010" y="2120" width="165" height="90" as="geometry" />
+          <mxGeometry x="3150" y="2120" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5MLR0NAgEwwxBrkMKCbL-122" value="Machine Learner Pattern" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2990" y="2130" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
