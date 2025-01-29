@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.9">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="4293" dy="4066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4478" dy="4171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2449,16 +2449,25 @@
         <mxCell id="24yim-EwUYI6U1yQmOsD-9" value="SystemRelationships" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5420" y="-1310" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="24yim-EwUYI6U1yQmOsD-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;startArrow=ERmany;entryX=0.301;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.311;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="24yim-EwUYI6U1yQmOsD-9" target="24yim-EwUYI6U1yQmOsD-2">
+        <mxCell id="24yim-EwUYI6U1yQmOsD-11" value="Active" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;startArrow=ERmany;entryX=0.301;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.311;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="24yim-EwUYI6U1yQmOsD-9" target="24yim-EwUYI6U1yQmOsD-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5456" y="-1230" as="sourcePoint" />
             <mxPoint x="5456" y="-1155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="24yim-EwUYI6U1yQmOsD-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;startArrow=ERmany;exitX=0.675;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.649;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24yim-EwUYI6U1yQmOsD-9" target="24yim-EwUYI6U1yQmOsD-2">
+        <mxCell id="24yim-EwUYI6U1yQmOsD-12" value="Passive" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;startArrow=ERmany;exitX=0.675;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.649;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24yim-EwUYI6U1yQmOsD-9" target="24yim-EwUYI6U1yQmOsD-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5520" y="-1232.5" as="sourcePoint" />
             <mxPoint x="5520" y="-1157.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24yim-EwUYI6U1yQmOsD-13" value="SystemRelationshipTypes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5634.5" y="-1317.5" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="24yim-EwUYI6U1yQmOsD-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;startArrow=ERmany;exitX=1.008;exitY=0.388;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24yim-EwUYI6U1yQmOsD-9" target="24yim-EwUYI6U1yQmOsD-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5660" y="-1117" as="sourcePoint" />
+            <mxPoint x="5580" y="-1116" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
