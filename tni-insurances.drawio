@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="4028" dy="3915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4293" dy="4066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2509,6 +2509,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5386" y="-760" as="sourcePoint" />
             <mxPoint x="5296" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbnaJjSAFsfpDLWL1kxy-20" value="Styles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4952.5" y="-800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbnaJjSAFsfpDLWL1kxy-21" value="Elements" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4960" y="-1102.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbnaJjSAFsfpDLWL1kxy-22" value="" style="endArrow=ERmany;html=1;rounded=0;endFill=0;" edge="1" parent="1" source="QbnaJjSAFsfpDLWL1kxy-13" target="QbnaJjSAFsfpDLWL1kxy-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5236" y="-880" as="sourcePoint" />
+            <mxPoint x="5236" y="-790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
