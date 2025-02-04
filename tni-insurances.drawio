@@ -2470,7 +2470,7 @@
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-9" value="ModelRelationships" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5565" y="-1205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QbnaJjSAFsfpDLWL1kxy-10" value="outbound" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=ERmany;startFill=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QbnaJjSAFsfpDLWL1kxy-9" target="QbnaJjSAFsfpDLWL1kxy-5">
+        <mxCell id="QbnaJjSAFsfpDLWL1kxy-10" value="active" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=ERmany;startFill=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QbnaJjSAFsfpDLWL1kxy-9" target="QbnaJjSAFsfpDLWL1kxy-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5695" y="-1032" as="sourcePoint" />
             <mxPoint x="5780" y="-1032" as="targetPoint" />
@@ -2482,7 +2482,7 @@
             <mxPoint x="5790" y="-1022" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QbnaJjSAFsfpDLWL1kxy-12" value="inbound" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QbnaJjSAFsfpDLWL1kxy-11">
+        <mxCell id="QbnaJjSAFsfpDLWL1kxy-12" value="passive" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QbnaJjSAFsfpDLWL1kxy-11">
           <mxGeometry x="0.0186" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
