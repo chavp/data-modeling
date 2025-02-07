@@ -2637,15 +2637,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-54" value="Plans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="525" width="250" height="60" as="geometry" />
+          <mxGeometry x="960" y="525" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-55" value="ProductItemPlans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1350" y="421.25" width="250" height="60" as="geometry" />
+          <mxGeometry x="1195" y="440" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-3" target="QbnaJjSAFsfpDLWL1kxy-55">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1300" y="451" />
+              <mxPoint x="1320" y="280" />
+              <mxPoint x="1320" y="280" />
             </Array>
             <mxPoint x="1650" y="315" as="sourcePoint" />
             <mxPoint x="1540" y="315" as="targetPoint" />
@@ -2654,7 +2655,7 @@
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="QbnaJjSAFsfpDLWL1kxy-54" target="QbnaJjSAFsfpDLWL1kxy-55">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1470" y="555" />
+              <mxPoint x="1320" y="555" />
             </Array>
             <mxPoint x="1310" y="176" as="sourcePoint" />
             <mxPoint x="1360" y="461" as="targetPoint" />
