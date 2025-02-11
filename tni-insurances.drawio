@@ -2689,6 +2689,20 @@
         <mxCell id="28ZuEftlm1f_MfwytC_k-6" value="CoverageBenefits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="840" y="825" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="28ZuEftlm1f_MfwytC_k-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="28ZuEftlm1f_MfwytC_k-1" target="28ZuEftlm1f_MfwytC_k-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1100" y="725" as="sourcePoint" />
+            <mxPoint x="1190" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28ZuEftlm1f_MfwytC_k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="28ZuEftlm1f_MfwytC_k-5" target="28ZuEftlm1f_MfwytC_k-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1110" y="735" as="sourcePoint" />
+            <mxPoint x="1200" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
