@@ -2750,6 +2750,16 @@
         <mxCell id="ZH7_T4Kt_TmjdBsXFON6-10" value="ServiceTermSets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1495" y="370" width="215" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZH7_T4Kt_TmjdBsXFON6-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ZH7_T4Kt_TmjdBsXFON6-1" target="ZH7_T4Kt_TmjdBsXFON6-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="270" />
+              <mxPoint x="1570" y="270" />
+            </Array>
+            <mxPoint x="1530" y="250" as="sourcePoint" />
+            <mxPoint x="1530" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
