@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5180" dy="4569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3743" dy="3754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -454,20 +454,26 @@
         <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-24" value="Regions&amp;nbsp;(ภูมิภาค)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="4040" y="320" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-31" value="from" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-30" target="a6CrXQ2l9qOM6Z4fCI5_-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-31" value="from" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" edge="1">
+          <mxGeometry x="-0.1429" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3650" y="-30" />
-              <mxPoint x="3650" y="-30" />
+              <mxPoint x="3689.98" y="-30" />
+              <mxPoint x="3689.98" y="-30" />
             </Array>
+            <mxPoint x="3690.003255813954" y="-90" as="sourcePoint" />
+            <mxPoint x="3690.003255813954" y="-20" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-32" value="to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-30" target="a6CrXQ2l9qOM6Z4fCI5_-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-32" value="to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" target="a6CrXQ2l9qOM6Z4fCI5_-18" edge="1">
+          <mxGeometry x="-0.1429" y="2" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3713" y="-20" />
-              <mxPoint x="3713" y="-20" />
+              <mxPoint x="3728" y="-40" />
+              <mxPoint x="3728" y="-40" />
             </Array>
+            <mxPoint x="3728.02" y="-90" as="sourcePoint" />
+            <mxPoint x="3728.02" y="-20" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a6CrXQ2l9qOM6Z4fCI5_-30" value="PartyRelationships" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;fontStyle=0;verticalAlign=middle;" parent="1" vertex="1">
