@@ -2751,7 +2751,7 @@
             <mxPoint x="750" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XpRKlgd8-vbu-X-3SlX3-7" value="ProductTypeConstrains" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="XpRKlgd8-vbu-X-3SlX3-7" value="ProductItemConstrains" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="970" y="-370" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XpRKlgd8-vbu-X-3SlX3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="XpRKlgd8-vbu-X-3SlX3-7" target="XpRKlgd8-vbu-X-3SlX3-2">
@@ -2770,6 +2770,9 @@
             <mxPoint x="980" y="-330" as="sourcePoint" />
             <mxPoint x="900" y="-330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XpRKlgd8-vbu-X-3SlX3-10" value="ProductItemConstrainTypes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="951" y="-530" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
