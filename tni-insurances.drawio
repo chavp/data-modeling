@@ -2547,13 +2547,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-48" value="ProductItemRelationships" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="-215" width="300" height="60" as="geometry" />
+          <mxGeometry x="1110" y="-180" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="QbnaJjSAFsfpDLWL1kxy-48" target="a6CrXQ2l9qOM6Z4fCI5_-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1190" />
-              <mxPoint x="1190" />
+              <mxPoint x="1210" y="-60" />
+              <mxPoint x="1210" y="-60" />
             </Array>
             <mxPoint x="1250" y="-100" as="sourcePoint" />
             <mxPoint x="1180" y="70" as="targetPoint" />
@@ -2562,15 +2562,15 @@
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="QbnaJjSAFsfpDLWL1kxy-48" target="a6CrXQ2l9qOM6Z4fCI5_-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1230" y="-130" />
-              <mxPoint x="1230" y="-130" />
+              <mxPoint x="1310" y="-60" />
+              <mxPoint x="1310" y="-60" />
             </Array>
             <mxPoint x="1200" y="-190" as="sourcePoint" />
             <mxPoint x="1200" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-51" value="ProductItemRelationshipTypes&lt;div&gt;{ MAIN_OF }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="-410" width="300" height="90" as="geometry" />
+          <mxGeometry x="1110" y="-320" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="QbnaJjSAFsfpDLWL1kxy-48" target="QbnaJjSAFsfpDLWL1kxy-51" edge="1">
           <mxGeometry relative="1" as="geometry">
