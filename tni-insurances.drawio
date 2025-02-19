@@ -2571,11 +2571,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-51" value="ProductItemRelationshipTypes&lt;div&gt;{ MAIN_OF }&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="-370" width="300" height="90" as="geometry" />
+          <mxGeometry x="1260" y="-370" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QbnaJjSAFsfpDLWL1kxy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="QbnaJjSAFsfpDLWL1kxy-48" target="QbnaJjSAFsfpDLWL1kxy-51" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="1410" y="-240" />
+              <mxPoint x="1410" y="-240" />
+            </Array>
             <mxPoint x="1240" y="-145" as="sourcePoint" />
             <mxPoint x="1240" y="70" as="targetPoint" />
           </mxGeometry>
@@ -2724,7 +2727,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpRKlgd8-vbu-X-3SlX3-2" value="Constrains" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="795" y="-370" width="250" height="60" as="geometry" />
+          <mxGeometry x="640" y="-370" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XpRKlgd8-vbu-X-3SlX3-3" value="ProductItemConstraints" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="800" y="-220" width="240" height="60" as="geometry" />
@@ -2739,7 +2742,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpRKlgd8-vbu-X-3SlX3-5" value="ConstrainTypes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-370" width="250" height="60" as="geometry" />
+          <mxGeometry x="340" y="-370" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpRKlgd8-vbu-X-3SlX3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="XpRKlgd8-vbu-X-3SlX3-2" target="XpRKlgd8-vbu-X-3SlX3-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="820" y="-80" as="sourcePoint" />
+            <mxPoint x="750" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpRKlgd8-vbu-X-3SlX3-7" value="ProductTypeConstrains" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-370" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
