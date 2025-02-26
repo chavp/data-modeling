@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5180" dy="4569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4868" dy="4392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2847,10 +2847,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FLTrn3msVQ3TgC4m6lX9-13" value="ProductItemContents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="850" y="700" width="260" height="60" as="geometry" />
+          <mxGeometry x="860" y="700" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FLTrn3msVQ3TgC4m6lX9-14" value="ProductItemByPartyContents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="850" y="890" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FLTrn3msVQ3TgC4m6lX9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="a6CrXQ2l9qOM6Z4fCI5_-3" target="FLTrn3msVQ3TgC4m6lX9-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="140" />
+            </Array>
+            <mxPoint x="930" y="475" as="sourcePoint" />
+            <mxPoint x="1205" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLTrn3msVQ3TgC4m6lX9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="FLTrn3msVQ3TgC4m6lX9-9" target="FLTrn3msVQ3TgC4m6lX9-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="730" />
+            </Array>
+            <mxPoint x="1090" y="150" as="sourcePoint" />
+            <mxPoint x="990" y="710" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
