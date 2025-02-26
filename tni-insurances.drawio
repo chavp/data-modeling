@@ -2834,10 +2834,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FLTrn3msVQ3TgC4m6lX9-9" value="Contents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="740" y="830" width="190" height="60" as="geometry" />
+          <mxGeometry x="670" y="800" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FLTrn3msVQ3TgC4m6lX9-10" value="ContentTypes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="490" y="830" width="190" height="60" as="geometry" />
+          <mxGeometry x="440" y="800" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FLTrn3msVQ3TgC4m6lX9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="FLTrn3msVQ3TgC4m6lX9-9" target="FLTrn3msVQ3TgC4m6lX9-10">
           <mxGeometry relative="1" as="geometry">
@@ -2845,6 +2845,12 @@
             <mxPoint x="883.25" y="780" as="sourcePoint" />
             <mxPoint x="963.25" y="780" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FLTrn3msVQ3TgC4m6lX9-13" value="ProductItemContents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="850" y="700" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FLTrn3msVQ3TgC4m6lX9-14" value="ProductItemByPartyContents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="850" y="890" width="290" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
