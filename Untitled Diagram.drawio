@@ -47,15 +47,14 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-20" value="Mobile App" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-16">
           <mxGeometry x="35" y="80" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.948;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-21" target="58TWu8AOUMXrwjDCKBES-36">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.948;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-21" target="58TWu8AOUMXrwjDCKBES-36">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="246" y="204" />
-              <mxPoint x="343" y="204" />
+              <mxPoint x="343" y="147" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-46" value="pub-queue: account-read-invalid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-44">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-46" value="pub-queue: sync-account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-44">
           <mxGeometry x="-0.2367" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -63,7 +62,7 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-21" value="Bank Account Read Api" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-16">
           <mxGeometry x="201" y="80" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=0.987;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-25" target="58TWu8AOUMXrwjDCKBES-36">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=0.998;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-25" target="58TWu8AOUMXrwjDCKBES-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-39" value="pub-topic: account-transfered&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-38">
