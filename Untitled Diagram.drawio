@@ -90,7 +90,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-42" value="consume-queue: account-transfered" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=1.035;entryY=0.906;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-33" target="58TWu8AOUMXrwjDCKBES-36">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-42" value="consume-queue: account-transfered&lt;div&gt;produce-queue: sync-account&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=1.035;entryY=0.906;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-33" target="58TWu8AOUMXrwjDCKBES-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-43" value="load account transaction" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-33" target="58TWu8AOUMXrwjDCKBES-31">
