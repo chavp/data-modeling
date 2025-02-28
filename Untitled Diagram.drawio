@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="Qv8gykM19spB9sORM2q8">
-    <mxGraphModel dx="3825" dy="2250" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="1283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,7 +9,7 @@
             <mxPoint x="-420" y="-356" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-48" value="1. Check account balance&lt;div&gt;2. Transfer money to another account&lt;/div&gt;&lt;div&gt;3.Scan QR&amp;nbsp;&lt;/div&gt;&lt;div&gt;4.&amp;nbsp;View Transaction History&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-9">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-48" value="1. Check account balance&lt;div&gt;2. Transfer money to another account&lt;/div&gt;&lt;div&gt;3.Scan QR&amp;nbsp;&lt;/div&gt;&lt;div&gt;4.&amp;nbsp;View Transaction History&lt;/div&gt;&lt;div&gt;5. Core banking service&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-9">
           <mxGeometry x="-0.1298" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -39,10 +39,12 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-8" value="CapcoBank System" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=5;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-3">
           <mxGeometry x="252" y="103" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-75" value="MVP" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-3" source="58TWu8AOUMXrwjDCKBES-74" target="58TWu8AOUMXrwjDCKBES-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="58TWu8AOUMXrwjDCKBES-75" value="MVP&lt;div&gt;1-4&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-3" source="58TWu8AOUMXrwjDCKBES-74" target="58TWu8AOUMXrwjDCKBES-8">
+          <mxGeometry x="0.0206" y="-23" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-78" value="Legacy service core&amp;nbsp;banking system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-3" source="58TWu8AOUMXrwjDCKBES-74" target="58TWu8AOUMXrwjDCKBES-5">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-78" value="5. Core banking service" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-3" source="58TWu8AOUMXrwjDCKBES-74" target="58TWu8AOUMXrwjDCKBES-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="93" y="52" />
