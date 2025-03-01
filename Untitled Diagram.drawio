@@ -731,7 +731,7 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-281" value="push code" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-280" target="58TWu8AOUMXrwjDCKBES-279">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-280" target="58TWu8AOUMXrwjDCKBES-298">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-280" target="58TWu8AOUMXrwjDCKBES-298">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-305" value="integration test" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-304">
@@ -739,8 +739,13 @@
             <mxPoint x="24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-314" value="inspect" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-280" target="58TWu8AOUMXrwjDCKBES-313">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-314" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-280" target="58TWu8AOUMXrwjDCKBES-313">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-317" value="inspect" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-314">
+          <mxGeometry x="0.004" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-280" value="Developers" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1944" y="1254" width="30" height="60" as="geometry" />
@@ -811,7 +816,7 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-308" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-292">
           <mxGeometry x="68" y="55" width="184" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-296" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-294" target="58TWu8AOUMXrwjDCKBES-291">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-296" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-294" target="58TWu8AOUMXrwjDCKBES-291">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-307" value="acception test" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-296">
@@ -819,7 +824,7 @@
             <mxPoint x="-30" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-297" value="accept release" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-294" target="58TWu8AOUMXrwjDCKBES-285">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-297" value="accept release" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-294" target="58TWu8AOUMXrwjDCKBES-285">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2539" y="820" />
