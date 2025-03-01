@@ -890,7 +890,7 @@
           <mxGeometry x="-669" y="4045" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-326" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="-365" y="3918" width="644" height="445" as="geometry">
+          <mxGeometry x="-365" y="3918" width="644" height="424" as="geometry">
             <mxRectangle x="240" y="170" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -962,6 +962,12 @@
             <mxPoint x="-953" y="3798" as="sourcePoint" />
             <mxPoint x="565" y="3802" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-343" value="inspect system" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-342" target="58TWu8AOUMXrwjDCKBES-340">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-342" value="Developer, Infra, Business Owner, Staff, Etc." style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="4402" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
