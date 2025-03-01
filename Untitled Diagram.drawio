@@ -638,7 +638,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-252" value="CloudAMQP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1131" y="513" width="817" height="393.63" as="geometry" />
+          <mxGeometry x="1131" y="513" width="817" height="199" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-254" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-252">
           <mxGeometry x="308" y="-189" width="87.25" height="582.63" as="geometry" />
@@ -646,10 +646,10 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-255" value="&lt;b&gt;Message Brokers&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;RabbitMQ&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-252">
           <mxGeometry x="300" y="83.99999999999994" width="150" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-258" value="consume-queue: account-transfered&lt;div&gt;consume-queue: sync-account&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=0.935;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-256" target="58TWu8AOUMXrwjDCKBES-254">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-258" value="consume-queue: account-transfered&lt;div&gt;consume-queue: sync-account&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-256">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="382" as="sourcePoint" />
-            <mxPoint x="575" y="551" as="targetPoint" />
+            <mxPoint x="1613" y="577" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-259" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-256" target="58TWu8AOUMXrwjDCKBES-242">
