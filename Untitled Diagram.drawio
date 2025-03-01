@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="Qv8gykM19spB9sORM2q8">
-    <mxGraphModel dx="2305" dy="1411" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2513" dy="1525" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -435,7 +435,7 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-201" value="Id: guid&lt;div&gt;Name: varchar(300)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Balance:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;decimal(16,2)&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-200">
           <mxGeometry y="50" width="160" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-202" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;rounded=0;startSize=8;endSize=8;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-185" source="58TWu8AOUMXrwjDCKBES-200" target="58TWu8AOUMXrwjDCKBES-190">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-202" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-185" source="58TWu8AOUMXrwjDCKBES-200" target="58TWu8AOUMXrwjDCKBES-190">
           <mxGeometry y="4" width="100" height="100" relative="1" as="geometry">
             <mxPoint x="138.5" y="247.5" as="sourcePoint" />
             <mxPoint x="288.5" y="182.5" as="targetPoint" />
@@ -512,13 +512,40 @@
           <mxGeometry x="-923" y="3095" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-217" value="dll:&amp;nbsp;&lt;b&gt;Capco.Banks.Models&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="3144" width="726" height="654" as="geometry" />
+          <mxGeometry x="-880" y="3152" width="726" height="654" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-218" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Party&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-217">
-          <mxGeometry x="113" y="122" width="140" height="60" as="geometry" />
+          <mxGeometry x="69" y="133" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-219" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;AccountRole&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-217">
-          <mxGeometry x="359" y="122" width="140" height="60" as="geometry" />
+          <mxGeometry x="307" y="133" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-221" value="0..n" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontSize=12;curved=1;" edge="1" parent="58TWu8AOUMXrwjDCKBES-217" source="58TWu8AOUMXrwjDCKBES-218" target="58TWu8AOUMXrwjDCKBES-219">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="352" y="191" as="sourcePoint" />
+            <mxPoint x="512" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-222" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;AccountRoleType&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-217">
+          <mxGeometry x="525" y="133" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-223" value="Type" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="58TWu8AOUMXrwjDCKBES-217" source="58TWu8AOUMXrwjDCKBES-219" target="58TWu8AOUMXrwjDCKBES-222">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="573" y="23" as="sourcePoint" />
+            <mxPoint x="733" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-224" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="58TWu8AOUMXrwjDCKBES-223">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-225" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Account&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-217">
+          <mxGeometry x="69" y="289" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-226" value="0..n" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontSize=12;curved=1;" edge="1" parent="58TWu8AOUMXrwjDCKBES-217" source="58TWu8AOUMXrwjDCKBES-225" target="58TWu8AOUMXrwjDCKBES-219">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="219" y="173" as="sourcePoint" />
+            <mxPoint x="317" y="173" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
