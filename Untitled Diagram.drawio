@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="Qv8gykM19spB9sORM2q8">
-    <mxGraphModel dx="3300" dy="1960" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2435" dy="1482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -608,13 +608,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-241" value="Azure SQL Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1516" y="92" width="400" height="421" as="geometry" />
+          <mxGeometry x="1481" y="79" width="244" height="433" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-242" value="&lt;b&gt;Bank Account Queries&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Database&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;MSSQL&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-241">
-          <mxGeometry x="135" y="77" width="112" height="97.5" as="geometry" />
+          <mxGeometry x="57" y="75" width="112" height="97.5" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-243" value="&lt;b&gt;Banks&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Database&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;MSSQL&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-241">
-          <mxGeometry x="126" y="269" width="121" height="95" as="geometry" />
+          <mxGeometry x="60" y="265" width="121" height="95" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-244" value="Azure AKS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="79" width="603" height="433" as="geometry" />
@@ -648,6 +648,12 @@
             <mxPoint x="290" y="422" as="sourcePoint" />
             <mxPoint x="290" y="591" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-259" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-256" target="58TWu8AOUMXrwjDCKBES-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-260" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-256" target="58TWu8AOUMXrwjDCKBES-243">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
