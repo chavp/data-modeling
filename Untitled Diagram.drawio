@@ -85,7 +85,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-25" value="&lt;b&gt;Bank Account Transactions&amp;nbsp;&lt;/b&gt;&lt;b&gt;API&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;ASP.NET Core, EF&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-16">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-25" value="&lt;b&gt;Banks&amp;nbsp;&lt;/b&gt;&lt;b&gt;API&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;ASP.NET Core, EF&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-16">
           <mxGeometry x="205" y="267" width="115" height="115" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-31" value="&lt;b&gt;Bank Account Queries&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Database&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;MSSQL&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-16">
@@ -94,7 +94,7 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-23" value="read" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-21" target="58TWu8AOUMXrwjDCKBES-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-32" value="&lt;b&gt;Bank Account Transactions Database&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;MSSQL&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-16">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-32" value="&lt;b&gt;Banks&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Database&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;MSSQL&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-16">
           <mxGeometry x="390" y="277" width="121" height="95" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-16" source="58TWu8AOUMXrwjDCKBES-25" target="58TWu8AOUMXrwjDCKBES-32">
