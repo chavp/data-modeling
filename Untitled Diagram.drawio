@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="Qv8gykM19spB9sORM2q8">
-    <mxGraphModel dx="3109" dy="1855" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="1283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -851,7 +851,7 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-306" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2169" y="1099" width="191" height="151" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-313" value="Observer&lt;div&gt;System&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=5;" vertex="1" parent="1">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-313" value="Observer&lt;div&gt;System&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1897.5" y="1424" width="123" height="123" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-319" value="signal" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.338;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-318" target="58TWu8AOUMXrwjDCKBES-313">
@@ -875,6 +875,93 @@
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-322" value="DevOps System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1456" y="868" width="132" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-323" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-325" target="58TWu8AOUMXrwjDCKBES-336">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-470" y="3986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-324" value="1. Check account balance&lt;div&gt;2. Transfer money to another account&lt;/div&gt;&lt;div&gt;3.Scan QR&amp;nbsp;&lt;/div&gt;&lt;div&gt;4.&amp;nbsp;View Transaction History&lt;/div&gt;&lt;div&gt;5. Core banking service&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-323">
+          <mxGeometry x="-0.1298" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-325" value="Bank Account" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-669" y="4045" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-326" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-365" y="3918" width="644" height="445" as="geometry">
+            <mxRectangle x="240" y="170" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-327" value="Capco Bank System Context" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-326">
+          <mxGeometry y="8" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-328" value="Core Banking System" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=5;fontColor=#333333;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-326">
+          <mxGeometry x="480" y="98" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-329" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="58TWu8AOUMXrwjDCKBES-326" source="58TWu8AOUMXrwjDCKBES-333" target="58TWu8AOUMXrwjDCKBES-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-330" value="connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-329">
+          <mxGeometry x="0.2831" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-326" source="58TWu8AOUMXrwjDCKBES-333" target="58TWu8AOUMXrwjDCKBES-336">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="242" />
+              <mxPoint x="204" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-332" value="watch bank account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="58TWu8AOUMXrwjDCKBES-331">
+          <mxGeometry x="0.0275" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-326" source="58TWu8AOUMXrwjDCKBES-333" target="58TWu8AOUMXrwjDCKBES-340">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="227" />
+              <mxPoint x="322" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-333" value="CapcoBank System" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=5;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-326">
+          <mxGeometry x="252" y="103" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-334" value="&lt;div&gt;1-4&lt;/div&gt;MVP&lt;div&gt;services&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-326" source="58TWu8AOUMXrwjDCKBES-336" target="58TWu8AOUMXrwjDCKBES-333">
+          <mxGeometry x="0.0206" y="-23" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-335" value="5. Core banking services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="58TWu8AOUMXrwjDCKBES-326" source="58TWu8AOUMXrwjDCKBES-336" target="58TWu8AOUMXrwjDCKBES-328">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="93" y="52" />
+              <mxPoint x="545" y="52" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-336" value="Mobile App&amp;nbsp;&lt;div&gt;Core Banking&lt;div&gt;System&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=5;fontColor=#333333;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-326">
+          <mxGeometry x="42" y="101" width="102" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-340" value="Observer&lt;div&gt;System&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-326">
+          <mxGeometry x="250" y="280" width="102" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-337" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-326" target="58TWu8AOUMXrwjDCKBES-326">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-338" value="System Context + Non-functional requirement" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-951" y="3809" width="481" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-339" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-953" y="3798" as="sourcePoint" />
+            <mxPoint x="565" y="3802" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
