@@ -396,10 +396,10 @@
           <mxGeometry y="50" width="160" height="57" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-190" value="AccountRoles" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-185">
-          <mxGeometry x="284" y="69.5" width="191" height="107" as="geometry" />
+          <mxGeometry x="284" y="69.5" width="191" height="122.5" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-191" value="Id: guid&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AccountRoleTypeId&lt;/span&gt;: guid&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-190">
-          <mxGeometry y="50" width="191" height="57" as="geometry" />
+        <mxCell id="58TWu8AOUMXrwjDCKBES-191" value="Id: guid&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AccountRoleTypeId&lt;/span&gt;: guid&lt;br&gt;&lt;/div&gt;&lt;div&gt;EffectiveDateTime: datetime&lt;/div&gt;&lt;div&gt;Expiry&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DateTime&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: datetime&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-190">
+          <mxGeometry y="50" width="191" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-192" value="AccountRoleTypes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-185">
           <mxGeometry x="568" y="71.5" width="173" height="107" as="geometry" />
