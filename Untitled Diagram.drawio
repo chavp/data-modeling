@@ -226,8 +226,8 @@
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-98" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=5;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-910" y="1333" as="sourcePoint" />
-            <mxPoint x="608" y="1337" as="targetPoint" />
+            <mxPoint x="-1071" y="1333" as="sourcePoint" />
+            <mxPoint x="-67" y="1333" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-99" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=5;" edge="1" parent="1">
@@ -249,7 +249,7 @@
           <mxGeometry x="-898" y="-43" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-103" value="Components" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-906" y="1342" width="290" height="30" as="geometry" />
+          <mxGeometry x="-1070" y="1342" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-118" value="read&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;EF&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-171" target="58TWu8AOUMXrwjDCKBES-117">
           <mxGeometry relative="1" as="geometry">
@@ -294,44 +294,44 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-123" value="&lt;b&gt;Bank Account Queries API&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;ASP.NET Core,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EF&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="154" y="1700.25" width="109.5" height="109.5" as="geometry" />
+          <mxGeometry x="158" y="1634.75" width="109.5" height="109.5" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-125" value="&lt;b&gt;Bank Account Queries&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Database Schema&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="449" y="1409" width="788" height="692" as="geometry" />
+          <mxGeometry x="449" y="1409" width="788" height="561" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-140" value="&lt;span style=&quot;font-size: 12px; font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;TransactionEntryFacts&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-125">
-          <mxGeometry x="93" y="172" width="216" height="158" as="geometry" />
+          <mxGeometry x="89" y="75" width="216" height="158" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-141" value="Key: guid&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EntryId&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: guid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;EntryAmount: decimal(16,2)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EntryTypeCode: varchar(10)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AccountDimKey&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: guid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TransactionDimKey&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: guid&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-140">
           <mxGeometry y="50" width="216" height="108" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-142" value="&lt;span style=&quot;font-size: 12px; font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;AccountDims&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-125">
-          <mxGeometry x="482" y="174.5" width="256" height="199.5" as="geometry" />
+          <mxGeometry x="478" y="77.5" width="256" height="199.5" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-143" value="Key: guid&lt;br&gt;AccountId: guid&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Issuer&lt;/span&gt;AccountPartyId&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: guid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Issuer&lt;/span&gt;AccountName: varchar(300)&lt;br&gt;&lt;div&gt;Owner&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Account&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PartyId&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: guid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Owner&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Account&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Name&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: varchar(300)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;AccountTypeCode&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: varchar(50)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;AccountBalance&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: decimal(16,2)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Account&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Balance&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UpdatedDateTime: datetime&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-142">
           <mxGeometry y="50" width="256" height="149.5" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-150" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-125" source="58TWu8AOUMXrwjDCKBES-142" target="58TWu8AOUMXrwjDCKBES-141">
           <mxGeometry y="4" width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="492" y="294" as="sourcePoint" />
-            <mxPoint x="338" y="294" as="targetPoint" />
+            <mxPoint x="488" y="197" as="sourcePoint" />
+            <mxPoint x="334" y="197" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="362" y="259" />
-              <mxPoint x="362" y="259" />
+              <mxPoint x="358" y="162" />
+              <mxPoint x="358" y="162" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-151" value="&lt;span style=&quot;font-size: 12px; font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;TransactionDims&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-125">
-          <mxGeometry x="93" y="418" width="216" height="186" as="geometry" />
+          <mxGeometry x="89" y="321" width="216" height="186" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-152" value="Key: guid&lt;div&gt;TransactionId: guid&lt;br&gt;&lt;div&gt;TransactionDescription: varchar(500)&lt;br&gt;TransactionDateTime: datetime&lt;div&gt;TransactionDay: number&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TransactionM&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;onth&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TransactionYear&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Transaction&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Quarter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="58TWu8AOUMXrwjDCKBES-151">
           <mxGeometry y="50" width="216" height="136" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-153" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="58TWu8AOUMXrwjDCKBES-125" source="58TWu8AOUMXrwjDCKBES-151" target="58TWu8AOUMXrwjDCKBES-140">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="492" y="312" as="sourcePoint" />
-            <mxPoint x="319" y="312" as="targetPoint" />
+            <mxPoint x="488" y="215" as="sourcePoint" />
+            <mxPoint x="315" y="215" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -1053,6 +1053,24 @@
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-369" value="Detail" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1556" y="-365.5" width="20" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-370" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1065" y="2242" as="sourcePoint" />
+            <mxPoint x="-61" y="2242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-371" value="Components" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1064" y="2251" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-372" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="98" y="1331" as="sourcePoint" />
+            <mxPoint x="1264" y="1327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-373" value="Components" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="99" y="1340" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
