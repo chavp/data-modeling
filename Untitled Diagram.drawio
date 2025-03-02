@@ -725,7 +725,7 @@
         <mxCell id="58TWu8AOUMXrwjDCKBES-278" value="Artifact repository&lt;div&gt;Server&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1479" y="1003" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-279" value="GitHub&amp;nbsp;&lt;div&gt;Server&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="58TWu8AOUMXrwjDCKBES-279" value="Git&amp;nbsp;&lt;div&gt;Server&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1919" y="1003" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-281" value="push code" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-280" target="58TWu8AOUMXrwjDCKBES-279">
@@ -765,8 +765,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="58TWu8AOUMXrwjDCKBES-353" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-282" target="58TWu8AOUMXrwjDCKBES-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-282" value="CI Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1715" y="1003" width="80" height="80" as="geometry" />
+          <mxGeometry x="1718" y="1003" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-287" value="pull container" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-285" target="58TWu8AOUMXrwjDCKBES-278">
           <mxGeometry x="-0.1752" relative="1" as="geometry">
@@ -842,7 +845,7 @@
             <mxPoint x="1808" y="943" as="sourcePoint" />
             <mxPoint x="2289" y="963" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2049" y="957" />
+              <mxPoint x="2049" y="938" />
               <mxPoint x="2049" y="1161" />
             </Array>
             <mxPoint as="offset" />
@@ -861,8 +864,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-318" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="1451" y="859" width="575" height="259" as="geometry" />
+        <mxCell id="58TWu8AOUMXrwjDCKBES-318" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1451" y="859" width="218" height="252" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-320" value="signal" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-292" target="58TWu8AOUMXrwjDCKBES-313">
           <mxGeometry relative="1" as="geometry">
@@ -873,8 +876,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="58TWu8AOUMXrwjDCKBES-322" value="DevOps System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1456" y="868" width="132" height="31" as="geometry" />
+        <mxCell id="58TWu8AOUMXrwjDCKBES-322" value="DevSecOps System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1457" y="866" width="160" height="31" as="geometry" />
         </mxCell>
         <mxCell id="58TWu8AOUMXrwjDCKBES-323" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="58TWu8AOUMXrwjDCKBES-325" target="58TWu8AOUMXrwjDCKBES-336">
           <mxGeometry relative="1" as="geometry">
