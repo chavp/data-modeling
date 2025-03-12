@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5648" dy="4835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4645" dy="4266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2891,6 +2891,19 @@
               <mxPoint x="3570" y="460" />
             </Array>
             <mxPoint x="3955" y="675" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAODyewD1BA2NL_UdIpi-5" value="GeographicBoundaries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4950" y="120" width="263.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAODyewD1BA2NL_UdIpi-6" value="GeographicBoundaryTypes&lt;div&gt;{ PROVINCE, DISTRICT, SUB_DISTRICT }&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4851.87" y="255" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAODyewD1BA2NL_UdIpi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="LAODyewD1BA2NL_UdIpi-5" target="LAODyewD1BA2NL_UdIpi-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="4480" y="-20" as="sourcePoint" />
+            <mxPoint x="4577" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
