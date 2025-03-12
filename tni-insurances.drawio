@@ -2894,16 +2894,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LAODyewD1BA2NL_UdIpi-5" value="GeographicBoundaries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="4950" y="120" width="263.75" height="60" as="geometry" />
+          <mxGeometry x="5018.12" y="166.25" width="263.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LAODyewD1BA2NL_UdIpi-6" value="GeographicBoundaryTypes&lt;div&gt;{ PROVINCE, DISTRICT, SUB_DISTRICT }&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="4851.87" y="255" width="460" height="60" as="geometry" />
+          <mxGeometry x="4920" y="300" width="460" height="75" as="geometry" />
         </mxCell>
         <mxCell id="LAODyewD1BA2NL_UdIpi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="LAODyewD1BA2NL_UdIpi-5" target="LAODyewD1BA2NL_UdIpi-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="4480" y="-20" as="sourcePoint" />
-            <mxPoint x="4577" y="-20" as="targetPoint" />
+            <mxPoint x="4548.13" y="40" as="sourcePoint" />
+            <mxPoint x="4645.13" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAODyewD1BA2NL_UdIpi-8" value="AddressBoundaries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="4660" y="166.25" width="263.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAODyewD1BA2NL_UdIpi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="umau1oA5AZ1StltOR-z_-23" target="LAODyewD1BA2NL_UdIpi-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4140" y="160" as="sourcePoint" />
+            <mxPoint x="4250" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4035" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAODyewD1BA2NL_UdIpi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="LAODyewD1BA2NL_UdIpi-5" target="LAODyewD1BA2NL_UdIpi-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4140" y="160" as="sourcePoint" />
+            <mxPoint x="4250" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
