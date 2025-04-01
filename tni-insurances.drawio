@@ -2970,18 +2970,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RVnmscr_zMer3iNK1J6g-1" value="CoverageGroups" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="740" y="680" width="250" height="60" as="geometry" />
+        <mxCell id="RVnmscr_zMer3iNK1J6g-1" value="CoverageRelationships" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="770" y="680" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RVnmscr_zMer3iNK1J6g-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="28ZuEftlm1f_MfwytC_k-1" target="RVnmscr_zMer3iNK1J6g-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="865" y="530" />
-              <mxPoint x="865" y="530" />
-            </Array>
-            <mxPoint x="680" y="840" as="sourcePoint" />
-            <mxPoint x="640" y="840" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="RVnmscr_zMer3iNK1J6g-4" value="CoverageRelationshipTypes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="870" y="880" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
