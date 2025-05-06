@@ -1948,15 +1948,14 @@
           <mxGeometry x="90" y="745" width="245" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-17" value="ProductFeatureFieldTypes&lt;br&gt;{ COMP_CODE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="747.5" width="310" height="75" as="geometry" />
+          <mxGeometry x="25" y="880" width="310" height="75" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="BDWvEaG3h0DeX0HaB05n-16" target="BDWvEaG3h0DeX0HaB05n-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="40" y="783" />
-              <mxPoint x="40" y="783" />
+              <mxPoint x="180" y="783" />
             </Array>
-            <mxPoint x="460" y="310" as="sourcePoint" />
+            <mxPoint x="100" y="870" as="sourcePoint" />
             <mxPoint x="170" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -3021,7 +3020,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-2" value="PaStandardFeature" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-2" value="PaStandardFeatures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-280" y="620" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=none;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="Mjok5EN2Vvr3Uh-pCf0f-2" target="BDWvEaG3h0DeX0HaB05n-1">
@@ -3034,8 +3033,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-4" value="PaStandardFeature" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="975" width="250" height="70" as="geometry" />
+        <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-4" value="TaFeatures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="730" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=none;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="Mjok5EN2Vvr3Uh-pCf0f-4" target="BDWvEaG3h0DeX0HaB05n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="660" as="sourcePoint" />
+            <mxPoint x="100" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="36" y="765" />
+              <mxPoint x="36" y="700" />
+              <mxPoint x="130" y="700" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
