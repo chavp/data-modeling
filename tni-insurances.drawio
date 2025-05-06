@@ -1839,7 +1839,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1RlycagNoNxxHCS8ll6e-1" value="PriceComponents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="600" width="220" height="70" as="geometry" />
+          <mxGeometry x="-240" y="530" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1RlycagNoNxxHCS8ll6e-8" value="AttributeFields" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="450" y="150" width="190" height="60" as="geometry" />
@@ -1867,7 +1867,7 @@
         <mxCell id="BDWvEaG3h0DeX0HaB05n-2" value="one effective" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="1RlycagNoNxxHCS8ll6e-1" target="BDWvEaG3h0DeX0HaB05n-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-40" y="630" />
+              <mxPoint x="140" y="565" />
             </Array>
             <mxPoint x="460" y="310" as="sourcePoint" />
             <mxPoint x="170" y="310" as="targetPoint" />
@@ -1948,7 +1948,7 @@
           <mxGeometry x="90" y="745" width="245" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-17" value="ProductFeatureFieldTypes&lt;br&gt;{ COMP_CODE }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="745" width="310" height="75" as="geometry" />
+          <mxGeometry x="-300" y="747.5" width="310" height="75" as="geometry" />
         </mxCell>
         <mxCell id="BDWvEaG3h0DeX0HaB05n-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="BDWvEaG3h0DeX0HaB05n-16" target="BDWvEaG3h0DeX0HaB05n-17" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3022,17 +3022,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-2" value="PaStandardFeature" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="860" width="250" height="70" as="geometry" />
+          <mxGeometry x="-280" y="620" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=none;startFill=0;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1" source="Mjok5EN2Vvr3Uh-pCf0f-2" target="BDWvEaG3h0DeX0HaB05n-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="650" as="sourcePoint" />
             <mxPoint x="320" y="650" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20" y="700" />
-              <mxPoint x="130" y="700" />
+              <mxPoint x="70" y="650" />
+              <mxPoint x="70" y="650" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-4" value="PaStandardFeature" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="975" width="250" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
