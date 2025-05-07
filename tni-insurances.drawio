@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="หน้า-1" id="UlF-eiUXVz7RwnlS1wyQ">
-    <mxGraphModel dx="5253" dy="4367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4855" dy="4367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2089,19 +2089,19 @@
             <mxPoint x="2095" y="226" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1890" y="-1400" />
-              <mxPoint x="1890" y="1140" />
-              <mxPoint x="270" y="1140" />
+              <mxPoint x="1890" y="1170" />
+              <mxPoint x="270" y="1170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="100i2BcWG7eFpkwu3N_w-1" value="AttributeByParties" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1445" y="1040" width="270" height="80" as="geometry" />
+          <mxGeometry x="1445" y="1060" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="100i2BcWG7eFpkwu3N_w-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" parent="1" source="tgcsUMUl633oyMr5OD5r-5" target="100i2BcWG7eFpkwu3N_w-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="390" y="330" />
-              <mxPoint x="390" y="1080" />
+              <mxPoint x="390" y="1110" />
             </Array>
             <mxPoint x="1380" y="481" as="sourcePoint" />
             <mxPoint x="1380" y="615" as="targetPoint" />
@@ -2113,7 +2113,7 @@
               <mxPoint x="3370" y="100" />
               <mxPoint x="3370" y="830" />
               <mxPoint x="1870" y="830" />
-              <mxPoint x="1870" y="1080" />
+              <mxPoint x="1870" y="1100" />
             </Array>
             <mxPoint x="2340" y="610" as="sourcePoint" />
             <mxPoint x="1380" y="615" as="targetPoint" />
@@ -3060,7 +3060,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-9" value="ProductItemByPartySaleSetups" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1200" width="360" height="80" as="geometry" />
+          <mxGeometry x="881" y="1010" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mjok5EN2Vvr3Uh-pCf0f-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToOne;endFill=0;startFill=0;startArrow=ERone;" edge="1" parent="1" source="FLTrn3msVQ3TgC4m6lX9-6" target="Mjok5EN2Vvr3Uh-pCf0f-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="980" />
+              <mxPoint x="1340" y="1050" />
+            </Array>
+            <mxPoint x="1455" y="980" as="sourcePoint" />
+            <mxPoint x="775" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
