@@ -1653,28 +1653,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-12" value="OrderNumbers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="2710" y="-1170" width="200" height="85" as="geometry" />
+          <mxGeometry x="2386.75" y="-1180" width="200" height="85" as="geometry" />
         </mxCell>
         <mxCell id="e_bdVk2H4wEA6Rbma76s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;fillColor=#f8cecc;strokeColor=#000000;" parent="1" source="e_bdVk2H4wEA6Rbma76s-12" target="a6CrXQ2l9qOM6Z4fCI5_-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3301.75" y="-1110" as="sourcePoint" />
             <mxPoint x="3301.75" y="-1165" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3030" y="-1155" />
-              <mxPoint x="3030" y="-1155" />
+              <mxPoint x="2770" y="-1140" />
+              <mxPoint x="2770" y="-1140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_bdVk2H4wEA6Rbma76s-14" value="OrderNumberTypes&lt;br&gt;{ SALE, CLAIM, LEAD, QUATATION }" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="2246.75" y="-1157.5" width="380" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="e_bdVk2H4wEA6Rbma76s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;strokeColor=#000000;" parent="1" source="e_bdVk2H4wEA6Rbma76s-12" target="e_bdVk2H4wEA6Rbma76s-14" edge="1">
+        <mxCell id="e_bdVk2H4wEA6Rbma76s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;strokeColor=#000000;" parent="1" source="Kz4ybRWmbaLbFIKAV1Ck-4" target="e_bdVk2H4wEA6Rbma76s-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3237.75" y="-1085" as="sourcePoint" />
-            <mxPoint x="3321.75" y="-1085" as="targetPoint" />
+            <mxPoint x="2270" y="-1120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2676.75" y="-1120" />
-              <mxPoint x="2676.75" y="-1120" />
+              <mxPoint x="2490" y="-1210" />
             </Array>
           </mxGeometry>
         </mxCell>
