@@ -107,16 +107,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-19" value="RequiredCoverages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="70" width="160" height="60" as="geometry" />
+          <mxGeometry x="710" y="60" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-21" value="StandardCoverages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="140" width="160" height="60" as="geometry" />
+          <mxGeometry x="710" y="130" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-22" value="OptionalCoverages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="210" width="160" height="60" as="geometry" />
+          <mxGeometry x="710" y="200" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-23" value="SelectableCoverages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-3" target="Gwfefa4xqPAHv9ycmTIK-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="280" as="sourcePoint" />
+            <mxPoint x="1060" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-3" target="Gwfefa4xqPAHv9ycmTIK-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="300" as="sourcePoint" />
+            <mxPoint x="1030" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="230" />
+              <mxPoint x="670" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-3" target="Gwfefa4xqPAHv9ycmTIK-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="290" as="sourcePoint" />
+            <mxPoint x="730" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="250" />
+              <mxPoint x="680" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
