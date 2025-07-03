@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="UG3h2oHKd8cI5t2Z76ql">
-    <mxGraphModel dx="1025" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,14 @@
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-3" value="CoverageAvailabilities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="210" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-5" target="Gwfefa4xqPAHv9ycmTIK-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="470" />
+              <mxPoint x="540" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-5" value="CoverageLevels" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="370" width="120" height="60" as="geometry" />
         </mxCell>
@@ -31,6 +39,51 @@
             <Array as="points">
               <mxPoint x="620" y="320" />
               <mxPoint x="620" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-8" value="CoverageAmounts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-9" value="CoverageRanges" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-10" value="Deductbilities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-11" value="Copays" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-12" value="Coinsurances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-5" target="Gwfefa4xqPAHv9ycmTIK-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="440" as="sourcePoint" />
+            <mxPoint x="790" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="470" />
+              <mxPoint x="670" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-5" target="Gwfefa4xqPAHv9ycmTIK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="440" as="sourcePoint" />
+            <mxPoint x="790" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="460" />
+              <mxPoint x="790" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="420" as="sourcePoint" />
+            <mxPoint x="940" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="450" />
+              <mxPoint x="940" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
