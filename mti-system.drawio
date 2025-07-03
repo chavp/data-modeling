@@ -534,6 +534,15 @@
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-114" value="Payments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="10" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-116" value="SettlementRoleTypes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="-270" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-107" target="Gwfefa4xqPAHv9ycmTIK-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-880" y="-370" as="sourcePoint" />
+            <mxPoint x="-960" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
