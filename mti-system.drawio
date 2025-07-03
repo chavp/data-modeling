@@ -456,6 +456,22 @@
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-96" value="IncidentClaimItems" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-470" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-99" value="Documents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-100" target="Gwfefa4xqPAHv9ycmTIK-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-100" target="Gwfefa4xqPAHv9ycmTIK-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="-300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-100" value="ClaimItemDocuments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-450" width="190" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
