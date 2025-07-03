@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="UG3h2oHKd8cI5t2Z76ql">
-    <mxGraphModel dx="1989" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2427" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-1" value="Products" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="180" y="90" width="160" height="80" as="geometry" />
+          <mxGeometry x="230" y="90" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-2" value="CoverageTypes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="360" width="120" height="60" as="geometry" />
@@ -183,16 +183,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-30" value="ProductCatalogClassifications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="200" width="200" height="60" as="geometry" />
+          <mxGeometry x="-50" y="100" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-32" value="ProductCatalogs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="360" width="200" height="60" as="geometry" />
+          <mxGeometry x="-350" y="100" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-34" target="Gwfefa4xqPAHv9ycmTIK-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-34" value="Property&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Home&lt;/li&gt;&lt;li&gt;Motor&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;Health&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Individual&lt;/li&gt;&lt;li&gt;Group&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Travel&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="300" width="280" height="250" as="geometry" />
+          <mxGeometry x="-770" y="40" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-38" value="ProductFeatureCoverages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="360" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
