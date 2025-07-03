@@ -197,7 +197,7 @@
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-38" target="Gwfefa4xqPAHv9ycmTIK-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="240" />
+              <mxPoint x="310" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -220,6 +220,15 @@
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-41" value="PriceComponents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="490" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-38" target="Gwfefa4xqPAHv9ycmTIK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="380" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
