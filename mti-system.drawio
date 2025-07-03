@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="UG3h2oHKd8cI5t2Z76ql">
-    <mxGraphModel dx="1636" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1775" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,11 +389,50 @@
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-78" value="Illnesses" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-580" y="-330" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gwfefa4xqPAHv9ycmTIK-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-79" target="Gwfefa4xqPAHv9ycmTIK-73">
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-79" target="Gwfefa4xqPAHv9ycmTIK-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-79" value="MotorVehicleIncidents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="-280" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-86" value="IncidentRoles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-660" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-86" target="Gwfefa4xqPAHv9ycmTIK-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="-410" as="sourcePoint" />
+            <mxPoint x="240" y="-320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="-630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;dashed=1;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-86" target="Gwfefa4xqPAHv9ycmTIK-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="-430" as="sourcePoint" />
+            <mxPoint x="1140" y="-560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="-630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-89" value="AgreementRoleTypes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-200" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-55" target="Gwfefa4xqPAHv9ycmTIK-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="-70" as="sourcePoint" />
+            <mxPoint x="550" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-91" value="IncidentRoleTypes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-820" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gwfefa4xqPAHv9ycmTIK-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="Gwfefa4xqPAHv9ycmTIK-86" target="Gwfefa4xqPAHv9ycmTIK-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="-770" as="sourcePoint" />
+            <mxPoint x="455" y="-770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
