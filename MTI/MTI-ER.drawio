@@ -490,7 +490,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3dcIKFIkF4cNfpIye1z1-144" value="Occupations" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="20" width="210" height="150" as="geometry" />
+          <mxGeometry x="570" y="590" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="3dcIKFIkF4cNfpIye1z1-145" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="3dcIKFIkF4cNfpIye1z1-144" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -793,13 +793,12 @@
         <mxCell id="3dcIKFIkF4cNfpIye1z1-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" parent="1" source="3dcIKFIkF4cNfpIye1z1-215" target="3dcIKFIkF4cNfpIye1z1-228" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3dcIKFIkF4cNfpIye1z1-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToOne;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="3dcIKFIkF4cNfpIye1z1-1" target="3dcIKFIkF4cNfpIye1z1-144" edge="1">
+        <mxCell id="3dcIKFIkF4cNfpIye1z1-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToOne;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="3dcIKFIkF4cNfpIye1z1-56" target="3dcIKFIkF4cNfpIye1z1-144" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="80" as="sourcePoint" />
             <mxPoint x="910" y="80" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="800" y="130" />
-              <mxPoint x="800" y="130" />
+              <mxPoint x="360" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
