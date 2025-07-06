@@ -1661,7 +1661,7 @@
         <mxCell id="dSspju1KlAN8yzlLeEt2-142" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="cIeKqPvd8UctPz4Kh1tf-523">
           <mxGeometry y="180" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dSspju1KlAN8yzlLeEt2-143" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="dSspju1KlAN8yzlLeEt2-142">
+        <mxCell id="dSspju1KlAN8yzlLeEt2-143" value="I1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="dSspju1KlAN8yzlLeEt2-142">
           <mxGeometry width="59.99999999999977" height="30" as="geometry">
             <mxRectangle width="59.99999999999977" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2860,6 +2860,15 @@
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-131" value="&lt;div&gt;INSURER&lt;/div&gt;INSURED&lt;div&gt;COINSURED&lt;/div&gt;&lt;div&gt;&lt;table style=&quot;font-size: medium; border-collapse: collapse; width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height: 14.25pt;&quot; height=&quot;19&quot;&gt;&lt;td style=&quot;padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Tahoma, sans-serif; vertical-align: bottom; border: none; text-wrap-mode: nowrap; width: 88pt; height: 14.25pt;&quot; height=&quot;19&quot; width=&quot;117&quot;&gt;DELIVERY&lt;br&gt;&lt;div style=&quot;font-size: medium; text-wrap-mode: wrap;&quot; data-ccp-timestamp=&quot;1751623176923&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height: 14.25pt;&quot; height=&quot;19&quot;&gt;&lt;td style=&quot;padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; vertical-align: bottom; border: none; text-wrap-mode: nowrap; width: 88pt; height: 14.25pt;&quot; height=&quot;19&quot; width=&quot;117&quot;&gt;OWNER&lt;br&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; white-space: pre-wrap; background-color: rgb(245, 245, 245);&quot;&gt;&lt;b&gt;BENEFICIARY&lt;/b&gt;&lt;br&gt;INVOICE&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="-3880" y="-1460" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dSspju1KlAN8yzlLeEt2-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="cIeKqPvd8UctPz4Kh1tf-523">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3310" y="70" />
+            </Array>
+            <mxPoint x="-3370" y="70" as="sourcePoint" />
+            <mxPoint x="-3170" y="130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
