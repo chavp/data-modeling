@@ -3294,12 +3294,12 @@
         <mxCell id="dSspju1KlAN8yzlLeEt2-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="dSspju1KlAN8yzlLeEt2-289" target="dSspju1KlAN8yzlLeEt2-261">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2065" y="-1190" />
+              <mxPoint x="-2000" y="-1190" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-289" value="SUM_INS&lt;div&gt;OPD&lt;/div&gt;&lt;div&gt;IPD&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-2100" y="-1160" width="150" height="90" as="geometry" />
+          <mxGeometry x="-2060" y="-1090" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-291" value="CoverageLevelTypes" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1350" y="-1210" width="170" height="90" as="geometry" />
@@ -3340,7 +3340,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-313" value="CoverageLevelBases" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1930" y="-1120" width="170" height="120" as="geometry" />
+          <mxGeometry x="-1870" y="-1120" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-314" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="dSspju1KlAN8yzlLeEt2-313">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
@@ -3398,6 +3398,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2310" y="-1120" as="sourcePoint" />
             <mxPoint x="-2240" y="-1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1770" y="-955" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="dSspju1KlAN8yzlLeEt2-100" target="cIeKqPvd8UctPz4Kh1tf-174">
