@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="dae26kvZWcS3fyKBgKjT">
-    <mxGraphModel dx="5292" dy="2735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5347" dy="2763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2829,8 +2829,11 @@
             <mxPoint x="-3070" y="-1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dSspju1KlAN8yzlLeEt2-131" value="INSURED&lt;div&gt;COINSURED&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-3920" y="-1480" width="150" height="140" as="geometry" />
+        <mxCell id="dSspju1KlAN8yzlLeEt2-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="dSspju1KlAN8yzlLeEt2-131" target="dSspju1KlAN8yzlLeEt2-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSspju1KlAN8yzlLeEt2-131" value="&lt;div&gt;INSURER&lt;/div&gt;INSURED&lt;div&gt;COINSURED&lt;/div&gt;&lt;div&gt;&lt;table style=&quot;font-size: medium; border-collapse: collapse; width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height: 14.25pt;&quot; height=&quot;19&quot;&gt;&lt;td style=&quot;padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Tahoma, sans-serif; vertical-align: bottom; border: none; text-wrap-mode: nowrap; width: 88pt; height: 14.25pt;&quot; height=&quot;19&quot; width=&quot;117&quot;&gt;DELIVERY&lt;br&gt;&lt;div style=&quot;font-size: medium; text-wrap-mode: wrap;&quot; data-ccp-timestamp=&quot;1751623176923&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 88pt;&quot; width=&quot;117&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height: 14.25pt;&quot; height=&quot;19&quot;&gt;&lt;td style=&quot;padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; vertical-align: bottom; border: none; text-wrap-mode: nowrap; width: 88pt; height: 14.25pt;&quot; height=&quot;19&quot; width=&quot;117&quot;&gt;OWNER&lt;br&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; white-space: pre-wrap; background-color: rgb(245, 245, 245);&quot;&gt;&lt;b&gt;BENEFICIARY&lt;/b&gt;&lt;br&gt;INVOICE&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="-1475" width="150" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
