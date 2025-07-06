@@ -3456,8 +3456,8 @@
         <mxCell id="dSspju1KlAN8yzlLeEt2-399" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" edge="1" parent="1" source="dSspju1KlAN8yzlLeEt2-394" target="dSspju1KlAN8yzlLeEt2-349">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2385" y="-800" />
-              <mxPoint x="-2385" y="-800" />
+              <mxPoint x="-2420" y="-770" />
+              <mxPoint x="-2420" y="-770" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3467,7 +3467,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-394" value="MotorModelFeatures" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2470" y="-750" width="190" height="60" as="geometry" />
+          <mxGeometry x="-2480" y="-750" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-395" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="dSspju1KlAN8yzlLeEt2-394">
           <mxGeometry y="30" width="190" height="30" as="geometry" />
@@ -3491,7 +3491,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-405" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="dSspju1KlAN8yzlLeEt2-400" target="dSspju1KlAN8yzlLeEt2-422">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2115" y="-800" />
+              <mxPoint x="-2115" y="-800" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-406" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="dSspju1KlAN8yzlLeEt2-400" target="cIeKqPvd8UctPz4Kh1tf-664">
           <mxGeometry relative="1" as="geometry">
@@ -3609,7 +3614,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-422" value="CoverageFeatures" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2220" y="-750" width="230" height="60" as="geometry" />
+          <mxGeometry x="-2230" y="-750" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-423" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="dSspju1KlAN8yzlLeEt2-422">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -3629,8 +3634,8 @@
             <mxPoint x="-2260" y="-710" as="sourcePoint" />
             <mxPoint x="-2260" y="-780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-2260" y="-720" />
-              <mxPoint x="-2260" y="-850" />
+              <mxPoint x="-2160" y="-790" />
+              <mxPoint x="-2370" y="-790" />
             </Array>
           </mxGeometry>
         </mxCell>
