@@ -3738,16 +3738,18 @@
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dSspju1KlAN8yzlLeEt2-398" value="inherit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" parent="1" source="dSspju1KlAN8yzlLeEt2-390" target="dSspju1KlAN8yzlLeEt2-349" edge="1">
+        <mxCell id="dSspju1KlAN8yzlLeEt2-398" value="inherit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" parent="1" target="dSspju1KlAN8yzlLeEt2-349" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2545" y="-800" />
-              <mxPoint x="-2545" y="-800" />
+              <mxPoint x="-2690" y="-790" />
+              <mxPoint x="-2530" y="-790" />
             </Array>
+            <mxPoint x="-2690.0526315789475" y="-740" as="sourcePoint" />
+            <mxPoint x="-2530.0526315789475" y="-810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-390" value="MotorBrandFeatures" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2710" y="-750" width="200" height="120" as="geometry" />
+          <mxGeometry x="-2780" y="-750" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-391" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="dSspju1KlAN8yzlLeEt2-390" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -3791,8 +3793,8 @@
         <mxCell id="dSspju1KlAN8yzlLeEt2-399" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" parent="1" source="dSspju1KlAN8yzlLeEt2-394" target="dSspju1KlAN8yzlLeEt2-349" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2420" y="-770" />
-              <mxPoint x="-2420" y="-770" />
+              <mxPoint x="-2490" y="-770" />
+              <mxPoint x="-2490" y="-770" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3802,7 +3804,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-394" value="MotorModelFeatures" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2490" y="-750" width="190" height="120" as="geometry" />
+          <mxGeometry x="-2560" y="-750" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-395" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="dSspju1KlAN8yzlLeEt2-394" vertex="1">
           <mxGeometry y="30" width="190" height="30" as="geometry" />
@@ -4150,7 +4152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-474" value="MotorYearFeatures" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2290" y="-750" width="190" height="120" as="geometry" />
+          <mxGeometry x="-2350" y="-750" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-475" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="dSspju1KlAN8yzlLeEt2-474" vertex="1">
           <mxGeometry y="30" width="190" height="30" as="geometry" />
@@ -4196,8 +4198,8 @@
             <mxPoint x="-2330" y="-720" as="sourcePoint" />
             <mxPoint x="-2330" y="-790" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-2195" y="-790" />
-              <mxPoint x="-2380" y="-790" />
+              <mxPoint x="-2300" y="-780" />
+              <mxPoint x="-2455" y="-780" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4515,8 +4517,8 @@
             <mxPoint x="-1965" y="-520" as="sourcePoint" />
             <mxPoint x="-2150" y="-590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-2040" y="-780" />
-              <mxPoint x="-2455" y="-780" />
+              <mxPoint x="-2040" y="-790" />
+              <mxPoint x="-2420" y="-790" />
             </Array>
           </mxGeometry>
         </mxCell>
