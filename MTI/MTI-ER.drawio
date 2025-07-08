@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="dae26kvZWcS3fyKBgKjT">
-    <mxGraphModel dx="6006" dy="3765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6403" dy="3969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2649,7 +2649,7 @@
         <mxCell id="cIeKqPvd8UctPz4Kh1tf-708" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToMany;endFill=0;" parent="1" source="cIeKqPvd8UctPz4Kh1tf-677" target="cIeKqPvd8UctPz4Kh1tf-677" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3230" y="-1780" />
+              <mxPoint x="-3140" y="-1870" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2683,7 +2683,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cIeKqPvd8UctPz4Kh1tf-677" value="ProductCatogories" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3280" y="-1745" width="180" height="150" as="geometry" />
+          <mxGeometry x="-3280" y="-1820" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="cIeKqPvd8UctPz4Kh1tf-678" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="cIeKqPvd8UctPz4Kh1tf-677" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -2738,7 +2738,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cIeKqPvd8UctPz4Kh1tf-690" value="ProductCatogoryClassifications" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2990" y="-1730" width="230" height="120" as="geometry" />
+          <mxGeometry x="-3010" y="-1790" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="cIeKqPvd8UctPz4Kh1tf-691" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="cIeKqPvd8UctPz4Kh1tf-690" vertex="1">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -2783,12 +2783,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cIeKqPvd8UctPz4Kh1tf-697" value="PROPERTY: Property Insurance&lt;div&gt;- MOTOR: Motor&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Insurance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- HOME: Home&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Insurance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TA: Travel&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Insurance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;HEALTH: Health&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Insurance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;FIRE: Fire&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Insurance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MARINE: Marine&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Insurance&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
-          <mxGeometry x="-3620" y="-1750" width="260" height="160" as="geometry" />
+          <mxGeometry x="-3620" y="-1825" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cIeKqPvd8UctPz4Kh1tf-698" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" parent="1" source="cIeKqPvd8UctPz4Kh1tf-691" target="cIeKqPvd8UctPz4Kh1tf-664" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2680" y="-1680" />
+              <mxPoint x="-2895" y="-1720" />
+              <mxPoint x="-2680" y="-1720" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3039,7 +3040,7 @@
         <mxCell id="dSspju1KlAN8yzlLeEt2-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="dSspju1KlAN8yzlLeEt2-100" target="dSspju1KlAN8yzlLeEt2-69" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3185" y="-1460" />
+              <mxPoint x="-3185" y="-1430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3944,13 +3945,12 @@
         <mxCell id="dSspju1KlAN8yzlLeEt2-752" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;endArrow=ERzeroToOne;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="dSspju1KlAN8yzlLeEt2-739" target="dSspju1KlAN8yzlLeEt2-69" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3090" y="-1490" />
-              <mxPoint x="-3090" y="-1490" />
+              <mxPoint x="-2910" y="-1570" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-739" value="AgreementTypes" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3400" y="-1550" width="200" height="120" as="geometry" />
+          <mxGeometry x="-3280" y="-1640" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dSspju1KlAN8yzlLeEt2-740" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="dSspju1KlAN8yzlLeEt2-739" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -4194,10 +4194,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UiWFD-xtO3X5ea6s3Utf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="UiWFD-xtO3X5ea6s3Utf-45" target="dSspju1KlAN8yzlLeEt2-739" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UiWFD-xtO3X5ea6s3Utf-45" value="&lt;div&gt;NEW_POLICY&lt;/div&gt;&lt;div&gt;RENEW_POLICY&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
-          <mxGeometry x="-3700" y="-1528.75" width="150" height="77.5" as="geometry" />
+          <mxGeometry x="-3530" y="-1618.75" width="150" height="77.5" as="geometry" />
         </mxCell>
         <mxCell id="5t2IKmgrnVoKQSOxBT5g-96" value="ApplicationRoles" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2590" y="-1385" width="250" height="210" as="geometry" />
