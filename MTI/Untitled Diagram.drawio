@@ -421,7 +421,7 @@
           <mxGeometry y="66" width="195" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-123" value="&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;lt;&amp;lt;data&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;AnimalResponse&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3560" y="700" width="380" height="188" as="geometry" />
+          <mxGeometry x="3560" y="713" width="380" height="188" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-124" value="+ AnimalId: guid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-123">
           <mxGeometry y="50" width="380" height="26" as="geometry" />
@@ -493,6 +493,18 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="4050" y="740" as="sourcePoint" />
             <mxPoint x="4050" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-145" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-132" target="ZbPvroxc9PfUL8jWCel5-109">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4115" y="620" as="sourcePoint" />
+            <mxPoint x="4040" y="622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-146" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-136" target="ZbPvroxc9PfUL8jWCel5-123">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4170" y="710" as="sourcePoint" />
+            <mxPoint x="3990" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
