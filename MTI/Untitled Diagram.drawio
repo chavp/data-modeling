@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="Page-1" id="_4CO3BgH9kMVLNDz86mz">
-    <mxGraphModel dx="273" dy="2796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="897" dy="3127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -748,23 +748,20 @@
         <mxCell id="ZbPvroxc9PfUL8jWCel5-225" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="2665" y="710" width="1550" height="1090" as="geometry" />
         </mxCell>
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-226" value="&lt;div&gt;&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;/div&gt;ZoosService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2940" y="-1180" width="160" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-227" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-226">
-          <mxGeometry y="50" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-228" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-226">
-          <mxGeometry y="76" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-229" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-226">
-          <mxGeometry y="84" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-231" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-226" target="ZbPvroxc9PfUL8jWCel5-101">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2880" y="-1320" as="sourcePoint" />
             <mxPoint x="3040" y="-1320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-232" value="&lt;&lt;component&gt;&gt;&#xa;Mti.Guides.Services" style="swimlane;startSize=60;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="-1280" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-226" value="&lt;div&gt;&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;/div&gt;ZoosService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-232">
+          <mxGeometry x="20" y="130" width="160" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-228" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-226">
+          <mxGeometry y="50" width="160" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
