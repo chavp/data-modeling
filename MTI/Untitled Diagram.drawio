@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="Page-1" id="_4CO3BgH9kMVLNDz86mz">
-    <mxGraphModel dx="1572" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-99" value="Component: Mti.Orders.Models" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-99" value="&lt;&lt;component&gt;&gt;&#xa;Mti.Orders.Models" style="swimlane;startSize=60;" vertex="1" parent="1">
           <mxGeometry x="1640" y="210" width="1550" height="780" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-31" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Animal&lt;/span&gt;" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-99">
@@ -691,6 +691,9 @@
             <mxPoint x="4960" y="890" as="sourcePoint" />
             <mxPoint x="4870" y="904" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-208" value="&lt;&lt;component&gt;&gt;&#xa;Mti.Guides.IServices" style="swimlane;startSize=70;" vertex="1" parent="1">
+          <mxGeometry x="3310" y="-310" width="3080" height="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
