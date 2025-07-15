@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="Page-1" id="_4CO3BgH9kMVLNDz86mz">
-    <mxGraphModel dx="2294" dy="3868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1396" dy="3391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -483,7 +483,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-208" value="&lt;&lt;component&gt;&gt;&#xa;Mti.Guides.IServices" style="swimlane;startSize=70;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="-2060" width="3080" height="690" as="geometry" />
+          <mxGeometry x="1220" y="-1640" width="3080" height="690" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-101" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;IZoosService" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-208">
           <mxGeometry x="1435" y="326" width="510" height="214" as="geometry" />
@@ -750,19 +750,44 @@
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-231" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-226" target="ZbPvroxc9PfUL8jWCel5-101">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2880" y="-1320" as="sourcePoint" />
-            <mxPoint x="3040" y="-1320" as="targetPoint" />
+            <mxPoint x="2770" y="-900" as="sourcePoint" />
+            <mxPoint x="2930" y="-900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-233" value="reference" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-232" target="ZbPvroxc9PfUL8jWCel5-208">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3530" y="-1165" />
+              <mxPoint x="3420" y="-745" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-232" target="ZbPvroxc9PfUL8jWCel5-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1915" y="-680" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-235" value="reference" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZbPvroxc9PfUL8jWCel5-234">
+          <mxGeometry x="-0.3773" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-232" target="ZbPvroxc9PfUL8jWCel5-222">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3810" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-238" value="reference" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZbPvroxc9PfUL8jWCel5-236">
+          <mxGeometry x="-0.2793" y="4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-232" value="&lt;&lt;component&gt;&gt;&#xa;Mti.Guides.Services" style="swimlane;startSize=60;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2920" y="-1280" width="200" height="230" as="geometry" />
+          <mxGeometry x="2810" y="-860" width="200" height="230" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-226" value="&lt;div&gt;&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;/div&gt;ZoosService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-232">
           <mxGeometry x="20" y="130" width="160" height="58" as="geometry" />
