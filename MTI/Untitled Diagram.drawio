@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="Page-1" id="_4CO3BgH9kMVLNDz86mz">
-    <mxGraphModel dx="1310" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -621,7 +621,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-177" value="&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;lt;&amp;lt;data&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;NewZooKeeperRequest&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5680" y="480" width="380" height="84" as="geometry" />
+          <mxGeometry x="5860" y="410" width="380" height="84" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-178" value="+ ZooKeeperName: string?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-177">
           <mxGeometry y="50" width="380" height="26" as="geometry" />
@@ -630,7 +630,7 @@
           <mxGeometry y="76" width="380" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-181" value="&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;lt;&amp;lt;data&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;ZooKeeperResponse&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5680" y="690" width="380" height="214" as="geometry" />
+          <mxGeometry x="5860" y="620" width="380" height="214" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-182" value="+ ZooKeeperId: guid?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-181">
           <mxGeometry y="50" width="380" height="26" as="geometry" />
@@ -655,12 +655,12 @@
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-190" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-181" target="ZbPvroxc9PfUL8jWCel5-177">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="5860" y="730" as="sourcePoint" />
-            <mxPoint x="5860" y="620" as="targetPoint" />
+            <mxPoint x="6040" y="660" as="sourcePoint" />
+            <mxPoint x="6040" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-191" value="&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;lt;&amp;lt;data&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;ZooResponse&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5050" y="901" width="380" height="136" as="geometry" />
+          <mxGeometry x="5340" y="655" width="380" height="136" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-192" value="+ ZooId: guid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-191">
           <mxGeometry y="50" width="380" height="26" as="geometry" />
@@ -684,6 +684,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="5460" y="990" as="sourcePoint" />
             <mxPoint x="5340" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-207" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-101" target="ZbPvroxc9PfUL8jWCel5-191">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="4960" y="890" as="sourcePoint" />
+            <mxPoint x="4870" y="904" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
