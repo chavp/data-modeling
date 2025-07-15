@@ -161,7 +161,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-160" value="ZooKeeper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-99">
-          <mxGeometry x="1300" y="347" width="160" height="86" as="geometry" />
+          <mxGeometry x="1300" y="353" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-161" value="+ Name: string?&amp;nbsp;&amp;nbsp;[Required]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-160">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -180,6 +180,12 @@
               <mxPoint x="340" y="680" />
               <mxPoint x="1070" y="680" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-172" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="ZbPvroxc9PfUL8jWCel5-99" source="ZbPvroxc9PfUL8jWCel5-160" target="ZbPvroxc9PfUL8jWCel5-82">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1220" y="640" as="sourcePoint" />
+            <mxPoint x="1330" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-100" value="Schema: animals" style="swimlane;startSize=23;" vertex="1" parent="1">
