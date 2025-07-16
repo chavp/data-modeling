@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="Page-1" id="_4CO3BgH9kMVLNDz86mz">
-    <mxGraphModel dx="-195" dy="2548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-64" dy="2617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,16 +79,16 @@
         <mxCell id="ZbPvroxc9PfUL8jWCel5-74" value="+ Id: Guid [Key]&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-75" value="+ CreatedUtc: DateTime [Required]&amp;nbsp;[DateTime.UtcNow]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-75" value="+ CreateDateTimeUtc: DateTime [Required]&amp;nbsp;[DateTime.UtcNow]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
           <mxGeometry y="52" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-76" value="+ CreatedBy: string [300] [Required]&amp;nbsp;[Environment.MachineName]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
           <mxGeometry y="78" width="380" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-77" value="+ LastUpdateUtc: DateTime?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-77" value="+ ModifyDateTimeUtc: DateTime?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
           <mxGeometry y="104" width="380" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZbPvroxc9PfUL8jWCel5-78" value="+ LastUpdateBy: string? [300]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-78" value="+ ModifyBy: string? [300]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
           <mxGeometry y="130" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-79" value="+ Revision: uint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-73">
