@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="Page-1" id="_4CO3BgH9kMVLNDz86mz">
-    <mxGraphModel dx="1115" dy="3243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2294" dy="3868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -806,7 +806,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-250" value="&lt;&lt;application&gt;&gt;&#xa;Mti.Guides.AnimalsApi&#xa;[component: ASP.NET API, RESTfull]" style="swimlane;startSize=80;" vertex="1" parent="1">
-          <mxGeometry x="4580" y="-1900" width="800" height="610" as="geometry" />
+          <mxGeometry x="4540" y="-2110" width="800" height="610" as="geometry" />
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-240" value="&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;ZoosController&lt;/span&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-250">
           <mxGeometry x="180" y="189" width="440" height="240" as="geometry" />
@@ -834,6 +834,18 @@
         </mxCell>
         <mxCell id="ZbPvroxc9PfUL8jWCel5-247" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZbPvroxc9PfUL8jWCel5-240">
           <mxGeometry y="232" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-253" value="swagger UI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZbPvroxc9PfUL8jWCel5-252" target="ZbPvroxc9PfUL8jWCel5-250">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4995.33349609375" y="-2000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4200" y="-2025" />
+              <mxPoint x="4200" y="-2025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbPvroxc9PfUL8jWCel5-252" value="Dev" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2975" y="-2100" width="115" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
