@@ -584,9 +584,20 @@
             <mxPoint x="1580" y="400" as="sourcePoint" />
             <mxPoint x="1580" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1930" y="170" />
+              <mxPoint x="1900" y="170" />
               <mxPoint x="350" y="170" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oErXkipmvM2q--g5pRgf-8" value="order billing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=ERoneToMany;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="oErXkipmvM2q--g5pRgf-5" target="oErXkipmvM2q--g5pRgf-1">
+          <mxGeometry x="-0.9846" y="40" relative="1" as="geometry">
+            <mxPoint x="2010" y="650" as="sourcePoint" />
+            <mxPoint x="460" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1960" y="810" />
+              <mxPoint x="-920" y="810" />
+            </Array>
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
