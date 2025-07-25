@@ -596,6 +596,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="oErXkipmvM2q--g5pRgf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="oErXkipmvM2q--g5pRgf-5" target="oErXkipmvM2q--g5pRgf-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1870" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oErXkipmvM2q--g5pRgf-5" value="&lt;div&gt;&amp;lt;&amp;lt;schema&amp;gt;&amp;gt;&lt;/div&gt;Orders" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1830" y="-495" width="200" height="110" as="geometry" />
         </mxCell>
@@ -610,13 +617,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oErXkipmvM2q--g5pRgf-8" value="order billing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;startArrow=none;startFill=0;" edge="1" parent="1" source="oErXkipmvM2q--g5pRgf-5" target="oErXkipmvM2q--g5pRgf-1">
-          <mxGeometry x="-0.7758" y="-50" relative="1" as="geometry">
+          <mxGeometry x="-0.6837" y="-50" relative="1" as="geometry">
             <mxPoint x="2010" y="650" as="sourcePoint" />
             <mxPoint x="460" y="840" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1930" y="810" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
