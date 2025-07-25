@@ -563,6 +563,14 @@
         <mxCell id="Gwfefa4xqPAHv9ycmTIK-119" value="ClaimItems" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-60" y="-470" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oErXkipmvM2q--g5pRgf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="oErXkipmvM2q--g5pRgf-1" target="Gwfefa4xqPAHv9ycmTIK-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-890" y="750" />
+              <mxPoint x="1620" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oErXkipmvM2q--g5pRgf-1" value="Invoices" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-1015" y="450" width="190" height="100" as="geometry" />
         </mxCell>
@@ -595,7 +603,7 @@
             <mxPoint x="460" y="840" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1960" y="810" />
-              <mxPoint x="-920" y="810" />
+              <mxPoint x="-950" y="810" />
             </Array>
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
