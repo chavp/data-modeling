@@ -572,11 +572,16 @@
         <mxCell id="oErXkipmvM2q--g5pRgf-3" value="AgreementItems" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="915" y="30" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oErXkipmvM2q--g5pRgf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="oErXkipmvM2q--g5pRgf-5" target="Gwfefa4xqPAHv9ycmTIK-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oErXkipmvM2q--g5pRgf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="oErXkipmvM2q--g5pRgf-5" target="Gwfefa4xqPAHv9ycmTIK-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="-180" />
+              <mxPoint x="1640" y="-180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="oErXkipmvM2q--g5pRgf-5" value="Orders" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="80" width="200" height="110" as="geometry" />
+          <mxGeometry x="1540" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
