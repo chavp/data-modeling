@@ -703,10 +703,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RdjfbKBckpWRO-hU6VDz-4" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Payments&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1860" width="150" height="80" as="geometry" />
+          <mxGeometry x="-800" y="1860" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RdjfbKBckpWRO-hU6VDz-5" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PaymentMethodTypes&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="2030" width="150" height="80" as="geometry" />
+          <mxGeometry x="-785" y="2030" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RdjfbKBckpWRO-hU6VDz-7" value="inherite" style="shape=or;whiteSpace=wrap;html=1;direction=north;" vertex="1" parent="1">
           <mxGeometry x="-560" y="1870" width="80" height="60" as="geometry" />
@@ -735,7 +735,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RdjfbKBckpWRO-hU6VDz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="RdjfbKBckpWRO-hU6VDz-13" target="RdjfbKBckpWRO-hU6VDz-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-730" y="1720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="RdjfbKBckpWRO-hU6VDz-13" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PaymentApplications&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-960" y="1680" width="150" height="80" as="geometry" />
@@ -821,8 +825,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="RdjfbKBckpWRO-hU6VDz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="RdjfbKBckpWRO-hU6VDz-35" target="RdjfbKBckpWRO-hU6VDz-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-650" y="1640" />
+              <mxPoint x="-650" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RdjfbKBckpWRO-hU6VDz-35" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FinancialAccountTransactions&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-675" y="1490" width="250" height="80" as="geometry" />
+          <mxGeometry x="-680" y="1490" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
