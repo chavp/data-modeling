@@ -740,6 +740,27 @@
         <mxCell id="RdjfbKBckpWRO-hU6VDz-13" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PaymentApplications&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-940" y="1420" width="150" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="RdjfbKBckpWRO-hU6VDz-16" value="inherite" style="shape=or;whiteSpace=wrap;html=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="1610" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RdjfbKBckpWRO-hU6VDz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=block;startFill=0;" edge="1" parent="1" source="RdjfbKBckpWRO-hU6VDz-2" target="RdjfbKBckpWRO-hU6VDz-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-910" y="1720" as="sourcePoint" />
+            <mxPoint x="-820" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdjfbKBckpWRO-hU6VDz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="RdjfbKBckpWRO-hU6VDz-18" target="RdjfbKBckpWRO-hU6VDz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RdjfbKBckpWRO-hU6VDz-18" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SaleInvoiceItems&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="1520" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RdjfbKBckpWRO-hU6VDz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="RdjfbKBckpWRO-hU6VDz-19" target="RdjfbKBckpWRO-hU6VDz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RdjfbKBckpWRO-hU6VDz-19" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PurchaseInvoiceItems&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="1710" width="150" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
