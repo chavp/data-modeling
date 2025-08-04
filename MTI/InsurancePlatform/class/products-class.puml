@@ -5,13 +5,242 @@
 !define TYPES #a7e0acff
 !define VALUES #c7e4c9ff
 
-package "Mti.Products.Types" as TypesPkg TYPES {
+' ===== แพ็กเกจประเภทของผลิตภัณฑ์ประกันภัย =====
+package Mti.Products.Types as TypesPkg TYPES {
+    ' หมวดหมู่ผลิตภัณฑ์ประกันภัย เช่น ประกันรถยนต์, ประกันชีวิต
     class ProductCategory <<ProductCategories>> {
-        Index = Code *
-        ...
+        Index = ParentProductCategoryId, Code *
+        ..
+        ' ค่าคงที่สำหรับประเภทประกันรถยนต์
         {static} +Insured: string = "MOTOR"
+        ' ค่าคงที่สำหรับผลิตภัณฑ์ดั้งเดิมของ MTI
         {static} +MtiOriginal: string = "MTI_ORIGINAL"
+        ..
+        ' รหัสหมวดหมู่แม่ (สำหรับการจัดหมวดหมู่แบบ hierarchy)
+        {field} +ParentProductCategoryId: Guid?
+        ' อ้างอิงไปยังหมวดหมู่แม่
+        {field} +ParentProductCategory: ProductCategory?
+        ' รายการหมวดหมู่ย่อย
+        {field} +Subcategories: List<ProductCategory> = []
+        ' รายการผลิตภัณฑ์ในหมวดหมู่นี้
+        {field} +Products: List<Product> = []
+        ' การจัดหมวดหมู่ผลิตภัณฑ์
+        {field} +ProductCatogoryClassifications: List<ProductCategoryClassification> = []
+    }
+
+    ' หมวดหมู่คุณสมบัติของผลิตภัณฑ์ เช่น คุณสมบัติของรถยนต์
+    class ProductFeatureCategory <<ProductFeatureCategories>> {
+        Index Code *
+        ..
+        ' ค่าคงที่สำหรับคุณสมบัติรถยนต์
+        {static} +Vehicle: string = "VEHICLE"
+    }
+
+    ' หมวดหมู่การคุ้มครอง เช่น รถยนต์, สุขภาพ, บ้าน
+    class CoverageCategory <<CoverageCategories>> {
+        Index Code *
+        ..
+        {static} +Motor: string = "MOTOR" ' ค่าคงที่สำหรับการคุ้มครองรถยนต์
+    }
+
+    ' เกณฑ์การคุ้มครอง เช่น ต่อเหตุการณ์, ต่อบุคคล
+    class CoverageLevelBasis <<CoverageLevelBasises>> {
+        Index Code *
+        ..
+        {static} +PerIncident: string = "PER_INCIDENT"      ' ต่อเหตุการณ์
+        {static} +PerPerson: string = "PER_PERSON"          ' ต่อบุคคล
+        {static} +PerDisablitity: string = "PER_DISABLITITY"' ต่อความพิการ
+        {static} +PerDriver: string = "PER_DRIVER"          ' ต่อผู้ขับขี่
+        {static} +PerTime: string = "PER_TIME"              ' ต่อช่วงเวลา
+    }
+
+    ' ประเภทระดับการคุ้มครอง เช่น จำนวนเงินคุ้มครอง, ค่าเสียหายส่วนแรก
+    class CoverageLevelType <<CoverageLevelTypes>> {
+        Index Code *
+        ..
+        {static} +CoverageAmount: string = "COVERAGE_AMOUNT"  ' จำนวนเงินคุ้มครอง
+        {static} +Deductibility: string = "DEDUCTIBILITY"    ' ค่าเสียหายส่วนแรก
     }
 }
+
+' ===== แพ็กเกจโมเดลหลักของผลิตภัณฑ์ประกันภัย =====
+package Mti.Products.Models as ModelsPkg ENTITIES {
+    ' ผลิตภัณฑ์ประกันภัย
+    class Product <<Products>> {
+        Index Code *
+        Index Name
+        ..
+        ' รหัสผลิตภัณฑ์
+        {field} +Code string? 1000 *
+        ' ชื่อผลิตภัณฑ์
+        {field} +Name string? 300 *
+        ' หมวดหมู่ของผลิตภัณฑ์
+        {field} +ProductCatogories: List<ProductCategory> = []
+        ' การจัดหมวดหมู่ผลิตภัณฑ์
+        {field} +ProductCatogoryClassifications: List<ProductCategoryClassification> = []
+        ' การคุ้มครองที่มีให้เลือก
+        {field} +CoverageAvailabilities: List<CoverageAvailability> = []
+        ' คุณสมบัติผลิตภัณฑ์ที่มีให้เลือก
+        {field} +ProductFeatureAvailabilities: List<ProductFeatureAvailability> = []
+    }
+
+    ' การจัดหมวดหมู่ผลิตภัณฑ์ (ความสัมพันธ์ระหว่างผลิตภัณฑ์กับหมวดหมู่)
+    class ProductCategoryClassification <<ProductCatogoryClassifications>> {
+        Index = ProductCatogoryId, ProductId *
+        ..
+        {field} +ProductCatogoryId: Guid? *
+        {field} +ProductCatogory: ProductCatogory?
+        {field} +ProductId: Guid? *
+        {field} +Product: Product?
+    }
+
+    ' คุณสมบัติของผลิตภัณฑ์ (abstract class)
+    abstract class ProductFeature <<ProductFeatures>> {
+        ' หมวดหมู่คุณสมบัติผลิตภัณฑ์
+        {field} +ProductFeatureCategoryId: Guid? *
+        {field} +ProductFeatureCategory: ProductFeatureCategory?
+    }
+
+    ' ยี่ห้อรถยนต์
+    class VehicleBrand <<VehicleBrands>> {
+        Index = Code *
+        ..
+        {field} +Code string? 256 *    ' รหัสยี่ห้อ
+        {field} +Name string? 400      ' ชื่อยี่ห้อ
+    }
+
+    ' รุ่นรถยนต์
+    class VehicleModel <<VehicleModels>> {
+        Index = Code *
+        ..
+        {field} +Code string? 256 *    ' รหัสรุ่น
+        {field} +Name string? 600      ' ชื่อรุ่น
+    }
+
+    ' รหัสรถยนต์
+    class VehicleCode <<VehicleCodes>> {
+        Index = Code *
+        ..
+        {field} +Code string? 256 *    ' รหัสรถ
+        {field} +Name string? 300      ' ชื่อรหัสรถ
+    }
+
+    ' ปีรถยนต์
+    class VehicleYear <<VehicleYears>> {
+        Index = Code *
+        ..
+        {field} +Code string? 256 *    ' รหัสปี
+        {field} +Name string? 300      ' ปี ค.ศ.
+    }
+
+    ' การเลือกคุณสมบัติผลิตภัณฑ์ที่มีให้
+    abstract class ProductFeatureAvailability <<ProductFeatureAvailabilities>>{
+        Index = ProductId, ProductFeatureId *
+        ..
+        {field} +ProductId: Guid? *
+        {field} +Product: Product?
+        {field} +ProductFeatureId: Guid? *
+        {field} +ProductFeature: ProductFeature?
+    }
+
+    ' คุณสมบัติที่สามารถเลือกได้
+    class SelectableFeature <<SelectableFeatures>> {
+    }
+
+    ' ประเภทการคุ้มครอง
+    class CoverageType <<CoverageTypes>> {
+        Index = Code *
+        ..
+        {static} +SumInsured: string = "SUM_INSURED"      ' ทุนประกันภัย
+        {static} +Deductible: string = "DEDUCTIBLE"       ' ค่าเสียหายส่วนแรก
+        {static} +DamageLife: string = "DAMAGE_LIFE"      ' ความเสียหายต่อชีวิต
+        {static} +DamageInsure: string = "DAMAGE_INSURE"  ' ความเสียหายต่อทรัพย์สิน
+        {static} +Accident: string = "ACCIDENT"           ' อุบัติเหตุ
+        {static} +MedicalInsure: string = "MEDICAL_INSURE"' ค่าใช้จ่ายทางการแพทย์
+        {static} +InsureDriver: string = "INSURE_DRIVER"  ' ประกันผู้ขับขี่
+        ..
+        {field} +CoverageCategoryId: Guid? *
+        {field} +CoverageCategory: CoverageCategory?
+    }
+
+    ' ระดับการคุ้มครอง (abstract class)
+    abstract class CoverageLevel <<CoverageLevels>> {
+        ' ประเภทระดับการคุ้มครอง
+        {field} +CoverageLevelTypeId: Guid? *
+        {field} +CoverageLevelType: CoverageLevelType?
+        ' เกณฑ์การคุ้มครอง
+        {field} +CoverageLevelBasisId: Guid? *
+        {field} +CoverageLevelBasis: CoverageLevelBasis?
+    }
+
+    ' ค่าเสียหายส่วนแรกที่ผู้เอาประกันภัยต้องรับผิดชอบ
+    class Deductibility <<Deductibilities>> {
+        {field} +Amount: decimal    ' จำนวนเงิน
+    }
+
+    ' จำนวนเงินคุ้มครอง
+    class CoverageAmount <<CoverageAmounts>> {
+        {field} +Amount: decimal    ' จำนวนเงินคุ้มครอง
+    }
+
+    ' การคุ้มครองที่มีให้เลือกในผลิตภัณฑ์
+    abstract class CoverageAvailability <<CoverageAvailabilities>> {
+        Index = ProductId, CoverageTypeId, CoverageLevelId *
+        {field} +ProductId: Guid? *
+        {field} +Product: Product?
+        {field} +CoverageTypeId: Guid? *
+        {field} +CoverageType: CoverageType?
+        {field} +CoverageLevelId: Guid? *
+        {field} +CoverageLevel: CoverageLevel?
+    }
+}
+
+' ===== ความสัมพันธ์แบบการสืบทอด (Inheritance) =====
+TypeModel <|-- ProductCategory
+TypeModel <|-- CoverageType
+TypeModel <|-- ProductFeatureCategory
+TypeModel <|-- CoverageLevelBasis
+TypeModel <|-- CoverageCategory
+
+EffectiveModel <|-- ProductCategoryClassification
+EffectiveModel <|-- ProductFeatureAvailability
+EffectiveModel <|-- CoverageAvailability
+
+DomainModel <|-- Product
+DomainModel <|-- ProductFeature
+DomainModel <|-- CoverageLevel
+
+' คุณสมบัติรถยนต์สืบทอดจาก ProductFeature
+ProductFeature <|--- VehicleBrand
+ProductFeature <|--- VehicleModel
+ProductFeature <|--- VehicleCode
+ProductFeature <|--- VehicleYear
+
+' ระดับการคุ้มครองแบบต่างๆ สืบทอดจาก CoverageLevel
+CoverageLevel <|--- Deductibility
+CoverageLevel <|--- CoverageAmount
+
+ProductFeatureAvailability <|--- SelectableFeature
+
+' ===== ความสัมพันธ์แบบการเชื่อมโยง (Association) =====
+' ผลิตภัณฑ์สามารถมีหลายหมวดหมู่ และหมวดหมู่สามารถมีหลายผลิตภัณฑ์
+Product "*"--"*" ProductCategory
+(Product, ProductCategory) .. ProductCategoryClassification
+
+' การเชื่อมโยงคุณสมบัติผลิตภัณฑ์
+ProductFeatureAvailability --> Product
+ProductFeatureAvailability --> ProductFeature
+
+' การเชื่อมโยงการคุ้มครอง
+CoverageType --> CoverageCategory
+
+' การเชื่อมโยงระดับการคุ้มครอง
+CoverageLevel --> CoverageLevelType
+CoverageLevel --> CoverageLevelBasis
+
+' การเชื่อมโยงการคุ้มครองที่มีให้เลือก
+CoverageAvailability --> Product
+CoverageAvailability --> CoverageType
+CoverageAvailability --> CoverageLevel
 
 @enduml

@@ -5,10 +5,8 @@
 !define TYPES #c7e2f0ff
 !define VALUES #daecf5ff
 
-left to right direction
-
 ' ===== PARTY TYPES PACKAGE =====
-package "Mti.Parties.Types" as TypesPkg TYPES {
+package Mti.Parties.Types as TypesPkg TYPES {
     class PartyTitle <<PartyTitles>> {
         Index = Code *
         ..
@@ -44,7 +42,7 @@ package "Mti.Parties.Types" as TypesPkg TYPES {
 }
 
 ' ===== PARTY VALUES PACKAGE =====
-package "Mti.Parties.Values" as ValuesPkg VALUES {
+package Mti.Parties.Values as ValuesPkg VALUES {
     class PostalAddress <<PostalAddresses>> {
         Index = Name *
         ..
@@ -76,7 +74,7 @@ package "Mti.Parties.Values" as ValuesPkg VALUES {
 }
 
 ' ===== MAIN PARTY MODELS PACKAGE =====
-package "Mti.Parties.Models" as ModelsPkg ENTITIES {
+package Mti.Parties.Models as ModelsPkg ENTITIES {
     abstract class Party <<Parties>> {
         {field} +PartyTitleId: Guid? // รหัสคำนำหน้าชื่อ
         {field} +PartyTitle: PartyTitle? // คำนำหน้าชื่อ (นาย, นาง, นางสาว, บริษัท)
@@ -197,7 +195,6 @@ DomainModel <|-- Party
 DomainModel <|-- Asset
 DomainModel <|-- ContactMechanism
 
-' ===== INHERITANCE RELATIONSHIPS =====
 EffectiveModel <|-- PartyRole
 EffectiveModel <|-- AssetRole
 EffectiveModel <|-- PartyContactMechanism
@@ -227,19 +224,19 @@ ContactMechanism <|-- ElectronicAddress
 ' ===== ASSOCIATION RELATIONSHIPS =====
 Party ..> PartyTitle : uses
 Party ..> Nationality : uses
-Party ||--o{ AssetRole
-Party ||--o{ PartyContactMechanism
+Party "1"--"*" AssetRole
+Party "*"--"*" ContactMechanism
+(Party, ContactMechanism) .. PartyContactMechanism
 
 PartyRole --> Party
 PartyRole --> PartyRoleType
 
-Asset ||--o{ AssetContactMechanism
+Asset "*"--"*" ContactMechanism
+(Asset, ContactMechanism) .. AssetContactMechanism
 AssetRole --> Party
 AssetRole --> Asset
 AssetRole --> AssetRoleType
 
 ContactMechanism --> ContactMechanismType
-ContactMechanism ||--o{ PartyContactMechanism
-ContactMechanism ||--o{ AssetContactMechanism
 
 @enduml
