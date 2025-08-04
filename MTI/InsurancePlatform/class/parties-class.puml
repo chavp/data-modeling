@@ -193,6 +193,11 @@ package "Mti.Parties.Models" as ModelsPkg ENTITIES {
 }
 
 ' ===== INHERITANCE RELATIONSHIPS =====
+DomainModel <|-- Party
+DomainModel <|-- Asset
+DomainModel <|-- ContactMechanism
+
+' ===== INHERITANCE RELATIONSHIPS =====
 EffectiveModel <|-- PartyRole
 EffectiveModel <|-- AssetRole
 EffectiveModel <|-- PartyContactMechanism
