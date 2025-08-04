@@ -28,4 +28,11 @@ package "Mti.Domains.Models" as DomainPkg LIGHGRAY {
     }
 }
 
+' ===== INHERITANCE RELATIONSHIPS =====
+DomainModel <|-- EffectiveModel
+DomainModel <|-- TypeModel
+DomainModel <|-- Party
+DomainModel <|-- Asset
+DomainModel <|-- ContactMechanism
+
 @enduml

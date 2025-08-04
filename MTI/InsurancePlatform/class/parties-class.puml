@@ -1,7 +1,7 @@
 @startuml
-!include /domains-class.caption
+!include https://raw.githubusercontent.com/chavp/data-modeling/refs/heads/master/MTI/InsurancePlatform/class/domains-class.puml
 
-!define EMTITIES #9fc4d6ff
+!define ENTITIES #9fc4d6ff
 !define TYPES #c7e2f0ff
 !define VALUES #daecf5ff
 
@@ -76,7 +76,7 @@ package "Mti.Parties.Values" as ValuesPkg VALUES {
 }
 
 ' ===== MAIN PARTY MODELS PACKAGE =====
-package "Mti.Parties.Models" as ModelsPkg EMTITIES {
+package "Mti.Parties.Models" as ModelsPkg ENTITIES {
     abstract class Party <<Parties>> {
         {field} +PartyTitleId: Guid? // รหัสคำนำหน้าชื่อ
         {field} +PartyTitle: PartyTitle? // คำนำหน้าชื่อ (นาย, นาง, นางสาว, บริษัท)
@@ -193,12 +193,6 @@ package "Mti.Parties.Models" as ModelsPkg EMTITIES {
 }
 
 ' ===== INHERITANCE RELATIONSHIPS =====
-DomainModel <|-- EffectiveModel
-DomainModel <|-- TypeModel
-DomainModel <|-- Party
-DomainModel <|-- Asset
-DomainModel <|-- ContactMechanism
-
 EffectiveModel <|-- PartyRole
 EffectiveModel <|-- AssetRole
 EffectiveModel <|-- PartyContactMechanism
