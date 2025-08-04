@@ -1,0 +1,31 @@
+@startuml
+
+!define LIGHGRAY #bbbbbbff
+
+' ===== BASE DOMAIN PACKAGE =====
+package "Mti.Domains.Models" as DomainPkg LIGHGRAY {
+    abstract class DomainModel {
+        {field} +Id: Guid? [Key] // รหัสประจำตัวเฉพาะของเอนทิตี้
+        {field} +CreatedDateUtc: DateTime = DateTime.UtcNow // วันเวลาที่สร้างข้อมูล (UTC)
+        {field} +CreatedBy: string 300 = Environment.MachineName // ผู้สร้างข้อมูล
+        {field} +LastModifiedDateUtc: DateTime? // วันเวลาที่แก้ไขข้อมูลล่าสุด (UTC)
+        {field} +LastModifiedBy: string? 300 // ผู้แก้ไขข้อมูลล่าสุด
+        {field} +Revision: uint #set // เลขรุ่นของข้อมูล (สำหรับ Concurrency Control)
+        --
+        +Update(lastModifiedBy: string? = null): void // อัปเดตข้อมูลการแก้ไข
+    }
+
+    abstract class EffectiveModel {
+        {field} +EffectiveDate: DateOnly = DateOnly.FromDateTime(DateTime.Now) // วันที่เริ่มมีผล
+        {field} +ExpiryDate: DateOnly = DateOnly.FromDateTime(DateTime.MaxValue) // วันที่หมดอายุ
+        --
+        +Expire(expiryDate: DateOnly? = null, lastModifiedBy: string? = null): void // ทำให้หมดอายุ
+    }
+
+    abstract class TypeModel {
+        {field} +Code: string? 256 // รหัสประเภท (เช่น INSURED, OWNER)
+        {field} +Name: string? 500 // ชื่อประเภท (เช่น ผู้เอาประกันภัย, เจ้าของ)
+    }
+}
+
+@enduml
