@@ -28,12 +28,12 @@ package "Mti.Domains.Models" as DomainPkg LIGHGRAY {
     }
 
     ' ===== NOTE METHOD =====
-    note of DomainModel::Update
+    note left of DomainModel::Update
         LastModifiedBy = updateBy ?? Environment.MachineName
         LastModifiedDateUtc = DateTime.UtcNow
         ++Revision
     end note
-    note of EffectiveModel::Expire
+    note left of EffectiveModel::Expire
         ExpiryDate = expiryDate ?? DateOnly.FromDateTime(DateTime.Today.AddDays(-1))
         Update(lastModifiedBy)
     end note

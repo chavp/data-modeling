@@ -36,6 +36,28 @@ package Mti.Orders.Types as TypesPkg TYPES {
         {static} +Mobile: string = "MOBILE"
         {static} +Email: string = "EMAIL"
     }
+
+    class WorkType <<WorkTypes>> {
+        Index = Code *
+        ..
+        {static} +Validation: string = "VALIDATION"
+        {static} +Client: string = "CLIENT"
+        {static} +Policy: string = "POLICY"
+    }
+
+    class WorkEventTypes <<WorkEventTypes>> {
+        Index = Code *
+        ..
+        {static} +Checked: string = "CHECKED"
+        {static} +Created: string = "CREATED"
+        {static} +Issued: string = "ISSUED"
+    }
+    class WorkEventStatusType <<WorkEventStatusTypes>> {
+        Index = Code *
+        ..
+        {static} +Error: string = "ERROR"
+        {static} +Success: string = "SUCCESS"
+    }
 }
 
 ' ===== PARTY VALUES PACKAGE =====
@@ -69,6 +91,7 @@ package Mti.Orders.Models as ModelsPkg ENTITIES {
     abstract class SaleOrder <<SaleOrders>> {
         
     }
+
     class MtiOriginalSalesOrder <<MtiOriginalSalesOrders>> {
         Index = SaleDate, LoanNumber *
         ..
@@ -187,7 +210,41 @@ package Mti.Orders.Models as ModelsPkg ENTITIES {
         ..
         {field} +Parties_ContactMechanismId: Guid? *
     }
-    
+
+    class OrderStatus <<OrderStatuses>> {
+        +StatusDateTimeUtc: DateTime
+        ..
+        {field} +OrderId: Guid? *
+        {field} +Order: Order?
+        {field} +OrderStatusTypeId: Guid? *
+        {field} +OrderStatusType: OrderStatusType?
+    }
+
+    class Work <<Works>> {
+        {field} +StartDateTimeUtc: DateTime
+        {field} +EndDateTimeUtc: DateTime?
+        ..
+        {field} +WorkTypeId: Guid? *
+        {field} +WorkType: WorkType?
+        {field} +OrderId: Guid?
+        {field} +Order: Order?
+        {field} +OrderItemId: Guid?
+        {field} +OrderItem: OrderItem?
+        ..
+        {field} +WorkEvents: List<WorkEvent> = []
+    }
+
+    class WorkEvent <<WorkEvents>> {
+        {field} +WorkId: Guid? *
+        {field} +Work: Work?
+        {field} +WorkEventTypeId: Guid? *
+        {field} +WorkEventType: WorkEventType?
+        {field} +WorkEventStatusTypeId: Guid? *
+        {field} +WorkEventStatusType: WorkEventStatusType?
+        ..
+        {field} +Parties_ActionPartyId: Guid? *
+    }
+
     ' ===== NOTE METHOD =====
     note left of MtiOriginalSalesOrderItem::GetProductName
         Join string of "{PolicyType} {ProductName} {Campaign} {Package} {Workshop}"
@@ -202,10 +259,16 @@ DomainModel <|-- Order
 DomainModel <|-- OrderItem
 DomainModel <|-- OrderItemRole
 DomainModel <|-- PoliciesAgreementItem
+DomainModel <|-- OrderStatus
+DomainModel <|-- Work
+DomainModel <|-- WorkEvent
 
 TypeModel <|-- OrderStatusType
 TypeModel <|-- OrderRoleType
 TypeModel <|-- ContactMechanismPurposeType
+TypeModel <|-- WorkType
+TypeModel <|-- WorkEventType
+TypeModel <|-- WorkEventStatusType
 
 Order <|--- SaleOrder
 OrderItem <|--- SaleOrderItem
@@ -222,4 +285,9 @@ OrderItem "1"--"*" PoliciesAgreementItem
 OrderItemRole --> OrderRoleType
 OrderItemContactMechanism --> ContactMechanismPurposeType
 OrderItemContactMechanism --> OrderItem
+OrderStatus --> Order
+OrderStatus --> OrderStatusType
+Work "1"--"*" WorkEvent
+WorkEvent --> WorkEventType
+WorkEvent --> WorkEventStatusType
 @enduml
