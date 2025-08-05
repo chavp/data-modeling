@@ -27,6 +27,15 @@ package Mti.Orders.Types as TypesPkg TYPES {
         {static} +Insured: string = "INSURED"
         {static} +Invoice: string = "INVOINCE"
     }
+
+    class ContactMechanismPurposeType <<ContactMechanismPurposeTypes>> {
+        Index = Code *
+        ..
+        {static} +SendPolicy: string = "SEND_POLICY"
+        {static} +SendReceipt: string = "SEND_RECEIPT"
+        {static} +Mobile: string = "MOBILE"
+        {static} +Email: string = "EMAIL"
+    }
 }
 
 ' ===== PARTY VALUES PACKAGE =====
@@ -168,6 +177,17 @@ package Mti.Orders.Models as ModelsPkg ENTITIES {
         {field} +Policies_AgreementItemId: Guid?
     }
 
+    class OrderItemContactMechanism <<OrderItemContactMechanisms>> {
+        Index = ContactMechanismPurposeTypeId, OrderItemId, Parties_ContactMechanismId *
+        ..
+        {field} +ContactMechanismPurposeTypeId: Guid? *
+        {field} +ContactMechanismPurposeType: ContactMechanismPurposeType?
+        {field} +OrderItemId: Guid? *
+        {field} +OrderItem: OrderItem?
+        ..
+        {field} +Parties_ContactMechanismId: Guid? *
+    }
+    
     ' ===== NOTE METHOD =====
     note left of MtiOriginalSalesOrderItem::GetProductName
         Join string of "{PolicyType} {ProductName} {Campaign} {Package} {Workshop}"
@@ -185,6 +205,7 @@ DomainModel <|-- PoliciesAgreementItem
 
 TypeModel <|-- OrderStatusType
 TypeModel <|-- OrderRoleType
+TypeModel <|-- ContactMechanismPurposeType
 
 Order <|--- SaleOrder
 OrderItem <|--- SaleOrderItem
@@ -199,5 +220,6 @@ OrderItem ..> OrderItem
 OrderItem "1"--"*" OrderItemRole
 OrderItem "1"--"*" PoliciesAgreementItem
 OrderItemRole --> OrderRoleType
-
+OrderItemContactMechanism --> ContactMechanismPurposeType
+OrderItemContactMechanism --> OrderItem
 @enduml

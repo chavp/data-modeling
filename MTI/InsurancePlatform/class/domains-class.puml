@@ -26,18 +26,18 @@ package "Mti.Domains.Models" as DomainPkg LIGHGRAY {
         {field} +Code: string? 256 // รหัสประเภท (เช่น INSURED, OWNER)
         {field} +Name: string? 500 // ชื่อประเภท (เช่น ผู้เอาประกันภัย, เจ้าของ)
     }
-}
 
-' ===== NOTE METHOD =====
-note left of DomainModel::Update
-    LastModifiedBy = updateBy ?? Environment.MachineName
-    LastModifiedDateUtc = DateTime.UtcNow
-    ++Revision
-end note
-note left of EffectiveModel::Expire
-    ExpiryDate = expiryDate ?? DateOnly.FromDateTime(DateTime.Today.AddDays(-1))
-    Update(lastModifiedBy)
-end note
+    ' ===== NOTE METHOD =====
+    note of DomainModel::Update
+        LastModifiedBy = updateBy ?? Environment.MachineName
+        LastModifiedDateUtc = DateTime.UtcNow
+        ++Revision
+    end note
+    note of EffectiveModel::Expire
+        ExpiryDate = expiryDate ?? DateOnly.FromDateTime(DateTime.Today.AddDays(-1))
+        Update(lastModifiedBy)
+    end note
+}
 
 ' ===== INHERITANCE RELATIONSHIPS =====
 DomainModel <|-- EffectiveModel
