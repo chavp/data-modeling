@@ -45,7 +45,7 @@ package Mti.Orders.Types as TypesPkg TYPES {
         {static} +Policy: string = "POLICY"
     }
 
-    class WorkEventTypes <<WorkEventTypes>> {
+    class WorkEventType <<WorkEventTypes>> {
         Index = Code *
         ..
         {static} +Checked: string = "CHECKED"

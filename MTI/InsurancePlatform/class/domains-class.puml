@@ -33,7 +33,7 @@ package "Mti.Domains.Models" as DomainPkg LIGHGRAY {
         LastModifiedDateUtc = DateTime.UtcNow
         ++Revision
     end note
-    note left of EffectiveModel::Expire
+    note right of EffectiveModel::Expire
         ExpiryDate = expiryDate ?? DateOnly.FromDateTime(DateTime.Today.AddDays(-1))
         Update(lastModifiedBy)
     end note
