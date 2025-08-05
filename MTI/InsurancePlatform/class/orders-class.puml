@@ -5,254 +5,293 @@
 !define TYPES #dd91aeff
 !define VALUES #dfb8c7ff
 
-package Mti.Orders.Types as TypesPkg TYPES {
+' ===== แพ็กเกจประเภทข้อมูล (Types Package) =====
+package "Mti.Orders.Types - ประเภทข้อมูลคำสั่งซื้อ" as TypesPkg TYPES {
+    
+    ' สถานะคำสั่งซื้อ
     class OrderStatusType <<OrderStatusTypes>> {
         Index = Code *
         ..
-        {static} +New: string = "NEW"
-        {static} +Pending: string = "PENDING"
-        {static} +Completed: string = "COMPLETED"
+        {static} +New: string = "NEW"           ' ใหม่
+        {static} +Pending: string = "PENDING"   ' รอดำเนินการ
+        {static} +Completed: string = "COMPLETED" ' เสร็จสิ้น
     }
 
+    ' ภาษาและวัฒนธรรม
     class Culture <<Cultures>> {
         Index = LanguageCultureCode *
         ..
-        {field} +LanguageCultureCode: string? 10 *
-        {field} +DisplayName: string? 300
+        {field} +LanguageCultureCode: string? 10 * ' รหัสภาษา
+        {field} +DisplayName: string? 300          ' ชื่อที่แสดง
     }
 
+    ' ประเภทบทบาทในคำสั่งซื้อ
     class OrderRoleType <<OrderRoleTypes>> {
         Index = Code *
         ..
-        {static} +Insured: string = "INSURED"
-        {static} +Invoice: string = "INVOINCE"
+        {static} +Insured: string = "INSURED"   ' ผู้เอาประกันภัย
+        {static} +Invoice: string = "INVOINCE"  ' ผู้รับใบแจ้งหนี้
     }
 
+    ' ประเภทวัตถุประสงค์การติดต่อ
     class ContactMechanismPurposeType <<ContactMechanismPurposeTypes>> {
         Index = Code *
         ..
-        {static} +SendPolicy: string = "SEND_POLICY"
-        {static} +SendReceipt: string = "SEND_RECEIPT"
-        {static} +Mobile: string = "MOBILE"
-        {static} +Email: string = "EMAIL"
+        {static} +SendPolicy: string = "SEND_POLICY"   ' ส่งกรมธรรม์
+        {static} +SendReceipt: string = "SEND_RECEIPT" ' ส่งใบเสร็จ
+        {static} +Mobile: string = "MOBILE"            ' มือถือ
+        {static} +Email: string = "EMAIL"              ' อีเมล
     }
 
+    ' ประเภทงาน
     class WorkType <<WorkTypes>> {
         Index = Code *
         ..
-        {static} +Validation: string = "VALIDATION"
-        {static} +Client: string = "CLIENT"
-        {static} +Policy: string = "POLICY"
+        {static} +Validation: string = "VALIDATION" ' การตรวจสอบ
+        {static} +Client: string = "CLIENT"         ' ลูกค้า
+        {static} +Policy: string = "POLICY"         ' กรมธรรม์
     }
 
+    ' ประเภทเหตุการณ์งาน
     class WorkEventType <<WorkEventTypes>> {
         Index = Code *
         ..
-        {static} +Checked: string = "CHECKED"
-        {static} +Created: string = "CREATED"
-        {static} +Issued: string = "ISSUED"
+        {static} +Checked: string = "CHECKED"   ' ตรวจสอบแล้ว
+        {static} +Created: string = "CREATED"   ' สร้างแล้ว
+        {static} +Issued: string = "ISSUED"     ' ออกแล้ว
     }
+    
+    ' สถานะเหตุการณ์งาน
     class WorkEventStatusType <<WorkEventStatusTypes>> {
         Index = Code *
         ..
-        {static} +Error: string = "ERROR"
-        {static} +Success: string = "SUCCESS"
+        {static} +Error: string = "ERROR"       ' ข้อผิดพลาด
+        {static} +Success: string = "SUCCESS"   ' สำเร็จ
     }
 }
 
-' ===== PARTY VALUES PACKAGE =====
-package Mti.Orders.Values as ValuesPkg VALUES {
+' ===== แพ็กเกจค่าข้อมูล (Values Package) =====
+package "Mti.Orders.Values - ค่าข้อมูลคำสั่งซื้อ" as ValuesPkg VALUES {
+    
+    ' ตารางค้นหาภาษีขาย
     class SaleTaxLookup <<SaleTaxLookups>> {
-        {field} +Percentage: decimal
-        {field} +Parties_GeographicBoundaryId: Guid?
-        {field} +Products_ProductCategoryId: Guid?
+        {field} +Percentage: decimal                     ' เปอร์เซ็นต์ภาษี
+        {field} +Parties_GeographicBoundaryId: Guid?     ' รหัสขอบเขตภูมิศาสตร์
+        {field} +Products_ProductCategoryId: Guid?       ' รหัสหมวดหมู่สินค้า
     }
 }
 
-' ===== MAIN PARTY MODELS PACKAGE =====
-package Mti.Orders.Models as ModelsPkg ENTITIES {
+' ===== แพ็กเกจโมเดลหลัก (Main Models Package) =====
+package "Mti.Orders.Models - โมเดลคำสั่งซื้อ" as ModelsPkg ENTITIES {
+    
+    ' คำสั่งซื้อ (คลาสหลัก)
     abstract class Order <<Orders>> {
         Index = OrderNumber *
         ..
-        {field} +OrderNumber: string? 200 *
-        {field} +OrderDate: DateOnly?
-        {field} +TotalAmount: decimal
+        {field} +OrderNumber: string? 200 *    ' เลขที่คำสั่งซื้อ
+        {field} +OrderDate: DateOnly?          ' วันที่สั่งซื้อ
+        {field} +TotalAmount: decimal          ' จำนวนเงินรวม
         ..
-        {field} +CultureId: Guid?
-        {field} +Culture: Culture?
-        {field} +Items: List<OrderItem> = []
+        {field} +CultureId: Guid?              ' รหัสภาษา
+        {field} +Culture: Culture?             ' ข้อมูลภาษา
+        {field} +Items: List<OrderItem> = []   ' รายการสินค้า
         ..
-        +AddItme(item: OrderItem): void
+        +AddItem(item: OrderItem): void        ' เพิ่มรายการสินค้า
         ..
-        {field} +Parties_TenantId: Guid?
-        {field} +Products_TenantId: Guid?
-        {field} +Policies_TenantId: Guid?
+        {field} +Parties_TenantId: Guid?       ' รหัสผู้เช่า (ฝ่ายต่างๆ)
+        {field} +Products_TenantId: Guid?      ' รหัสผู้เช่า (สินค้า)
+        {field} +Policies_TenantId: Guid?      ' รหัสผู้เช่า (กรมธรรม์)
     }
+    
+    ' คำสั่งซื้อขาย
     abstract class SaleOrder <<SaleOrders>> {
-        
+        ' คลาสสำหรับคำสั่งซื้อขาย
     }
 
+    ' คำสั่งซื้อขายต้นฉบับ MTI
     class MtiOriginalSalesOrder <<MtiOriginalSalesOrders>> {
         Index = SaleDate, LoanNumber *
         ..
-        {field} +SaleDate: DateOnly? *
-        {field} +LoanNumber: string? 50 *
+        {field} +SaleDate: DateOnly? *     ' วันที่ขาย
+        {field} +LoanNumber: string? 50 *  ' เลขที่สินเชื่อ
     }
     
+    ' รายการสินค้าในคำสั่งซื้อ
     abstract class OrderItem <<OrderItems>> {
         Index = OrderId, Seq, Products_ProductId, Products_ProductFeatureId, Products_CoverageTypeId, Products_CoverageLevelId *
         ..
-        {field} +Price: decimal
-        {field} +Quantity: decimal
-        {field} +Seq: uint
+        {field} +Price: decimal                              ' ราคา
+        {field} +Quantity: decimal                           ' จำนวน
+        {field} +Seq: uint                                   ' ลำดับ
         ..
-        {field} +OrderId: Guid? *
-        {field} +Order: Order?
-        {field} +OrderedForId: Guid?
-        {field} +OrderedFor: OrderItem?
-        {field} +Roles: List<OrderItemRole> = []
-        {field} +AgreementItems: List<PoliciesAgreementItem> = []
+        {field} +OrderId: Guid? *                            ' รหัสคำสั่งซื้อ
+        {field} +Order: Order?                               ' ข้อมูลคำสั่งซื้อ
+        {field} +OrderedForId: Guid?                         ' สั่งซื้อสำหรับ
+        {field} +OrderedFor: OrderItem?                      ' รายการที่สั่งซื้อสำหรับ
+        {field} +Roles: List<OrderItemRole> = []             ' บทบาทในรายการ
+        {field} +AgreementItems: List<PoliciesAgreementItem> = [] ' รายการข้อตกลง
         ..
-        {field} +Products_ProductId: Guid?
-        {field} +Products_ProductFeatureId: Guid?
-        {field} +Products_CoverageTypeId: Guid?
-        {field} +Products_CoverageLevelId: Guid?
+        {field} +Products_ProductId: Guid?                   ' รหัสสินค้า
+        {field} +Products_ProductFeatureId: Guid?            ' รหัสคุณสมบัติสินค้า
+        {field} +Products_CoverageTypeId: Guid?              ' รหัสประเภทความคุ้มครอง
+        {field} +Products_CoverageLevelId: Guid?             ' รหัสระดับความคุ้มครอง
     }
 
+    ' รายการสินค้าขาย
     class SaleOrderItem <<SaleOrderItems>> {
-
+        ' คลาสสำหรับรายการสินค้าขาย
     }
 
+    ' รายการสินค้าขายต้นฉบับ MTI
     class MtiOriginalSalesOrderItem <<MtiOriginalSalesOrderItems>> {
         Index = OriginalId *
         Index = Status
         ..
-        {field} +OriginalId: uint?
-        {field} +TransID: string? 100
-        {field} +Status: string? 5 *
-        {field} +ProductName: string? 200 *
-        {field} +PolicyType: string? 200 *
-        {field} +PolicyNumber: string? 100
-        {field} +Campaign: string? 100
-        {field} +PolicyPreviousNumber: string? 100
-        {field} +PolicyEffectiveDate: DateOnly?
-        {field} +PolicyExpiryDate: DateOnly?
-        {field} +RefPolicyType: string? 200
-        {field} +Remark: string? 1000
-        {field} +RefNoticeNo: string? 100
-        {field} +RefDetailNo: string? 100
-        {field} +StatusMessage: string? 300
-        {field} +RefQuotation: string? 50
-        {field} +Source: string? 200
-        {field} +SystemId: string? 50
-        {field} +CustomerInfoNo: string? 50
-        {field} +Package: string? 50
-        {field} +Workshop: string? 10
-        {field} +PayPlan: string? 50
-        {field} +CollateralNo: string? 50
-        {field} +VehicleCode: string? 10
-        {field} +VehicleBrand: string? 300
-        {field} +VehicleModel: string? 600
-        {field} +VehicleManufactoringYear: ushort?
-        {field} +VehicleColor: string? 50
-        {field} +VehicleRegisterNo: string? 100
-        {field} +VehicleRegisterProvince: string? 100
-        {field} +VehicleRegisterYear: ushort?
-        {field} +VehicleChassis: string? 50
-        {field} +VehicleCc: float?
-        {field} +VehicleSeat: float?
-        {field} +VehicleWeight: ushort?
-        {field} +VehicleTonnage: float?
-        {field} +VehicleEngine: string? 100
-        {field} +VehiclePassenger: ushort?
-        {field} +SumInsure: decimal
-        {field} +Deduct: decimal
-        {field} +DamageLifePerPerson: decimal
-        {field} +DamageLifePerTime: decimal
-        {field} +DamageInsurePerTime: decimal
-        {field} +AccidentPerDriver: decimal
-        {field} +MedicalInsure: decimal
-        {field} +InsureDriver: decimal
+        {field} +OriginalId: uint?                       ' รหัสต้นฉบับ
+        {field} +TransID: string? 100                    ' รหัสธุรกรรม
+        {field} +Status: string? 5 *                     ' สถานะ
+        {field} +ProductName: string? 200 *              ' ชื่อสินค้า
+        {field} +PolicyType: string? 200 *               ' ประเภทกรมธรรม์
+        {field} +PolicyNumber: string? 100               ' เลขที่กรมธรรม์
+        {field} +Campaign: string? 100                   ' แคมเปญ
+        {field} +PolicyPreviousNumber: string? 100       ' เลขที่กรมธรรม์เดิม
+        {field} +PolicyEffectiveDate: DateOnly?          ' วันที่เริ่มคุ้มครอง
+        {field} +PolicyExpiryDate: DateOnly?             ' วันที่หมดคุ้มครอง
+        {field} +RefPolicyType: string? 200              ' อ้างอิงประเภทกรมธรรม์
+        {field} +Remark: string? 1000                    ' หมายเหตุ
+        {field} +RefNoticeNo: string? 100                ' เลขที่ใบแจ้งอ้างอิง
+        {field} +RefDetailNo: string? 100                ' เลขที่รายละเอียดอ้างอิง
+        {field} +StatusMessage: string? 300              ' ข้อความสถานะ
+        {field} +RefQuotation: string? 50                ' เลขที่ใบเสนอราคาอ้างอิง
+        {field} +Source: string? 200                     ' แหล่งที่มา
+        {field} +SystemId: string? 50                    ' รหัสระบบ
+        {field} +CustomerInfoNo: string? 50              ' เลขที่ข้อมูลลูกค้า
+        {field} +Package: string? 50                     ' แพ็กเกจ
+        {field} +Workshop: string? 10                    ' อู่ซ่อม
+        {field} +PayPlan: string? 50                     ' แผนการชำระเงิน
+        {field} +CollateralNo: string? 50                ' เลขที่หลักประกัน
         ..
-        {field} +InsuredAssetId: Guid?
-        {field} +InsuredAsset: InsuredAsset?
+        ' ข้อมูลยานพาหนะ (Vehicle Information)
+        {field} +VehicleCode: string? 10                 ' รหัสรถ
+        {field} +VehicleBrand: string? 300               ' ยี่ห้อรถ
+        {field} +VehicleModel: string? 600               ' รุ่นรถ
+        {field} +VehicleManufactoringYear: ushort?       ' ปีที่ผลิต
+        {field} +VehicleColor: string? 50                ' สีรถ
+        {field} +VehicleRegisterNo: string? 100          ' เลขทะเบียนรถ
+        {field} +VehicleRegisterProvince: string? 100    ' จังหวัดที่จดทะเบียน
+        {field} +VehicleRegisterYear: ushort?            ' ปีที่จดทะเบียน
+        {field} +VehicleChassis: string? 50              ' เลขตัวถัง
+        {field} +VehicleCc: float?                       ' ซีซี
+        {field} +VehicleSeat: float?                     ' จำนวนที่นั่ง
+        {field} +VehicleWeight: ushort?                  ' น้ำหนักรถ
+        {field} +VehicleTonnage: float?                  ' ตันบรรทุก
+        {field} +VehicleEngine: string? 100              ' เครื่องยนต์
+        {field} +VehiclePassenger: ushort?               ' จำนวนผู้โดยสาร
         ..
-        +GetProductName(): string
+        ' ข้อมูลการประกันภัย (Insurance Information)
+        {field} +SumInsure: decimal                      ' ทุนประกันภัย
+        {field} +Deduct: decimal                         ' ค่าเสียหายส่วนแรก
+        {field} +DamageLifePerPerson: decimal            ' ค่าเสียหายต่อชีวิตต่อคน
+        {field} +DamageLifePerTime: decimal              ' ค่าเสียหายต่อชีวิตต่อครั้ง
+        {field} +DamageInsurePerTime: decimal            ' ค่าเสียหายต่อทรัพย์สินต่อครั้ง
+        {field} +AccidentPerDriver: decimal              ' อุบัติเหตุส่วนบุคคลต่อคนขับ
+        {field} +MedicalInsure: decimal                  ' ค่ารักษาพยาบาล
+        {field} +InsureDriver: decimal                   ' ประกันผู้ขับขี่
+        ..
+        {field} +InsuredAssetId: Guid?                   ' รหัสทรัพย์สินที่เอาประกัน
+        {field} +InsuredAsset: InsuredAsset?             ' ข้อมูลทรัพย์สินที่เอาประกัน
+        ..
+        +GetProductName(): string                        ' ดึงชื่อสินค้า
     }
 
+    ' บทบาทในรายการคำสั่งซื้อ
     class OrderItemRole <<OrderItemRoles>> {
         Index = Seq, OrderItemId, OrderRoleTypeId, Parties_PartyId *
         ..
-        {field} +Seq: ushort
+        {field} +Seq: ushort                             ' ลำดับ
         ..
-        {field} +OrderItemId: Guid? *
-        {field} +OrderItem: OrderItem?
-        {field} +OrderRoleTypeId: Guid? *
-        {field} +OrderRoleType: OrderRoleType?
+        {field} +OrderItemId: Guid? *                    ' รหัสรายการคำสั่งซื้อ
+        {field} +OrderItem: OrderItem?                   ' ข้อมูลรายการคำสั่งซื้อ
+        {field} +OrderRoleTypeId: Guid? *                ' รหัสประเภทบทบาท
+        {field} +OrderRoleType: OrderRoleType?           ' ข้อมูลประเภทบทบาท
         ..
-        {field} +Parties_PartyId: Guid?
+        {field} +Parties_PartyId: Guid?                  ' รหัสบุคคล/นิติบุคคล
     }
 
+    ' รายการข้อตกลงกรมธรรม์
     class PoliciesAgreementItem <<PoliciesAgreementItems>> {
-        {field} +OrderItemId: Guid? *
-        {field} +OrderItem: OrderItem?
+        {field} +OrderItemId: Guid? *                    ' รหัสรายการคำสั่งซื้อ
+        {field} +OrderItem: OrderItem?                   ' ข้อมูลรายการคำสั่งซื้อ
         ..
-        {field} +Policies_AgreementItemId: Guid?
+        {field} +Policies_AgreementItemId: Guid?         ' รหัสรายการข้อตกลง
     }
 
+    ' ช่องทางการติดต่อรายการคำสั่งซื้อ
     class OrderItemContactMechanism <<OrderItemContactMechanisms>> {
         Index = ContactMechanismPurposeTypeId, OrderItemId, Parties_ContactMechanismId *
         ..
-        {field} +ContactMechanismPurposeTypeId: Guid? *
-        {field} +ContactMechanismPurposeType: ContactMechanismPurposeType?
-        {field} +OrderItemId: Guid? *
-        {field} +OrderItem: OrderItem?
+        {field} +ContactMechanismPurposeTypeId: Guid? *  ' รหัสวัตถุประสงค์การติดต่อ
+        {field} +ContactMechanismPurposeType: ContactMechanismPurposeType? ' ข้อมูลวัตถุประสงค์การติดต่อ
+        {field} +OrderItemId: Guid? *                    ' รหัสรายการคำสั่งซื้อ
+        {field} +OrderItem: OrderItem?                   ' ข้อมูลรายการคำสั่งซื้อ
         ..
-        {field} +Parties_ContactMechanismId: Guid? *
+        {field} +Parties_ContactMechanismId: Guid? *     ' รหัสช่องทางการติดต่อ
     }
 
+    ' สถานะคำสั่งซื้อ
     class OrderStatus <<OrderStatuses>> {
-        +StatusDateTimeUtc: DateTime
+        +StatusDateTimeUtc: DateTime                     ' เวลาสถานะ (UTC)
         ..
-        {field} +OrderId: Guid? *
-        {field} +Order: Order?
-        {field} +OrderStatusTypeId: Guid? *
-        {field} +OrderStatusType: OrderStatusType?
+        {field} +OrderId: Guid? *                        ' รหัสคำสั่งซื้อ
+        {field} +Order: Order?                           ' ข้อมูลคำสั่งซื้อ
+        {field} +OrderStatusTypeId: Guid? *              ' รหัสประเภทสถานะ
+        {field} +OrderStatusType: OrderStatusType?       ' ข้อมูลประเภทสถานะ
     }
 
+    ' งาน
     class Work <<Works>> {
-        {field} +StartDateTimeUtc: DateTime
-        {field} +EndDateTimeUtc: DateTime?
+        {field} +StartDateTimeUtc: DateTime              ' เวลาเริ่มงาน (UTC)
+        {field} +EndDateTimeUtc: DateTime?               ' เวลาสิ้นสุดงาน (UTC)
         ..
-        {field} +WorkTypeId: Guid? *
-        {field} +WorkType: WorkType?
-        {field} +OrderId: Guid?
-        {field} +Order: Order?
-        {field} +OrderItemId: Guid?
-        {field} +OrderItem: OrderItem?
+        {field} +WorkTypeId: Guid? *                     ' รหัสประเภทงาน
+        {field} +WorkType: WorkType?                     ' ข้อมูลประเภทงาน
+        {field} +OrderId: Guid?                          ' รหัสคำสั่งซื้อ
+        {field} +Order: Order?                           ' ข้อมูลคำสั่งซื้อ
+        {field} +OrderItemId: Guid?                      ' รหัสรายการคำสั่งซื้อ
+        {field} +OrderItem: OrderItem?                   ' ข้อมูลรายการคำสั่งซื้อ
         ..
-        {field} +WorkEvents: List<WorkEvent> = []
+        {field} +WorkEvents: List<WorkEvent> = []        ' เหตุการณ์งาน
     }
 
+    ' เหตุการณ์งาน
     class WorkEvent <<WorkEvents>> {
-        {field} +WorkId: Guid? *
-        {field} +Work: Work?
-        {field} +WorkEventTypeId: Guid? *
-        {field} +WorkEventType: WorkEventType?
-        {field} +WorkEventStatusTypeId: Guid? *
-        {field} +WorkEventStatusType: WorkEventStatusType?
+        {field} +WorkId: Guid? *                         ' รหัสงาน
+        {field} +Work: Work?                             ' ข้อมูลงาน
+        {field} +WorkEventTypeId: Guid? *                ' รหัสประเภทเหตุการณ์
+        {field} +WorkEventType: WorkEventType?           ' ข้อมูลประเภทเหตุการณ์
+        {field} +WorkEventStatusTypeId: Guid? *          ' รหัสสถานะเหตุการณ์
+        {field} +WorkEventStatusType: WorkEventStatusType? ' ข้อมูลสถานะเหตุการณ์
         ..
-        {field} +Parties_ActionPartyId: Guid? *
+        {field} +Parties_ActionPartyId: Guid? *          ' รหัสบุคคลที่ดำเนินการ
     }
 
-    ' ===== NOTE METHOD =====
+    ' ===== หมายเหตุวิธีการ =====
     note left of MtiOriginalSalesOrderItem::GetProductName
-        Join string of "{PolicyType} {ProductName} {Campaign} {Package} {Workshop}"
+        รวมสตริงของ 
+        {PolicyType} {ProductName} {Campaign} {Package} {Workshop}
+        เพื่อสร้างชื่อสินค้าที่สมบูรณ์
+    end note
+    
+    note left of Order::AddItem
+        หากมีรายการใดๆ Seq = Seq สูงสุดของรายการ + 1
+        เพิ่มรายการในรายการสินค้า
+        TotalAmount += item.Price * item.Quantity
+        TotalQuantity = Items.Sum(x => x.Quantity)
+        อัปเดต
     end note
 }
 
-
-' ===== INHERITANCE RELATIONSHIPS =====
+' ===== ความสัมพันธ์การสืบทอด (Inheritance Relationships) =====
 DomainModel <|-- SaleTaxLookup
 DomainModel <|-- Culture
 DomainModel <|-- Order
@@ -276,18 +315,19 @@ OrderItem <|--- SaleOrderItem
 SaleOrder <|---- MtiOriginalSalesOrder
 SaleOrderItem <|---- MtiOriginalSalesOrderItem
 
-' ===== ASSOCIATION RELATIONSHIPS =====
-Order --> Culture
-Order "1"--"*" OrderItem
-OrderItem ..> OrderItem
-OrderItem "1"--"*" OrderItemRole
-OrderItem "1"--"*" PoliciesAgreementItem
-OrderItemRole --> OrderRoleType
-OrderItemContactMechanism --> ContactMechanismPurposeType
-OrderItemContactMechanism --> OrderItem
-OrderStatus --> Order
-OrderStatus --> OrderStatusType
-Work "1"--"*" WorkEvent
-WorkEvent --> WorkEventType
-WorkEvent --> WorkEventStatusType
+' ===== ความสัมพันธ์ระหว่างคลาส (Association Relationships) =====
+Order --> Culture : "ใช้ภาษา/วัฒนธรรม"
+Order "1"--"*" OrderItem : "มีรายการสินค้า"
+OrderItem ..> OrderItem : "สั่งซื้อสำหรับ"
+OrderItem "1"--"*" OrderItemRole : "มีบทบาท"
+OrderItem "1"--"*" PoliciesAgreementItem : "มีข้อตกลง"
+OrderItemRole --> OrderRoleType : "ประเภทบทบาท"
+OrderItemContactMechanism --> ContactMechanismPurposeType : "วัตถุประสงค์การติดต่อ"
+OrderItemContactMechanism --> OrderItem : "รายการคำสั่งซื้อ"
+OrderStatus --> Order : "สถานะของคำสั่งซื้อ"
+OrderStatus --> OrderStatusType : "ประเภทสถานะ"
+Work "1"--"*" WorkEvent : "มีเหตุการณ์งาน"
+WorkEvent --> WorkEventType : "ประเภทเหตุการณ์"
+WorkEvent --> WorkEventStatusType : "สถานะเหตุการณ์"
+
 @enduml
