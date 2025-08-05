@@ -1,0 +1,154 @@
+@startuml
+!include https://raw.githubusercontent.com/chavp/data-modeling/refs/heads/master/MTI/InsurancePlatform/class/domains-class.puml
+
+!define ENTITIES #a681ebff
+!define TYPES #b9a0e7ff
+!define VALUES #d7cde9ff
+
+' ===== แพ็กเกจประเภทของกรมธรรม์ =====
+package Mti.Policies.Types as TypesPkg TYPES {
+    
+    ' ประเภทสัญญา/ข้อตกลงประกันภัย
+    class AgreementType <<AgreementTypes>> {
+        Index = Code *
+        ..
+        {static} +MotorPolicy: string = "MOTOR_POLICY"                  ' กรมธรรม์ประกันรถยนต์
+        {static} +HealthCareNetwork: string = "HEALTH_CARE_NETWORK"     ' เครือข่ายสุขภาพ
+    }
+
+    ' ประเภทงวดการชำระเบี้ยประกัน
+    class PeriodType <<PeriodTypes>> {
+        Index = Code *
+        ..
+        {static} +Annually: string = "ANNUALLY"           ' รายปี
+        {static} +Semiannually: string = "SEMIANNUALLY"   ' 6 เดือน
+        {static} +Quarterly: string = "QUARTERLY"         ' รายไตรมาส
+        {static} +Monthly: string = "MONTHLY"             ' รายเดือน
+        {static} +Daily: string = "DAILY"                 ' รายวัน
+    }
+}
+
+' ===== แพ็กเกจโมเดลหลักของกรมธรรม์ =====
+package Mti.Policies.Models as ModelsPkg ENTITIES {
+    
+    ' สัญญาประกันภัย (abstract class หลัก)
+    abstract class Agreement <<Agreements>> {
+        {field} +AgreementTypeId: Guid? *           ' ประเภทของสัญญา
+        {field} +AgreementTypeId: AgreementType?    
+        {field} +Description: string? *             ' คำอธิบายสัญญา
+        {field} +Items: List<AgreementItem> = []    ' รายการในสัญญา
+        ..
+        ' การเชื่อมโยงกับข้อมูลอื่น
+        {field} Products_ProductId: Guid?    ' รหัสผลิตภัณฑ์
+        {field} Products_TenantId: Guid?     ' รหัสเทนแนนท์ผลิตภัณฑ์
+        {field} Parties_TenantId: Guid?      ' รหัสเทนแนนท์บุคคล
+    }
+
+    ' รายการในสัญญาประกันภัย (abstract class)
+    abstract class AgreementItem <<AgreementItems>> {
+        {field} +AgreementText: string? 100 *       ' ข้อความในสัญญา
+    }
+
+    ' กรมธรรม์ประกันภัย (abstract class)
+    abstract class Policy <<Policies>> {
+        Index = Number
+        Index = PreviousNumber
+        ..
+        {field} +Number: string? 100 *                          ' เลขที่กรมธรรม์
+        {field} +PreviousNumber: string? 100 *                  ' เลขที่กรมธรรม์เดิม (กรณีต่ออายุ)
+        {field} +PremiumSchedules: List<PremiumSchedule> = []   ' ตารางการชำระเบี้ยประกัน
+    }
+
+    ' เบี้ยประกันของรายการกรมธรรม์
+    class PolicyItemPremium <<PolicyItemPremiums>> {
+        Index = PolicyItemId, PremiumScheduleId, PremiumScheduleSeq *
+        ..
+        {field} +PolicyItemId: Guid? *                  ' รหัสรายการกรมธรรม์
+        {field} +PolicyItem: PolicyItem?
+        {field} +PremiumScheduleId: Guid?               ' รหัสตารางเบี้ยประกัน
+        {field} +PremiumSchedule: PremiumSchedule?
+        {field} +PremiumScheduleSeq: ushort?            ' ลำดับการชำระ
+        {field} +PremiumAmount: decimal                 ' จำนวนเบี้ยประกัน
+    }
+
+    ' กรมธรรม์ประกันรถยนต์
+    class MotorPolicy <<MotorPolicies>> {
+        ' เลขที่สติกเกอร์
+        {field} +Sticker: string? 100 *
+        ..
+        +AddInsuredProperty(agreementText: string, insuredAssetId: Guid?): PropertyPolicyItem   ' เพิ่มทรัพย์สินที่เอาประกัน
+        +AddPremiumSchedule(scheduleValidFromDate: DateOnly, scheduleValidToDate: DateOnly, premium: PolicyItemPremium, periodType: PeriodType, policyEffectiveDate: DateOnly?, policyExpiryDate: DateOnly?, dueDate: DateOnly): PropertyPolicyItem     ' เพิ่มตารางการชำระเบี้ยประกัน
+    }
+
+    ' รายการในกรมธรรม์ (abstract class)
+    abstract class PolicyItem <<PolicyItems>> {
+        {field} +PolicyId: Guid? *      ' รหัสกรมธรรม์
+        {field} +Policy: Policy?
+        ' การเชื่อมโยงกับข้อมูลผลิตภัณฑ์
+        {field} +Products_CoverageTypeId: Guid?    ' ประเภทการคุ้มครอง
+        {field} +Products_CoverageLevelId: Guid?   ' ระดับการคุ้มครอง
+        {field} +Products_FeatureId: Guid?         ' คุณสมบัติ
+    }
+
+    ' รายการทรัพย์สินในกรมธรรม์
+    class PropertyPolicyItem <<PropertyPolicyItems>> {
+        {field} +Parties_AssetId: Guid?     ' รหัสทรัพย์สิน
+        ..
+        +AddPremium(premiumAmount: decimal): PolicyItemPremium      ' เพิ่มเบี้ยประกัน
+    }
+
+    ' ตารางการชำระเบี้ยประกัน
+    class PremiumSchedule <<PremiumSchedules>> {
+        {field} +PolicyId: Guid? *                                                  ' รหัสกรมธรรม์
+        {field} +Policy: Policy?
+        {field} +PeriodTypeId: Guid? *                                              ' ประเภทงวดชำระ
+        {field} +PeriodType: Policy?
+        {field} +ValidFromDate: DateOnly = DateOnly.FromDateTime(DateTime.Now)      ' วันที่เริ่มต้นตารางชำระ
+        {field} +ValidToDate: DateOnly = DateOnly.FromDateTime(DateTime.MaxValue)   ' วันที่สิ้นสุดตารางชำระ
+        {field} +InsuredFromDate: DateOnly? *                                       ' วันที่เริ่มคุ้มครอง
+        {field} +InsuredToDate: DateOnly? *                                         ' วันที่สิ้นสุดคุ้มครอง
+        {field} +DueDate: DateOnly? *                                               ' วันครบกำหนดชำระ
+        {field} +PremiumAmount: decimal                                             ' จำนวนเบี้ยประกัน
+        ..
+        {field} +PolicyItemPremiums: List<PolicyItemPremium> = []                   ' รายการเบี้ยประกันของแต่ละรายการ
+    }
+}
+
+' ===== ความสัมพันธ์แบบการสืบทอด (Inheritance) =====
+' Base models
+DomainModel <|-- Agreement
+DomainModel <|-- PremiumSchedule
+DomainModel <|-- PolicyItemPremium
+
+EffectiveModel <|-- AgreementItem
+
+TypeModel <|-- AgreementType
+TypeModel <|-- PeriodType
+
+' Agreement hierarchy - สัญญาประกันภัยสืบทอดจาก Agreement
+Agreement <|--- Policy
+
+' AgreementItem hierarchy - รายการกรมธรรม์สืบทอดจาก AgreementItem
+AgreementItem <|--- PolicyItem
+
+' Policy specific types - กรมธรรม์ประเภทต่างๆ
+Policy <|---- MotorPolicy
+
+' PolicyItem specific types - รายการกรมธรรม์ประเภทต่างๆ
+PolicyItem <|---- PropertyPolicyItem
+
+' ===== ความสัมพันธ์แบบการเชื่อมโยง (Association) =====
+' สัญญามีหลายรายการ
+Agreement "1"--"*" AgreementItem
+
+' ตารางเบี้ยประกันเชื่อมกับกรมธรรม์และประเภทงวด
+PremiumSchedule --> Policy
+PremiumSchedule --> PeriodType
+
+' เบี้ยประกันรายการเชื่อมกับรายการกรมธรรม์
+PolicyItemPremium --> PolicyItem
+
+' ตารางเบี้ยประกันมีหลายรายการเบี้ย (aggregation relationship)
+PremiumSchedule "o,1"--"*" PolicyItemPremium
+
+@enduml

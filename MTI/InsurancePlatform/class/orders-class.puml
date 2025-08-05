@@ -1,0 +1,203 @@
+@startuml
+!include https://raw.githubusercontent.com/chavp/data-modeling/refs/heads/master/MTI/InsurancePlatform/class/domains-class.puml
+
+!define ENTITIES #db6090ff
+!define TYPES #dd91aeff
+!define VALUES #dfb8c7ff
+
+package Mti.Orders.Types as TypesPkg TYPES {
+    class OrderStatusType <<OrderStatusTypes>> {
+        Index = Code *
+        ..
+        {static} +New: string = "NEW"
+        {static} +Pending: string = "PENDING"
+        {static} +Completed: string = "COMPLETED"
+    }
+
+    class Culture <<Cultures>> {
+        Index = LanguageCultureCode *
+        ..
+        {field} +LanguageCultureCode: string? 10 *
+        {field} +DisplayName: string? 300
+    }
+
+    class OrderRoleType <<OrderRoleTypes>> {
+        Index = Code *
+        ..
+        {static} +Insured: string = "INSURED"
+        {static} +Invoice: string = "INVOINCE"
+    }
+}
+
+' ===== PARTY VALUES PACKAGE =====
+package Mti.Orders.Values as ValuesPkg VALUES {
+    class SaleTaxLookup <<SaleTaxLookups>> {
+        {field} +Percentage: decimal
+        {field} +Parties_GeographicBoundaryId: Guid?
+        {field} +Products_ProductCategoryId: Guid?
+    }
+}
+
+' ===== MAIN PARTY MODELS PACKAGE =====
+package Mti.Orders.Models as ModelsPkg ENTITIES {
+    abstract class Order <<Orders>> {
+        Index = OrderNumber *
+        ..
+        {field} +OrderNumber: string? 200 *
+        {field} +OrderDate: DateOnly?
+        {field} +TotalAmount: decimal
+        ..
+        {field} +CultureId: Guid?
+        {field} +Culture: Culture?
+        {field} +Items: List<OrderItem> = []
+        ..
+        +AddItme(item: OrderItem): void
+        ..
+        {field} +Parties_TenantId: Guid?
+        {field} +Products_TenantId: Guid?
+        {field} +Policies_TenantId: Guid?
+    }
+    abstract class SaleOrder <<SaleOrders>> {
+        
+    }
+    class MtiOriginalSalesOrder <<MtiOriginalSalesOrders>> {
+        Index = SaleDate, LoanNumber *
+        ..
+        {field} +SaleDate: DateOnly? *
+        {field} +LoanNumber: string? 50 *
+    }
+    
+    abstract class OrderItem <<OrderItems>> {
+        Index = OrderId, Seq, Products_ProductId, Products_ProductFeatureId, Products_CoverageTypeId, Products_CoverageLevelId *
+        ..
+        {field} +Price: decimal
+        {field} +Quantity: decimal
+        {field} +Seq: uint
+        ..
+        {field} +OrderId: Guid? *
+        {field} +Order: Order?
+        {field} +OrderedForId: Guid?
+        {field} +OrderedFor: OrderItem?
+        {field} +Roles: List<OrderItemRole> = []
+        {field} +AgreementItems: List<PoliciesAgreementItem> = []
+        ..
+        {field} +Products_ProductId: Guid?
+        {field} +Products_ProductFeatureId: Guid?
+        {field} +Products_CoverageTypeId: Guid?
+        {field} +Products_CoverageLevelId: Guid?
+    }
+
+    class SaleOrderItem <<SaleOrderItems>> {
+
+    }
+
+    class MtiOriginalSalesOrderItem <<MtiOriginalSalesOrderItems>> {
+        Index = OriginalId *
+        Index = Status
+        ..
+        {field} +OriginalId: uint?
+        {field} +TransID: string? 100
+        {field} +Status: string? 5 *
+        {field} +ProductName: string? 200 *
+        {field} +PolicyType: string? 200 *
+        {field} +PolicyNumber: string? 100
+        {field} +Campaign: string? 100
+        {field} +PolicyPreviousNumber: string? 100
+        {field} +PolicyEffectiveDate: DateOnly?
+        {field} +PolicyExpiryDate: DateOnly?
+        {field} +RefPolicyType: string? 200
+        {field} +Remark: string? 1000
+        {field} +RefNoticeNo: string? 100
+        {field} +RefDetailNo: string? 100
+        {field} +StatusMessage: string? 300
+        {field} +RefQuotation: string? 50
+        {field} +Source: string? 200
+        {field} +SystemId: string? 50
+        {field} +CustomerInfoNo: string? 50
+        {field} +Package: string? 50
+        {field} +Workshop: string? 10
+        {field} +PayPlan: string? 50
+        {field} +CollateralNo: string? 50
+        {field} +VehicleCode: string? 10
+        {field} +VehicleBrand: string? 300
+        {field} +VehicleModel: string? 600
+        {field} +VehicleManufactoringYear: ushort?
+        {field} +VehicleColor: string? 50
+        {field} +VehicleRegisterNo: string? 100
+        {field} +VehicleRegisterProvince: string? 100
+        {field} +VehicleRegisterYear: ushort?
+        {field} +VehicleChassis: string? 50
+        {field} +VehicleCc: float?
+        {field} +VehicleSeat: float?
+        {field} +VehicleWeight: ushort?
+        {field} +VehicleTonnage: float?
+        {field} +VehicleEngine: string? 100
+        {field} +VehiclePassenger: ushort?
+        {field} +SumInsure: decimal
+        {field} +Deduct: decimal
+        {field} +DamageLifePerPerson: decimal
+        {field} +DamageLifePerTime: decimal
+        {field} +DamageInsurePerTime: decimal
+        {field} +AccidentPerDriver: decimal
+        {field} +MedicalInsure: decimal
+        {field} +InsureDriver: decimal
+        ..
+        {field} +InsuredAssetId: Guid?
+        {field} +InsuredAsset: InsuredAsset?
+        ..
+        +GetProductName(): string
+    }
+
+    class OrderItemRole <<OrderItemRoles>> {
+        Index = Seq, OrderItemId, OrderRoleTypeId, Parties_PartyId *
+        ..
+        {field} +Seq: ushort
+        ..
+        {field} +OrderItemId: Guid? *
+        {field} +OrderItem: OrderItem?
+        {field} +OrderRoleTypeId: Guid? *
+        {field} +OrderRoleType: OrderRoleType?
+        ..
+        {field} +Parties_PartyId: Guid?
+    }
+
+    class PoliciesAgreementItem <<PoliciesAgreementItems>> {
+        {field} +OrderItemId: Guid? *
+        {field} +OrderItem: OrderItem?
+        ..
+        {field} +Policies_AgreementItemId: Guid?
+    }
+
+    ' ===== NOTE METHOD =====
+    note left of MtiOriginalSalesOrderItem::GetProductName
+        Join string of "{PolicyType} {ProductName} {Campaign} {Package} {Workshop}"
+    end note
+}
+
+
+' ===== INHERITANCE RELATIONSHIPS =====
+DomainModel <|-- SaleTaxLookup
+DomainModel <|-- Culture
+DomainModel <|-- Order
+DomainModel <|-- OrderItem
+DomainModel <|-- OrderItemRole
+DomainModel <|-- PoliciesAgreementItem
+
+TypeModel <|-- OrderStatusType
+TypeModel <|-- OrderRoleType
+
+Order <|--- SaleOrder
+OrderItem <|--- SaleOrderItem
+
+SaleOrder <|---- MtiOriginalSalesOrder
+SaleOrderItem <|---- MtiOriginalSalesOrderItem
+
+' ===== ASSOCIATION RELATIONSHIPS =====
+Order --> Culture
+Order "1"--"*" OrderItem
+OrderItem ..> OrderItem
+OrderItem "1"--"*" OrderItemRole
+OrderItem "1"--"*" PoliciesAgreementItem
+OrderItemRole --> OrderRoleType
+
+@enduml

@@ -11,47 +11,39 @@ package Mti.Products.Types as TypesPkg TYPES {
     class ProductCategory <<ProductCategories>> {
         Index = ParentProductCategoryId, Code *
         ..
-        ' ค่าคงที่สำหรับประเภทประกันรถยนต์
-        {static} +Insured: string = "MOTOR"
-        ' ค่าคงที่สำหรับผลิตภัณฑ์ดั้งเดิมของ MTI
-        {static} +MtiOriginal: string = "MTI_ORIGINAL"
+        {static} +Insured: string = "MOTOR"                                                 ' ค่าคงที่สำหรับประเภทประกันรถยนต์
+        {static} +MtiOriginal: string = "MTI_ORIGINAL"                                      ' ค่าคงที่สำหรับผลิตภัณฑ์ดั้งเดิมของ MTI
         ..
-        ' รหัสหมวดหมู่แม่ (สำหรับการจัดหมวดหมู่แบบ hierarchy)
-        {field} +ParentProductCategoryId: Guid?
-        ' อ้างอิงไปยังหมวดหมู่แม่
-        {field} +ParentProductCategory: ProductCategory?
-        ' รายการหมวดหมู่ย่อย
-        {field} +Subcategories: List<ProductCategory> = []
-        ' รายการผลิตภัณฑ์ในหมวดหมู่นี้
-        {field} +Products: List<Product> = []
-        ' การจัดหมวดหมู่ผลิตภัณฑ์
-        {field} +ProductCatogoryClassifications: List<ProductCategoryClassification> = []
+        {field} +ParentProductCategoryId: Guid?                                             ' รหัสหมวดหมู่แม่ (สำหรับการจัดหมวดหมู่แบบ hierarchy)
+        {field} +ParentProductCategory: ProductCategory?                                    ' อ้างอิงไปยังหมวดหมู่แม่
+        {field} +Subcategories: List<ProductCategory> = []                                  ' รายการหมวดหมู่ย่อย
+        {field} +Products: List<Product> = []                                               ' รายการผลิตภัณฑ์ในหมวดหมู่นี้
+        {field} +ProductCatogoryClassifications: List<ProductCategoryClassification> = []   ' การจัดหมวดหมู่ผลิตภัณฑ์
     }
 
     ' หมวดหมู่คุณสมบัติของผลิตภัณฑ์ เช่น คุณสมบัติของรถยนต์
     class ProductFeatureCategory <<ProductFeatureCategories>> {
         Index Code *
         ..
-        ' ค่าคงที่สำหรับคุณสมบัติรถยนต์
-        {static} +Vehicle: string = "VEHICLE"
+        {static} +Vehicle: string = "VEHICLE"   ' ค่าคงที่สำหรับคุณสมบัติรถยนต์
     }
 
     ' หมวดหมู่การคุ้มครอง เช่น รถยนต์, สุขภาพ, บ้าน
     class CoverageCategory <<CoverageCategories>> {
         Index Code *
         ..
-        {static} +Motor: string = "MOTOR" ' ค่าคงที่สำหรับการคุ้มครองรถยนต์
+        {static} +Motor: string = "MOTOR"   ' ค่าคงที่สำหรับการคุ้มครองรถยนต์
     }
 
     ' เกณฑ์การคุ้มครอง เช่น ต่อเหตุการณ์, ต่อบุคคล
     class CoverageLevelBasis <<CoverageLevelBasises>> {
         Index Code *
         ..
-        {static} +PerIncident: string = "PER_INCIDENT"      ' ต่อเหตุการณ์
-        {static} +PerPerson: string = "PER_PERSON"          ' ต่อบุคคล
-        {static} +PerDisablitity: string = "PER_DISABLITITY"' ต่อความพิการ
-        {static} +PerDriver: string = "PER_DRIVER"          ' ต่อผู้ขับขี่
-        {static} +PerTime: string = "PER_TIME"              ' ต่อช่วงเวลา
+        {static} +PerIncident: string = "PER_INCIDENT"          ' ต่อเหตุการณ์
+        {static} +PerPerson: string = "PER_PERSON"              ' ต่อบุคคล
+        {static} +PerDisablitity: string = "PER_DISABLITITY"    ' ต่อความพิการ
+        {static} +PerDriver: string = "PER_DRIVER"              ' ต่อผู้ขับขี่
+        {static} +PerTime: string = "PER_TIME"                  ' ต่อช่วงเวลา
     }
 
     ' ประเภทระดับการคุ้มครอง เช่น จำนวนเงินคุ้มครอง, ค่าเสียหายส่วนแรก
@@ -59,7 +51,7 @@ package Mti.Products.Types as TypesPkg TYPES {
         Index Code *
         ..
         {static} +CoverageAmount: string = "COVERAGE_AMOUNT"  ' จำนวนเงินคุ้มครอง
-        {static} +Deductibility: string = "DEDUCTIBILITY"    ' ค่าเสียหายส่วนแรก
+        {static} +Deductibility: string = "DEDUCTIBILITY"     ' ค่าเสียหายส่วนแรก
     }
 }
 
@@ -70,18 +62,12 @@ package Mti.Products.Models as ModelsPkg ENTITIES {
         Index Code *
         Index Name
         ..
-        ' รหัสผลิตภัณฑ์
-        {field} +Code string? 1000 *
-        ' ชื่อผลิตภัณฑ์
-        {field} +Name string? 300 *
-        ' หมวดหมู่ของผลิตภัณฑ์
-        {field} +ProductCatogories: List<ProductCategory> = []
-        ' การจัดหมวดหมู่ผลิตภัณฑ์
-        {field} +ProductCatogoryClassifications: List<ProductCategoryClassification> = []
-        ' การคุ้มครองที่มีให้เลือก
-        {field} +CoverageAvailabilities: List<CoverageAvailability> = []
-        ' คุณสมบัติผลิตภัณฑ์ที่มีให้เลือก
-        {field} +ProductFeatureAvailabilities: List<ProductFeatureAvailability> = []
+        {field} +Code string? 1000 *                                                            ' รหัสผลิตภัณฑ์
+        {field} +Name string? 300 *                                                             ' ชื่อผลิตภัณฑ์
+        {field} +ProductCatogories: List<ProductCategory> = []                                  ' หมวดหมู่ของผลิตภัณฑ์
+        {field} +ProductCatogoryClassifications: List<ProductCategoryClassification> = []       ' การจัดหมวดหมู่ผลิตภัณฑ์
+        {field} +CoverageAvailabilities: List<CoverageAvailability> = []                        ' การคุ้มครองที่มีให้เลือก
+        {field} +ProductFeatureAvailabilities: List<ProductFeatureAvailability> = []            ' คุณสมบัติผลิตภัณฑ์ที่มีให้เลือก
     }
 
     ' การจัดหมวดหมู่ผลิตภัณฑ์ (ความสัมพันธ์ระหว่างผลิตภัณฑ์กับหมวดหมู่)
@@ -96,8 +82,7 @@ package Mti.Products.Models as ModelsPkg ENTITIES {
 
     ' คุณสมบัติของผลิตภัณฑ์ (abstract class)
     abstract class ProductFeature <<ProductFeatures>> {
-        ' หมวดหมู่คุณสมบัติผลิตภัณฑ์
-        {field} +ProductFeatureCategoryId: Guid? *
+        {field} +ProductFeatureCategoryId: Guid? *                  ' หมวดหมู่คุณสมบัติผลิตภัณฑ์
         {field} +ProductFeatureCategory: ProductFeatureCategory?
     }
 
@@ -165,11 +150,9 @@ package Mti.Products.Models as ModelsPkg ENTITIES {
 
     ' ระดับการคุ้มครอง (abstract class)
     abstract class CoverageLevel <<CoverageLevels>> {
-        ' ประเภทระดับการคุ้มครอง
-        {field} +CoverageLevelTypeId: Guid? *
+        {field} +CoverageLevelTypeId: Guid? *               ' ประเภทระดับการคุ้มครอง
         {field} +CoverageLevelType: CoverageLevelType?
-        ' เกณฑ์การคุ้มครอง
-        {field} +CoverageLevelBasisId: Guid? *
+        {field} +CoverageLevelBasisId: Guid? *              ' เกณฑ์การคุ้มครอง
         {field} +CoverageLevelBasis: CoverageLevelBasis?
     }
 

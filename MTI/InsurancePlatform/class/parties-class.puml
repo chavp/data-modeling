@@ -39,6 +39,10 @@ package Mti.Parties.Types as TypesPkg TYPES {
         {static} +Email: string = "EMAIL" // อีเมล
         {static} +MainAddress: string = "MAIN_ADDRESS" // ที่อยู่หลัก
     }
+
+    class VehicleBody <<VehicleBodies>> {
+        Index = Code *
+    }
 }
 
 ' ===== PARTY VALUES PACKAGE =====
@@ -115,6 +119,13 @@ package Mti.Parties.Models as ModelsPkg ENTITIES {
     class InformalOrganization <<InformalOrganizations>> {
     }
 
+    class Branch <<Branches>> {
+        Index = Number, Name *
+        ..
+        {field} +Number: ushort 
+        {field} +Name: string? 200 * 
+    }
+
     abstract class PartyRole <<PartyRoles>> {
         Index = PartyId, PartyRoleTypeId *
         ..
@@ -137,6 +148,7 @@ package Mti.Parties.Models as ModelsPkg ENTITIES {
         Index = Name
         ..
         {field} +Name: string? 300 * // ชื่อทรัพย์สิน
+        ..
         {field} +ContactMechanisms: List<ContactMechanism> = [] // ช่องทางการติดต่อ
         {field} +AssetContactMechanisms: List<AssetContactMechanism> = [] // ความสัมพันธ์กับช่องทางติดต่อ
     }
@@ -155,6 +167,8 @@ package Mti.Parties.Models as ModelsPkg ENTITIES {
         {field} +Tonnage: float? // น้ำหนักบรรทุก (ตัน)
         {field} +Engine: string? 100 // เลขเครื่องยนต์
         {field} +Passenger: ushort? // จำนวนผู้โดยสาร (คน)
+        {field} +VehicleBodyId: Guid? // รหัส รูปแบบตัวถังรถยนต์
+        {field} +VehicleBody: VehicleBody? // รูปแบบตัวถังรถยนต์
     }
 
     class AssetRole <<AssetRoles>> {
@@ -205,21 +219,23 @@ TypeModel <|-- AssetRoleType
 TypeModel <|-- ContactMechanismType
 TypeModel <|-- PartyTitle
 TypeModel <|-- Nationality
+TypeModel <|-- VehicleBody
 
 Party <|-- Person
 Party <|-- Organization
 Organization <|-- LegalOrganization
 Organization <|-- InformalOrganization
 
-PartyRole <|-- InsuredParty
-PartyRole <|-- Invoice
-InsuredParty <|-- Insured
+InformalOrganization <|--- Branch
+PartyRole <|--- InsuredParty
+PartyRole <|--- Invoice
+InsuredParty <|--- Insured
 
-Asset <|-- Vehicle
+Asset <|--- Vehicle
 
-ContactMechanism <|-- PostalAddress
-ContactMechanism <|-- Telecommunication
-ContactMechanism <|-- ElectronicAddress
+ContactMechanism <|--- PostalAddress
+ContactMechanism <|--- Telecommunication
+ContactMechanism <|--- ElectronicAddress
 
 ' ===== ASSOCIATION RELATIONSHIPS =====
 Party ..> PartyTitle : uses
@@ -233,10 +249,10 @@ PartyRole --> PartyRoleType
 
 Asset "*"--"*" ContactMechanism
 (Asset, ContactMechanism) .. AssetContactMechanism
-AssetRole --> Party
 AssetRole --> Asset
 AssetRole --> AssetRoleType
 
 ContactMechanism --> ContactMechanismType
+Vehicle --> VehicleBody
 
 @enduml

@@ -28,6 +28,17 @@ package "Mti.Domains.Models" as DomainPkg LIGHGRAY {
     }
 }
 
+' ===== NOTE METHOD =====
+note left of DomainModel::Update
+    LastModifiedBy = updateBy ?? Environment.MachineName
+    LastModifiedDateUtc = DateTime.UtcNow
+    ++Revision
+end note
+note left of EffectiveModel::Expire
+    ExpiryDate = expiryDate ?? DateOnly.FromDateTime(DateTime.Today.AddDays(-1))
+    Update(lastModifiedBy)
+end note
+
 ' ===== INHERITANCE RELATIONSHIPS =====
 DomainModel <|-- EffectiveModel
 DomainModel <|-- TypeModel
