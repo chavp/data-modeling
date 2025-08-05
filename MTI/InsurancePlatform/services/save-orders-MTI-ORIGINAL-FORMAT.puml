@@ -1,0 +1,15 @@
+@startuml
+start
+#db6090ff:Extract MTI Original Request;
+fork
+    #db6090ff:Save Sale Order;
+fork again
+    #87c98dff:Save Products;
+fork again
+    #9fc4d6ff:Save Parties;
+fork again
+    #a681ebff:Save Policies;
+end merge
+#db6090ff:Save Sale Order with id of Products, Parties and Policies;
+stop
+@enduml

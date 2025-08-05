@@ -1,0 +1,13 @@
+@startuml
+start
+:Update Order information and work of validattion result request
+fork
+    :Save Products;
+fork again
+    :Save Parties;
+fork again
+    :Save Policies;
+end merge
+:Aggregate Products, Parties and Policies to Orders;
+stop
+@enduml

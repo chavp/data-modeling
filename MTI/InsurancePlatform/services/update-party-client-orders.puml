@@ -1,0 +1,8 @@
+@startuml
+start
+fork
+    :Save Parties client;
+end merge
+:Update Orders work Client end date time;
+stop
+@enduml

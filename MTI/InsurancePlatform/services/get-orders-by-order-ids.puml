@@ -1,0 +1,13 @@
+@startuml
+start
+:Get Orders by ids;
+fork
+    :Get Products by ids;
+fork again
+    :Get Parties by ids;
+fork again
+    :Get Policies by ids;
+end merge
+:Aggregate Products, Parties and Policies to Orders;
+stop
+@enduml
