@@ -1,13 +1,15 @@
 @startuml
+!include https://raw.githubusercontent.com/chavp/data-modeling/refs/heads/master/MTI/InsurancePlatform/share_plantUML/system-colors.puml
+
 start
-:Update Order information and work of validattion result request
+ORDERS:Update Order information and work of validattion result request;
 fork
-    :Save Products;
+    PRODUCTS:Save Products;
 fork again
-    :Save Parties;
+    PARTIES:Save Parties;
 fork again
-    :Save Policies;
+    POLICIES:Save Policies;
 end merge
-:Aggregate Products, Parties and Policies to Orders;
+ORDERS:Aggregate Products, Parties and Policies to Orders;
 stop
 @enduml

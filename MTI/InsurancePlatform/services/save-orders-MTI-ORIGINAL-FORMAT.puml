@@ -1,14 +1,16 @@
 @startuml
+!include https://raw.githubusercontent.com/chavp/data-modeling/refs/heads/master/MTI/InsurancePlatform/share_plantUML/system-colors.puml
+
 start
-#db6090ff:Extract MTI Original Request;
+ORDERS:Extract MTI Original Request;
 fork
-    #db6090ff:Save Sale Order;
+    ORDERS:Save Sale Order;
 fork again
-    #87c98dff:Save Products;
+    PRODUCTS:Save Products;
 fork again
-    #9fc4d6ff:Save Parties;
+    PARTIES:Save Parties;
 fork again
-    #a681ebff:Save Policies;
+    POLICIES:Save Policies;
 end merge
 #db6090ff:Save Sale Order with id of Products, Parties and Policies;
 stop

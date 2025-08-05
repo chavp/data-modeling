@@ -1,13 +1,15 @@
 @startuml
+!include https://raw.githubusercontent.com/chavp/data-modeling/refs/heads/master/MTI/InsurancePlatform/share_plantUML/system-colors.puml
+
 start
-:Get Orders by work no event status ERROR;
+ORDERS:Get Orders by work no event status ERROR;
 fork
-    :Get Products by ids;
+    PRODUCTS:Get Products by ids;
 fork again
-    :Get Parties by ids;
+    PARTIES:Get Parties by ids;
 fork again
-    :Get Policies by ids;
+    POLICIES:Get Policies by ids;
 end merge
-:Aggregate Products, Parties and Policies to Orders;
+ORDERS:Aggregate Products, Parties and Policies to Orders;
 stop
 @enduml
