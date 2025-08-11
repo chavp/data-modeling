@@ -1,11 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9">
   <diagram name="Page-1" id="yuIEvWpiwup4PqhLBos1">
-    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1603" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Y-7_a_N39NegjNK6St8f-7" value="Producer clients" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-7_a_N39NegjNK6St8f-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-7_a_N39NegjNK6St8f-8" target="Y-7_a_N39NegjNK6St8f-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="205" />
+              <mxPoint x="410" y="205" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Y-7_a_N39NegjNK6St8f-8" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Examples&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Databases&lt;/li&gt;&lt;li&gt;IOT events&lt;/li&gt;&lt;li&gt;Browser/user web events&lt;/li&gt;&lt;li&gt;Logs&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="100" y="140" width="200" height="130" as="geometry" />
@@ -42,6 +50,14 @@
         </mxCell>
         <mxCell id="Y-7_a_N39NegjNK6St8f-19" value="&lt;b&gt;JVM application-message broker&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="475" y="100" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-7_a_N39NegjNK6St8f-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-7_a_N39NegjNK6St8f-20" target="Y-7_a_N39NegjNK6St8f-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="575" />
+              <mxPoint x="430" y="575" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Y-7_a_N39NegjNK6St8f-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="475" y="140" width="290" height="500" as="geometry" />
@@ -112,6 +128,9 @@
               <mxPoint x="748" y="795" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-7_a_N39NegjNK6St8f-41" value="Replay" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="90" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
