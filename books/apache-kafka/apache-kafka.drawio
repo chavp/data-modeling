@@ -44,10 +44,10 @@
           <mxGeometry x="470" y="140" width="290" height="500" as="geometry" />
         </mxCell>
         <mxCell id="Y-7_a_N39NegjNK6St8f-21" value="OS page cache (memory)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="190" width="245" height="35" as="geometry" />
+          <mxGeometry x="495" y="180" width="245" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Y-7_a_N39NegjNK6St8f-22" value="Kafka core" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="160" width="80" height="30" as="geometry" />
+          <mxGeometry x="577.5" y="150" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y-7_a_N39NegjNK6St8f-23" value="&lt;b&gt;Topic&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="495" y="310" width="245" height="130" as="geometry" />
@@ -69,6 +69,21 @@
         </mxCell>
         <mxCell id="Y-7_a_N39NegjNK6St8f-29" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="680" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-7_a_N39NegjNK6St8f-30" value="Flushed to disk" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-7_a_N39NegjNK6St8f-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.159;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.158;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y-7_a_N39NegjNK6St8f-21" target="Y-7_a_N39NegjNK6St8f-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="450" as="sourcePoint" />
+            <mxPoint x="550" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-7_a_N39NegjNK6St8f-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.159;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.158;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.5" y="214" as="sourcePoint" />
+            <mxPoint x="699.5" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
