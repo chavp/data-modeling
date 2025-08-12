@@ -1,50 +1,89 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9">
   <diagram name="Page-1" id="nZD8rx1ky12dEjV43CSn">
-    <mxGraphModel dx="1213" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2040" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tk9MmU5VUw1Bmq7ryfRP-1" value="Strategic Design" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="140" width="250" height="60" as="geometry" />
+          <mxGeometry x="140" y="140" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tk9MmU5VUw1Bmq7ryfRP-2" value="Tactical Design" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="140" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-3" value="Problem Space" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="100" y="300" width="480" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-4" value="Value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="350" width="100" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-5" value="Knowledge Discovery" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="430" width="110" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="tk9MmU5VUw1Bmq7ryfRP-6" value="Domain-Drivent Design" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="50" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-7" value="Domain&amp;nbsp;&lt;div&gt;Experts&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="430" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="220" width="560" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-8" value="Event&amp;nbsp;&lt;div&gt;Storming&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="430" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-37" value="Tactical Design" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-39">
+          <mxGeometry width="560" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-9" value="Communication" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="515" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-38" value="" style="group" vertex="1" connectable="0" parent="tk9MmU5VUw1Bmq7ryfRP-39">
+          <mxGeometry x="70" y="51" width="440" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-10" value="Ubiquitous Language" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="515" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-16" value="Slution Space" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-38">
+          <mxGeometry width="440" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-11" value="Domain&amp;nbsp;&lt;div&gt;Analysis&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="135" y="600" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-31" value="Bounded&lt;div&gt;Context&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-38">
+          <mxGeometry x="170" y="50" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-12" value="Core&amp;nbsp;&lt;div&gt;Subdomains&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="600" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-32" value="Entity" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-38">
+          <mxGeometry x="55" y="120" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-13" value="Supporting&lt;div&gt;Subdomains&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="600" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-33" value="Value&lt;div&gt;Objects&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-38">
+          <mxGeometry x="290" y="120" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-14" value="Generic&lt;div&gt;Subdomains&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="440" y="600" width="110" height="70" as="geometry" />
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-34" value="Aggregates" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-38">
+          <mxGeometry x="55" y="210" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-35" value="Domain&lt;div&gt;Events&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-38">
+          <mxGeometry x="297" y="210" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-36" value="Domain &amp;amp;&amp;nbsp;&lt;div&gt;Application&lt;/div&gt;&lt;div&gt;Services&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-38">
+          <mxGeometry x="170" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-170" y="220" width="560" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-18" value="Strategic Design" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-40">
+          <mxGeometry width="560" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-19" value="" style="group" vertex="1" connectable="0" parent="tk9MmU5VUw1Bmq7ryfRP-40">
+          <mxGeometry x="40" y="40" width="480" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-20" value="Problem Space" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry width="480" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-21" value="Value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="40" y="50" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-22" value="Knowledge Discovery" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="30" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-23" value="Domain&amp;nbsp;&lt;div&gt;Experts&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="130" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-24" value="Event&amp;nbsp;&lt;div&gt;Storming&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="230" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-25" value="Communication" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="30" y="215" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-26" value="Ubiquitous Language" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="130" y="215" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-27" value="Domain&amp;nbsp;&lt;div&gt;Analysis&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="35" y="300" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-28" value="Core&amp;nbsp;&lt;div&gt;Subdomains&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="140" y="300" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-29" value="Supporting&lt;div&gt;Subdomains&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="240" y="300" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tk9MmU5VUw1Bmq7ryfRP-30" value="Generic&lt;div&gt;Subdomains&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tk9MmU5VUw1Bmq7ryfRP-19">
+          <mxGeometry x="340" y="300" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
