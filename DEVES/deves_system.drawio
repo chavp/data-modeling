@@ -466,7 +466,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="huYfRjPrgJcntTnW6Qwz" name="DevOps">
-    <mxGraphModel dx="2702" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2863" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -574,16 +574,27 @@
           <mxGeometry height="70" width="270" x="-350" y="590" as="geometry" />
         </mxCell>
         <mxCell id="yUfyJ_LM4EIkFz2FkQXa-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;div&gt;PRD&lt;/div&gt;&lt;div&gt;https://apimprd1.deves.co.th/&lt;/div&gt;" vertex="1">
-          <mxGeometry height="220" width="400" x="-650" y="10" as="geometry" />
+          <mxGeometry height="220" width="400" x="-900" y="100" as="geometry" />
         </mxCell>
         <mxCell id="yUfyJ_LM4EIkFz2FkQXa-3" parent="yUfyJ_LM4EIkFz2FkQXa-1" style="rounded=1;whiteSpace=wrap;html=1;" value="APIM&lt;div&gt;[Container: WSO2]&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="150" x="110" y="90" as="geometry" />
         </mxCell>
         <mxCell id="yUfyJ_LM4EIkFz2FkQXa-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;div&gt;UAT&lt;/div&gt;&lt;div&gt;https://apimuat1.deves.co.th/&lt;/div&gt;" vertex="1">
-          <mxGeometry height="220" width="400" x="-900" y="320" as="geometry" />
+          <mxGeometry height="220" width="400" x="-910" y="400" as="geometry" />
         </mxCell>
         <mxCell id="yUfyJ_LM4EIkFz2FkQXa-4" parent="yUfyJ_LM4EIkFz2FkQXa-2" style="rounded=1;whiteSpace=wrap;html=1;" value="APIM&lt;div&gt;[Container: WSO2]&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="150" x="130" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yUfyJ_LM4EIkFz2FkQXa-5" edge="1" parent="1" source="yUfyJ_LM4EIkFz2FkQXa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7yKVAzvkhCD-Q9rCbGmg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-420" y="530" />
+              <mxPoint x="-420" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yUfyJ_LM4EIkFz2FkQXa-6" edge="1" parent="1" source="yUfyJ_LM4EIkFz2FkQXa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7yKVAzvkhCD-Q9rCbGmg-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
