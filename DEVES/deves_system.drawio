@@ -447,7 +447,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="huYfRjPrgJcntTnW6Qwz" name="DevOps">
-    <mxGraphModel dx="2404" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2108" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -521,35 +521,38 @@
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-7" edge="1" parent="1" source="HMxzAp8k76SCanoKZnJJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7yKVAzvkhCD-Q9rCbGmg-6" value="deploy">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-335" y="480" />
+              <mxPoint x="-335" y="450" />
+              <mxPoint x="-335" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-9" edge="1" parent="1" source="HMxzAp8k76SCanoKZnJJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7yKVAzvkhCD-Q9rCbGmg-8" value="deploy">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-310" y="470" />
+              <mxPoint x="-310" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HMxzAp8k76SCanoKZnJJ-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Dev" vertex="1">
           <mxGeometry height="60" width="30" x="-70" y="425" as="geometry" />
         </mxCell>
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-5" edge="1" parent="1" source="HMxzAp8k76SCanoKZnJJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7yKVAzvkhCD-Q9rCbGmg-4" value="deploy">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="330" y="200" />
-              <mxPoint x="330" y="200" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HMxzAp8k76SCanoKZnJJ-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Oper" vertex="1">
           <mxGeometry height="60" width="30" x="-70" y="170" as="geometry" />
         </mxCell>
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="PRD" vertex="1">
-          <mxGeometry height="140" width="250" x="190" y="140" as="geometry" />
+          <mxGeometry height="80" width="250" x="-670" y="160" as="geometry" />
         </mxCell>
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="UAT" vertex="1">
-          <mxGeometry height="70" width="280" x="-480" y="600" as="geometry" />
+          <mxGeometry height="70" width="270" x="-670" y="330" as="geometry" />
         </mxCell>
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="SIT" vertex="1">
-          <mxGeometry height="70" width="270" x="-670" y="420" as="geometry" />
+          <mxGeometry height="70" width="270" x="-670" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
