@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1" pages="2">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
-    <mxGraphModel dx="827" dy="1608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1464" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -482,6 +482,38 @@
         </mxCell>
         <mxCell id="ddmUHxK80yJO1z4uEGQl-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;Arrow&lt;/div&gt;Darunrat Tippayawichin" vertex="1">
           <mxGeometry height="60" width="30" x="1605" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ddmUHxK80yJO1z4uEGQl-13" edge="1" parent="1" source="ddmUHxK80yJO1z4uEGQl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ddmUHxK80yJO1z4uEGQl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddmUHxK80yJO1z4uEGQl-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Insured" vertex="1">
+          <mxGeometry height="60" width="30" x="1830" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ddmUHxK80yJO1z4uEGQl-16" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="180" x="2010" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ddmUHxK80yJO1z4uEGQl-9" parent="ddmUHxK80yJO1z4uEGQl-16" style="rounded=1;whiteSpace=wrap;html=1;" value="ClaimFlood&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;[Container:ASP.NET]&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ddmUHxK80yJO1z4uEGQl-15" parent="ddmUHxK80yJO1z4uEGQl-16" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ddmUHxK80yJO1z4uEGQl-19" edge="1" parent="1" source="ddmUHxK80yJO1z4uEGQl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Rwcrx3mYVwCLqDnaV1Yq-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2030" y="-40" />
+              <mxPoint x="1220" y="-40" />
+              <mxPoint x="1220" y="-610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddmUHxK80yJO1z4uEGQl-20" edge="1" parent="1" source="ddmUHxK80yJO1z4uEGQl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="L-nBNvYUNmavb9EkACSs-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2085" y="-130" />
+              <mxPoint x="1550" y="-130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
