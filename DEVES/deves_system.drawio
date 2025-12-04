@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2" pages="2">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
-    <mxGraphModel dx="2620" dy="2672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1708" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -886,6 +886,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-30" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LWUYRYmh7vspSoxmj528-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3460" y="1100" />
+              <mxPoint x="3701" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LWUYRYmh7vspSoxmj528-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DVS_CONNECTOR_WEBAPI&lt;div&gt;[Connector: .NET Framwork]&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="210" x="3308" y="950" as="geometry" />
         </mxCell>
@@ -973,6 +981,9 @@
         </mxCell>
         <mxCell id="LWUYRYmh7vspSoxmj528-23" parent="LWUYRYmh7vspSoxmj528-26" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.clock;" value="" vertex="1">
           <mxGeometry height="40" width="39" x="195" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-29" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="CMI" vertex="1">
+          <mxGeometry height="140" width="142" x="3630" y="1164.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
