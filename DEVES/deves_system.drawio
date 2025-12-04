@@ -927,7 +927,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LWUYRYmh7vspSoxmj528-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="EWI" vertex="1">
-          <mxGeometry height="60" width="160" x="3740" y="900" as="geometry" />
+          <mxGeometry height="60" width="160" x="3740" y="905" as="geometry" />
         </mxCell>
         <mxCell id="LWUYRYmh7vspSoxmj528-14" edge="1" parent="1" source="Ls9AKRGu1LaMKWpJcmZh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LWUYRYmh7vspSoxmj528-12">
           <mxGeometry relative="1" as="geometry">
@@ -957,7 +957,22 @@
           <mxGeometry height="140" width="142" x="3342" y="1110" as="geometry" />
         </mxCell>
         <mxCell id="LWUYRYmh7vspSoxmj528-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="OIC" vertex="1">
-          <mxGeometry height="100" width="180" x="2805" y="630" as="geometry" />
+          <mxGeometry height="100" width="180" x="2690" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-24" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LWUYRYmh7vspSoxmj528-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-25" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LWUYRYmh7vspSoxmj528-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-26" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="91" width="234" x="2940" y="1129" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-22" parent="LWUYRYmh7vspSoxmj528-26" style="rounded=1;whiteSpace=wrap;html=1;" value="DVS_CONNECTOR_JOB" vertex="1">
+          <mxGeometry height="80" width="220" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-23" parent="LWUYRYmh7vspSoxmj528-26" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.clock;" value="" vertex="1">
+          <mxGeometry height="40" width="39" x="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
