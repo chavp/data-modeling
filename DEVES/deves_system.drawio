@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2" pages="2">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
-    <mxGraphModel dx="1708" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -873,7 +873,32 @@
           <mxGeometry height="150" width="170" x="400" y="860" as="geometry" />
         </mxCell>
         <mxCell id="LWUYRYmh7vspSoxmj528-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CMI REALTIME" vertex="1">
-          <mxGeometry height="60" width="1090" x="3198" y="640" as="geometry" />
+          <mxGeometry height="60" width="1090" x="3198" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="D" vertex="1">
+          <mxGeometry height="60" width="120" x="3360" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-5" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" target="LWUYRYmh7vspSoxmj528-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3535" y="680" />
+              <mxPoint x="3535" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Pong&lt;div&gt;Yutthapong Joojeen&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="3520" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-6" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="LWUYRYmh7vspSoxmj528-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3715" y="680" />
+              <mxPoint x="3715" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Boat&lt;div&gt;Phachara Nganiam&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="3700" y="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
