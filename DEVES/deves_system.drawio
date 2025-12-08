@@ -1328,9 +1328,6 @@
         <mxCell id="tSy7nIQigvvBs8ugPiyo-37" parent="tSy7nIQigvvBs8ugPiyo-36" style="rounded=1;whiteSpace=wrap;html=1;" value="IAPISV" vertex="1">
           <mxGeometry height="60" width="120" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="tSy7nIQigvvBs8ugPiyo-38" parent="tSy7nIQigvvBs8ugPiyo-36" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
-          <mxGeometry height="42" width="52.5" x="100" y="10" as="geometry" />
-        </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-39" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1343,6 +1340,9 @@
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-41" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-40">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-42" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="1191" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
