@@ -1276,7 +1276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3KvhUxkBWn81FHVBrA6" name="Software Catalogs">
-    <mxGraphModel dx="1376" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1292,7 +1292,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="CHEETAH-DB" vertex="1">
-          <mxGeometry height="100" width="365" x="480" y="570" as="geometry" />
+          <mxGeometry height="100" width="915" x="-70" y="570" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-29" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="80" width="165" x="470" y="420" as="geometry" />
@@ -1350,7 +1350,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-40" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="FIRST-DB" vertex="1">
-          <mxGeometry height="100" width="945" x="380" y="1040" as="geometry" />
+          <mxGeometry height="100" width="730" x="480" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-41" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-40">
           <mxGeometry relative="1" as="geometry">
@@ -1368,6 +1368,13 @@
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-49" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-47">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-60" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="1080" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-46" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Head Office" vertex="1">
           <mxGeometry height="60" width="30" x="120" y="940" as="geometry" />
@@ -1387,16 +1394,38 @@
           <mxGeometry height="60" width="120" x="460" y="860" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-52" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Report" vertex="1">
-          <mxGeometry height="80" width="120" x="250" y="580" as="geometry" />
+          <mxGeometry height="80" width="120" x="-270" y="580" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-54" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Policy Document" vertex="1">
-          <mxGeometry height="80" width="120" x="1450" y="1050" as="geometry" />
+          <mxGeometry height="80" width="120" x="1300" y="1290" as="geometry" />
         </mxCell>
-        <mxCell id="tSy7nIQigvvBs8ugPiyo-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot;&gt;2.2 ระบบนำเข้ากรมธรรม์รถยนต์ใหม่ (EWI Motor New)&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="60" width="970" x="400" y="300" as="geometry" />
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-62" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tSy7nIQigvvBs8ugPiyo-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot;&gt;2.3 ระบบขายตรงลูกค้า (ประกันภัย) โดยพนักงานเทเวศ (ApplinX)&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="60" width="1260" x="330" y="1190" as="geometry" />
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PREMIUMSERV" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-64" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1360" />
+              <mxPoint x="460" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RPTSV23" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-65" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1050" />
+              <mxPoint x="50" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-63" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PC SDIS-DB" vertex="1">
+          <mxGeometry height="100" width="627.5" x="-70" y="1410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
