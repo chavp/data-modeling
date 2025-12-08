@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3" pages="3">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
-    <mxGraphModel dx="1310" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1464" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1025,9 +1025,6 @@
         <mxCell id="LWUYRYmh7vspSoxmj528-33" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LWUYRYmh7vspSoxmj528-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LWUYRYmh7vspSoxmj528-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="???" vertex="1">
-          <mxGeometry height="60" width="120" x="3484" y="1390" as="geometry" />
-        </mxCell>
         <mxCell id="UNLNVYeKcFDPlAw8mGZN-1" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="100" width="240" x="1827" y="-810" as="geometry" />
         </mxCell>
@@ -1091,6 +1088,15 @@
         </mxCell>
         <mxCell id="v28_lu4WzCumwl_v8WKN-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=none;strokeWidth=5;strokeColor=#FF3333;" value="Custodian System" vertex="1">
           <mxGeometry height="355" width="660" x="1820" y="1145" as="geometry" />
+        </mxCell>
+        <mxCell id="v28_lu4WzCumwl_v8WKN-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="136" x="3484" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="LWUYRYmh7vspSoxmj528-31" parent="v28_lu4WzCumwl_v8WKN-15" style="rounded=1;whiteSpace=wrap;html=1;" value="CMIControoler" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v28_lu4WzCumwl_v8WKN-14" parent="v28_lu4WzCumwl_v8WKN-15" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
