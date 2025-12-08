@@ -1317,7 +1317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AS400" vertex="1">
-          <mxGeometry height="60" width="120" x="940" y="440" as="geometry" />
+          <mxGeometry height="60" width="120" x="862.5" y="860" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-35" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-34">
           <mxGeometry relative="1" as="geometry" />
@@ -1339,7 +1339,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-40" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="FIRST-DB" vertex="1">
-          <mxGeometry height="100" width="365" x="982.5" y="570" as="geometry" />
+          <mxGeometry height="100" width="945" x="380" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-41" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-40">
           <mxGeometry relative="1" as="geometry">
@@ -1351,6 +1351,32 @@
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-44" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;2.2 ระบบนำเข้ากรมธรรม์รถยนต์ใหม่ (EWI Motor New)&lt;/h1&gt;" vertex="1">
           <mxGeometry height="70" width="860" x="450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-48" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-45" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Branch / Station" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-49" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-46" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Head Office" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-50" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-51" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1020" />
+              <mxPoint x="550" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ApplinX" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="860" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
