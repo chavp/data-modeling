@@ -1047,9 +1047,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v28_lu4WzCumwl_v8WKN-6" edge="1" parent="1" source="v28_lu4WzCumwl_v8WKN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v28_lu4WzCumwl_v8WKN-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="v28_lu4WzCumwl_v8WKN-10" edge="1" parent="1" source="v28_lu4WzCumwl_v8WKN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v28_lu4WzCumwl_v8WKN-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1062,7 +1059,7 @@
         <mxCell id="v28_lu4WzCumwl_v8WKN-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;b&gt;&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:&lt;br/&gt;15.0pt;line-height:115%;font-family:&amp;quot;Aptos&amp;quot;,sans-serif;mso-ascii-theme-font:&lt;br/&gt;minor-latin;mso-fareast-font-family:Aptos;mso-fareast-theme-font:minor-latin;&lt;br/&gt;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Cordia New&amp;quot;;mso-bidi-theme-font:&lt;br/&gt;minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;TH&quot;&gt;Custodian&lt;/span&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="140" width="142" x="2289" y="1330" as="geometry" />
         </mxCell>
-        <mxCell id="v28_lu4WzCumwl_v8WKN-4" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v28_lu4WzCumwl_v8WKN-1">
+        <mxCell id="v28_lu4WzCumwl_v8WKN-4" edge="1" parent="1" source="LWUYRYmh7vspSoxmj528-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v28_lu4WzCumwl_v8WKN-1" value="create job">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v28_lu4WzCumwl_v8WKN-9" edge="1" parent="1" source="v28_lu4WzCumwl_v8WKN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v28_lu4WzCumwl_v8WKN-3">
@@ -1074,14 +1071,6 @@
         </mxCell>
         <mxCell id="v28_lu4WzCumwl_v8WKN-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Processing Queue" vertex="1">
           <mxGeometry height="70" width="140" x="2068" y="1205" as="geometry" />
-        </mxCell>
-        <mxCell id="v28_lu4WzCumwl_v8WKN-8" edge="1" parent="1" source="v28_lu4WzCumwl_v8WKN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v28_lu4WzCumwl_v8WKN-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2030" y="1240" />
-              <mxPoint x="2030" y="1240" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="v28_lu4WzCumwl_v8WKN-11" edge="1" parent="1" source="v28_lu4WzCumwl_v8WKN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v28_lu4WzCumwl_v8WKN-3">
           <mxGeometry relative="1" as="geometry">
@@ -1101,7 +1090,7 @@
           <mxGeometry height="70" width="140" x="1870" y="1205" as="geometry" />
         </mxCell>
         <mxCell id="v28_lu4WzCumwl_v8WKN-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=none;" value="Custodian System" vertex="1">
-          <mxGeometry height="355" width="690" x="1820" y="1145" as="geometry" />
+          <mxGeometry height="355" width="660" x="1820" y="1145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
