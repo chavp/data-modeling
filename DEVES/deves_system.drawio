@@ -1276,7 +1276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3KvhUxkBWn81FHVBrA6" name="Software Catalogs">
-    <mxGraphModel dx="1515" dy="2069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1292,7 +1292,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="CHEETAH-DB" vertex="1">
-          <mxGeometry height="100" width="1960" x="-70" y="570" as="geometry" />
+          <mxGeometry height="100" width="2680" x="-70" y="570" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-29" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="80" width="165" x="470" y="420" as="geometry" />
@@ -1568,6 +1568,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-141" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="30" />
+              <mxPoint x="2500" y="30" />
+              <mxPoint x="2500" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-79" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Underwrite" vertex="1">
           <mxGeometry height="60" width="30" x="210" y="190" as="geometry" />
         </mxCell>
@@ -1745,6 +1754,38 @@
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CS-WS" vertex="1">
           <mxGeometry height="60" width="120" x="-360" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="eSurvey" vertex="1">
+          <mxGeometry height="60" width="120" x="2080" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-136" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-140" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-135" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Surveyor" vertex="1">
+          <mxGeometry height="60" width="30" x="2125" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-139" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-137" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Car Inspec" vertex="1">
+          <mxGeometry height="60" width="30" x="2355" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-143" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-138" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CSSV" vertex="1">
+          <mxGeometry height="60" width="120" x="2310" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-142" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2370" y="590" />
+              <mxPoint x="2370" y="590" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
