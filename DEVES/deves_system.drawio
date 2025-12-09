@@ -1730,6 +1730,22 @@
         <mxCell id="tSy7nIQigvvBs8ugPiyo-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SFTP HBC" vertex="1">
           <mxGeometry height="60" width="120" x="-230" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-131" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-129" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Counter Service Server" vertex="1">
+          <mxGeometry height="60" width="120" x="-640" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-132" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CS-WS" vertex="1">
+          <mxGeometry height="60" width="120" x="-360" y="1000" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
