@@ -1276,7 +1276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3KvhUxkBWn81FHVBrA6" name="Software Catalogs">
-    <mxGraphModel dx="1515" dy="2069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1683,6 +1683,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-153" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="170" />
+              <mxPoint x="1380" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-155" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" />
+              <mxPoint x="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-100" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Claim" vertex="1">
           <mxGeometry height="60" width="30" x="1315" y="140" as="geometry" />
         </mxCell>
@@ -1757,7 +1773,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-170" y="-50" />
-              <mxPoint x="1330" y="-50" />
+              <mxPoint x="1250" y="-50" />
+              <mxPoint x="1250" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1832,6 +1849,20 @@
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-147" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Win Accounting" vertex="1">
           <mxGeometry height="60" width="120" x="1250" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-152" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2050" y="510" />
+              <mxPoint x="2050" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INSURESV" vertex="1">
+          <mxGeometry height="60" width="120" x="1990" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-154" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="EIOC Server" vertex="1">
+          <mxGeometry height="60" width="120" x="1500" y="-110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
