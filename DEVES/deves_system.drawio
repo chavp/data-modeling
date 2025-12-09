@@ -1276,7 +1276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3KvhUxkBWn81FHVBrA6" name="Software Catalogs">
-    <mxGraphModel dx="1687" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1292,7 +1292,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="CHEETAH-DB" vertex="1">
-          <mxGeometry height="100" width="1460" x="-70" y="570" as="geometry" />
+          <mxGeometry height="100" width="1960" x="-70" y="570" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-29" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="80" width="165" x="470" y="420" as="geometry" />
@@ -1390,6 +1390,16 @@
             <Array as="points">
               <mxPoint x="-490" y="800" />
               <mxPoint x="-490" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-113" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-160" y="820" />
+              <mxPoint x="-160" y="1560" />
+              <mxPoint x="1700" y="1560" />
+              <mxPoint x="1700" y="1100" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1601,8 +1611,57 @@
         <mxCell id="tSy7nIQigvvBs8ugPiyo-101" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-114" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="170" />
+              <mxPoint x="1970" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-100" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Claim" vertex="1">
           <mxGeometry height="60" width="30" x="1315" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-105" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-108" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="720" />
+              <mxPoint x="1560" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FTP,Cabinet&lt;div&gt;Access plus&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1500" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-107" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="560" />
+              <mxPoint x="1570" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="EMC SVM" vertex="1">
+          <mxGeometry height="60" width="120" x="1510" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-110" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Superweb&lt;div&gt;CBC Online&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1500" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-112" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-111" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Accounting" vertex="1">
+          <mxGeometry height="60" width="30" x="1545" y="1200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
