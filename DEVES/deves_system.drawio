@@ -1142,7 +1142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="huYfRjPrgJcntTnW6Qwz" name="Deployments">
-    <mxGraphModel dx="2746" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2721" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1240,8 +1240,14 @@
         <mxCell id="HMxzAp8k76SCanoKZnJJ-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Oper" vertex="1">
           <mxGeometry height="60" width="30" x="250" y="330" as="geometry" />
         </mxCell>
+        <mxCell id="10rhphEtqoGdcD-rfD0E-1" edge="1" parent="1" source="7yKVAzvkhCD-Q9rCbGmg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="yUfyJ_LM4EIkFz2FkQXa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="PRD" vertex="1">
           <mxGeometry height="80" width="270" x="-350" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="10rhphEtqoGdcD-rfD0E-2" edge="1" parent="1" source="7yKVAzvkhCD-Q9rCbGmg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="yUfyJ_LM4EIkFz2FkQXa-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7yKVAzvkhCD-Q9rCbGmg-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="UAT" vertex="1">
           <mxGeometry height="70" width="270" x="-350" y="490" as="geometry" />
@@ -1256,21 +1262,10 @@
           <mxGeometry height="70" width="150" x="110" y="90" as="geometry" />
         </mxCell>
         <mxCell id="yUfyJ_LM4EIkFz2FkQXa-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;div&gt;UAT&lt;/div&gt;&lt;div&gt;https://apimuat1.deves.co.th/&lt;/div&gt;" vertex="1">
-          <mxGeometry height="220" width="400" x="-910" y="400" as="geometry" />
+          <mxGeometry height="220" width="400" x="-910" y="415" as="geometry" />
         </mxCell>
         <mxCell id="yUfyJ_LM4EIkFz2FkQXa-4" parent="yUfyJ_LM4EIkFz2FkQXa-2" style="rounded=1;whiteSpace=wrap;html=1;" value="APIM&lt;div&gt;[Container: WSO2]&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="150" x="130" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yUfyJ_LM4EIkFz2FkQXa-5" edge="1" parent="1" source="yUfyJ_LM4EIkFz2FkQXa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7yKVAzvkhCD-Q9rCbGmg-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-420" y="530" />
-              <mxPoint x="-420" y="530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yUfyJ_LM4EIkFz2FkQXa-6" edge="1" parent="1" source="yUfyJ_LM4EIkFz2FkQXa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7yKVAzvkhCD-Q9rCbGmg-4">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
