@@ -1448,7 +1448,12 @@
           <mxGeometry height="60" width="30" x="120" y="940" as="geometry" />
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-50" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-34">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="880" />
+              <mxPoint x="750" y="880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-51" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-40">
           <mxGeometry relative="1" as="geometry">
@@ -1462,6 +1467,16 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-148" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-147">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="900" />
+              <mxPoint x="720" y="990" />
+              <mxPoint x="965" y="990" />
+              <mxPoint x="965" y="1110" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1709,6 +1724,9 @@
         <mxCell id="tSy7nIQigvvBs8ugPiyo-112" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-149" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-111" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Accounting" vertex="1">
           <mxGeometry height="60" width="30" x="1545" y="1200" as="geometry" />
         </mxCell>
@@ -1803,6 +1821,17 @@
         </mxCell>
         <mxCell id="tSy7nIQigvvBs8ugPiyo-144" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Premium" vertex="1">
           <mxGeometry height="60" width="30" x="-310" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-150" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="770" />
+              <mxPoint x="1290" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-147" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Win Accounting" vertex="1">
+          <mxGeometry height="60" width="120" x="1250" y="1080" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
