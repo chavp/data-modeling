@@ -1276,7 +1276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3KvhUxkBWn81FHVBrA6" name="Software Catalogs">
-    <mxGraphModel dx="1591" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1354,6 +1354,19 @@
             <Array as="points">
               <mxPoint x="810" y="1130" />
               <mxPoint x="810" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-91" connectable="0" parent="tSy7nIQigvvBs8ugPiyo-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="replicate" vertex="1">
+          <mxGeometry relative="1" x="0.0249" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSy7nIQigvvBs8ugPiyo-92" edge="1" parent="1" source="tSy7nIQigvvBs8ugPiyo-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tSy7nIQigvvBs8ugPiyo-34" value="sync">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="923" y="1190" />
+              <mxPoint x="923" y="1190" />
             </Array>
           </mxGeometry>
         </mxCell>
