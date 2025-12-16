@@ -2066,12 +2066,29 @@
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-10" y="160" as="sourcePoint" />
-            <mxPoint x="80" y="160" as="targetPoint" />
+            <mxPoint x="-20" y="180" as="sourcePoint" />
+            <mxPoint x="70" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Customer" vertex="1">
-          <mxGeometry height="60" width="30" x="-50" y="120" as="geometry" />
+          <mxGeometry height="60" width="30" x="-60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-44.264545454545406" y="520" as="sourcePoint" />
+            <mxPoint x="-45.74" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-20" y="270" as="sourcePoint" />
+            <mxPoint x="70" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-13" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="select package" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
