@@ -2031,7 +2031,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uAutwjaBaB5a1L01OKsx" name="SCB Easy App">
-    <mxGraphModel dx="1778" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2207,12 +2207,12 @@
             <mxPoint x="840" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-38" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="redirect to Payment Gateway" vertex="1">
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-38" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Redirect to payment gateway" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="front-end callback success payment">
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="Front-end callback success payment">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="840" y="640" as="sourcePoint" />
             <mxPoint x="108" y="640" as="targetPoint" />
@@ -2223,6 +2223,17 @@
             <mxPoint as="offset" />
             <mxPoint x="90" y="680" as="sourcePoint" />
             <mxPoint x="-40" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="580" as="sourcePoint" />
+            <mxPoint x="110" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-43" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Payment gateway URL" vertex="1">
+          <mxGeometry relative="1" x="-0.0221" y="-1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
