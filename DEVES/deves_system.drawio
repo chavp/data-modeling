@@ -2130,8 +2130,8 @@
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="108" y="480" as="sourcePoint" />
-            <mxPoint x="450" y="480" as="targetPoint" />
+            <mxPoint x="108" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-23" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;CreateMultipleApplication&lt;/span&gt;" vertex="1">
@@ -2260,6 +2260,28 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1060" y="820" as="sourcePoint" />
             <mxPoint x="-40" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-40" y="590" as="sourcePoint" />
+            <mxPoint x="90" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-51" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Commit application form" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="108" y="480" as="sourcePoint" />
+            <mxPoint x="448" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-53" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;InquiryClientNationality&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="11" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
