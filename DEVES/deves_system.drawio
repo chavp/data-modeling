@@ -2240,17 +2240,6 @@
             <mxPoint x="469.5" y="-934" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="250" y="-154" as="sourcePoint" />
-            <mxPoint x="450" y="-154" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-47" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Back-end callback success payment" vertex="1">
-          <mxGeometry relative="1" x="0.08" y="-2" as="geometry">
-            <mxPoint y="-12" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-48" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="SMS / Email e-policy">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="630" y="-104" as="sourcePoint" />
@@ -2644,6 +2633,17 @@
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-59" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DEVES Submitting policy TA application with DVSPay&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;.&lt;/span&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry height="50" width="1600" x="-750" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="agH0WFN5WOCYnv3rIoFJ-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-392" y="-170" as="sourcePoint" />
+            <mxPoint x="460" y="-170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agH0WFN5WOCYnv3rIoFJ-61" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-family: Arial; font-size: 10.6667px; text-align: left; white-space: pre-wrap;&quot;&gt;/deves/confirmpolicybackend/1.0.0/confirmpaymentdeves&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="11" y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
