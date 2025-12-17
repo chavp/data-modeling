@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7" pages="6">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
-    <mxGraphModel dx="2610" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1846" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1207,6 +1207,18 @@
         </mxCell>
         <mxCell id="l8y8uMiFVCqrQArr3rHk-1" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="" vertex="1">
           <mxGeometry height="70" width="78" x="-110" y="-619" as="geometry" />
+        </mxCell>
+        <mxCell id="xjyP-eJ3or-CWOCKBgOl-6" edge="1" parent="1" source="xjyP-eJ3or-CWOCKBgOl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xjyP-eJ3or-CWOCKBgOl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xjyP-eJ3or-CWOCKBgOl-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;Noppawat Saenguthai&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="1090" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xjyP-eJ3or-CWOCKBgOl-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="EWI&lt;div&gt;&lt;a href=&quot;https://ewiuat.deves.co.th/admin/exec/PlugIn/MaintainDataSource/&quot;&gt;UAT&lt;/a&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xjyP-eJ3or-CWOCKBgOl-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="860" y="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
