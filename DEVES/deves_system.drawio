@@ -2651,7 +2651,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AyJBAeuwOEVFN-UfiWs4" name="PRD-Observability">
-    <mxGraphModel dx="786" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2671,7 +2671,18 @@
           <mxGeometry height="80" width="140" x="530" y="330" as="geometry" />
         </mxCell>
         <mxCell id="GnzPPjsmRCpPUUp3W7fL-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="mon&lt;div&gt;&lt;a href=&quot;https://mon.deves.co.th/mon/jobmanagement.aspx&quot;&gt;JOBS&lt;/a&gt;,&amp;nbsp;&lt;span style=&quot;font-family: Tahoma, sans-serif; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;a href=&quot;https://mon.deves.co.th/mon/killsqlprocess2016.aspx?server=HD&quot;&gt;DB&lt;/a&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="190" y="20" as="geometry" />
+          <mxGeometry height="60" width="140" x="140" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="GnzPPjsmRCpPUUp3W7fL-9" edge="1" parent="1" source="GnzPPjsmRCpPUUp3W7fL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GnzPPjsmRCpPUUp3W7fL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GnzPPjsmRCpPUUp3W7fL-10" connectable="0" parent="GnzPPjsmRCpPUUp3W7fL-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sync" vertex="1">
+          <mxGeometry relative="1" x="0.041" y="3" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnzPPjsmRCpPUUp3W7fL-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;span data-olk-copy-source=&quot;MessageBody&quot; style=&quot;font-family: Tahoma, sans-serif;&quot;&gt;CORE&lt;/span&gt;&lt;div&gt;&lt;span data-olk-copy-source=&quot;MessageBody&quot; style=&quot;font-family: Tahoma, sans-serif;&quot;&gt;&lt;span data-olk-copy-source=&quot;MessageBody&quot;&gt;DB2&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-170" y="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
