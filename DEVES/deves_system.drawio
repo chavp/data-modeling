@@ -2760,55 +2760,60 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="HR Job App System">
-    <mxGraphModel dx="2492" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3206" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-ODNsSwaR04ehSyRWZx7-1" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-5" value="1: เข้าหน้า HR Admin">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="240" />
-              <mxPoint x="260" y="240" />
+              <mxPoint x="-270" y="200" />
+              <mxPoint x="-270" y="200" />
             </Array>
-            <mxPoint x="150" y="230" as="sourcePoint" />
-            <mxPoint x="384" y="230" as="targetPoint" />
+            <mxPoint x="-380" y="190" as="sourcePoint" />
+            <mxPoint x="-146" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="2: Manage CandidateAPP">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="260" as="sourcePoint" />
-            <mxPoint x="374" y="260" as="targetPoint" />
+            <mxPoint x="-390" y="220" as="sourcePoint" />
+            <mxPoint x="-156" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="HR&amp;nbsp;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;DEVES&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="110" y="220" as="geometry" />
+          <mxGeometry height="60" width="30" x="-420" y="180" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-4" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" target="-ODNsSwaR04ehSyRWZx7-7" value="2: redirect to Login page">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="125" y="110" />
+              <mxPoint x="-405" y="70" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="HR Job Application System" vertex="1">
-          <mxGeometry height="60" width="120" x="374" y="220" as="geometry" />
+          <mxGeometry height="60" width="120" x="-156" y="180" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-6" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" target="-ODNsSwaR04ehSyRWZx7-5" value="3: Login success redirect to HR app">
           <mxGeometry relative="1" x="-0.5146" y="90" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="590" y="250" />
+              <mxPoint x="60" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DEVES&lt;div&gt;Azure AD&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="530" y="80" as="geometry" />
+          <mxGeometry height="60" width="120" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-11" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-11" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-9" value="login: admin">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="630" />
+              <mxPoint x="-180" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="HR&amp;nbsp;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;DEVES&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="-340" y="555" as="geometry" />
+          <mxGeometry height="60" width="30" x="-260" y="590" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deployment - UAT&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="840" x="-380" y="460" as="geometry" />
@@ -2817,13 +2822,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Windows Server&lt;div&gt;10.103.0.11&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="200" x="270" y="940" as="geometry" />
+          <mxGeometry height="200" width="200" x="360" y="630" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-14" parent="-ODNsSwaR04ehSyRWZx7-16" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="JobApp&lt;div&gt;[SQL Server]&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="110" x="45" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Windows Server&lt;div&gt;- in request -&lt;/div&gt;" vertex="1">
-          <mxGeometry height="320" width="320" x="220" y="570" as="geometry" />
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Windows Server&lt;div&gt;- pending -&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="320" x="-60" y="540" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-13" edge="1" parent="-ODNsSwaR04ehSyRWZx7-17" source="-ODNsSwaR04ehSyRWZx7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-12">
           <mxGeometry relative="1" as="geometry" />
@@ -2833,6 +2838,28 @@
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-12" parent="-ODNsSwaR04ehSyRWZx7-17" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.API" vertex="1">
           <mxGeometry height="60" width="140" x="80" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-380" y="520" as="sourcePoint" />
+            <mxPoint x="580" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-21" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="770" />
+              <mxPoint x="-120" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-22" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="apply Job Application" vertex="1">
+          <mxGeometry relative="1" x="-0.0316" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Candidate" vertex="1">
+          <mxGeometry height="60" width="30" x="-270" y="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
