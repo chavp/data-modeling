@@ -2833,11 +2833,23 @@
         <mxCell id="-ODNsSwaR04ehSyRWZx7-13" edge="1" parent="-ODNsSwaR04ehSyRWZx7-17" source="-ODNsSwaR04ehSyRWZx7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-9" parent="-ODNsSwaR04ehSyRWZx7-17" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.BlazorApp" vertex="1">
-          <mxGeometry height="60" width="140" x="80" y="80" as="geometry" />
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-39" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-17" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-12" parent="-ODNsSwaR04ehSyRWZx7-17" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.API" vertex="1">
-          <mxGeometry height="60" width="140" x="80" y="185" as="geometry" />
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-9" parent="-ODNsSwaR04ehSyRWZx7-39" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.BlazorApp" vertex="1">
+          <mxGeometry height="60" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-37" parent="-ODNsSwaR04ehSyRWZx7-39" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-42" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-17" style="group" value="" vertex="1">
+          <mxGeometry height="79" width="160" x="80" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-12" parent="-ODNsSwaR04ehSyRWZx7-42" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.API" vertex="1">
+          <mxGeometry height="60" width="140" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-41" parent="-ODNsSwaR04ehSyRWZx7-42" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="110" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -2888,12 +2900,6 @@
         <mxCell id="-ODNsSwaR04ehSyRWZx7-31" edge="1" parent="-ODNsSwaR04ehSyRWZx7-30" source="-ODNsSwaR04ehSyRWZx7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-32" parent="-ODNsSwaR04ehSyRWZx7-30" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.BlazorApp" vertex="1">
-          <mxGeometry height="60" width="140" x="80" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-33" parent="-ODNsSwaR04ehSyRWZx7-30" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.API" vertex="1">
-          <mxGeometry height="60" width="140" x="80" y="185" as="geometry" />
-        </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-25" edge="1" parent="-ODNsSwaR04ehSyRWZx7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="login: admin">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -2903,6 +2909,24 @@
             <mxPoint x="-170" y="100" as="sourcePoint" />
             <mxPoint x="80" y="100" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-40" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-30" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="161.25" x="80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-32" parent="-ODNsSwaR04ehSyRWZx7-40" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.BlazorApp" vertex="1">
+          <mxGeometry height="60" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-38" parent="-ODNsSwaR04ehSyRWZx7-40" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="41" width="51.25" x="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-44" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-30" style="group" value="" vertex="1">
+          <mxGeometry height="85" width="162" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-33" parent="-ODNsSwaR04ehSyRWZx7-44" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.API" vertex="1">
+          <mxGeometry height="60" width="140" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-ODNsSwaR04ehSyRWZx7-43" parent="-ODNsSwaR04ehSyRWZx7-44" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="112" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-34" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-32">
           <mxGeometry relative="1" as="geometry">
