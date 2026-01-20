@@ -2953,31 +2953,60 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Lpcqr-khii5nSRPYDq0E-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span data-teams=&quot;true&quot;&gt;Chaiyo Broker&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="-10" y="150" as="geometry" />
+          <mxGeometry height="60" width="30" x="-60" y="150" as="geometry" />
         </mxCell>
         <mxCell id="Lpcqr-khii5nSRPYDq0E-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span data-teams=&quot;true&quot;&gt;DEVES Insurance&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="-310" y="150" as="geometry" />
+          <mxGeometry height="60" width="30" x="-400" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="Lpcqr-khii5nSRPYDq0E-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Send email Motor renew notice file">
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="1. Send email Motor renew notice file">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-270" y="270" as="sourcePoint" />
-            <mxPoint x="-60" y="270" as="targetPoint" />
+            <mxPoint x="-330" y="189.5" as="sourcePoint" />
+            <mxPoint x="-90" y="189.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lpcqr-khii5nSRPYDq0E-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span data-teams=&quot;true&quot;&gt;Insured&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="260" y="150" as="geometry" />
+          <mxGeometry height="60" width="30" x="230" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="Lpcqr-khii5nSRPYDq0E-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Contact for sale motor renew">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="40" y="270" as="sourcePoint" />
-            <mxPoint x="250" y="270" as="targetPoint" />
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="2. Contact for sale motor renew">
+          <mxGeometry height="50" relative="1" width="50" x="0.2686" y="53" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="20" y="179.5" as="sourcePoint" />
+            <mxPoint x="220" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lpcqr-khii5nSRPYDq0E-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="Confirm renew">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="240" y="310" as="sourcePoint" />
-            <mxPoint x="40" y="310" as="targetPoint" />
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="3 .Confirm renew">
+          <mxGeometry height="50" relative="1" width="50" x="0.2438" y="32" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="380" as="sourcePoint" />
+            <mxPoint x="20" y="220" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="4. Submit Renew Application">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1111" y="-80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-50" y="250" as="sourcePoint" />
+            <mxPoint x="-50" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-14" parent="1" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Chaiyo APP&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="100" x="-110" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-15" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" value="DEVES API" vertex="1">
+          <mxGeometry height="110" width="90.2" x="-440.2" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-130" y="384.5" as="sourcePoint" />
+            <mxPoint x="-320" y="384.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-17" connectable="0" parent="Lpcqr-khii5nSRPYDq0E-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. CreateRenewApplication" vertex="1">
+          <mxGeometry relative="1" x="0.0118" y="2" as="geometry">
+            <mxPoint x="-4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-18" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" value="DEVES Notification" vertex="1">
+          <mxGeometry height="110" width="90.2" x="-450" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
