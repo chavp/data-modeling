@@ -2978,7 +2978,7 @@
           <mxGeometry height="50" relative="1" width="50" x="0.2438" y="32" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="210" y="380" as="sourcePoint" />
-            <mxPoint x="20" y="220" as="targetPoint" />
+            <mxPoint x="20" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Lpcqr-khii5nSRPYDq0E-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="4. Submit Renew Application">
@@ -3007,6 +3007,34 @@
         </mxCell>
         <mxCell id="Lpcqr-khii5nSRPYDq0E-18" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" value="DEVES Notification" vertex="1">
           <mxGeometry height="110" width="90.2" x="-450" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-19" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" value="DEVES Core" vertex="1">
+          <mxGeometry height="110" width="90.2" x="-690" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="6. Issued policy">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-450" y="390" as="sourcePoint" />
+            <mxPoint x="-590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="7. Notify policy and documents">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6355" y="-52" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-599.8" y="470" as="sourcePoint" />
+            <mxPoint x="-460" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-330" y="590" as="sourcePoint" />
+            <mxPoint x="210" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lpcqr-khii5nSRPYDq0E-23" connectable="0" parent="Lpcqr-khii5nSRPYDq0E-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. Send SMS/Email Policy and Documents file" vertex="1">
+          <mxGeometry relative="1" x="-0.018" as="geometry">
+            <mxPoint x="74" y="29" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
