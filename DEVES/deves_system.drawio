@@ -2807,8 +2807,7 @@
         <mxCell id="-ODNsSwaR04ehSyRWZx7-11" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-9" value="login: admin">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-160" y="640" />
-              <mxPoint x="-160" y="640" />
+              <mxPoint x="20" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2819,22 +2818,26 @@
           <mxGeometry height="40" width="840" x="-380" y="460" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-15" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;" value="Windows Server&lt;div&gt;10.103.0.11&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="200" x="-10" y="930" as="geometry" />
+          <mxGeometry height="200" width="200" x="400" y="750" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-14" parent="-ODNsSwaR04ehSyRWZx7-16" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="JobApp&lt;div&gt;[SQL Server]&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="110" x="45" y="80" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;" value="Windows Server&lt;div&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; font-weight: 400; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;10.103.0.237&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="320" width="320" x="-60" y="540" as="geometry" />
+          <mxGeometry height="320" width="420" x="-60" y="540" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-13" edge="1" parent="-ODNsSwaR04ehSyRWZx7-17" source="-ODNsSwaR04ehSyRWZx7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-39" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-17" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="160" x="80" y="60" as="geometry" />
+          <mxGeometry height="80" width="160" x="40" y="120" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-9" parent="-ODNsSwaR04ehSyRWZx7-39" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.BlazorApp" vertex="1">
           <mxGeometry height="60" width="140" y="20" as="geometry" />
@@ -2843,7 +2846,7 @@
           <mxGeometry height="40" width="50" x="110" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-42" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-17" style="group" value="" vertex="1">
-          <mxGeometry height="79" width="160" x="80" y="166" as="geometry" />
+          <mxGeometry height="79" width="160" x="240" y="121" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-12" parent="-ODNsSwaR04ehSyRWZx7-42" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.API" vertex="1">
           <mxGeometry height="60" width="140" y="19" as="geometry" />
@@ -2854,14 +2857,13 @@
         <mxCell id="-ODNsSwaR04ehSyRWZx7-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-380" y="520" as="sourcePoint" />
-            <mxPoint x="580" y="520" as="targetPoint" />
+            <mxPoint x="740" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-21" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-120" y="770" />
-              <mxPoint x="-120" y="660" />
+              <mxPoint x="20" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2945,7 +2947,7 @@
           <mxGeometry height="60" width="30" x="-260" y="1570" as="geometry" />
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Windows Server&lt;div&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; font-weight: 400; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;websvuat.deves.co.th&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="320" x="430" y="540" as="geometry" />
+          <mxGeometry height="180" width="320" x="400" y="540" as="geometry" />
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-3" connectable="0" parent="1UTC1YuuZfNmvnHtqvu8-6" style="group" value="" vertex="1">
           <mxGeometry height="80" width="166" x="77" y="60" as="geometry" />
@@ -2959,10 +2961,15 @@
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-14" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1UTC1YuuZfNmvnHtqvu8-4" value="https,&amp;nbsp;JOBAPP_F_HR_001&amp;nbsp;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="650" />
-              <mxPoint x="470" y="650" />
+              <mxPoint x="70" y="650" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1UTC1YuuZfNmvnHtqvu8-20" parent="1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.smtp_server;" value="mailrelay.deves.co.th" vertex="1">
+          <mxGeometry height="150" width="123.91" x="-11.959999999999994" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="1UTC1YuuZfNmvnHtqvu8-21" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1UTC1YuuZfNmvnHtqvu8-20" value="SMTP">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
