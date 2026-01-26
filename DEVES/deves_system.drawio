@@ -2760,7 +2760,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="HR_JOB_APP">
-    <mxGraphModel dx="2535" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1950" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3050,6 +3050,147 @@
         </mxCell>
         <mxCell id="jcsDsezDFGkRP7c2sjmb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CandidateStatuses" vertex="1">
           <mxGeometry height="60" width="150" x="40" y="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Candidate" vertex="1">
+          <mxGeometry height="60" width="30" x="760" y="1375" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-7" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="940" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-8" parent="jcsDsezDFGkRP7c2sjmb-7" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.BlazorApp" vertex="1">
+          <mxGeometry height="60" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-9" parent="jcsDsezDFGkRP7c2sjmb-7" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-10" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="79" width="160" x="1150" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-11" parent="jcsDsezDFGkRP7c2sjmb-10" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesHR.API" vertex="1">
+          <mxGeometry height="60" width="140" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-12" parent="jcsDsezDFGkRP7c2sjmb-10" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="810" y="1510" as="sourcePoint" />
+            <mxPoint x="980" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-15" connectable="0" parent="jcsDsezDFGkRP7c2sjmb-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="เข้า /apply" vertex="1">
+          <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
+            <mxPoint x="23" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="810" y="1570" as="sourcePoint" />
+            <mxPoint x="980" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-18" connectable="0" parent="jcsDsezDFGkRP7c2sjmb-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="submit application" vertex="1">
+          <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
+            <mxPoint x="13" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1020" y="1530" as="sourcePoint" />
+            <mxPoint x="1190" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-21" connectable="0" parent="jcsDsezDFGkRP7c2sjmb-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="load master data" vertex="1">
+          <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
+            <mxPoint x="13" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1020" y="1600" as="sourcePoint" />
+            <mxPoint x="1190" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-23" connectable="0" parent="jcsDsezDFGkRP7c2sjmb-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="create application" vertex="1">
+          <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
+            <mxPoint x="13" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-24" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="166" x="1360" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-25" parent="jcsDsezDFGkRP7c2sjmb-24" style="rounded=1;whiteSpace=wrap;html=1;" value="PdfConnector.API" vertex="1">
+          <mxGeometry height="60.75949367088608" width="145.25" y="19.240506329113927" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-26" parent="jcsDsezDFGkRP7c2sjmb-24" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48.607594936708864" width="50.63291139240506" x="114.12500000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-27" parent="1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.smtp_server;" value="mailrelay.deves.co.th" vertex="1">
+          <mxGeometry height="130" width="107.39" x="1670" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="jcsDsezDFGkRP7c2sjmb-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1010" y="1840" as="sourcePoint" />
+            <mxPoint x="990" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="jcsDsezDFGkRP7c2sjmb-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1220" y="1840" as="sourcePoint" />
+            <mxPoint x="1289.29" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="jcsDsezDFGkRP7c2sjmb-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1433" y="1830" as="sourcePoint" />
+            <mxPoint x="1490" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="jcsDsezDFGkRP7c2sjmb-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1724" y="1840" as="sourcePoint" />
+            <mxPoint x="1780" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-32" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="775" y="1840" as="sourcePoint" />
+            <mxPoint x="775" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1250" y="1630" as="sourcePoint" />
+            <mxPoint x="1420" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-34" connectable="0" parent="jcsDsezDFGkRP7c2sjmb-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="gen application formPDF" vertex="1">
+          <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
+            <mxPoint x="13" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1450" y="1650" as="sourcePoint" />
+            <mxPoint x="1710" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-36" connectable="0" parent="jcsDsezDFGkRP7c2sjmb-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="send email with attach applicaiton form file" vertex="1">
+          <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
+            <mxPoint x="34" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="notify application form completed">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1700" y="1752" as="sourcePoint" />
+            <mxPoint x="780" y="1752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jcsDsezDFGkRP7c2sjmb-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="Thank you.">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1000" y="1690" as="sourcePoint" />
+            <mxPoint x="790" y="1690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
