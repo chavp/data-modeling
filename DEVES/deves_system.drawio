@@ -2190,8 +2190,8 @@
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-550" y="-284" as="sourcePoint" />
-            <mxPoint x="-360" y="-284" as="targetPoint" />
+            <mxPoint x="-550" y="-380" as="sourcePoint" />
+            <mxPoint x="-360" y="-380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-30" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Make the payment" vertex="1">
@@ -2201,8 +2201,8 @@
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-341.45" y="-264" as="sourcePoint" />
-            <mxPoint x="278.55" y="-264" as="targetPoint" />
+            <mxPoint x="-343.45" y="-340" as="sourcePoint" />
+            <mxPoint x="276.55" y="-340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-32" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Redirect to payment gateway" vertex="1">
@@ -2222,15 +2222,15 @@
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Front-end callback success payment">
           <mxGeometry height="50" relative="1" width="50" x="0.6129" y="-10" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="278.55" y="-230" as="sourcePoint" />
-            <mxPoint x="-341.45" y="-230" as="targetPoint" />
+            <mxPoint x="280" y="-290" as="sourcePoint" />
+            <mxPoint x="-340" y="-290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Thank you&amp;nbsp;������">
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Thank you">
           <mxGeometry height="50" relative="1" width="50" x="0.4508" y="-10" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="-360" y="-230" as="sourcePoint" />
-            <mxPoint x="-553" y="-230" as="targetPoint" />
+            <mxPoint x="-361.45" y="-260" as="sourcePoint" />
+            <mxPoint x="-554.45" y="-260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;fontColor=#0B1BFF;strokeColor=default;fontStyle=1;fontSize=16;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;DEVES &lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;Core Insurance&lt;/span&gt;" vertex="1">
