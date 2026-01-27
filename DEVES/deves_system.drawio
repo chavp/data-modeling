@@ -2146,41 +2146,30 @@
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-551.45" y="-820" as="sourcePoint" />
-            <mxPoint x="-361.45" y="-820" as="targetPoint" />
+            <mxPoint x="-551.45" y="-840" as="sourcePoint" />
+            <mxPoint x="-361.45" y="-840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-13" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Select package" vertex="1">
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-13" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Select package, plan" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
-            <mxPoint x="41" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-341.45" y="-804" as="sourcePoint" />
-            <mxPoint x="88.55" y="-804" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-15" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#375623;fontSize=14;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;InquiryPackageAddOn&lt;/span&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.11" as="geometry">
-            <mxPoint x="85" y="-16" as="offset" />
+            <mxPoint x="22" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-550" y="-764" as="sourcePoint" />
-            <mxPoint x="-360" y="-764" as="targetPoint" />
+            <mxPoint x="-551.45" y="-790" as="sourcePoint" />
+            <mxPoint x="-361.45" y="-790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-19" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Select package add on" vertex="1">
+        <mxCell id="8jq5NLsn5SuYfwRpcQcX-19" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Check plan, add on" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
             <mxPoint x="21" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-550" y="-720" as="sourcePoint" />
-            <mxPoint x="-360" y="-720" as="targetPoint" />
+            <mxPoint x="-550" y="-740" as="sourcePoint" />
+            <mxPoint x="-360" y="-740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-21" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Fill in insured information" vertex="1">
@@ -2199,21 +2188,10 @@
             <mxPoint x="69" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-341.45" y="-694" as="sourcePoint" />
-            <mxPoint x="88.55" y="-694" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8jq5NLsn5SuYfwRpcQcX-26" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#375623;fontColor=#FFFFFF;fontSize=14;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;PremiumCalculate&lt;/span&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.11" as="geometry">
-            <mxPoint x="99" y="-16" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-550" y="-644" as="sourcePoint" />
-            <mxPoint x="-360" y="-644" as="targetPoint" />
+            <mxPoint x="-551.45" y="-690" as="sourcePoint" />
+            <mxPoint x="-361.45" y="-690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jq5NLsn5SuYfwRpcQcX-28" connectable="0" parent="8jq5NLsn5SuYfwRpcQcX-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Fill in application form" vertex="1">
