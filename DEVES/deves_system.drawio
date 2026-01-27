@@ -2091,7 +2091,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uAutwjaBaB5a1L01OKsx" name="SCB Easy App policy submition">
-    <mxGraphModel dx="2792" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1752" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2641,11 +2641,22 @@
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-343.45" y="-210" as="sourcePoint" />
-            <mxPoint x="478.55" y="-210" as="targetPoint" />
+            <mxPoint x="90" y="-210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RLSWJGg0dM5uuTjNEvzt-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: Arial; font-size: 20px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 51, 255);&quot;&gt;/api/v1/applications/{applicationTransactionId}/payment-confirm&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="590" x="-100" y="-250" as="geometry" />
+          <mxGeometry height="30" width="590" x="-300" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="RLSWJGg0dM5uuTjNEvzt-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="-180" as="sourcePoint" />
+            <mxPoint x="480" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLSWJGg0dM5uuTjNEvzt-5" connectable="0" parent="RLSWJGg0dM5uuTjNEvzt-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Payment Confirm" vertex="1">
+          <mxGeometry relative="1" x="0.3532" y="-2" as="geometry">
+            <mxPoint x="58" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
