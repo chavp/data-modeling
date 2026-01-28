@@ -3045,10 +3045,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jcsDsezDFGkRP7c2sjmb-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Candidates" vertex="1">
-          <mxGeometry height="60" width="120" x="-390" y="2220" as="geometry" />
+          <mxGeometry height="60" width="180" x="-390" y="2220" as="geometry" />
         </mxCell>
         <mxCell id="jcsDsezDFGkRP7c2sjmb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CandidateStatuses" vertex="1">
-          <mxGeometry height="60" width="150" x="-156" y="2220" as="geometry" />
+          <mxGeometry height="60" width="150" x="-120" y="2220" as="geometry" />
         </mxCell>
         <mxCell id="jcsDsezDFGkRP7c2sjmb-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Candidate" vertex="1">
           <mxGeometry height="60" width="30" x="950" y="1365" as="geometry" />
@@ -3402,6 +3402,19 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-450" y="2265" as="sourcePoint" />
             <mxPoint x="-450" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQ5uQ2goYR-yUPLGBqTd-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TitleNames" vertex="1">
+          <mxGeometry height="60" width="120" x="-360" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ5uQ2goYR-yUPLGBqTd-10" edge="1" parent="1" source="jcsDsezDFGkRP7c2sjmb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;" target="cQ5uQ2goYR-yUPLGBqTd-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="2140" />
+              <mxPoint x="-300" y="2140" />
+            </Array>
+            <mxPoint x="-20" y="2280" as="sourcePoint" />
+            <mxPoint x="-220" y="2180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
