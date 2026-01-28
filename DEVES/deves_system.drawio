@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="9">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
     <mxGraphModel dx="1810" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3028,10 +3028,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jcsDsezDFGkRP7c2sjmb-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Candidates" vertex="1">
-          <mxGeometry height="60" width="120" x="-210" y="2090" as="geometry" />
+          <mxGeometry height="60" width="120" x="-390" y="2219" as="geometry" />
         </mxCell>
         <mxCell id="jcsDsezDFGkRP7c2sjmb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CandidateStatuses" vertex="1">
-          <mxGeometry height="60" width="150" x="40" y="2090" as="geometry" />
+          <mxGeometry height="60" width="150" x="-140" y="2219" as="geometry" />
         </mxCell>
         <mxCell id="jcsDsezDFGkRP7c2sjmb-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Candidate" vertex="1">
           <mxGeometry height="60" width="30" x="950" y="1365" as="geometry" />
@@ -3365,6 +3365,21 @@
         </mxCell>
         <mxCell id="xFdBoBqRIru6w15c0fjX-9" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" value="" vertex="1">
           <mxGeometry height="70" width="42.7" x="-252.7" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ5uQ2goYR-yUPLGBqTd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Districts" vertex="1">
+          <mxGeometry height="60" width="120" x="-650" y="2215" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ5uQ2goYR-yUPLGBqTd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Subdistricts" vertex="1">
+          <mxGeometry height="60" width="120" x="-650" y="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ5uQ2goYR-yUPLGBqTd-3" edge="1" parent="1" source="cQ5uQ2goYR-yUPLGBqTd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=none;endFill=0;" target="cQ5uQ2goYR-yUPLGBqTd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="2390" as="sourcePoint" />
+            <mxPoint x="-220" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQ5uQ2goYR-yUPLGBqTd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Provinces" vertex="1">
+          <mxGeometry height="60" width="120" x="-440" y="2360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
