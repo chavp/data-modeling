@@ -2736,7 +2736,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="HR_JOB_APP">
-    <mxGraphModel dx="2864" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2892,7 +2892,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-23" edge="1" parent="1" source="1UTC1YuuZfNmvnHtqvu8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1UTC1YuuZfNmvnHtqvu8-31" value="login: admin">
-          <mxGeometry relative="1" x="-0.5676" y="20" as="geometry">
+          <mxGeometry relative="1" x="-0.6757" y="10" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="-260" y="1370" />
@@ -2958,7 +2958,7 @@
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-37" connectable="0" parent="1UTC1YuuZfNmvnHtqvu8-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="apply Job Application" vertex="1">
           <mxGeometry relative="1" x="-0.0316" y="5" as="geometry">
-            <mxPoint x="-33" y="-5" as="offset" />
+            <mxPoint x="-95" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-38" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Candidate" vertex="1">
@@ -3373,7 +3373,7 @@
         <mxCell id="xFdBoBqRIru6w15c0fjX-1" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.waf_web_application_firewall;" value="" vertex="1">
           <mxGeometry height="60" width="68.33" x="-458.33000000000004" y="1335" as="geometry" />
         </mxCell>
-        <mxCell id="xFdBoBqRIru6w15c0fjX-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;WAF Protection&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Allow only DEVES internal IP&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="xFdBoBqRIru6w15c0fjX-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;WAF Protection&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Allow only DEVES internal IP&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-460" y="1395" as="geometry" />
         </mxCell>
         <mxCell id="xFdBoBqRIru6w15c0fjX-5" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" value="" vertex="1">
@@ -3518,6 +3518,12 @@
             <mxPoint x="-660" y="2090" as="sourcePoint" />
             <mxPoint x="510" y="2090" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FvgOALY3b-J9mH9JUNAO-1" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.waf_web_application_firewall;" value="" vertex="1">
+          <mxGeometry height="60" width="68.33" x="-448" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="FvgOALY3b-J9mH9JUNAO-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;WAF Protection&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-439.67" y="1540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
