@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="10">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
     <mxGraphModel dx="1810" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2736,7 +2736,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="HR_JOB_APP">
-    <mxGraphModel dx="2253" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3528,8 +3528,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="QqrdXkAqBql8z-afrXFE" name="API ต่ออายุรถยนต์ - Chaiyo">
-    <mxGraphModel dx="2253" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="QqrdXkAqBql8z-afrXFE" name="API ต่ออายุรถยนต์">
+    <mxGraphModel dx="2492" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3646,6 +3646,22 @@
             <mxPoint x="-780" y="120" as="sourcePoint" />
             <mxPoint x="200" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MVa16oh-445knVm6Z83d" name="Products">
+    <mxGraphModel dx="1448" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-2" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Products" vertex="1">
+          <mxGeometry height="160" width="230" x="250" y="230" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-3" parent="qgxN-TuJ4Ks2Q9pzB5_p-2" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ProductId ; Guid&lt;br&gt;* ProductTitle : string (200)&lt;br&gt;* ProductCode : string (100)&lt;div&gt;o ProductDescription : string (500)&lt;/div&gt;&lt;div&gt;* EffectiveDate : DateOnly&lt;/div&gt;&lt;div&gt;* ExpiryDate : DateOnly&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="230" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
