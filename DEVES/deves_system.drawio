@@ -3640,12 +3640,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MVa16oh-445knVm6Z83d" name="Products">
-    <mxGraphModel dx="3437" dy="2140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4247" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-2" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Products" vertex="1">
-          <mxGeometry height="130" width="230" x="-180" y="30" as="geometry">
+          <mxGeometry height="130" width="230" x="-237" y="100" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -3655,13 +3655,13 @@
         <mxCell id="Ngogu3m-3HoLv01b6TAW-3" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERzeroToOne;endFill=0;" target="qgxN-TuJ4Ks2Q9pzB5_p-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-260" y="70" />
-              <mxPoint x="-260" y="70" />
+              <mxPoint x="-300" y="130" />
+              <mxPoint x="-300" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Packages" vertex="1">
-          <mxGeometry height="130" width="230" x="-570" y="-20" as="geometry">
+          <mxGeometry height="130" width="230" x="-600" y="50" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -3744,7 +3744,7 @@
         <mxCell id="Ngogu3m-3HoLv01b6TAW-28" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="qgxN-TuJ4Ks2Q9pzB5_p-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-493" y="140" />
+              <mxPoint x="-493" y="200" />
             </Array>
             <mxPoint x="-130" y="520" as="sourcePoint" />
             <mxPoint x="-130" y="640" as="targetPoint" />
@@ -3753,7 +3753,7 @@
         <mxCell id="Ngogu3m-3HoLv01b6TAW-29" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="qgxN-TuJ4Ks2Q9pzB5_p-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="140" />
+              <mxPoint x="280" y="200" />
             </Array>
             <mxPoint x="160" y="510" as="sourcePoint" />
             <mxPoint x="473" y="300" as="targetPoint" />
