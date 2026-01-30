@@ -4131,6 +4131,21 @@
         <mxCell id="TMLxyYtKe7nzyPT3coHk-21" parent="TMLxyYtKe7nzyPT3coHk-20" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;* Title : string (200)&lt;br&gt;&lt;div&gt;* Code : string (100)&lt;br&gt;&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="230" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-22" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="TMLxyYtKe7nzyPT3coHk-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-500" y="420" />
+              <mxPoint x="-500" y="420" />
+            </Array>
+            <mxPoint x="-100" y="510" as="sourcePoint" />
+            <mxPoint x="330" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-23" connectable="0" parent="TMLxyYtKe7nzyPT3coHk-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="#" vertex="1">
+          <mxGeometry relative="1" x="0.7953" as="geometry">
+            <mxPoint x="-2" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
