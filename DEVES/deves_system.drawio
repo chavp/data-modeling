@@ -3640,7 +3640,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MVa16oh-445knVm6Z83d" name="Products">
-    <mxGraphModel dx="3848" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3155" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3928,11 +3928,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-62" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ProductCategories" vertex="1">
-          <mxGeometry height="130" width="230" x="360" y="20" as="geometry">
+          <mxGeometry height="130" width="230" x="460" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-63" parent="Ngogu3m-3HoLv01b6TAW-62" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;* Title : string (200)&lt;br&gt;&lt;div&gt;&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ngogu3m-3HoLv01b6TAW-64" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ProductCategoryClassifications" vertex="1">
+          <mxGeometry height="130" width="230" x="110" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ngogu3m-3HoLv01b6TAW-65" parent="Ngogu3m-3HoLv01b6TAW-64" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;br&gt;* Title : string (200)&lt;br&gt;* Code : string (100)&lt;div&gt;o Description : string (500)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="230" y="50" as="geometry" />
         </mxCell>
       </root>
