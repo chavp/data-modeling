@@ -2725,7 +2725,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="141_HR_JOB_APP">
-    <mxGraphModel dx="2580" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2786,7 +2786,7 @@
           <mxGeometry relative="1" x="0.0275" y="-15" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="-20" y="825" />
+              <mxPoint x="10" y="825" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2795,6 +2795,13 @@
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-14" parent="-ODNsSwaR04ehSyRWZx7-16" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="JobApp&lt;div&gt;[SQL Server]&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="110" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-7" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="o9hFraFr7_ykZX1VeQ50-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="1020" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=5;" value="Windows Server&lt;div&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; font-weight: 400; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;10.103.0.237 / jobappuat.deves.co.th&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="270" width="420" x="-330" y="450" as="geometry" />
@@ -3514,6 +3521,27 @@
         <mxCell id="FvgOALY3b-J9mH9JUNAO-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;WAF Protection&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-439.67" y="1540" as="geometry" />
         </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="HRC" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-6" edge="1" parent="1" source="o9hFraFr7_ykZX1VeQ50-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="o9hFraFr7_ykZX1VeQ50-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="SFTP" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-5" edge="1" parent="1" source="o9hFraFr7_ykZX1VeQ50-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="o9hFraFr7_ykZX1VeQ50-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="145" x="100" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-4" parent="o9hFraFr7_ykZX1VeQ50-9" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="SFTP Connector" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-8" parent="o9hFraFr7_ykZX1VeQ50-9" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="95" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -3640,7 +3668,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MVa16oh-445knVm6Z83d" name="Products">
-    <mxGraphModel dx="2710" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4823" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
