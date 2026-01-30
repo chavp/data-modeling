@@ -4095,8 +4095,18 @@
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TMLxyYtKe7nzyPT3coHk-13" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="TA, MOTOR, PA" vertex="1">
-          <mxGeometry height="80" width="120" x="900" y="360" as="geometry" />
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-13" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;ต่อเหตุการณ์&quot; (Per incident)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;ต่อปี&quot; (Per year)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt; &quot;ต่อบุคคล&quot; (Per person)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="910" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-14" edge="1" parent="1" source="TMLxyYtKe7nzyPT3coHk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="TMLxyYtKe7nzyPT3coHk-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="400" />
+              <mxPoint x="850" y="400" />
+            </Array>
+            <mxPoint x="1033" y="260" as="sourcePoint" />
+            <mxPoint x="940" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
