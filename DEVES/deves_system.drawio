@@ -3807,6 +3807,11 @@
             <mxPoint x="-137" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-17" connectable="0" parent="Ngogu3m-3HoLv01b6TAW-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="#" vertex="1">
+          <mxGeometry relative="1" x="0.8811" y="-1" as="geometry">
+            <mxPoint x="-6" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-30" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="Ngogu3m-3HoLv01b6TAW-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -3815,6 +3820,11 @@
             </Array>
             <mxPoint x="-667" y="600" as="sourcePoint" />
             <mxPoint x="-667" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-19" connectable="0" parent="Ngogu3m-3HoLv01b6TAW-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="#" vertex="1">
+          <mxGeometry relative="1" x="0.5667" y="-1" as="geometry">
+            <mxPoint x="-5" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-31" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="CoverageTypeCompositions" vertex="1">
@@ -4048,6 +4058,11 @@
             </Array>
             <mxPoint x="-60" y="420" as="sourcePoint" />
             <mxPoint x="-60" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-18" connectable="0" parent="TMLxyYtKe7nzyPT3coHk-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="#" vertex="1">
+          <mxGeometry relative="1" x="0.7953" as="geometry">
+            <mxPoint x="31" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TMLxyYtKe7nzyPT3coHk-4" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="CoverageLevelTypes" vertex="1">
