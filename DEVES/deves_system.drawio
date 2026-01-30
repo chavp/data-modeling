@@ -3928,7 +3928,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-62" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ProductCategories" vertex="1">
-          <mxGeometry height="130" width="230" x="520" y="30" as="geometry">
+          <mxGeometry height="130" width="230" x="520" y="60" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -3936,18 +3936,18 @@
           <mxGeometry height="80" width="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-64" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ProductCategoryClassifications" vertex="1">
-          <mxGeometry height="130" width="230" x="163" y="30" as="geometry">
+          <mxGeometry height="90" width="230" x="163" y="70" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-65" parent="Ngogu3m-3HoLv01b6TAW-64" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id : Guid&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="230" y="50" as="geometry" />
+          <mxGeometry height="40" width="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-66" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="Ngogu3m-3HoLv01b6TAW-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="65" />
-              <mxPoint x="540" y="65" />
+              <mxPoint x="450" y="130" />
+              <mxPoint x="450" y="130" />
             </Array>
             <mxPoint x="837" y="380" as="sourcePoint" />
             <mxPoint x="550" y="280" as="targetPoint" />
