@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="9">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
     <mxGraphModel dx="1810" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2079,17 +2079,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="4H4mCjvhDu3gyhwpqkng" name="DVS_CONNECTOR_DB">
-    <mxGraphModel dx="1025" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="-n--bEEdIBRJnxxj9iEV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="T_POLICY_SERVICE" vertex="1">
-          <mxGeometry height="60" width="150" x="264" y="190" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="uAutwjaBaB5a1L01OKsx" name="SCB Easy App policy submition">
     <mxGraphModel dx="2728" dy="2205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2735,7 +2724,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="HR_JOB_APP">
+  <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="141_HR_JOB_APP">
     <mxGraphModel dx="2580" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -3651,16 +3640,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MVa16oh-445knVm6Z83d" name="Products">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1148" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-2" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Products" vertex="1">
-          <mxGeometry height="160" width="230" x="299" y="260" as="geometry">
+          <mxGeometry height="160" width="230" x="350" y="260" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-3" parent="qgxN-TuJ4Ks2Q9pzB5_p-2" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ProductId ; Guid&lt;br&gt;* ProductTitle : string (200)&lt;br&gt;* ProductCode : string (100)&lt;div&gt;o ProductDescription : string (500)&lt;/div&gt;&lt;div&gt;* EffectiveDate : DateOnly&lt;/div&gt;&lt;div&gt;* ExpiryDate : DateOnly&lt;/div&gt;" vertex="1">
+        <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-3" parent="qgxN-TuJ4Ks2Q9pzB5_p-2" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# ProductId ; Guid&lt;br&gt;* Title : string (200)&lt;br&gt;* Code : string (100)&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;* EffectiveDate : DateOnly&lt;/div&gt;&lt;div&gt;* ExpiryDate : DateOnly&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="230" y="50" as="geometry" />
         </mxCell>
       </root>
