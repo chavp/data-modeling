@@ -3645,23 +3645,23 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-2" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Products" vertex="1">
-          <mxGeometry height="150" width="230" x="130" y="170" as="geometry">
+          <mxGeometry height="130" width="230" x="130" y="170" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-3" parent="qgxN-TuJ4Ks2Q9pzB5_p-2" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;br&gt;* Title : string (200)&lt;br&gt;* Code : string (100)&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;* EffectiveDate : DateOnly&lt;/div&gt;&lt;div&gt;* ExpiryDate : DateOnly&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="230" y="50" as="geometry" />
+        <mxCell id="qgxN-TuJ4Ks2Q9pzB5_p-3" parent="qgxN-TuJ4Ks2Q9pzB5_p-2" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;br&gt;* Title : string (200)&lt;br&gt;* Code : string (100)&lt;div&gt;o Description : string (500)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-3" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERzeroToOne;endFill=0;" target="qgxN-TuJ4Ks2Q9pzB5_p-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Packages" vertex="1">
-          <mxGeometry height="150" width="230" x="-290" y="170" as="geometry">
+          <mxGeometry height="130" width="230" x="-270" y="170" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ngogu3m-3HoLv01b6TAW-2" parent="Ngogu3m-3HoLv01b6TAW-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;br&gt;* Title : string (200)&lt;br&gt;* Code : string (100)&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;* EffectiveDate : DateOnly&lt;/div&gt;&lt;div&gt;* ExpiryDate : DateOnly&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="230" y="50" as="geometry" />
+        <mxCell id="Ngogu3m-3HoLv01b6TAW-2" parent="Ngogu3m-3HoLv01b6TAW-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;br&gt;* Title : string (200)&lt;br&gt;* Code : string (100)&lt;div&gt;o Description : string (500)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-4" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ProductFeatures" vertex="1">
           <mxGeometry height="90" width="230" x="-230" y="570" as="geometry">
