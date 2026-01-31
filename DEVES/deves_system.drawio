@@ -3688,7 +3688,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MVa16oh-445knVm6Z83d" name="Products">
-    <mxGraphModel dx="3319" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4033" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3963,27 +3963,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-57" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="CoverageTypeCategories" vertex="1">
-          <mxGeometry height="130" width="230" x="-810" y="610" as="geometry">
+          <mxGeometry height="130" width="230" x="-777" y="800" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-58" parent="Ngogu3m-3HoLv01b6TAW-57" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;* Title : string (200)&lt;br&gt;&lt;div&gt;&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="230" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Ngogu3m-3HoLv01b6TAW-59" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="Ngogu3m-3HoLv01b6TAW-57">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-510" y="680" />
-              <mxPoint x="-510" y="680" />
-            </Array>
-            <mxPoint x="-295.00000000000045" y="800" as="sourcePoint" />
-            <mxPoint x="-400" y="800" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ngogu3m-3HoLv01b6TAW-60" connectable="0" parent="Ngogu3m-3HoLv01b6TAW-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Category" vertex="1">
-          <mxGeometry relative="1" x="0.4613" y="3" as="geometry">
-            <mxPoint x="4" y="-18" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-62" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ProductCategories" vertex="1">
           <mxGeometry height="130" width="230" x="-90" y="120" as="geometry">
@@ -4147,17 +4132,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TMLxyYtKe7nzyPT3coHk-25" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;การเดินทาง&quot; (Travel)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;รถยนต์&quot; (Motor)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt; &quot;ประกันวินาศภัย&quot; (Casualty)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;ประกันทรัพย์สิน&quot; (Property)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="200" x="-795" y="840" as="geometry" />
+          <mxGeometry height="160" width="200" x="-762" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="TMLxyYtKe7nzyPT3coHk-26" edge="1" parent="1" source="TMLxyYtKe7nzyPT3coHk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="Ngogu3m-3HoLv01b6TAW-57">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="-580" y="770" as="sourcePoint" />
-            <mxPoint x="-700" y="770" as="targetPoint" />
+            <mxPoint x="-547" y="960" as="sourcePoint" />
+            <mxPoint x="-667" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TMLxyYtKe7nzyPT3coHk-27" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=4;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;verticalAlign=middle;" value="CoverageTypeClassifies" vertex="1">
-          <mxGeometry height="90" width="217" x="-470" y="840" as="geometry">
+          <mxGeometry height="90" width="217" x="-777" y="600" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
