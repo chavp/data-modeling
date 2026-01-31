@@ -4024,16 +4024,14 @@
         <mxCell id="TMLxyYtKe7nzyPT3coHk-2" parent="TMLxyYtKe7nzyPT3coHk-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;* Title : string (200)&lt;br&gt;&lt;div&gt;* Code : string (100)&lt;br&gt;&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="230" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="TMLxyYtKe7nzyPT3coHk-7" edge="1" parent="1" source="t55RFpBQOlewFYJifOHS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="Ngogu3m-3HoLv01b6TAW-63">
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-7" edge="1" parent="1" source="TMLxyYtKe7nzyPT3coHk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="Ngogu3m-3HoLv01b6TAW-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="175" />
-              <mxPoint x="170" y="175" />
+              <mxPoint x="210" y="185" />
+              <mxPoint x="210" y="185" />
             </Array>
+            <mxPoint x="233" y="175" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="t55RFpBQOlewFYJifOHS-4" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="TA, MOTOR, PA" vertex="1">
-          <mxGeometry height="80" width="120" x="233" y="135" as="geometry" />
         </mxCell>
         <mxCell id="TMLxyYtKe7nzyPT3coHk-3" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="TMLxyYtKe7nzyPT3coHk-1">
           <mxGeometry relative="1" as="geometry">
@@ -4178,6 +4176,9 @@
           <mxGeometry relative="1" x="0.6617" y="-3" as="geometry">
             <mxPoint x="5" y="-18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-33" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;การเดินทาง&quot; (Travel)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;รถยนต์&quot; (Motor)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt; &quot;ประกันวินาศภัย&quot; (Casualty)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Google Sans&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&quot;ประกันทรัพย์สิน&quot; (Property)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="243" y="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
