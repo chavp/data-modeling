@@ -3688,7 +3688,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MVa16oh-445knVm6Z83d" name="Products">
-    <mxGraphModel dx="4033" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3319" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3764,7 +3764,7 @@
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ngogu3m-3HoLv01b6TAW-22" parent="Ngogu3m-3HoLv01b6TAW-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;* Title : string (200)&lt;br&gt;&lt;div&gt;* Code : string (100)&lt;br&gt;&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Ngogu3m-3HoLv01b6TAW-22" parent="Ngogu3m-3HoLv01b6TAW-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Ngogu3m-3HoLv01b6TAW-23" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="Ngogu3m-3HoLv01b6TAW-4">
@@ -4155,6 +4155,29 @@
         <mxCell id="TMLxyYtKe7nzyPT3coHk-35" connectable="0" parent="TMLxyYtKe7nzyPT3coHk-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Type" vertex="1">
           <mxGeometry relative="1" x="0.4613" y="3" as="geometry">
             <mxPoint x="-8" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-38" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="ProductFeatureAvailabilityTypes" vertex="1">
+          <mxGeometry height="130" width="250" x="-1620" y="350" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-39" parent="TMLxyYtKe7nzyPT3coHk-38" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;* Title : string (200)&lt;br&gt;&lt;div&gt;* Code : string (100)&lt;br&gt;&lt;div&gt;o Description : string (500)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="250" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-40" edge="1" parent="1" source="Ngogu3m-3HoLv01b6TAW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="TMLxyYtKe7nzyPT3coHk-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1320" y="425" />
+              <mxPoint x="-1320" y="425" />
+            </Array>
+            <mxPoint x="-1147" y="270" as="sourcePoint" />
+            <mxPoint x="-1260" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMLxyYtKe7nzyPT3coHk-41" connectable="0" parent="TMLxyYtKe7nzyPT3coHk-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="#" vertex="1">
+          <mxGeometry relative="1" x="0.7953" as="geometry">
+            <mxPoint x="-2" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
