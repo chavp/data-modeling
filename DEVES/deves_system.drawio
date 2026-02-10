@@ -2154,7 +2154,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RpB_B2_Ua0PEVCRg8CIO" name="141_HR_JOB_APP">
-    <mxGraphModel dx="2705" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3510" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2220,7 +2220,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=5;" value="Windows Server&lt;div&gt;10.103.0.11&lt;/div&gt;" vertex="1">
-          <mxGeometry height="190" width="200" x="120" y="710" as="geometry" />
+          <mxGeometry height="190" width="200" x="130" y="650" as="geometry" />
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-14" parent="-ODNsSwaR04ehSyRWZx7-16" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="JobApp&lt;div&gt;[SQL Server]&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="110" x="40" y="70" as="geometry" />
@@ -2288,7 +2288,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=4;" value="Windows Server&lt;div&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; font-weight: 400; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;websvuat.deves.co.th&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="240" x="220" y="450" as="geometry" />
+          <mxGeometry height="180" width="240" x="320" y="450" as="geometry" />
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-3" connectable="0" parent="1UTC1YuuZfNmvnHtqvu8-6" style="group" value="" vertex="1">
           <mxGeometry height="80" width="166" x="60" y="60" as="geometry" />
@@ -2429,7 +2429,7 @@
         <mxCell id="wb5TU-pP-V8KYgotaeyz-1" edge="1" parent="1" source="1UTC1YuuZfNmvnHtqvu8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="353" y="825" />
+              <mxPoint x="450" y="825" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2951,17 +2951,8 @@
         <mxCell id="FvgOALY3b-J9mH9JUNAO-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;WAF Protection&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-509.67" y="1890" as="geometry" />
         </mxCell>
-        <mxCell id="o9hFraFr7_ykZX1VeQ50-9" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="145" x="-110" y="920" as="geometry" />
-        </mxCell>
-        <mxCell id="o9hFraFr7_ykZX1VeQ50-4" parent="o9hFraFr7_ykZX1VeQ50-9" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="SFTP Connector" vertex="1">
-          <mxGeometry height="60" width="120" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="o9hFraFr7_ykZX1VeQ50-8" parent="o9hFraFr7_ykZX1VeQ50-9" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
-          <mxGeometry height="48" width="50" x="95" as="geometry" />
-        </mxCell>
         <mxCell id="o9hFraFr7_ykZX1VeQ50-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#808080;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;strokeWidth=5;" value="" vertex="1">
-          <mxGeometry height="200" width="350" x="112.69999999999999" y="960" as="geometry" />
+          <mxGeometry height="200" width="350" x="320" y="899" as="geometry" />
         </mxCell>
         <mxCell id="o9hFraFr7_ykZX1VeQ50-6" edge="1" parent="o9hFraFr7_ykZX1VeQ50-15" source="o9hFraFr7_ykZX1VeQ50-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="o9hFraFr7_ykZX1VeQ50-1">
           <mxGeometry relative="1" as="geometry">
@@ -2982,12 +2973,13 @@
           <mxGeometry height="40" width="43.17" x="90" as="geometry" />
         </mxCell>
         <mxCell id="o9hFraFr7_ykZX1VeQ50-14" parent="o9hFraFr7_ykZX1VeQ50-15" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.transfer_for_sftp_resource;fontFamily=Helvetica;" value="" vertex="1">
-          <mxGeometry height="88" width="85.74" x="50.00000000000002" y="60" as="geometry" />
+          <mxGeometry height="88" width="85.74" x="51.00000000000002" y="74" as="geometry" />
         </mxCell>
         <mxCell id="o9hFraFr7_ykZX1VeQ50-16" edge="1" parent="1" source="o9hFraFr7_ykZX1VeQ50-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="o9hFraFr7_ykZX1VeQ50-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-50" y="1080" />
+              <mxPoint x="300" y="1040" />
+              <mxPoint x="300" y="1040" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3028,6 +3020,18 @@
           <mxGeometry relative="1" x="0.1655" y="1" as="geometry">
             <mxPoint x="79" y="-18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="g3I3rgafp-VtFV4GMW9y-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=5;" value="Windows Server&lt;div&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; font-weight: 400; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;iapisvsit.deves.co.th&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="420" x="-146.3" y="899" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-9" connectable="0" parent="g3I3rgafp-VtFV4GMW9y-1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="145" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-4" parent="o9hFraFr7_ykZX1VeQ50-9" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="SFTP Connector" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o9hFraFr7_ykZX1VeQ50-8" parent="o9hFraFr7_ykZX1VeQ50-9" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
