@@ -4487,6 +4487,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="diyxLi-22d_wfVrsgezo-13" edge="1" parent="1" source="diyxLi-22d_wfVrsgezo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="diyxLi-22d_wfVrsgezo-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="445" />
+              <mxPoint x="190" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="diyxLi-22d_wfVrsgezo-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;EWI_PA_POLICY&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="260" y="330" as="geometry" />
         </mxCell>
@@ -4521,13 +4529,33 @@
           <mxGeometry height="60" width="160" x="260" y="110" as="geometry" />
         </mxCell>
         <mxCell id="diyxLi-22d_wfVrsgezo-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;M_Packagecode_TA&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="110" y="500" as="geometry" />
+          <mxGeometry height="60" width="160" x="80" y="500" as="geometry" />
         </mxCell>
         <mxCell id="diyxLi-22d_wfVrsgezo-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;M_PackageRisk_TA&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="310" y="500" as="geometry" />
+          <mxGeometry height="60" width="160" x="260" y="500" as="geometry" />
         </mxCell>
         <mxCell id="diyxLi-22d_wfVrsgezo-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;M_PackageCover&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="510" y="500" as="geometry" />
+          <mxGeometry height="60" width="160" x="450" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="diyxLi-22d_wfVrsgezo-15" edge="1" parent="1" source="diyxLi-22d_wfVrsgezo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="diyxLi-22d_wfVrsgezo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="440" />
+              <mxPoint x="350" y="440" />
+            </Array>
+            <mxPoint x="480" y="430" as="sourcePoint" />
+            <mxPoint x="370" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="diyxLi-22d_wfVrsgezo-16" edge="1" parent="1" source="diyxLi-22d_wfVrsgezo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="diyxLi-22d_wfVrsgezo-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="440" />
+              <mxPoint x="500" y="440" />
+            </Array>
+            <mxPoint x="570" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
