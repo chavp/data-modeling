@@ -4457,7 +4457,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aaU4lZWsy9D-kqrUxqkY-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyRelationshipTypes" vertex="1">
-          <mxGeometry height="60" width="180" x="630" y="20" as="geometry" />
+          <mxGeometry height="60" width="180" x="570" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="36N1JQUg41yAzw6ikx17-1" edge="1" parent="1" source="aaU4lZWsy9D-kqrUxqkY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="aaU4lZWsy9D-kqrUxqkY-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="760" y="160" as="sourcePoint" />
+            <mxPoint x="660" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
