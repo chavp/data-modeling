@@ -4365,7 +4365,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ejj5KRjk2NOqy3FQhYUZ" name="Parties">
-    <mxGraphModel dx="1878" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4424,6 +4424,16 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="782" y="160" as="sourcePoint" />
             <mxPoint x="570" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPUD5T3WlYM4NcoSllGE-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Parties" vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaU4lZWsy9D-kqrUxqkY-1" edge="1" parent="1" source="i_l-TWSLMurFXUJdtJbP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="HPUD5T3WlYM4NcoSllGE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="550" y="40" as="sourcePoint" />
+            <mxPoint x="980" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
