@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8" pages="11">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
     <mxGraphModel dx="1810" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3210,7 +3210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uAutwjaBaB5a1L01OKsx" name="SCB x Deves App policy submition">
-    <mxGraphModel dx="1938" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2616" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4361,6 +4361,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ejj5KRjk2NOqy3FQhYUZ" name="Parties">
+    <mxGraphModel dx="1878" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i_l-TWSLMurFXUJdtJbP-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Channels" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="i_l-TWSLMurFXUJdtJbP-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Systems" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="i_l-TWSLMurFXUJdtJbP-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Agents" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="i_l-TWSLMurFXUJdtJbP-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Sources" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="250" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
