@@ -4483,7 +4483,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y2qSz0C2lF4_NqbqEZNr" name="EWIPOLICY">
-    <mxGraphModel dx="773" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1600" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4558,16 +4558,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="diyxLi-22d_wfVrsgezo-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M_PackageGroup_TA" vertex="1">
-          <mxGeometry height="60" width="160" x="270" y="690" as="geometry" />
+          <mxGeometry height="60" width="160" x="360" y="690" as="geometry" />
         </mxCell>
         <mxCell id="diyxLi-22d_wfVrsgezo-19" edge="1" parent="1" source="diyxLi-22d_wfVrsgezo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="diyxLi-22d_wfVrsgezo-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="diyxLi-22d_wfVrsgezo-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M_PackageMain_TA" vertex="1">
-          <mxGeometry height="60" width="160" x="40" y="690" as="geometry" />
+        <mxCell id="diyxLi-22d_wfVrsgezo-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M_PackageMain_TA&lt;div&gt;key {&amp;nbsp;PackageGroupID,&amp;nbsp;PackageCodeID }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="-30" y="690" as="geometry" />
         </mxCell>
         <mxCell id="diyxLi-22d_wfVrsgezo-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="M_PackageCode_TA" vertex="1">
-          <mxGeometry height="60" width="160" x="230" y="850" as="geometry" />
+          <mxGeometry height="60" width="160" x="90" y="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
