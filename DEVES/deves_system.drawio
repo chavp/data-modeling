@@ -3527,7 +3527,7 @@
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-29" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#92D050;fontSize=14;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Redirect to payment gateway&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
-            <mxPoint x="238" y="-20" as="offset" />
+            <mxPoint x="-277" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;fontColor=#0B1BFF;strokeColor=default;fontSize=16;fontStyle=1" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;DVSPay&lt;/span&gt;" vertex="1">
@@ -3554,9 +3554,9 @@
             <mxPoint x="400" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agH0WFN5WOCYnv3rIoFJ-35" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Redirect to DEVES payment gateway URL" vertex="1">
+        <mxCell id="agH0WFN5WOCYnv3rIoFJ-35" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="/deves/confirmpolicybackend/1.0.0/confirmpaymentdeves" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
-            <mxPoint x="273" y="-20" as="offset" />
+            <mxPoint x="233" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Front-end callback success payment">
