@@ -3550,13 +3550,6 @@
             <mxPoint x="137" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agH0WFN5WOCYnv3rIoFJ-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Front-end callback success payment">
-          <mxGeometry height="50" relative="1" width="50" x="0.65" y="-10" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="400" y="1000" as="sourcePoint" />
-            <mxPoint x="-400" y="1000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Thank you">
           <mxGeometry height="50" relative="1" width="50" x="0.4118" y="-20" as="geometry">
             <mxPoint as="offset" />
@@ -3580,25 +3573,14 @@
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="550" y="1070" as="sourcePoint" />
-            <mxPoint x="550" y="190" as="targetPoint" />
+            <mxPoint x="509.47" y="1070" as="sourcePoint" />
+            <mxPoint x="509.47" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agH0WFN5WOCYnv3rIoFJ-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="290" y="1000" as="sourcePoint" />
-            <mxPoint x="540" y="1000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="agH0WFN5WOCYnv3rIoFJ-43" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Back-end callback success payment" vertex="1">
-          <mxGeometry relative="1" x="0.08" y="-2" as="geometry">
-            <mxPoint x="-4" y="-22" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="agH0WFN5WOCYnv3rIoFJ-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="SMS / Email e-policy">
+        <mxCell id="agH0WFN5WOCYnv3rIoFJ-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;dashed=1;" value="SMS / Email e-policy">
           <mxGeometry height="50" relative="1" width="50" x="0.8678" y="-10" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="670" y="1050" as="sourcePoint" />
+            <mxPoint x="490" y="1050" as="sourcePoint" />
             <mxPoint x="-590" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -3713,6 +3695,17 @@
         </mxCell>
         <mxCell id="N-wivvCJsb2yZaXwO4ws-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves&lt;div&gt;Core Integration&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1830" y="-1029" as="geometry" />
+        </mxCell>
+        <mxCell id="WbHJarDWfn1mY9y_lS9e-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="1000" as="sourcePoint" />
+            <mxPoint x="490" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbHJarDWfn1mY9y_lS9e-2" connectable="0" parent="WbHJarDWfn1mY9y_lS9e-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Payment Confirm" vertex="1">
+          <mxGeometry relative="1" x="0.3532" y="-2" as="geometry">
+            <mxPoint x="58" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
