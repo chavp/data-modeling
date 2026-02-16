@@ -3210,7 +3210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uAutwjaBaB5a1L01OKsx" name="SCB x Deves App policy submition">
-    <mxGraphModel dx="2876" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3002" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3522,7 +3522,7 @@
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-400" y="890" as="sourcePoint" />
-            <mxPoint x="400" y="890" as="targetPoint" />
+            <mxPoint x="270" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-29" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#92D050;fontSize=14;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Redirect to payment gateway&lt;/span&gt;" vertex="1">
@@ -3530,33 +3530,24 @@
             <mxPoint x="-277" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agH0WFN5WOCYnv3rIoFJ-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;fontColor=#0B1BFF;strokeColor=default;fontSize=16;fontStyle=1" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;DVSPay&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="170" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="agH0WFN5WOCYnv3rIoFJ-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="agH0WFN5WOCYnv3rIoFJ-30" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="230" y="1070" as="sourcePoint" />
-            <mxPoint x="230" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;fontStyle=1" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;SCB Payment Gateway&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="130" as="geometry" />
+          <mxGeometry height="60" width="120" x="220" y="130" as="geometry" />
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="agH0WFN5WOCYnv3rIoFJ-32" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="410" y="1070" as="sourcePoint" />
-            <mxPoint x="479.5" y="200" as="targetPoint" />
+            <mxPoint x="280" y="1070" as="sourcePoint" />
+            <mxPoint x="349.5" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-400" y="960" as="sourcePoint" />
-            <mxPoint x="400" y="960" as="targetPoint" />
+            <mxPoint x="-402" y="970" as="sourcePoint" />
+            <mxPoint x="20" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-35" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="&lt;span style=&quot;background-color: rgb(135, 255, 9);&quot;&gt;/deves/confirmpolicybackend/1.0.0/confirmpaymentdeves&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
-            <mxPoint x="233" y="-20" as="offset" />
+            <mxPoint x="137" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Front-end callback success payment">
@@ -3569,13 +3560,13 @@
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Thank you">
           <mxGeometry height="50" relative="1" width="50" x="0.4118" y="-20" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="-420" y="1000" as="sourcePoint" />
-            <mxPoint x="-590" y="1000" as="targetPoint" />
+            <mxPoint x="-420" y="940" as="sourcePoint" />
+            <mxPoint x="-590" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="400" y="920" as="sourcePoint" />
+            <mxPoint x="260" y="920" as="sourcePoint" />
             <mxPoint x="-400" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -3585,18 +3576,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;fontColor=#0B1BFF;strokeColor=default;fontSize=16;fontStyle=1" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;DEVES &lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;Core Insurance&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="570" y="130" as="geometry" />
+          <mxGeometry height="60" width="140" x="440" y="130" as="geometry" />
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="680" y="1070" as="sourcePoint" />
-            <mxPoint x="680" y="190" as="targetPoint" />
+            <mxPoint x="550" y="1070" as="sourcePoint" />
+            <mxPoint x="550" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="420" y="1000" as="sourcePoint" />
-            <mxPoint x="670" y="1000" as="targetPoint" />
+            <mxPoint x="290" y="1000" as="sourcePoint" />
+            <mxPoint x="540" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-43" connectable="0" parent="agH0WFN5WOCYnv3rIoFJ-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Back-end callback success payment" vertex="1">
@@ -3689,7 +3680,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-59" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DEVES submitting TA applications (SCB payment gateway)&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="50" width="1380" x="-660" y="40" as="geometry" />
+          <mxGeometry height="50" width="1380" x="-640" y="60" as="geometry" />
         </mxCell>
         <mxCell id="agH0WFN5WOCYnv3rIoFJ-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
