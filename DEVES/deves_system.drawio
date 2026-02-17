@@ -3699,7 +3699,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="METj8osW96wvoyNKLInQ" name="Car Inspect Architecture">
-    <mxGraphModel dx="2066" dy="1081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3817,7 +3817,7 @@
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deployment&lt;/h1&gt;&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;b&gt;Amazon MSK&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Brokers&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;2 &lt;strong&gt;Express brokers&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Throughput&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;&lt;strong&gt;5 MB/s ingress ต่อเนื่อง&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Retention&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;&lt;strong&gt;7 วัน&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Tiered Storage&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;เปิดใช้งาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Region&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;ap-southeast-1 (สิงคโปร์)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="220" width="340" x="1071" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="TvFuPuogqnGUrUCQ4m4j-37" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Topics&lt;/h1&gt;&lt;p&gt;state - For full state&lt;/p&gt;&lt;p&gt;event - Riase event occured&lt;/p&gt;&lt;p&gt;command - Send command for processing&lt;/p&gt;" vertex="1">
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-37" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Topics&lt;/h1&gt;&lt;p&gt;state / snapshot - For full state&lt;/p&gt;&lt;p&gt;event - Riase event occured&lt;/p&gt;&lt;p&gt;command - Send command for processing&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="340" x="120" y="660" as="geometry" />
         </mxCell>
       </root>
