@@ -3719,19 +3719,25 @@
           <mxGeometry height="60" width="160" x="140" y="197.7" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Policy Request System" vertex="1">
-          <mxGeometry height="60" width="150" x="370" y="197.7" as="geometry" />
+          <mxGeometry height="60" width="150" x="360" y="197.7" as="geometry" />
+        </mxCell>
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-32" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TvFuPuogqnGUrUCQ4m4j-5" value="API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-33" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TvFuPuogqnGUrUCQ4m4j-7" value="API">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="DSS System" vertex="1">
-          <mxGeometry height="60" width="150" x="550" y="197.7" as="geometry" />
+          <mxGeometry height="60" width="150" x="563.68" y="197.7" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-26" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TvFuPuogqnGUrUCQ4m4j-8" value="API">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Confirm Payment System" vertex="1">
-          <mxGeometry height="60" width="150" x="730" y="197.7" as="geometry" />
+          <mxGeometry height="60" width="150" x="760" y="197.7" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" value="Core System" vertex="1">
-          <mxGeometry height="60" width="150" x="960" y="197.7" as="geometry" />
+          <mxGeometry height="60" width="150" x="990" y="197.7" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" value="" vertex="1">
           <mxGeometry height="1144.12" width="179.23" x="563.68" y="-80" as="geometry" />
@@ -3777,14 +3783,14 @@
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="applications-state" vertex="1">
           <mxGeometry height="30" width="950" x="160" y="517.7" as="geometry" />
         </mxCell>
-        <mxCell id="TvFuPuogqnGUrUCQ4m4j-23" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="TvFuPuogqnGUrUCQ4m4j-21">
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="327.7" />
-              <mxPoint x="440" y="327.7" />
+              <mxPoint x="434.62" y="327.7" />
+              <mxPoint x="434.62" y="327.7" />
             </Array>
-            <mxPoint x="460" y="327.7" as="sourcePoint" />
-            <mxPoint x="650" y="587.7" as="targetPoint" />
+            <mxPoint x="434.65448275862093" y="257.70000000000005" as="sourcePoint" />
+            <mxPoint x="434.65448275862093" y="517.7" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-25" connectable="0" parent="TvFuPuogqnGUrUCQ4m4j-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="publish" vertex="1">
