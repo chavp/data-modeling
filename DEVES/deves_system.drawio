@@ -3731,7 +3731,7 @@
           <mxGeometry height="60" width="150" x="980" y="330" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" value="" vertex="1">
-          <mxGeometry height="1144.12" width="145.05" x="650.77" y="35.21" as="geometry" />
+          <mxGeometry height="1144.12" width="179.23" x="633.68" y="52.3" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-11" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" value="" vertex="1">
           <mxGeometry height="42" width="56.699999999999996" x="1200" y="543" as="geometry" />
@@ -3749,7 +3749,7 @@
           <mxGeometry height="30" width="950" x="230" y="555" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="payments-confirm-event" vertex="1">
-          <mxGeometry height="30" width="950" x="230" y="590" as="geometry" />
+          <mxGeometry height="30" width="950" x="230" y="600" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-19" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="TvFuPuogqnGUrUCQ4m4j-17" value="publish">
           <mxGeometry relative="1" as="geometry">
@@ -3769,6 +3769,19 @@
             </Array>
             <mxPoint x="1100" y="470" as="sourcePoint" />
             <mxPoint x="1100" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="applications-state" vertex="1">
+          <mxGeometry height="30" width="950" x="230" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-23" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="TvFuPuogqnGUrUCQ4m4j-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="460" />
+              <mxPoint x="510" y="460" />
+            </Array>
+            <mxPoint x="530" y="460" as="sourcePoint" />
+            <mxPoint x="720" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
