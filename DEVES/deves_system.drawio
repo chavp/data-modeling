@@ -3699,7 +3699,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="METj8osW96wvoyNKLInQ" name="Car Inspect Architecture">
-    <mxGraphModel dx="1425" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3258" dy="1272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3818,7 +3818,13 @@
           <mxGeometry height="220" width="340" x="1071" y="630" as="geometry" />
         </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-37" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Topics&lt;/h1&gt;&lt;p&gt;state / snapshot - For full state&lt;/p&gt;&lt;p&gt;event - Riase event occured&lt;/p&gt;&lt;p&gt;command - Send command for processing&lt;/p&gt;&lt;p&gt;query / response - For request / response service&lt;/p&gt;" vertex="1">
-          <mxGeometry height="170" width="340" x="120" y="660" as="geometry" />
+          <mxGeometry height="170" width="340" x="-100" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-40" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" target="TvFuPuogqnGUrUCQ4m4j-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-39" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;size=0.5;rotation=-179;" value="" vertex="1">
+          <mxGeometry height="142.7" width="20" x="129.8" y="412.7" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
