@@ -3699,7 +3699,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="METj8osW96wvoyNKLInQ" name="Car Inspect Architecture">
-    <mxGraphModel dx="1425" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3760,7 +3760,7 @@
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="payments-confirm-event" vertex="1">
           <mxGeometry height="30" width="950" x="160" y="467.70000000000005" as="geometry" />
         </mxCell>
-        <mxCell id="TvFuPuogqnGUrUCQ4m4j-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" value="publish">
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" value="produce">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="827" y="407.7" />
@@ -3770,7 +3770,7 @@
             <mxPoint x="827" y="467.70000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TvFuPuogqnGUrUCQ4m4j-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" value="publish">
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" value="produce">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="879.97" y="310" />
@@ -3793,7 +3793,7 @@
             <mxPoint x="434.65448275862093" y="517.7" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TvFuPuogqnGUrUCQ4m4j-25" connectable="0" parent="TvFuPuogqnGUrUCQ4m4j-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="publish" vertex="1">
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-25" connectable="0" parent="TvFuPuogqnGUrUCQ4m4j-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="produce" vertex="1">
           <mxGeometry relative="1" x="-0.3667" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
