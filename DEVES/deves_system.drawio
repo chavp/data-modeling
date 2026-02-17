@@ -3811,8 +3811,11 @@
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Apache Kafka" vertex="1">
           <mxGeometry height="30" width="60" x="1126.7" y="457.70000000000005" as="geometry" />
         </mxCell>
+        <mxCell id="TvFuPuogqnGUrUCQ4m4j-36" edge="1" parent="1" source="TvFuPuogqnGUrUCQ4m4j-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="TvFuPuogqnGUrUCQ4m4j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deployment&lt;/h1&gt;&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;Amazon MSK&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Brokers&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;2 &lt;strong&gt;Express brokers&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Throughput&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;&lt;strong&gt;5 MB/s ingress ต่อเนื่อง&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Retention&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;&lt;strong&gt;7 วัน&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Tiered Storage&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;เปิดใช้งาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;Region&lt;/td&gt;&lt;td style=&quot;border: 1px solid rgb(230, 230, 230);&quot;&gt;ap-southeast-1 (สิงคโปร์)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="220" width="340" x="290" y="620" as="geometry" />
+          <mxGeometry height="220" width="340" x="310" y="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
