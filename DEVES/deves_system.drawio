@@ -3742,16 +3742,18 @@
         <mxCell id="ZkfTKYM4R-Xi8e0nUOE7-13" edge="1" parent="smiZSeB7WyRhRG4iVipP-8" source="ZkfTKYM4R-Xi8e0nUOE7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZkfTKYM4R-Xi8e0nUOE7-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="105" />
-              <mxPoint x="340" y="105" />
+              <mxPoint x="109" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZkfTKYM4R-Xi8e0nUOE7-5" parent="smiZSeB7WyRhRG4iVipP-8" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="Dev App" vertex="1">
+        <mxCell id="ZkfTKYM4R-Xi8e0nUOE7-5" parent="smiZSeB7WyRhRG4iVipP-8" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="PC" vertex="1">
           <mxGeometry height="70" width="78" x="70" y="70" as="geometry" />
         </mxCell>
         <mxCell id="ZkfTKYM4R-Xi8e0nUOE7-10" parent="smiZSeB7WyRhRG4iVipP-8" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="SQL&lt;div&gt;Database&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="60" x="390" y="80" as="geometry" />
+          <mxGeometry height="80" width="60" x="390" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkfTKYM4R-Xi8e0nUOE7-15" parent="smiZSeB7WyRhRG4iVipP-8" style="rounded=1;whiteSpace=wrap;html=1;" value="App Server" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="70" as="geometry" />
         </mxCell>
         <mxCell id="ZkfTKYM4R-Xi8e0nUOE7-6" edge="1" parent="1" source="ZkfTKYM4R-Xi8e0nUOE7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZkfTKYM4R-Xi8e0nUOE7-5">
           <mxGeometry relative="1" as="geometry" />
