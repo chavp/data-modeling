@@ -4794,7 +4794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobConnector">
-    <mxGraphModel dx="1317" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4847,7 +4847,7 @@
           <mxGeometry height="48" width="50" x="120" y="150" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Deves" vertex="1">
-          <mxGeometry height="220" width="440" x="160" y="440" as="geometry" />
+          <mxGeometry height="220" width="440" x="160" y="480" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-10" parent="RmrYMbzie0AoXYTLXRDm-9" style="rounded=1;whiteSpace=wrap;html=1;" value="PdfConnector" vertex="1">
           <mxGeometry height="60" width="120" x="204" y="100" as="geometry" />
@@ -4870,12 +4870,12 @@
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-8" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="364" y="570" as="sourcePoint" />
-            <mxPoint x="240" y="330" as="targetPoint" />
+            <mxPoint x="364" y="610" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-8" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
-          <mxGeometry height="48" width="48" x="216" y="360" as="geometry" />
+          <mxGeometry height="48" width="48" x="216" y="380" as="geometry" />
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-9" parent="0_XAJkMhwzz9oDeyqmEv-8" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
           <mxGeometry height="24" relative="1" width="24" as="geometry">
