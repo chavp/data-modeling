@@ -4794,19 +4794,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobConnector">
-    <mxGraphModel dx="1708" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RmrYMbzie0AoXYTLXRDm-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Azure" vertex="1">
           <mxGeometry height="270" width="620" x="150" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="0_XAJkMhwzz9oDeyqmEv-2" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="RmrYMbzie0AoXYTLXRDm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1">
+        <mxCell id="0_XAJkMhwzz9oDeyqmEv-2" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="0_XAJkMhwzz9oDeyqmEv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="120" />
-              <mxPoint x="210" y="190" />
+              <mxPoint x="270" y="210" />
+              <mxPoint x="270" y="210" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_XAJkMhwzz9oDeyqmEv-5" connectable="0" parent="0_XAJkMhwzz9oDeyqmEv-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="validate token" vertex="1">
+          <mxGeometry relative="1" x="-0.0935" y="2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-3" parent="RmrYMbzie0AoXYTLXRDm-1" style="rounded=1;whiteSpace=wrap;html=1;" value="App Service" vertex="1">
@@ -4816,13 +4821,17 @@
           <mxGeometry height="50" width="50" x="550" y="5" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-6" parent="RmrYMbzie0AoXYTLXRDm-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" value="Blob Storage" vertex="1">
-          <mxGeometry height="90" width="100" x="390" y="55" as="geometry" />
+          <mxGeometry height="90" width="100" x="360.86" y="30" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-8" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="RmrYMbzie0AoXYTLXRDm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="RmrYMbzie0AoXYTLXRDm-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-1" parent="RmrYMbzie0AoXYTLXRDm-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" value="AD" vertex="1">
-          <mxGeometry height="64" width="69" x="280" y="145" as="geometry" />
+          <mxGeometry height="75" width="80.86" x="330" y="170" as="geometry" />
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-4" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="0_XAJkMhwzz9oDeyqmEv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RmrYMbzie0AoXYTLXRDm-3">
           <mxGeometry relative="1" as="geometry" />
@@ -4841,6 +4850,13 @@
         </mxCell>
         <mxCell id="F1ECbsjc748XP-u15Ri0-5" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0_XAJkMhwzz9oDeyqmEv-7" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1" value="get token">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="424" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
