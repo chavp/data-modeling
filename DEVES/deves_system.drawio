@@ -4818,15 +4818,16 @@
           <mxGeometry height="60" width="120" x="30" y="70" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-4" parent="RmrYMbzie0AoXYTLXRDm-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_instance;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="550" y="5" as="geometry" />
+          <mxGeometry height="50" width="50" x="500" y="10" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-6" parent="RmrYMbzie0AoXYTLXRDm-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" value="Blob Storage" vertex="1">
-          <mxGeometry height="90" width="100" x="360.86" y="30" as="geometry" />
+          <mxGeometry height="90" width="100" x="410.86" y="60" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-8" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="RmrYMbzie0AoXYTLXRDm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="RmrYMbzie0AoXYTLXRDm-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="361" y="80" />
+              <mxPoint x="260" y="105" />
+              <mxPoint x="260" y="105" />
             </Array>
           </mxGeometry>
         </mxCell>
