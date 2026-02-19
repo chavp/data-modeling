@@ -4794,7 +4794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobConnector">
-    <mxGraphModel dx="1452" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1317" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4809,7 +4809,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_XAJkMhwzz9oDeyqmEv-5" connectable="0" parent="0_XAJkMhwzz9oDeyqmEv-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="validate token" vertex="1">
+        <mxCell id="0_XAJkMhwzz9oDeyqmEv-5" connectable="0" parent="0_XAJkMhwzz9oDeyqmEv-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="validate access token" vertex="1">
           <mxGeometry relative="1" x="-0.0935" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -4861,7 +4861,7 @@
         <mxCell id="F1ECbsjc748XP-u15Ri0-5" edge="1" parent="1" source="0_XAJkMhwzz9oDeyqmEv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0_XAJkMhwzz9oDeyqmEv-7" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1" value="get token">
+        <mxCell id="0_XAJkMhwzz9oDeyqmEv-7" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1" value="client credential get access token">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="424" y="310" />
