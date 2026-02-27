@@ -1377,6 +1377,33 @@
         <mxCell id="JCgtGOFJAyAxRN4iQPOJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="POLICY REQUEST" vertex="1">
           <mxGeometry height="60" width="120" x="-140" y="440" as="geometry" />
         </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-1" edge="1" parent="1" source="uyLyk20L_2utHACpcwae-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" target="uyLyk20L_2utHACpcwae-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;Por&lt;/div&gt;Chanon Thepthai" vertex="1">
+          <mxGeometry height="60" width="30" x="-917.5" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-3" edge="1" parent="1" source="uyLyk20L_2utHACpcwae-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" target="uyLyk20L_2utHACpcwae-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;Au&lt;/div&gt;Thipvaree Poonpadit" vertex="1">
+          <mxGeometry height="60" width="30" x="-1072.5" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-5" edge="1" parent="1" source="uyLyk20L_2utHACpcwae-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" target="uyLyk20L_2utHACpcwae-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;S&lt;/div&gt;Surasee Puntien" vertex="1">
+          <mxGeometry height="60" width="30" x="-762.5" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;fontSize=14;strokeColor=#FF00FF;strokeWidth=5;" value="Business Domain" vertex="1">
+          <mxGeometry height="150" width="165" x="-1140" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;fontSize=14;strokeWidth=5;strokeColor=#FFB570;" value="Development" vertex="1">
+          <mxGeometry height="150" width="180" x="-992.5" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="uyLyk20L_2utHACpcwae-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;fontSize=14;strokeWidth=5;strokeColor=#00CC66;" value="Deployment" vertex="1">
+          <mxGeometry height="150" width="170" x="-832.5" y="-190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
