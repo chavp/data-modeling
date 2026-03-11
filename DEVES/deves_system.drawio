@@ -1605,14 +1605,14 @@
         <mxCell id="9_gP4ltHgaWg89NWwXDF-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;fontSize=14;strokeWidth=5;strokeColor=#FFB570;" value="Development" vertex="1">
           <mxGeometry height="150" width="180" x="-2622.5" y="1790" as="geometry" />
         </mxCell>
-        <mxCell id="9_gP4ltHgaWg89NWwXDF-21" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="9_gP4ltHgaWg89NWwXDF-20">
+        <mxCell id="9_gP4ltHgaWg89NWwXDF-21" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1870" y="1700" />
-              <mxPoint x="-1870" y="1700" />
+              <mxPoint x="-1970.96" y="1700.04" />
+              <mxPoint x="-1970.96" y="1700.04" />
             </Array>
-            <mxPoint x="-2090" y="1700" as="sourcePoint" />
-            <mxPoint x="-1654" y="1700" as="targetPoint" />
+            <mxPoint x="-2090.96" y="1699.996521739131" as="sourcePoint" />
+            <mxPoint x="-1609.996819589634" y="1699.996521739131" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9_gP4ltHgaWg89NWwXDF-37" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" target="9_gP4ltHgaWg89NWwXDF-36">
@@ -1650,24 +1650,31 @@
         <mxCell id="9_gP4ltHgaWg89NWwXDF-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(39, 39, 39); font-family: Tahoma; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a href=&quot;http://10.55.0.44/Intranet/deves/iso/documents/Develop%20Application/DA(QP-DA-001).pdf&quot;&gt;QP-DA-001&lt;/a&gt;&lt;/span&gt;&lt;div&gt;การพัฒนาระบบ โปรแกรม หรือ Report&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="202.5" x="-2292.5" y="1680" as="geometry" />
         </mxCell>
-        <mxCell id="9_gP4ltHgaWg89NWwXDF-24" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="9_gP4ltHgaWg89NWwXDF-20">
+        <mxCell id="9_gP4ltHgaWg89NWwXDF-24" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="9_gP4ltHgaWg89NWwXDF-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1594" y="1800" />
+            </Array>
+            <mxPoint x="-1593.9565217391305" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_gP4ltHgaWg89NWwXDF-45" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9_gP4ltHgaWg89NWwXDF-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1920" y="1730" />
+              <mxPoint x="-1920" y="1730" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9_gP4ltHgaWg89NWwXDF-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(39, 39, 39); font-family: Tahoma; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a href=&quot;http://10.55.0.44/Intranet/deves/iso/documents/Develop%20Application/DA(QP-DA-002).pdf&quot;&gt;QP-DA-002&lt;/a&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;การขอสร้างที่จัดเก็บซอร์สโค้ด [Repository] และการขอใช้งานซอร์สโค้ด บนระบบ SVN&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="440" x="-2310" y="1779" as="geometry" />
         </mxCell>
-        <mxCell id="9_gP4ltHgaWg89NWwXDF-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;a href=&quot;http://192.168.3.67:8181/Home.jsp&quot;&gt;SysAid&lt;/a&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-1654" y="1680" as="geometry" />
-        </mxCell>
-        <mxCell id="9_gP4ltHgaWg89NWwXDF-25" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="9_gP4ltHgaWg89NWwXDF-20">
+        <mxCell id="9_gP4ltHgaWg89NWwXDF-25" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="9_gP4ltHgaWg89NWwXDF-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1580" y="1960" />
             </Array>
+            <mxPoint x="-1580.0434782608695" y="1740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9_gP4ltHgaWg89NWwXDF-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(39, 39, 39); font-family: Tahoma; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a href=&quot;http://10.55.0.44/Intranet/deves/iso/documents/Develop%20Application/DA(QP-DA-003).pdf&quot;&gt;QP-DA-003&lt;/a&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(39, 39, 39);&quot;&gt;&lt;font color=&quot;#272727&quot; face=&quot;Tahoma&quot;&gt;การขอนำซอร์สโค้ด [Source Code] ขึ้นระบบ&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -1676,11 +1683,12 @@
         <mxCell id="9_gP4ltHgaWg89NWwXDF-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(39, 39, 39); font-family: Tahoma; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a href=&quot;http://10.55.0.44/Intranet/deves/iso/documents/Develop%20Application/DA(QP-DA-004).pdf&quot;&gt;QP-DA-004&lt;/a&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(39, 39, 39);&quot;&gt;&lt;font color=&quot;#272727&quot; face=&quot;Tahoma&quot;&gt;การทบทวนการทำงานของโปรแกรมและผลกระทบต่อความมั่นคงของระบบสารสนเทศ&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="460" x="-2430" y="2040" as="geometry" />
         </mxCell>
-        <mxCell id="9_gP4ltHgaWg89NWwXDF-30" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="9_gP4ltHgaWg89NWwXDF-20">
+        <mxCell id="9_gP4ltHgaWg89NWwXDF-30" edge="1" parent="1" source="9_gP4ltHgaWg89NWwXDF-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" target="9_gP4ltHgaWg89NWwXDF-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1570" y="2210" />
             </Array>
+            <mxPoint x="-1570.0434782608695" y="1740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9_gP4ltHgaWg89NWwXDF-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(39, 39, 39); font-family: Tahoma; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a href=&quot;http://10.55.0.44/Intranet/deves/iso/documents/Develop%20Application/DA(QP-DA-005).pdf&quot;&gt;QP-DA-005&lt;/a&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(39, 39, 39);&quot;&gt;&lt;font color=&quot;#272727&quot; face=&quot;Tahoma&quot;&gt;การเลือกชุดข้อมูลสารสนเทศเพื่อการทดสอบ [Protection of system test data]&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -1698,8 +1706,11 @@
         <mxCell id="9_gP4ltHgaWg89NWwXDF-38" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&lt;span style=&quot;color: rgb(39, 39, 39); font-family: Tahoma; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a href=&quot;http://10.55.0.44/Intranet/deves/iso/documents/Develop Application/F-DA-001.pdf&quot;&gt;F-DA-001&lt;/a&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255); color: rgb(39, 39, 39);&quot;&gt;&lt;font color=&quot;#272727&quot; face=&quot;Tahoma&quot;&gt;แบบฟอร์มการนำระบบงาน/โปรแกรม/Reportขึ้นใช้งาน&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="96" width="160" x="-2672.5" y="1490" as="geometry" />
         </mxCell>
-        <mxCell id="9_gP4ltHgaWg89NWwXDF-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;a href=&quot;http://svn.deves.co.th/&quot;&gt;SVN&lt;/a&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-1790" y="1560" as="geometry" />
+        <mxCell id="9_gP4ltHgaWg89NWwXDF-43" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="&lt;a href=&quot;http://svn.deves.co.th/&quot; style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;SVN&lt;/a&gt;" vertex="1">
+          <mxGeometry height="100" width="56" x="-1950" y="1523" as="geometry" />
+        </mxCell>
+        <mxCell id="9_gP4ltHgaWg89NWwXDF-44" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="&lt;a href=&quot;http://192.168.3.67:8181/Home.jsp&quot; style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;SysAid&lt;/a&gt;" vertex="1">
+          <mxGeometry height="107" width="59.92" x="-1610" y="1623" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
