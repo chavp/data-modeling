@@ -4870,9 +4870,6 @@
         <mxCell id="-ODNsSwaR04ehSyRWZx7-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="HR&amp;nbsp;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;DEVES&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="30" x="-540" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFD500;fontStyle=0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deployment - UAT&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="40" width="840" x="-650" y="380" as="geometry" />
-        </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-15" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-14" value="JA">
           <mxGeometry relative="1" x="0.0275" y="-15" as="geometry">
             <mxPoint as="offset" />
@@ -4925,6 +4922,11 @@
             <mxPoint x="690" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="jMqF-6XlrVgK9VSPTCZi-5" connectable="0" parent="-ODNsSwaR04ehSyRWZx7-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=#FFD500;labelBackgroundColor=none;fillColor=none;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deployment - UAT&lt;/h1&gt;&lt;p&gt;&lt;br style=&quot;text-wrap-mode: wrap; text-align: left;&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-21" edge="1" parent="1" source="-ODNsSwaR04ehSyRWZx7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-ODNsSwaR04ehSyRWZx7-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -4939,15 +4941,6 @@
         </mxCell>
         <mxCell id="-ODNsSwaR04ehSyRWZx7-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Candidate" vertex="1">
           <mxGeometry height="60" width="30" x="-540" y="650" as="geometry" />
-        </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-23" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#FFD500;" value="&lt;h1 style=&quot;forced-color-adjust: none; margin-top: 0px;&quot;&gt;Deployment - PRD&lt;/h1&gt;&lt;p style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="40" width="240" x="-710" y="1530" as="geometry" />
-        </mxCell>
-        <mxCell id="-ODNsSwaR04ehSyRWZx7-24" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=10;strokeColor=#244185;fontSize=12;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-710" y="1580" as="sourcePoint" />
-            <mxPoint x="640" y="1580" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="1UTC1YuuZfNmvnHtqvu8-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=4;" value="Windows Server&lt;div&gt;&lt;span style=&quot;color: rgb(36, 36, 36); font-family: &amp;quot;Aptos Narrow&amp;quot;, Calibri, &amp;quot;sans-serif&amp;quot;, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; font-weight: 400; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;websvuat.deves.co.th&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="240" x="320" y="450" as="geometry" />
@@ -5948,6 +5941,17 @@
         <mxCell id="xSxitYk783XDGKscQ363-43" connectable="0" parent="xSxitYk783XDGKscQ363-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="update application" vertex="1">
           <mxGeometry relative="1" x="-0.2157" y="2" as="geometry">
             <mxPoint x="16" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jMqF-6XlrVgK9VSPTCZi-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=10;strokeColor=light-dark(#244185,#244185);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-726.3" y="1580" as="sourcePoint" />
+            <mxPoint x="613.7" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jMqF-6XlrVgK9VSPTCZi-7" connectable="0" parent="jMqF-6XlrVgK9VSPTCZi-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=#FFD500;labelBackgroundColor=none;fillColor=none;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deployment - PRD&lt;/h1&gt;&lt;p&gt;&lt;br style=&quot;text-wrap-mode: wrap; text-align: left;&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="100" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
