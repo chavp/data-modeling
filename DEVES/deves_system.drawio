@@ -3677,7 +3677,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWFaJrI_XaZwMTuTedbC-3" edge="1" parent="1" source="4eWQBJhR8FddTLlDPojz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4eWQBJhR8FddTLlDPojz-4" value="">
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-3" edge="1" parent="1" source="4eWQBJhR8FddTLlDPojz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4eWQBJhR8FddTLlDPojz-4" value="4) HTTPS: Create Applications">
           <mxGeometry relative="1" x="-0.3699" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3698,11 +3698,8 @@
         <mxCell id="4eWQBJhR8FddTLlDPojz-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1" value="Customer" vertex="1">
           <mxGeometry height="60" width="30" x="960" y="265" as="geometry" />
         </mxCell>
-        <mxCell id="4eWQBJhR8FddTLlDPojz-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="DEVES CORE INSURANCE" vertex="1">
-          <mxGeometry height="60" width="260" x="1600" y="265" as="geometry" />
-        </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-1" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
-          <mxGeometry height="48" width="48" x="1500" y="265" as="geometry" />
+          <mxGeometry height="48" width="48" x="1580" y="260" as="geometry" />
         </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-2" parent="jWFaJrI_XaZwMTuTedbC-1" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
           <mxGeometry height="24" relative="1" width="24" as="geometry">
@@ -3717,8 +3714,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWFaJrI_XaZwMTuTedbC-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="DEVES ID" vertex="1">
-          <mxGeometry height="60" width="190" x="1450" y="480" as="geometry" />
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-11" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="127.5" width="276" x="1654" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4eWQBJhR8FddTLlDPojz-4" parent="jWFaJrI_XaZwMTuTedbC-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="DEVES CORE INSURANCE" vertex="1">
+          <mxGeometry height="105" width="260" y="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-9" parent="jWFaJrI_XaZwMTuTedbC-11" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="226" as="geometry" />
+        </mxCell>
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-12" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="210" x="1450" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-5" parent="jWFaJrI_XaZwMTuTedbC-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="DEVES IDs" vertex="1">
+          <mxGeometry height="80" width="190" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-10" parent="jWFaJrI_XaZwMTuTedbC-12" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
