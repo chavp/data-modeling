@@ -3707,14 +3707,6 @@
         <mxCell id="4eWQBJhR8FddTLlDPojz-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1" value="Customer" vertex="1">
           <mxGeometry height="60" width="30" x="960" y="265" as="geometry" />
         </mxCell>
-        <mxCell id="jWFaJrI_XaZwMTuTedbC-1" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
-          <mxGeometry height="48" width="48" x="1550" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="jWFaJrI_XaZwMTuTedbC-2" parent="jWFaJrI_XaZwMTuTedbC-1" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
-          <mxGeometry height="24" relative="1" width="24" as="geometry">
-            <mxPoint x="12" y="12" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-8" edge="1" parent="1" source="jWFaJrI_XaZwMTuTedbC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="4eWQBJhR8FddTLlDPojz-1" value="3) HTTPS: access token">
           <mxGeometry relative="1" x="-0.2593" y="-10" as="geometry">
             <mxPoint as="offset" />
@@ -3727,7 +3719,7 @@
         <mxCell id="jWFaJrI_XaZwMTuTedbC-11" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="127.5" width="276" x="1630" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="4eWQBJhR8FddTLlDPojz-4" parent="jWFaJrI_XaZwMTuTedbC-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="DEVES CORE INSURANCE" vertex="1">
+        <mxCell id="4eWQBJhR8FddTLlDPojz-4" parent="jWFaJrI_XaZwMTuTedbC-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="CORE INSURANCE" vertex="1">
           <mxGeometry height="105" width="260" y="22.5" as="geometry" />
         </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-9" parent="jWFaJrI_XaZwMTuTedbC-11" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
@@ -3736,7 +3728,7 @@
         <mxCell id="jWFaJrI_XaZwMTuTedbC-12" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="100" width="210" x="1640" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="jWFaJrI_XaZwMTuTedbC-5" parent="jWFaJrI_XaZwMTuTedbC-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="DEVES IDs" vertex="1">
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-5" parent="jWFaJrI_XaZwMTuTedbC-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="IDs" vertex="1">
           <mxGeometry height="80" width="190" y="20" as="geometry" />
         </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-10" parent="jWFaJrI_XaZwMTuTedbC-12" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
@@ -3808,6 +3800,17 @@
               <mxPoint x="1760" y="160" />
               <mxPoint x="975" y="160" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-37" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFD500;" value="DEVES Boundary" vertex="1">
+          <mxGeometry height="620" width="850" x="1530" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-1" parent="jWFaJrI_XaZwMTuTedbC-37" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
+          <mxGeometry height="48" width="48" x="22" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-2" parent="jWFaJrI_XaZwMTuTedbC-1" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
+          <mxGeometry height="24" relative="1" width="24" as="geometry">
+            <mxPoint x="12" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
