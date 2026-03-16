@@ -3677,9 +3677,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWFaJrI_XaZwMTuTedbC-3" edge="1" parent="1" source="4eWQBJhR8FddTLlDPojz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4eWQBJhR8FddTLlDPojz-4" value="4) HTTPS: Create Applications">
+        <mxCell id="jWFaJrI_XaZwMTuTedbC-3" edge="1" parent="1" source="4eWQBJhR8FddTLlDPojz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="4) HTTPS: Create Applications">
           <mxGeometry relative="1" x="-0.3699" as="geometry">
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1410" y="280" />
+              <mxPoint x="1410" y="280" />
+            </Array>
+            <mxPoint x="1330" y="280" as="sourcePoint" />
+            <mxPoint x="1654" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-6" edge="1" parent="1" source="4eWQBJhR8FddTLlDPojz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jWFaJrI_XaZwMTuTedbC-5" value="2) HTTPS: POST /token username/password">
@@ -3699,7 +3705,7 @@
           <mxGeometry height="60" width="30" x="960" y="265" as="geometry" />
         </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-1" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
-          <mxGeometry height="48" width="48" x="1580" y="260" as="geometry" />
+          <mxGeometry height="48" width="48" x="1580" y="250" as="geometry" />
         </mxCell>
         <mxCell id="jWFaJrI_XaZwMTuTedbC-2" parent="jWFaJrI_XaZwMTuTedbC-1" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
           <mxGeometry height="24" relative="1" width="24" as="geometry">
