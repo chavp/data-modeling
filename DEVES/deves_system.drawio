@@ -6337,7 +6337,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SJ-Zfgvep_OpJNtkiWFE" name="GitLab Flow">
-    <mxGraphModel dx="1314" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6520,7 +6520,7 @@
           <mxGeometry relative="1" x="-0.9096" y="52" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="838" y="190" />
+              <mxPoint x="770" y="190" />
               <mxPoint x="310" y="190" />
             </Array>
             <mxPoint x="310" y="220" as="targetPoint" />
@@ -6545,6 +6545,17 @@
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-58" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;" value="" vertex="1">
           <mxGeometry height="45" width="50" x="950" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-59" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="hq4ueeAPwtrAp2BOmOTu-13" value="pull for build /&amp;nbsp; quality code scan / automated test">
+          <mxGeometry relative="1" x="0.0323" y="132" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="838" y="350" />
+              <mxPoint x="838" y="350" />
+            </Array>
+            <mxPoint x="1390" y="260" as="sourcePoint" />
+            <mxPoint x="930" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
