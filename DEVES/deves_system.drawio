@@ -6337,7 +6337,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SJ-Zfgvep_OpJNtkiWFE" name="GitLab Flow">
-    <mxGraphModel dx="2484" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2972" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6395,7 +6395,7 @@
             <mxPoint x="1120" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-19" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merg request dev-1" vertex="1">
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-19" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merge request dev-1" vertex="1">
           <mxGeometry relative="1" x="0.3368" y="3" as="geometry">
             <mxPoint x="-56" y="-64" as="offset" />
           </mxGeometry>
@@ -6423,7 +6423,7 @@
             <mxPoint x="1270" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-27" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merg request dev-2" vertex="1">
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-27" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merge request dev-2" vertex="1">
           <mxGeometry relative="1" x="0.3368" y="3" as="geometry">
             <mxPoint x="-63" y="-18" as="offset" />
           </mxGeometry>
@@ -6649,9 +6649,9 @@
             <mxPoint x="1530" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXAlVLfBr3W7eZrq5hEy-12" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merg request hotfix" vertex="1">
+        <mxCell id="hXAlVLfBr3W7eZrq5hEy-12" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merge request hotfix" vertex="1">
           <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
-            <mxPoint x="-61" y="-5" as="offset" />
+            <mxPoint x="-59" y="35" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
@@ -6660,9 +6660,9 @@
             <mxPoint x="1559.13" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXAlVLfBr3W7eZrq5hEy-14" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merg hotfix" vertex="1">
+        <mxCell id="hXAlVLfBr3W7eZrq5hEy-14" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merge hotfix" vertex="1">
           <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
-            <mxPoint x="41" y="-63" as="offset" />
+            <mxPoint x="30" y="-71" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
@@ -6696,6 +6696,17 @@
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-20" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="branch from prd" vertex="1">
           <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
             <mxPoint x="51" y="133" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXAlVLfBr3W7eZrq5hEy-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1550" y="460" as="sourcePoint" />
+            <mxPoint x="1550" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXAlVLfBr3W7eZrq5hEy-23" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merge hotfix" vertex="1">
+          <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
+            <mxPoint x="29" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
