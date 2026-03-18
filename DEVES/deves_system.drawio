@@ -6337,7 +6337,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SJ-Zfgvep_OpJNtkiWFE" name="GitLab Flow">
-    <mxGraphModel dx="2409" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1596" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6629,19 +6629,19 @@
           <mxGeometry height="98.57" width="55.2" x="470.8" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="hotfix" vertex="1">
-          <mxGeometry height="30" width="270" x="1290" y="620" as="geometry" />
+          <mxGeometry height="30" width="290" x="1290" y="620" as="geometry" />
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="main + dev-1 + dev-2 + hotfix" vertex="1">
-          <mxGeometry height="30" width="270" x="1290" y="420" as="geometry" />
+          <mxGeometry height="30" width="290" x="1290" y="420" as="geometry" />
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="uat + hotfix" vertex="1">
-          <mxGeometry height="30" width="270" x="1290" y="330" as="geometry" />
+          <mxGeometry height="30" width="290" x="1290" y="330" as="geometry" />
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="prd + hotfix" vertex="1">
-          <mxGeometry height="30" width="270" x="1290" y="140" as="geometry" />
+          <mxGeometry height="30" width="290" x="1290" y="140" as="geometry" />
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="sast + hotfix" vertex="1">
-          <mxGeometry height="30" width="270" x="1290" y="235" as="geometry" />
+          <mxGeometry height="30" width="290" x="1290" y="235" as="geometry" />
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -6656,19 +6656,19 @@
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1559.13" y="370" as="sourcePoint" />
-            <mxPoint x="1559.13" y="610" as="targetPoint" />
+            <mxPoint x="1579.43" y="370" as="sourcePoint" />
+            <mxPoint x="1579.43" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-14" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merge hotfix" vertex="1">
           <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
-            <mxPoint x="30" y="-71" as="offset" />
+            <mxPoint x="40" y="-70" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1559.52" y="270" as="sourcePoint" />
-            <mxPoint x="1559.52" y="320" as="targetPoint" />
+            <mxPoint x="1579.43" y="270" as="sourcePoint" />
+            <mxPoint x="1579.43" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-16" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="pull" vertex="1">
@@ -6678,8 +6678,8 @@
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1559.52" y="180" as="sourcePoint" />
-            <mxPoint x="1559.52" y="230" as="targetPoint" />
+            <mxPoint x="1579.43" y="180" as="sourcePoint" />
+            <mxPoint x="1579.43" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-18" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="pull" vertex="1">
@@ -6706,7 +6706,7 @@
         </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-23" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merge hotfix" vertex="1">
           <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
-            <mxPoint x="29" y="-40" as="offset" />
+            <mxPoint x="39" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
