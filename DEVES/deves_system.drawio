@@ -6337,7 +6337,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SJ-Zfgvep_OpJNtkiWFE" name="GitLab Flow">
-    <mxGraphModel dx="1906" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6471,18 +6471,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-49" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;">
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-49" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="300" />
-              <mxPoint x="310" y="300" />
+              <mxPoint x="440" y="320" />
             </Array>
-            <mxPoint x="310" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-50" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="pull for uat" vertex="1">
-          <mxGeometry relative="1" x="-0.4768" y="-2" as="geometry">
-            <mxPoint x="32" y="-57" as="offset" />
+            <mxPoint x="440" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CD" vertex="1">
@@ -6520,10 +6514,9 @@
           <mxGeometry relative="1" x="-0.9096" y="52" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="770" y="190" />
-              <mxPoint x="310" y="190" />
+              <mxPoint x="770" y="220" />
             </Array>
-            <mxPoint x="310" y="220" as="targetPoint" />
+            <mxPoint x="770" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CI" vertex="1">
@@ -6547,7 +6540,7 @@
           <mxGeometry height="45" width="50" x="950" y="30" as="geometry" />
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-59" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="hq4ueeAPwtrAp2BOmOTu-13" value="pull for build /&amp;nbsp; quality code scan / automated test">
-          <mxGeometry relative="1" x="0.0323" y="132" as="geometry">
+          <mxGeometry relative="1" x="0.1613" y="132" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="838" y="350" />
@@ -6570,6 +6563,24 @@
           <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
             <mxPoint x="-20" y="7" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-65" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512" y="280" />
+              <mxPoint x="512" y="280" />
+            </Array>
+            <mxPoint x="440" y="110" as="sourcePoint" />
+            <mxPoint x="512" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-66" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="pull for uat" vertex="1">
+          <mxGeometry relative="1" x="-0.4768" y="-2" as="geometry">
+            <mxPoint x="32" y="-35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="sast" vertex="1">
+          <mxGeometry height="30" width="980" x="310" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
