@@ -6642,17 +6642,6 @@
             <mxPoint x="51" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-93" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1540" y="260" as="sourcePoint" />
-            <mxPoint x="1540" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-94" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merg request hotfix" vertex="1">
-          <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
-            <mxPoint x="-51" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="main + dev-1 + dev-2 + hotfix" vertex="1">
           <mxGeometry height="30" width="270" x="1290" y="420" as="geometry" />
         </mxCell>
@@ -6665,6 +6654,20 @@
         <mxCell id="hXAlVLfBr3W7eZrq5hEy-3" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merg hotfix" vertex="1">
           <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
             <mxPoint x="41" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXAlVLfBr3W7eZrq5hEy-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="uat + hotfix" vertex="1">
+          <mxGeometry height="30" width="270" x="1290" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="hXAlVLfBr3W7eZrq5hEy-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1540" y="265" as="sourcePoint" />
+            <mxPoint x="1540" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXAlVLfBr3W7eZrq5hEy-6" connectable="0" parent="hXAlVLfBr3W7eZrq5hEy-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="merg request hotfix" vertex="1">
+          <mxGeometry relative="1" x="-0.3298" y="1" as="geometry">
+            <mxPoint x="-61" y="-45" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
