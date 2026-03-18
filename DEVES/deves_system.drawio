@@ -6435,7 +6435,7 @@
           <mxGeometry height="30" width="300" x="10" y="130" as="geometry" />
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-30" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="UAT" vertex="1">
-          <mxGeometry height="90" width="50.4" x="398" y="-100" as="geometry" />
+          <mxGeometry height="90" width="50.4" x="398" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-36" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hq4ueeAPwtrAp2BOmOTu-33">
           <mxGeometry relative="1" as="geometry">
@@ -6445,12 +6445,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-56" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="deploy" vertex="1">
+          <mxGeometry relative="1" x="-0.3254" y="2" as="geometry">
+            <mxPoint x="2" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-44" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hq4ueeAPwtrAp2BOmOTu-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="423" y="40" />
               <mxPoint x="423" y="40" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-55" connectable="0" parent="hq4ueeAPwtrAp2BOmOTu-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="deploy" vertex="1">
+          <mxGeometry relative="1" x="-0.1874" y="2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-48" edge="1" parent="1" source="hq4ueeAPwtrAp2BOmOTu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="hq4ueeAPwtrAp2BOmOTu-29">
@@ -6479,7 +6489,7 @@
           <mxGeometry height="60" width="296.8" x="363.2" y="50" as="geometry" />
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-33" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="PRD" vertex="1">
-          <mxGeometry height="90" width="50.4" x="540" y="-100" as="geometry" />
+          <mxGeometry height="90" width="50.4" x="540" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="hq4ueeAPwtrAp2BOmOTu-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -6530,11 +6540,11 @@
             <mxPoint x="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-53" parent="1" style="icon;html=1;image=img/clipart/Gear_128x128.png" value="Icon" vertex="1">
-          <mxGeometry height="60" width="60" x="620" y="20" as="geometry" />
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-57" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="630" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="hq4ueeAPwtrAp2BOmOTu-54" parent="1" style="icon;html=1;image=img/clipart/Gear_128x128.png" value="Icon" vertex="1">
-          <mxGeometry height="60" width="60" x="960" y="20" as="geometry" />
+        <mxCell id="hq4ueeAPwtrAp2BOmOTu-58" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="45" width="50" x="950" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
