@@ -4899,7 +4899,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3" value="PUT /blobs&lt;div&gt;POST&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;/blobs?filterName=n1,n2,...&lt;/span&gt;&lt;div&gt;&lt;div&gt;GET /blobs/{name}&lt;/div&gt;&lt;div&gt;DELETE /blobs/{name}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">
+        <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3" value="PUT /blobs&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GET /blobs?filterName=n1,n2,...&lt;/span&gt;&lt;div&gt;&lt;div&gt;GET /blobs/{name}&lt;/div&gt;&lt;div&gt;DELETE /blobs/{name}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-140" y="724" />
