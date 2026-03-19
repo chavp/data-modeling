@@ -4804,12 +4804,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobServices">
-    <mxGraphModel dx="2615" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4195" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RmrYMbzie0AoXYTLXRDm-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Azure" vertex="1">
-          <mxGeometry height="350" width="850" x="-200" y="140" as="geometry" />
+          <mxGeometry height="350" width="850" x="-200" y="190" as="geometry" />
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-2" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="0_XAJkMhwzz9oDeyqmEv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1">
           <mxGeometry relative="1" as="geometry">
@@ -4872,7 +4872,7 @@
           <mxGeometry height="75" width="75" x="655" y="184.5" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Deves" vertex="1">
-          <mxGeometry height="310" width="440" x="40" y="600" as="geometry" />
+          <mxGeometry height="310" width="440" x="40" y="650" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-10" parent="RmrYMbzie0AoXYTLXRDm-9" style="rounded=1;whiteSpace=wrap;html=1;" value="PdfConnector" vertex="1">
           <mxGeometry height="60" width="120" x="160" y="94" as="geometry" />
@@ -4895,50 +4895,50 @@
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-7" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1" value="client credential get access token">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="430" />
+              <mxPoint x="250" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3" value="PUT /blobs&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GET /blobs?filterName=n1,n2,...&lt;/span&gt;&lt;div&gt;&lt;div&gt;GET /blobs/{name}&lt;/div&gt;&lt;div&gt;DELETE /blobs/{name}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-140" y="724" />
+              <mxPoint x="-140" y="774" />
             </Array>
-            <mxPoint x="244" y="730" as="sourcePoint" />
-            <mxPoint x="-115.99999999999977" y="640" as="targetPoint" />
+            <mxPoint x="244" y="780" as="sourcePoint" />
+            <mxPoint x="-115.99999999999977" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-17" edge="1" parent="1" source="0_XAJkMhwzz9oDeyqmEv-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="RmrYMbzie0AoXYTLXRDm-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="770" y="227.5162689804772" as="sourcePoint" />
+            <mxPoint x="770" y="277.5162689804772" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Azure Account&lt;/h1&gt;&lt;p&gt;&lt;b&gt;tenant name&lt;/b&gt;: dvsins.onmicrosoft.com&lt;/p&gt;&lt;p&gt;&lt;b&gt;access email&lt;/b&gt;: chaiyapath.k@deves.co.th&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="293" x="740" y="140" as="geometry" />
+          <mxGeometry height="120" width="293" x="740" y="190" as="geometry" />
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-11" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
-          <mxGeometry height="48" width="50" x="240" y="180" as="geometry" />
+          <mxGeometry height="48" width="50" x="240" y="230" as="geometry" />
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-5" edge="1" parent="1" source="Zd_HBjGA4-bbfAexYDwV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Zd_HBjGA4-bbfAexYDwV-10" value="push code">
           <mxGeometry relative="1" x="0.41" y="20" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="765" y="370" />
+              <mxPoint x="765" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-11" edge="1" parent="1" source="Zd_HBjGA4-bbfAexYDwV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Zd_HBjGA4-bbfAexYDwV-1" value="build / deploy">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="372" y="440" />
+              <mxPoint x="372" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Developer" vertex="1">
-          <mxGeometry height="60" width="30" x="750" y="410" as="geometry" />
+          <mxGeometry height="60" width="30" x="750" y="460" as="geometry" />
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-8" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
-          <mxGeometry height="48" width="48" x="-160" y="310" as="geometry" />
+          <mxGeometry height="48" width="48" x="-160" y="360" as="geometry" />
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-9" parent="Zd_HBjGA4-bbfAexYDwV-8" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
           <mxGeometry height="24" relative="1" width="24" as="geometry">
@@ -4949,16 +4949,44 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
-          <mxGeometry height="60" width="30" x="-130" y="805" as="geometry" />
+          <mxGeometry height="60" width="30" x="-130" y="855" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ค้นหา file&amp;nbsp;&lt;div&gt;- policy number&lt;/div&gt;&lt;div&gt;- contract type&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="-560" y="805" as="geometry" />
+          <mxGeometry height="80" width="120" x="-1150" y="148" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-10" edge="1" parent="1" source="A9HeWkSEgxVFSK9dqWfp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="A9HeWkSEgxVFSK9dqWfp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
-          <mxGeometry height="60" width="30" x="-740" y="815" as="geometry" />
+          <mxGeometry height="60" width="30" x="-1367" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=10;strokeColor=light-dark(#244185,#244185);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1247" y="103" as="sourcePoint" />
+            <mxPoint x="-827" y="103" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-2" connectable="0" parent="-LBDCa5s3gxjo6BdHkqJ-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=#FFD500;labelBackgroundColor=none;fillColor=none;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(36, 65, 133);&quot;&gt;Use Case:&lt;/font&gt; &lt;font style=&quot;color: rgb(207, 181, 3);&quot;&gt;DevesDocuments&lt;/font&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="167" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1240" y="559" as="sourcePoint" />
+            <mxPoint x="-1245" y="109" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=10;strokeColor=light-dark(#244185,#244185);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-220" y="110" as="sourcePoint" />
+            <mxPoint x="940" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-5" connectable="0" parent="-LBDCa5s3gxjo6BdHkqJ-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=#FFD500;labelBackgroundColor=none;fillColor=none;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(36, 65, 133);&quot;&gt;System:&lt;/font&gt; &lt;font style=&quot;color: rgb(207, 181, 3);&quot;&gt;BlobServices&lt;/font&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="130" y="-23" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
