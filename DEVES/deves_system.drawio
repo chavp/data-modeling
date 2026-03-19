@@ -4889,7 +4889,7 @@
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-3" edge="1" parent="RmrYMbzie0AoXYTLXRDm-9" source="A9HeWkSEgxVFSK9dqWfp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RmrYMbzie0AoXYTLXRDm-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A9HeWkSEgxVFSK9dqWfp-1" parent="RmrYMbzie0AoXYTLXRDm-9" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesDocuments" vertex="1">
+        <mxCell id="A9HeWkSEgxVFSK9dqWfp-1" parent="RmrYMbzie0AoXYTLXRDm-9" style="rounded=1;whiteSpace=wrap;html=1;" value="ESign" vertex="1">
           <mxGeometry height="70" width="120" x="160" y="200" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-2" parent="RmrYMbzie0AoXYTLXRDm-9" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
@@ -4951,14 +4951,14 @@
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
           <mxGeometry height="60" width="30" x="-130" y="855" as="geometry" />
         </mxCell>
-        <mxCell id="A9HeWkSEgxVFSK9dqWfp-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ค้นหา file&amp;nbsp;&lt;div&gt;- policy number&lt;/div&gt;&lt;div&gt;- contract type&lt;/div&gt;&lt;div&gt;- customer info&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="140" x="-1170" y="148" as="geometry" />
+        <mxCell id="A9HeWkSEgxVFSK9dqWfp-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ค้นหา file&amp;nbsp;&lt;div&gt;&lt;div&gt;- policy number&lt;/div&gt;&lt;div&gt;- contract type&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="140" x="-1170" y="148" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-10" edge="1" parent="1" source="A9HeWkSEgxVFSK9dqWfp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="A9HeWkSEgxVFSK9dqWfp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
-          <mxGeometry height="60" width="30" x="-1367" y="158" as="geometry" />
+          <mxGeometry height="60" width="30" x="-1367" y="164" as="geometry" />
         </mxCell>
         <mxCell id="-LBDCa5s3gxjo6BdHkqJ-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=10;strokeColor=light-dark(#244185,#244185);" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -4966,9 +4966,9 @@
             <mxPoint x="-827" y="103" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-2" connectable="0" parent="-LBDCa5s3gxjo6BdHkqJ-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=#FFD500;labelBackgroundColor=none;fillColor=none;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(36, 65, 133);&quot;&gt;Use Case:&lt;/font&gt; &lt;font style=&quot;color: rgb(207, 181, 3);&quot;&gt;DevesDocuments&lt;/font&gt;&lt;/h1&gt;" vertex="1">
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-2" connectable="0" parent="-LBDCa5s3gxjo6BdHkqJ-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=#FFD500;labelBackgroundColor=none;fillColor=none;gradientColor=none;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(36, 65, 133);&quot;&gt;Use Case:&lt;/font&gt;&amp;nbsp;&lt;font color=&quot;#cfb503&quot;&gt;Document&amp;amp;E-Signature&lt;/font&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry">
-            <mxPoint x="217" y="-23" as="offset" />
+            <mxPoint x="257" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-LBDCa5s3gxjo6BdHkqJ-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
@@ -5006,6 +5006,9 @@
         </mxCell>
         <mxCell id="-LBDCa5s3gxjo6BdHkqJ-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="view file" vertex="1">
           <mxGeometry height="80" width="120" x="-1000" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PDFConnector + UI: 15days&lt;div&gt;Change DSS:&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="350" x="-1210" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
