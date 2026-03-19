@@ -4870,7 +4870,7 @@
           <mxGeometry height="75" width="75" x="642.5" y="184.5" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Deves" vertex="1">
-          <mxGeometry height="190" width="440" x="40" y="600" as="geometry" />
+          <mxGeometry height="310" width="440" x="40" y="600" as="geometry" />
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-10" parent="RmrYMbzie0AoXYTLXRDm-9" style="rounded=1;whiteSpace=wrap;html=1;" value="PdfConnector" vertex="1">
           <mxGeometry height="60" width="120" x="160" y="94" as="geometry" />
@@ -4880,6 +4880,12 @@
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-13" parent="RmrYMbzie0AoXYTLXRDm-9" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
           <mxGeometry height="48" width="50" x="260" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A9HeWkSEgxVFSK9dqWfp-1" parent="RmrYMbzie0AoXYTLXRDm-9" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesDocuments" vertex="1">
+          <mxGeometry height="70" width="120" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A9HeWkSEgxVFSK9dqWfp-2" parent="RmrYMbzie0AoXYTLXRDm-9" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="260" y="180" as="geometry" />
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-7" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1" value="client credential get access token">
           <mxGeometry relative="1" as="geometry">
