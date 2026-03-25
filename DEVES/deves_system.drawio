@@ -4834,20 +4834,27 @@
         </mxCell>
         <mxCell id="RmrYMbzie0AoXYTLXRDm-8" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="RmrYMbzie0AoXYTLXRDm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="RmrYMbzie0AoXYTLXRDm-6">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="550" y="97" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-1" parent="RmrYMbzie0AoXYTLXRDm-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" value="Entra ID" vertex="1">
           <mxGeometry height="75" width="80.86" x="280" y="240" as="geometry" />
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-4" edge="1" parent="RmrYMbzie0AoXYTLXRDm-1" source="0_XAJkMhwzz9oDeyqmEv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RmrYMbzie0AoXYTLXRDm-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="100" />
+              <mxPoint x="190" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-2" connectable="0" parent="RmrYMbzie0AoXYTLXRDm-1" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="130" x="330" y="40" as="geometry" />
+          <mxGeometry height="110" width="140" x="330" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="RmrYMbzie0AoXYTLXRDm-3" parent="Zd_HBjGA4-bbfAexYDwV-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[App Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://portal.azure.com/#@deves.co.th/resource/subscriptions/2e0470be-a8b2-492b-ac86-68863e2a6c70/resourceGroups/rg-uat-blob/providers/Microsoft.Web/sites/uatblobservices-api/appServices&quot;&gt;BlobServices&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="20" y="27.5" as="geometry" />
+        <mxCell id="RmrYMbzie0AoXYTLXRDm-3" parent="Zd_HBjGA4-bbfAexYDwV-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[App Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://portal.azure.com/#@deves.co.th/resource/subscriptions/2e0470be-a8b2-492b-ac86-68863e2a6c70/resourceGroups/rg-uat-blob/providers/Microsoft.Web/sites/uatblobservices-api/appServices&quot;&gt;BlobServices&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;scalar-docs:&amp;nbsp;&lt;a href=&quot;https://uatblobservices-api-hdesdta3h8dffabu.southeastasia-01.azurewebsites.net/scalar/&quot;&gt;uat&lt;/a&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82.5" width="120" x="20" y="27.5" as="geometry" />
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-3" connectable="0" parent="RmrYMbzie0AoXYTLXRDm-1" style="group" value="" vertex="1">
           <mxGeometry height="87.5" width="165" y="40" as="geometry" />
@@ -4924,11 +4931,6 @@
             </Array>
             <mxPoint x="244" y="780" as="sourcePoint" />
             <mxPoint x="-115.99999999999977" y="690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ONtnY_Ctq9HqvEac8G7p-2" connectable="0" parent="0_XAJkMhwzz9oDeyqmEv-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;a href=&quot;https://uatblobservices-api-hdesdta3h8dffabu.southeastasia-01.azurewebsites.net/scalar&quot;&gt;scalar-docs&lt;/a&gt;" vertex="1">
-          <mxGeometry relative="1" x="0.0767" y="-2" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-17" edge="1" parent="1" source="0_XAJkMhwzz9oDeyqmEv-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="RmrYMbzie0AoXYTLXRDm-1">
