@@ -4917,13 +4917,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3" value="POST /blobs/{containerName}/{blobName}&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GET /blobs&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?filterBlobName=n1,n2,...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;GET /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DELETE /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">
+        <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3" value="POST /blobs/{containerName}/{blobName}&lt;div&gt;&lt;div&gt;&lt;div&gt;GET /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DELETE /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-140" y="774" />
             </Array>
             <mxPoint x="244" y="780" as="sourcePoint" />
             <mxPoint x="-115.99999999999977" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONtnY_Ctq9HqvEac8G7p-2" connectable="0" parent="0_XAJkMhwzz9oDeyqmEv-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;a href=&quot;https://uatblobservices-api-hdesdta3h8dffabu.southeastasia-01.azurewebsites.net/scalar&quot;&gt;scalar-docs&lt;/a&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0767" y="-2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-17" edge="1" parent="1" source="0_XAJkMhwzz9oDeyqmEv-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="RmrYMbzie0AoXYTLXRDm-1">
@@ -5026,7 +5031,7 @@
           <mxGeometry height="60" width="350" x="-1250" y="500" as="geometry" />
         </mxCell>
         <mxCell id="a3Na2TNz8Z2ikrBUOXDA-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;lower case only&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;containerName:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;system name, no space use - for space&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;blobName:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;use \ for folder structure&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="260" x="-550" y="660" as="geometry" />
+          <mxGeometry height="180" width="260" x="-570" y="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
