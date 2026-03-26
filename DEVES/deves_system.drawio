@@ -4807,7 +4807,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobServices">
-    <mxGraphModel dx="3519" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4718" dy="1387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4936,7 +4936,7 @@
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3" value="POST /blobs/{containerName}/{blobName}&lt;div&gt;&lt;div&gt;&lt;div&gt;GET /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DELETE /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-140" y="774" />
+              <mxPoint x="-160" y="774" />
             </Array>
             <mxPoint x="244" y="780" as="sourcePoint" />
             <mxPoint x="-115.99999999999977" y="690" as="targetPoint" />
@@ -4969,7 +4969,7 @@
           <mxGeometry height="60" width="30" x="750" y="460" as="geometry" />
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-8" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
-          <mxGeometry height="48" width="48" x="-160" y="360" as="geometry" />
+          <mxGeometry height="48" width="48" x="-180" y="360" as="geometry" />
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-9" parent="Zd_HBjGA4-bbfAexYDwV-8" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
           <mxGeometry height="24" relative="1" width="24" as="geometry">
