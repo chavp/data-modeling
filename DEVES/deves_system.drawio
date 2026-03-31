@@ -4810,7 +4810,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobServices">
-    <mxGraphModel dx="3407" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3735" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4949,6 +4949,11 @@
             <Array as="points">
               <mxPoint x="250" y="467" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JRE40nUxNicHdX3_33--1" connectable="0" parent="0_XAJkMhwzz9oDeyqmEv-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;POST https://login.microsoftonline.com/8ffef73e-6c1e-4fda-890b-a8fa247be32e/oauth2/v2.0/token&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1842" y="4" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-10" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-3" value="POST /blobs/{containerName}/{blobName}&lt;div&gt;&lt;div&gt;&lt;div&gt;GET /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DELETE /blobs&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/{containerName}/{blobName}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;">
