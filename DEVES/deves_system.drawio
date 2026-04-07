@@ -6628,7 +6628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="viXMmUQFmoAUGWqhKGZh" name="TAXONE">
-    <mxGraphModel dx="4659" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6833,8 +6833,13 @@
         <mxCell id="OUvBGNTSQnIC9xLiDcxp-11" edge="1" parent="1" source="OUvBGNTSQnIC9xLiDcxp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OUvBGNTSQnIC9xLiDcxp-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OUvBGNTSQnIC9xLiDcxp-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Stream" vertex="1">
-          <mxGeometry height="60" width="30" x="860" y="275" as="geometry" />
+        <mxCell id="OUvBGNTSQnIC9xLiDcxp-17" connectable="0" parent="OUvBGNTSQnIC9xLiDcxp-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="VPN, Cyberark" vertex="1">
+          <mxGeometry relative="1" x="-0.0476" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUvBGNTSQnIC9xLiDcxp-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Stream : Vendor" vertex="1">
+          <mxGeometry height="60" width="30" x="840" y="275" as="geometry" />
         </mxCell>
         <mxCell id="OUvBGNTSQnIC9xLiDcxp-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves AD&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;LDAP://dvsuat.ins/ou=ho, dc=dvsuat, dc=ins&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="230" x="1600" y="220" as="geometry" />
