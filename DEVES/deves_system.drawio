@@ -7352,14 +7352,14 @@
         <mxCell id="toKTNEATrYa-xPdFWHA8-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" value="" vertex="1">
           <mxGeometry height="60" width="60" x="-210" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="toKTNEATrYa-xPdFWHA8-18" edge="1" parent="1" source="toKTNEATrYa-xPdFWHA8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="toKTNEATrYa-xPdFWHA8-17">
+        <mxCell id="toKTNEATrYa-xPdFWHA8-18" edge="1" parent="1" source="toKTNEATrYa-xPdFWHA8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="toKTNEATrYa-xPdFWHA8-17">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="toKTNEATrYa-xPdFWHA8-16" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="ระบบหยุดนาน / เปิดระบบวันแรกหลังหยุดยาว" vertex="1">
-          <mxGeometry height="50" width="50" x="-600" y="545" as="geometry" />
         </mxCell>
         <mxCell id="toKTNEATrYa-xPdFWHA8-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Runbook 1&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;แผนเตรียมพร้อมหลังหยุดยาว (Post Long Holiday)&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="75" width="280" x="-320" y="532.5" as="geometry" />
+        </mxCell>
+        <mxCell id="toKTNEATrYa-xPdFWHA8-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;ระบบหยุดนาน / เปิดระบบวันแรกหลังหยุดยาว&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="-730" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
