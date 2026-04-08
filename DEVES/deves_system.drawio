@@ -1252,7 +1252,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TVuW50gGT5xral0VGjrq" name="Team Topologies">
-    <mxGraphModel dx="8617" dy="2723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5117,7 +5117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobServices">
-    <mxGraphModel dx="2884" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7310,12 +7310,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g8S_FnvlHqa62gEU0NSF" name="DSS">
-    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2241" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="toKTNEATrYa-xPdFWHA8-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Runbook 0&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;div&gt;Health Check (Routine&amp;nbsp; On-demand)&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="240" x="60" y="250" as="geometry" />
+        <mxCell id="toKTNEATrYa-xPdFWHA8-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Runbook 0&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Health Check (Routine&amp;nbsp; On-demand)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="240" x="100" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="toKTNEATrYa-xPdFWHA8-3" edge="1" parent="1" source="toKTNEATrYa-xPdFWHA8-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="toKTNEATrYa-xPdFWHA8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toKTNEATrYa-xPdFWHA8-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Start" vertex="1">
+          <mxGeometry height="80" width="80" x="-90" y="265" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
