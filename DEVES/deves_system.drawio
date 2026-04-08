@@ -7378,7 +7378,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="toKTNEATrYa-xPdFWHA8-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Monitoring แจ้งเตือน CPU APP &amp;gt; 80% นาน 5 นาที&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="290" x="-790" y="647.5" as="geometry" />
+          <mxGeometry height="60" width="290" x="-860" y="647.5" as="geometry" />
         </mxCell>
         <mxCell id="toKTNEATrYa-xPdFWHA8-24" edge="1" parent="1" source="toKTNEATrYa-xPdFWHA8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="toKTNEATrYa-xPdFWHA8-1">
           <mxGeometry relative="1" as="geometry">
@@ -7390,6 +7390,9 @@
         </mxCell>
         <mxCell id="toKTNEATrYa-xPdFWHA8-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Runbook 2&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Signal จาก Application&lt;/div&gt;" vertex="1">
           <mxGeometry height="75" width="280" x="-270" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="toKTNEATrYa-xPdFWHA8-25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Monitoring แจ้งเตือน CPU DB &amp;gt; 80% นาน 5 นาที&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="-870" y="750" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
