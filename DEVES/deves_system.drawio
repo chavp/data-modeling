@@ -8194,14 +8194,26 @@
         <mxCell id="CeOx_Hvt0gt4QaeQfEhY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="zookeeper" vertex="1">
           <mxGeometry height="60" width="120" x="2010" y="370" as="geometry" />
         </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-7" edge="1" parent="1" source="CeOx_Hvt0gt4QaeQfEhY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CeOx_Hvt0gt4QaeQfEhY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CeOx_Hvt0gt4QaeQfEhY-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="kafka" vertex="1">
-          <mxGeometry height="60" width="120" x="1900" y="455" as="geometry" />
+          <mxGeometry height="60" width="120" x="1774" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-8" edge="1" parent="1" source="CeOx_Hvt0gt4QaeQfEhY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CeOx_Hvt0gt4QaeQfEhY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-9" edge="1" parent="1" source="CeOx_Hvt0gt4QaeQfEhY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CeOx_Hvt0gt4QaeQfEhY-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CeOx_Hvt0gt4QaeQfEhY-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="kafka-connect" vertex="1">
-          <mxGeometry height="60" width="120" x="2080" y="555" as="geometry" />
+          <mxGeometry height="60" width="120" x="2010" y="547.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-10" edge="1" parent="1" source="CeOx_Hvt0gt4QaeQfEhY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CeOx_Hvt0gt4QaeQfEhY-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CeOx_Hvt0gt4QaeQfEhY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="schema-registry" vertex="1">
-          <mxGeometry height="60" width="120" x="1948" y="645" as="geometry" />
+          <mxGeometry height="60" width="120" x="1520" y="370" as="geometry" />
         </mxCell>
         <mxCell id="CeOx_Hvt0gt4QaeQfEhY-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="redpanda" vertex="1">
           <mxGeometry height="60" width="120" x="1654" y="570" as="geometry" />
