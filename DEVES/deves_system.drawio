@@ -5117,7 +5117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobServices">
-    <mxGraphModel dx="3394" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7886,7 +7886,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g8S_FnvlHqa62gEU0NSF" name="DSS">
-    <mxGraphModel dx="5031" dy="1277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3228" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8190,6 +8190,21 @@
         </mxCell>
         <mxCell id="mSIdF2k3qoc50MUdK-yq-28" parent="OvI6Q-UZARpHX6zB5j2H-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" value="พูดคุยมาที่ จุ้ย, ตั้ม, พง, ดิ่ง ที่ office หรือ line" vertex="1">
           <mxGeometry height="30" width="372.5" x="55" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="zookeeper" vertex="1">
+          <mxGeometry height="60" width="120" x="2010" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="kafka" vertex="1">
+          <mxGeometry height="60" width="120" x="1900" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="kafka-connect" vertex="1">
+          <mxGeometry height="60" width="120" x="2080" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="schema-registry" vertex="1">
+          <mxGeometry height="60" width="120" x="1948" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="CeOx_Hvt0gt4QaeQfEhY-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="redpanda" vertex="1">
+          <mxGeometry height="60" width="120" x="1654" y="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
