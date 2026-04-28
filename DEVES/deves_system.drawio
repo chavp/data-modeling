@@ -5117,7 +5117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobServices">
-    <mxGraphModel dx="3720" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3394" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5244,6 +5244,43 @@
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-2" parent="7j-7oEkfrIbeqtmE085N-5" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
           <mxGeometry height="40" width="50" x="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gdz9PqmKreyWd5bXtiOv-1" connectable="0" parent="RmrYMbzie0AoXYTLXRDm-9" style="group" value="" vertex="1">
+          <mxGeometry height="78" width="141" x="300" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Gdz9PqmKreyWd5bXtiOv-2" parent="Gdz9PqmKreyWd5bXtiOv-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Custodian" vertex="1">
+          <mxGeometry height="60" width="120" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Gdz9PqmKreyWd5bXtiOv-4" parent="Gdz9PqmKreyWd5bXtiOv-1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SchedulerJobCollection.svg;" value="" vertex="1">
+          <mxGeometry height="43" width="50" x="91" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="4AiSAa61wc6Tl6STKtYB-5" connectable="0" parent="RmrYMbzie0AoXYTLXRDm-9" style="group" value="" vertex="1">
+          <mxGeometry height="78" width="140" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4AiSAa61wc6Tl6STKtYB-6" parent="4AiSAa61wc6Tl6STKtYB-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Car Inspection" vertex="1">
+          <mxGeometry height="60" width="120" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4AiSAa61wc6Tl6STKtYB-7" parent="4AiSAa61wc6Tl6STKtYB-5" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4AiSAa61wc6Tl6STKtYB-8" edge="1" parent="RmrYMbzie0AoXYTLXRDm-9" source="4AiSAa61wc6Tl6STKtYB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RmrYMbzie0AoXYTLXRDm-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="250" />
+              <mxPoint x="290" y="250" />
+              <mxPoint x="290" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gdz9PqmKreyWd5bXtiOv-5" edge="1" parent="RmrYMbzie0AoXYTLXRDm-9" source="Gdz9PqmKreyWd5bXtiOv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RmrYMbzie0AoXYTLXRDm-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="270" />
+              <mxPoint x="260" y="270" />
+              <mxPoint x="260" y="190" />
+              <mxPoint x="180" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-7" edge="1" parent="1" source="RmrYMbzie0AoXYTLXRDm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0_XAJkMhwzz9oDeyqmEv-1" value="client credential get access token">
           <mxGeometry relative="1" as="geometry">
@@ -5392,7 +5429,7 @@
           <mxGeometry height="250" width="240" x="880" y="370" as="geometry" />
         </mxCell>
         <mxCell id="4AiSAa61wc6Tl6STKtYB-1" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="82" width="140" x="480" y="820" as="geometry" />
+          <mxGeometry height="82" width="140" x="480" y="800" as="geometry" />
         </mxCell>
         <mxCell id="4AiSAa61wc6Tl6STKtYB-2" parent="4AiSAa61wc6Tl6STKtYB-1" style="rounded=1;whiteSpace=wrap;html=1;" value="PDFConnector" vertex="1">
           <mxGeometry height="60" width="120" y="22" as="geometry" />
@@ -5409,22 +5446,10 @@
         <mxCell id="4AiSAa61wc6Tl6STKtYB-4" edge="1" parent="1" source="4AiSAa61wc6Tl6STKtYB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RmrYMbzie0AoXYTLXRDm-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="872" />
-              <mxPoint x="420" y="780" />
+              <mxPoint x="420" y="860" />
+              <mxPoint x="420" y="770" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4AiSAa61wc6Tl6STKtYB-5" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="78" width="140" x="480" y="980" as="geometry" />
-        </mxCell>
-        <mxCell id="4AiSAa61wc6Tl6STKtYB-6" parent="4AiSAa61wc6Tl6STKtYB-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Car Inspection" vertex="1">
-          <mxGeometry height="60" width="120" y="18" as="geometry" />
-        </mxCell>
-        <mxCell id="4AiSAa61wc6Tl6STKtYB-7" parent="4AiSAa61wc6Tl6STKtYB-5" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
-          <mxGeometry height="40" width="50" x="90" as="geometry" />
-        </mxCell>
-        <mxCell id="4AiSAa61wc6Tl6STKtYB-8" edge="1" parent="1" source="4AiSAa61wc6Tl6STKtYB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4AiSAa61wc6Tl6STKtYB-2">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
