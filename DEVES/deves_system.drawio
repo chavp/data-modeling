@@ -7815,7 +7815,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-v9v-GB5H7FLa6-WTGxB" name="P2026-010 LINE BCRM">
-    <mxGraphModel dx="1426" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2357" dy="2407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7881,6 +7881,310 @@
             <mxPoint x="590" y="460" as="sourcePoint" />
             <mxPoint x="530" y="506" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-1" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#82b366;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;fillColor=#d5e8d4;fontSize=16;fontStyle=1" value="&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;LineBCRM&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="18" x="1140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1149" y="990" as="sourcePoint" />
+            <mxPoint x="1148.5245454545454" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="190" as="sourcePoint" />
+            <mxPoint x="1590" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-4" connectable="0" parent="3U-zS58RPqWS15byZ_1O-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#375623;fontColor=#FFFFFF;fontSize=14;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/InquiryPackage&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="99" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;strokeColor=default;fontColor=#0B1BFF;fontSize=16;fontStyle=1" value="DEVES API" vertex="1">
+          <mxGeometry height="60" width="120" x="1540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-6" edge="1" parent="1" source="3U-zS58RPqWS15byZ_1O-57" style="endArrow=none;html=1;rounded=0;" target="3U-zS58RPqWS15byZ_1O-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1600" y="990" as="sourcePoint" />
+            <mxPoint x="1530" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="160" as="sourcePoint" />
+            <mxPoint x="1140" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-8" connectable="0" parent="3U-zS58RPqWS15byZ_1O-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Enter app" vertex="1">
+          <mxGeometry relative="1" x="-0.061" as="geometry">
+            <mxPoint x="50" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1" value="Customer" vertex="1">
+          <mxGeometry height="60" width="30" x="950" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="965" y="990" as="sourcePoint" />
+            <mxPoint x="964.63" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="250" as="sourcePoint" />
+            <mxPoint x="1140" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-12" connectable="0" parent="3U-zS58RPqWS15byZ_1O-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Select package" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint x="30" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="270" as="sourcePoint" />
+            <mxPoint x="1590" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-14" connectable="0" parent="3U-zS58RPqWS15byZ_1O-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#375623;fontSize=14;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;InquiryPackageAddOn&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="79" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="310" as="sourcePoint" />
+            <mxPoint x="1140" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-16" connectable="0" parent="3U-zS58RPqWS15byZ_1O-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Select package add on" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="350" as="sourcePoint" />
+            <mxPoint x="1140" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-18" connectable="0" parent="3U-zS58RPqWS15byZ_1O-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Fill in insured information" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="740" as="sourcePoint" />
+            <mxPoint x="1590" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-20" connectable="0" parent="3U-zS58RPqWS15byZ_1O-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F4B084;fontSize=14;" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;CreateMultipleApplication&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="69" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="380" as="sourcePoint" />
+            <mxPoint x="1590" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-22" connectable="0" parent="3U-zS58RPqWS15byZ_1O-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#375623;fontSize=14;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;PremiumCalculate&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="89" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="430" as="sourcePoint" />
+            <mxPoint x="1140" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-24" connectable="0" parent="3U-zS58RPqWS15byZ_1O-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Fill in application form" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="790" as="sourcePoint" />
+            <mxPoint x="1140" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-26" connectable="0" parent="3U-zS58RPqWS15byZ_1O-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Make the payment" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint x="20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="810" as="sourcePoint" />
+            <mxPoint x="1880" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-28" connectable="0" parent="3U-zS58RPqWS15byZ_1O-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#92D050;fontSize=14;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Redirect to payment gateway&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint x="244" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;fontStyle=1" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;SCB Payment Gateway&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1830" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="3U-zS58RPqWS15byZ_1O-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1890" y="994" as="sourcePoint" />
+            <mxPoint x="1959.5" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1610" y="930" as="sourcePoint" />
+            <mxPoint x="2110" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-32" connectable="0" parent="3U-zS58RPqWS15byZ_1O-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="&lt;span style=&quot;background-color: rgb(135, 255, 9);&quot;&gt;job payment confirm&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint x="184" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-33" connectable="0" parent="3U-zS58RPqWS15byZ_1O-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1-5minutes" vertex="1">
+          <mxGeometry relative="1" x="-0.8804" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="Thank you">
+          <mxGeometry height="50" relative="1" width="50" x="0.4118" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1140" y="860" as="sourcePoint" />
+            <mxPoint x="970" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1880" y="840" as="sourcePoint" />
+            <mxPoint x="1160" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-36" connectable="0" parent="3U-zS58RPqWS15byZ_1O-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Front-end callback success payment" vertex="1">
+          <mxGeometry relative="1" x="-0.0221" y="-1" as="geometry">
+            <mxPoint x="-195" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;fontColor=#0B1BFF;strokeColor=default;fontSize=16;fontStyle=1" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;DEVES &lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;Core Insurance&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="2050" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-38" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2119.4700000000003" y="994" as="sourcePoint" />
+            <mxPoint x="2119.4700000000003" y="114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;dashed=1;" value="SMS / Email e-policy">
+          <mxGeometry height="50" relative="1" width="50" x="0.8678" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2100" y="960" as="sourcePoint" />
+            <mxPoint x="970" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="710" as="sourcePoint" />
+            <mxPoint x="1140" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-41" connectable="0" parent="3U-zS58RPqWS15byZ_1O-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Submit application form" vertex="1">
+          <mxGeometry relative="1" x="-0.0575" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1158" y="510" as="sourcePoint" />
+            <mxPoint x="1590" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-43" connectable="0" parent="3U-zS58RPqWS15byZ_1O-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFC000;fontSize=14;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#212121&quot; face=&quot;Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;/deves/master/InquiryClientNationality/1.0.0/comp_inquiryclienttitles&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="19" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="470" as="sourcePoint" />
+            <mxPoint x="1588" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-45" connectable="0" parent="3U-zS58RPqWS15byZ_1O-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFC000;fontSize=14;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;&lt;font color=&quot;#212121&quot; face=&quot;Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;/deves/master/InquiryClientTitle/1.0.0/comp_inquiryclienttitles&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="39" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1158" y="550" as="sourcePoint" />
+            <mxPoint x="1590" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-47" connectable="0" parent="3U-zS58RPqWS15byZ_1O-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFC000;fontSize=14;" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/deves/master/InquiryClientOccupation/1.0.0/comp_inquiryclienttitles&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="19" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-48" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1158" y="590" as="sourcePoint" />
+            <mxPoint x="1590" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-49" connectable="0" parent="3U-zS58RPqWS15byZ_1O-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFC000;fontSize=14;" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/deves/master/InquiryClientProvince/1.0.0/comp_inquiryclienttitles&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="29" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1158" y="630" as="sourcePoint" />
+            <mxPoint x="1590" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-51" connectable="0" parent="3U-zS58RPqWS15byZ_1O-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFC000;fontSize=14;" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/deves/master/InquiryClientDistrict/1.0.0/comp_inquiryclienttitles&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="29" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1158" y="670" as="sourcePoint" />
+            <mxPoint x="1590" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-53" connectable="0" parent="3U-zS58RPqWS15byZ_1O-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFC000;fontSize=14;" value="&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/deves/master/InquiryClientSubDistrict/1.0.0/comp_inquiryclienttitles&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="19" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1880" y="880" as="sourcePoint" />
+            <mxPoint x="1610" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-55" connectable="0" parent="3U-zS58RPqWS15byZ_1O-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Back-end callback&amp;nbsp;&lt;span data-teams=&quot;true&quot;&gt;/ConfirmPolicyBackend//api/ConfirmPaymentDVS2C2PV4/{id}&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0221" y="-1" as="geometry">
+            <mxPoint x="192" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-56" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="3U-zS58RPqWS15byZ_1O-57" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1600" y="990" as="sourcePoint" />
+            <mxPoint x="1600" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3U-zS58RPqWS15byZ_1O-57" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1575" y="900" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
