@@ -8211,7 +8211,7 @@
             <mxPoint x="3160" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUWlfVtD49MJ-hS4egbe-4" connectable="0" parent="oUWlfVtD49MJ-hS4egbe-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#375623;fontColor=#FFFFFF;fontSize=14;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/InquiryPackage&lt;/span&gt;" vertex="1">
+        <mxCell id="oUWlfVtD49MJ-hS4egbe-4" connectable="0" parent="oUWlfVtD49MJ-hS4egbe-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#375623;fontColor=#FFFFFF;fontSize=14;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(55, 86, 35), rgb(154, 181, 137)); white-space: pre-wrap;&quot;&gt;&lt;font face=&quot;Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;/PolicyRequest/PA/v1/api/InquiryPackage&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.11" as="geometry">
             <mxPoint x="99" y="-20" as="offset" />
           </mxGeometry>
@@ -8247,35 +8247,13 @@
         </mxCell>
         <mxCell id="oUWlfVtD49MJ-hS4egbe-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2540" y="250" as="sourcePoint" />
-            <mxPoint x="2710" y="250" as="targetPoint" />
+            <mxPoint x="2540" y="230" as="sourcePoint" />
+            <mxPoint x="2710" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oUWlfVtD49MJ-hS4egbe-12" connectable="0" parent="oUWlfVtD49MJ-hS4egbe-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Select package" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
             <mxPoint x="30" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oUWlfVtD49MJ-hS4egbe-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2730" y="270" as="sourcePoint" />
-            <mxPoint x="3160" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oUWlfVtD49MJ-hS4egbe-14" connectable="0" parent="oUWlfVtD49MJ-hS4egbe-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#375623;fontSize=14;" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;/PolicyRequest/ta/v1/api/&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space: pre-wrap;&quot;&gt;InquiryPackageAddOn&lt;/span&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.11" as="geometry">
-            <mxPoint x="79" y="-20" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oUWlfVtD49MJ-hS4egbe-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2540" y="310" as="sourcePoint" />
-            <mxPoint x="2710" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oUWlfVtD49MJ-hS4egbe-16" connectable="0" parent="oUWlfVtD49MJ-hS4egbe-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Select package add on" vertex="1">
-          <mxGeometry relative="1" x="-0.0575" as="geometry">
-            <mxPoint x="10" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oUWlfVtD49MJ-hS4egbe-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
@@ -8497,7 +8475,7 @@
         <mxCell id="oUWlfVtD49MJ-hS4egbe-56" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="3145" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="oUWlfVtD49MJ-hS4egbe-57" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ประกันอุบัติเหตุ: Main flow&amp;nbsp;submission application, payment confirm and issue policy&lt;/h1&gt;" vertex="1">
+        <mxCell id="oUWlfVtD49MJ-hS4egbe-57" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ประกันอุบัติเหตุ&lt;/h1&gt;" vertex="1">
           <mxGeometry height="70" width="1420" x="2440" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="oUWlfVtD49MJ-hS4egbe-58" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=10;strokeColor=#244185;fontSize=12;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="oUWlfVtD49MJ-hS4egbe-57" value="">
