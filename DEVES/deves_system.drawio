@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="19">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="20">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
     <mxGraphModel dx="2491" dy="3212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9243,6 +9243,111 @@
         </mxCell>
         <mxCell id="DTtb4enKPSb6aDBiAsBh-2" parent="DTtb4enKPSb6aDBiAsBh-3" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.mongodb;" value="" vertex="1">
           <mxGeometry height="47.400000000000006" width="47.400000000000006" x="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="goWVzFJ5pEOQVTSbaiDT" name="DevesDee">
+    <mxGraphModel dx="1933" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-4" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-1" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" value="Surveyor" vertex="1">
+          <mxGeometry height="30" width="18" x="260" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-7" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-8" connectable="0" parent="9nxJiWWxUK5lJlNhuBcw-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="write" vertex="1">
+          <mxGeometry relative="1" x="-0.1027" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-5" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.scheduler;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="50" width="40" x="340" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-19" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-16" value="emit change Vehicle Geoint">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DB&lt;div&gt;Vehicles&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="660" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-9" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" value="DevesDee" vertex="1">
+          <mxGeometry height="30" width="18" x="10" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-10" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="140" x="440" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-2" parent="9nxJiWWxUK5lJlNhuBcw-10" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves API&lt;br&gt;SSQ" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-3" parent="9nxJiWWxUK5lJlNhuBcw-10" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-29" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-24" value="">
+          <mxGeometry relative="1" x="-0.5718" y="30" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-41" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-24" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;horizontal=1;" value="" vertex="1">
+          <mxGeometry height="310" width="40" x="510" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Kafka" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-26" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" value="" vertex="1">
+          <mxGeometry height="42" width="56.699999999999996" x="640" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="topics" vertex="1">
+          <mxGeometry height="30" width="190" x="435" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-37" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="130.23000000000002" x="645" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-16" parent="9nxJiWWxUK5lJlNhuBcw-37" style="rounded=1;whiteSpace=wrap;html=1;" value="Vehicle Producer" vertex="1">
+          <mxGeometry height="60" width="120" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-17" parent="9nxJiWWxUK5lJlNhuBcw-37" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" value="" vertex="1">
+          <mxGeometry height="42" width="35.23" x="95" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-38" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="140" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-39" parent="9nxJiWWxUK5lJlNhuBcw-38" style="rounded=1;whiteSpace=wrap;html=1;" value="DevesDee&lt;div&gt;API&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-40" parent="9nxJiWWxUK5lJlNhuBcw-38" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-47" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-44" parent="1" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;html=1;fontSize=8;shape=mxgraph.eip.messageChannel;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" value="SignalR: vehicle-state-hub" vertex="1">
+          <mxGeometry height="20" width="100" x="100" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-45" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;consume&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;topic: vehicle-state&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="140" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;produce&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;topic: vehicle-state&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="720" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-50" parent="1" style="shape=mxgraph.signs.transportation.motorcycle;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
+          <mxGeometry height="66" width="98" x="150" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-51" parent="1" style="shape=mxgraph.signs.transportation.car_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
+          <mxGeometry height="88" width="99" x="-110" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
