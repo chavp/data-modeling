@@ -9353,7 +9353,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SFuQtfVHjxAHot9YNrFd" name="Deves API PA">
-    <mxGraphModel dx="1945" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2772" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9385,8 +9385,8 @@
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="140" y="280" as="sourcePoint" />
-            <mxPoint x="310" y="280" as="targetPoint" />
+            <mxPoint x="140" y="290" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-8" connectable="0" parent="v5Df8CoZPeDwk6MV4MoT-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Enter app" vertex="1">
@@ -9552,6 +9552,26 @@
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-59" connectable="0" parent="v5Df8CoZPeDwk6MV4MoT-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F4B084;fontSize=14;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre-wrap; background-color: light-dark(rgb(255, 51, 51), rgb(125, 66, 28));&quot;&gt;&lt;font color=&quot;#212121&quot; face=&quot;Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;/PolicyRequest/PA/v1/api/EnquiryApplication&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.11" as="geometry">
             <mxPoint x="89" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v5Df8CoZPeDwk6MV4MoT-60" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1" value="Insured" vertex="1">
+          <mxGeometry height="60" width="30" x="-80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v5Df8CoZPeDwk6MV4MoT-61" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-69.63000000000011" y="1030" as="sourcePoint" />
+            <mxPoint x="-70" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v5Df8CoZPeDwk6MV4MoT-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-60" y="270" as="sourcePoint" />
+            <mxPoint x="120" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v5Df8CoZPeDwk6MV4MoT-63" connectable="0" parent="v5Df8CoZPeDwk6MV4MoT-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Applications form" vertex="1">
+          <mxGeometry relative="1" x="-0.061" as="geometry">
+            <mxPoint x="40" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
