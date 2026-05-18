@@ -9353,7 +9353,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SFuQtfVHjxAHot9YNrFd" name="Deves API PA">
-    <mxGraphModel dx="1653" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1945" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9439,12 +9439,12 @@
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="780" y="810" as="sourcePoint" />
-            <mxPoint x="1280" y="810" as="targetPoint" />
+            <mxPoint x="1030" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-23" connectable="0" parent="v5Df8CoZPeDwk6MV4MoT-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="&lt;span style=&quot;background-color: rgb(212, 225, 245);&quot;&gt;job payment confirm&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0575" as="geometry">
-            <mxPoint x="184" y="-20" as="offset" />
+            <mxPoint x="63" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-24" connectable="0" parent="v5Df8CoZPeDwk6MV4MoT-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1-5minutes" vertex="1">
@@ -9460,18 +9460,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFDE39;fontColor=#0B1BFF;strokeColor=default;fontSize=16;fontStyle=1" value="&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;DEVES &lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; white-space-collapse: preserve;&quot;&gt;Core Insurance&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="1220" y="174" as="geometry" />
+          <mxGeometry height="60" width="140" x="980" y="174" as="geometry" />
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1289" y="1040" as="sourcePoint" />
-            <mxPoint x="1289.4700000000003" y="234" as="targetPoint" />
+            <mxPoint x="1049" y="1040" as="sourcePoint" />
+            <mxPoint x="1049.4700000000003" y="234" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;dashed=1;" value="SMS / Email e-policy">
           <mxGeometry height="50" relative="1" width="50" x="0.8678" y="-10" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1268" y="850" as="sourcePoint" />
+            <mxPoint x="1030" y="850" as="sourcePoint" />
             <mxPoint x="138" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -9493,7 +9493,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-36" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="745" y="740" as="geometry" />
+          <mxGeometry height="50" width="50" x="745" y="760" as="geometry" />
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-37" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MainFlow PA แรงงานต่างด้าว&lt;/h1&gt;" vertex="1">
           <mxGeometry height="38" width="530" x="150" y="70" as="geometry" />
@@ -9542,6 +9542,17 @@
         </mxCell>
         <mxCell id="v5Df8CoZPeDwk6MV4MoT-55" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;" value="Submission Application" vertex="1">
           <mxGeometry height="70" width="78" x="280" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="v5Df8CoZPeDwk6MV4MoT-58" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=14;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="920" as="sourcePoint" />
+            <mxPoint x="760" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v5Df8CoZPeDwk6MV4MoT-59" connectable="0" parent="v5Df8CoZPeDwk6MV4MoT-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#F4B084;fontSize=14;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre-wrap; background-color: light-dark(rgb(255, 51, 51), rgb(125, 66, 28));&quot;&gt;&lt;font color=&quot;#212121&quot; face=&quot;Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;/PolicyRequest/PA/v1/api/EnquiryApplication&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.11" as="geometry">
+            <mxPoint x="89" y="-20" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
