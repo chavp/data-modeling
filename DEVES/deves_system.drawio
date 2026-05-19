@@ -9248,7 +9248,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="goWVzFJ5pEOQVTSbaiDT" name="DevesDee">
-    <mxGraphModel dx="2893" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2567" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9267,7 +9267,7 @@
         <mxCell id="9nxJiWWxUK5lJlNhuBcw-47" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-1" connectable="0" parent="9nxJiWWxUK5lJlNhuBcw-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="user id == XXXX" vertex="1">
+        <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-1" connectable="0" parent="9nxJiWWxUK5lJlNhuBcw-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[user id == XXXX]" vertex="1">
           <mxGeometry relative="1" x="0.1529" y="-2" as="geometry">
             <mxPoint x="20" y="-10" as="offset" />
           </mxGeometry>
@@ -9278,8 +9278,8 @@
         <mxCell id="9nxJiWWxUK5lJlNhuBcw-45" edge="1" parent="1" source="9nxJiWWxUK5lJlNhuBcw-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9nxJiWWxUK5lJlNhuBcw-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9nxJiWWxUK5lJlNhuBcw-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;subscribe&amp;nbsp;&lt;/span&gt;users-locations.XXXX" vertex="1">
-          <mxGeometry height="30" width="250" x="-180" y="460" as="geometry" />
+        <mxCell id="9nxJiWWxUK5lJlNhuBcw-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;subscribe queue:&amp;nbsp;&lt;/span&gt;users-locations.XXXX" vertex="1">
+          <mxGeometry height="30" width="250" x="-170" y="480" as="geometry" />
         </mxCell>
         <mxCell id="9nxJiWWxUK5lJlNhuBcw-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;publish&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;topic: surveyors-locations&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="230" x="469" y="460" as="geometry" />
@@ -9358,7 +9358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SFuQtfVHjxAHot9YNrFd" name="Deves API PA">
-    <mxGraphModel dx="2772" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
