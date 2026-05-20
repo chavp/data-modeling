@@ -9248,7 +9248,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="goWVzFJ5pEOQVTSbaiDT" name="DevesDee">
-    <mxGraphModel dx="2264" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2057" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9369,7 +9369,7 @@
         <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-7" edge="1" parent="1" source="3Q5Y_S8fMtVIuMTHyLrb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3Q5Y_S8fMtVIuMTHyLrb-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-8" connectable="0" parent="3Q5Y_S8fMtVIuMTHyLrb-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[user id == XXXX]" vertex="1">
+        <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-8" connectable="0" parent="3Q5Y_S8fMtVIuMTHyLrb-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[location XXXX]" vertex="1">
           <mxGeometry relative="1" x="0.1529" y="-2" as="geometry">
             <mxPoint x="20" y="-10" as="offset" />
           </mxGeometry>
@@ -9434,7 +9434,7 @@
         <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-23" edge="1" parent="1" source="3Q5Y_S8fMtVIuMTHyLrb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3Q5Y_S8fMtVIuMTHyLrb-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-24" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" value="Surveyor&lt;div&gt;surveyor_id: xxxx&lt;/div&gt;" vertex="1">
+        <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-24" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" value="Surveyor&lt;div&gt;user_id: xxxx&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="18" x="686" y="880" as="geometry" />
         </mxCell>
         <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Survey System" vertex="1">
@@ -9471,7 +9471,7 @@
           <mxGeometry height="30" width="283" x="70" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;subscribe queue:&amp;nbsp;&lt;/span&gt;users-locations.XXXX" vertex="1">
-          <mxGeometry height="30" width="340" x="-320" y="990" as="geometry" />
+          <mxGeometry height="30" width="260" x="-223" y="1000" as="geometry" />
         </mxCell>
         <mxCell id="3Q5Y_S8fMtVIuMTHyLrb-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="queue: users-locations.XXXX" vertex="1">
           <mxGeometry height="30" width="190" x="-70" y="1139" as="geometry" />
