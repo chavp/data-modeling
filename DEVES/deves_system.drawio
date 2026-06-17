@@ -5470,7 +5470,7 @@
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-2" edge="1" parent="WrsnWQhAQkbqXrg1UV5s-1" source="WrsnWQhAQkbqXrg1UV5s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="209" y="120" />
+              <mxPoint x="209" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -5485,12 +5485,14 @@
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-7" parent="WrsnWQhAQkbqXrg1UV5s-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" value="Entra ID" vertex="1">
           <mxGeometry height="75" width="80.86" x="167.14" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="WrsnWQhAQkbqXrg1UV5s-8" edge="1" parent="WrsnWQhAQkbqXrg1UV5s-1" source="WrsnWQhAQkbqXrg1UV5s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-19">
+        <mxCell id="WrsnWQhAQkbqXrg1UV5s-8" edge="1" parent="WrsnWQhAQkbqXrg1UV5s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="190" y="100" />
-              <mxPoint x="190" y="100" />
+              <mxPoint x="190" y="89.17" />
+              <mxPoint x="190" y="89.17" />
             </Array>
+            <mxPoint x="150" y="89.17" as="sourcePoint" />
+            <mxPoint x="337.0588235294117" y="89.17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-9" connectable="0" parent="WrsnWQhAQkbqXrg1UV5s-1" style="group" value="" vertex="1">
