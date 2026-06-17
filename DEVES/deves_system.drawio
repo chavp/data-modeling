@@ -5446,7 +5446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MNocMebzaIFX8RBu_DYx" name="Deves Insuraces Microservices">
-    <mxGraphModel dx="1415" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5584,6 +5584,19 @@
         <mxCell id="vNr0Q58PedRYwXdlyLur-2" parent="vNr0Q58PedRYwXdlyLur-1" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
           <mxGeometry height="24" relative="1" width="24" as="geometry">
             <mxPoint x="12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-32oiOra6nGeLzGu5GUl-1" edge="1" parent="1" source="WrsnWQhAQkbqXrg1UV5s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="YNpdGngMFROGyaUbrbhr-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="530" />
+              <mxPoint x="1066" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uok9UaHSMOlTZuXmax9d-1" connectable="0" parent="-32oiOra6nGeLzGu5GUl-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="build / deploy" vertex="1">
+          <mxGeometry relative="1" x="-0.038" y="-7" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
