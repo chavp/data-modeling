@@ -5465,7 +5465,7 @@
           <mxGeometry height="40" width="48" x="110" y="120" as="geometry" />
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Azure" vertex="1">
-          <mxGeometry height="350" width="870" x="380" y="235" as="geometry" />
+          <mxGeometry height="350" width="940" x="380" y="235" as="geometry" />
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-2" edge="1" parent="WrsnWQhAQkbqXrg1UV5s-1" source="WrsnWQhAQkbqXrg1UV5s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-7">
           <mxGeometry relative="1" as="geometry">
@@ -5480,17 +5480,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-4" parent="WrsnWQhAQkbqXrg1UV5s-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_instance;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="810" y="10" as="geometry" />
-        </mxCell>
-        <mxCell id="WrsnWQhAQkbqXrg1UV5s-5" parent="WrsnWQhAQkbqXrg1UV5s-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" value="Storange Account / &lt;a href=&quot;https://portal.azure.com/#@deves.co.th/resource/subscriptions/2e0470be-a8b2-492b-ac86-68863e2a6c70/resourceGroups/rg-uat-blob/providers/Microsoft.Storage/storageAccounts/uatdevesblob/overview&quot;&gt;Blob Storage&lt;/a&gt;" vertex="1">
-          <mxGeometry height="90" width="100" x="630" y="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="WrsnWQhAQkbqXrg1UV5s-6" edge="1" parent="WrsnWQhAQkbqXrg1UV5s-1" source="WrsnWQhAQkbqXrg1UV5s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="WrsnWQhAQkbqXrg1UV5s-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="97" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry height="50" width="50" x="870" y="10" as="geometry" />
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-7" parent="WrsnWQhAQkbqXrg1UV5s-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" value="Entra ID" vertex="1">
           <mxGeometry height="75" width="80.86" x="280" y="240" as="geometry" />
@@ -5516,20 +5506,28 @@
           <mxGeometry height="40" width="43.33" x="90" as="geometry" />
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-13" edge="1" parent="WrsnWQhAQkbqXrg1UV5s-1" source="WrsnWQhAQkbqXrg1UV5s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-19" value="deploy">
-          <mxGeometry relative="1" x="-0.2873" y="8" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry relative="1" x="-0.0957" y="16" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="590" y="109" />
+              <mxPoint x="590" y="109" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-14" edge="1" parent="WrsnWQhAQkbqXrg1UV5s-1" source="WrsnWQhAQkbqXrg1UV5s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-16" value="build">
           <mxGeometry relative="1" x="0.0196" y="12" as="geometry">
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="700" y="105" />
+              <mxPoint x="700" y="105" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-15" parent="WrsnWQhAQkbqXrg1UV5s-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" value="&lt;a href=&quot;https://dev.azure.com/deves-devops/&quot;&gt;DevOps&lt;/a&gt;" vertex="1">
-          <mxGeometry height="64" width="64" x="540" y="190" as="geometry" />
+          <mxGeometry height="64" width="64" x="610" y="67.5" as="geometry" />
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-16" parent="WrsnWQhAQkbqXrg1UV5s-1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" value="" vertex="1">
-          <mxGeometry height="75" width="75" x="655" y="184.5" as="geometry" />
+          <mxGeometry height="75" width="75" x="780" y="67.5" as="geometry" />
         </mxCell>
         <mxCell id="WrsnWQhAQkbqXrg1UV5s-17" connectable="0" parent="WrsnWQhAQkbqXrg1UV5s-1" style="group" value="" vertex="1">
           <mxGeometry height="110" width="230" x="310" y="40" as="geometry" />
