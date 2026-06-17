@@ -5115,7 +5115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eVO2biTBv_PJjl-s73O5" name="BlobServices">
-    <mxGraphModel dx="3720" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2944" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5222,13 +5222,13 @@
           <mxGeometry height="78" width="43.68" x="170" y="34" as="geometry" />
         </mxCell>
         <mxCell id="7j-7oEkfrIbeqtmE085N-3" connectable="0" parent="RmrYMbzie0AoXYTLXRDm-9" style="group" value="" vertex="1">
-          <mxGeometry height="78" width="140" x="370" y="50" as="geometry" />
+          <mxGeometry height="88" width="160" x="360" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-12" parent="7j-7oEkfrIbeqtmE085N-3" style="rounded=1;whiteSpace=wrap;html=1;" value="DSS" vertex="1">
-          <mxGeometry height="60" width="120" y="18" as="geometry" />
+        <mxCell id="-LBDCa5s3gxjo6BdHkqJ-12" parent="7j-7oEkfrIbeqtmE085N-3" style="rounded=1;whiteSpace=wrap;html=1;" value="DSS&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;a href=&quot;https://dssuat.deves.co.th/Account/LogIn&quot;&gt;UAT&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67.6923076923077" width="137.1428571428571" y="20.307692307692307" as="geometry" />
         </mxCell>
         <mxCell id="-LBDCa5s3gxjo6BdHkqJ-14" parent="7j-7oEkfrIbeqtmE085N-3" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
-          <mxGeometry height="40" width="50" x="90" as="geometry" />
+          <mxGeometry height="40" width="50" x="102.85714285714286" as="geometry" />
         </mxCell>
         <mxCell id="7j-7oEkfrIbeqtmE085N-4" connectable="0" parent="RmrYMbzie0AoXYTLXRDm-9" style="group" value="" vertex="1">
           <mxGeometry height="82" width="140" x="90" y="72" as="geometry" />
@@ -5240,10 +5240,10 @@
           <mxGeometry height="48" width="50" x="90" as="geometry" />
         </mxCell>
         <mxCell id="7j-7oEkfrIbeqtmE085N-5" connectable="0" parent="RmrYMbzie0AoXYTLXRDm-9" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="150" x="50" y="270" as="geometry" />
+          <mxGeometry height="100" width="150" x="50" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="A9HeWkSEgxVFSK9dqWfp-1" parent="7j-7oEkfrIbeqtmE085N-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Doc&amp;amp;ESign" vertex="1">
-          <mxGeometry height="70" width="120" y="20" as="geometry" />
+        <mxCell id="A9HeWkSEgxVFSK9dqWfp-1" parent="7j-7oEkfrIbeqtmE085N-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Doc&amp;amp;ESign&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://iwebsvsit.deves.co.th/DVS_ESignature-PDFconnector/PDF/Info&quot;&gt;UAT&lt;/a&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77.77777777777779" width="120" y="22.22222222222222" as="geometry" />
         </mxCell>
         <mxCell id="A9HeWkSEgxVFSK9dqWfp-2" parent="7j-7oEkfrIbeqtmE085N-5" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
           <mxGeometry height="40" width="50" x="100" as="geometry" />
@@ -5305,13 +5305,8 @@
             <mxPoint x="-115.99999999999977" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_XAJkMhwzz9oDeyqmEv-17" edge="1" parent="1" source="0_XAJkMhwzz9oDeyqmEv-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="RmrYMbzie0AoXYTLXRDm-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="770" y="277.5162689804772" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0_XAJkMhwzz9oDeyqmEv-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Azure Account&lt;/h1&gt;&lt;p&gt;&lt;b&gt;tenant name&lt;/b&gt;: dvsins.onmicrosoft.com&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;tenant id:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;8ffef73e-6c1e-4fda-890b-a8fa247be32e&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;access email&lt;/b&gt;: chaiyapath.k@deves.co.th&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="350" x="740" y="190" as="geometry" />
+          <mxGeometry height="120" width="350" x="1320" y="180" as="geometry" />
         </mxCell>
         <mxCell id="Zd_HBjGA4-bbfAexYDwV-5" edge="1" parent="1" source="Zd_HBjGA4-bbfAexYDwV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Zd_HBjGA4-bbfAexYDwV-10" value="push code">
           <mxGeometry relative="1" x="0.41" y="20" as="geometry">
@@ -5410,7 +5405,7 @@
           <mxGeometry height="60" width="350" x="-1250" y="500" as="geometry" />
         </mxCell>
         <mxCell id="a3Na2TNz8Z2ikrBUOXDA-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;lower case only&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;containerName:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;system name, no space use - for space&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;blobName:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;use \ for folder structure&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="260" x="-570" y="630" as="geometry" />
+          <mxGeometry height="180" width="260" x="-770" y="600" as="geometry" />
         </mxCell>
         <mxCell id="ONtnY_Ctq9HqvEac8G7p-5" edge="1" parent="1" source="7j-7oEkfrIbeqtmE085N-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="Zd_HBjGA4-bbfAexYDwV-1" value="build / deploy">
           <mxGeometry relative="1" as="geometry">
@@ -5421,13 +5416,8 @@
             <mxPoint x="750" y="761" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ONtnY_Ctq9HqvEac8G7p-8" edge="1" parent="1" source="ONtnY_Ctq9HqvEac8G7p-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" value="allow">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ONtnY_Ctq9HqvEac8G7p-7" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;dev.azure.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;*.dev.azure.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;vssps.dev.azure.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;vsrm.dev.azure.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;api.nuget.org&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;globalcdn.nuget.org&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;registry.npmjs.org&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;github.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;objects.githubusercontent.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;management.azure.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;login.microsoftonline.com&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;*.azureedge.net&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;*.scm.azurewebsites.net&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space-collapse: collapse;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;*.azurewebsites.net&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="240" x="880" y="370" as="geometry" />
+          <mxGeometry height="250" width="240" x="1380" y="335" as="geometry" />
         </mxCell>
         <mxCell id="4AiSAa61wc6Tl6STKtYB-1" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="82" width="140" x="480" y="800" as="geometry" />
@@ -7813,7 +7803,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-v9v-GB5H7FLa6-WTGxB" name="P2026-010 LINE BCRM">
-    <mxGraphModel dx="1407" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
