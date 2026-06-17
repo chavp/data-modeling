@@ -5565,9 +5565,10 @@
         <mxCell id="YNpdGngMFROGyaUbrbhr-8" parent="YNpdGngMFROGyaUbrbhr-6" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
           <mxGeometry height="40" width="50" x="102.85714285714286" as="geometry" />
         </mxCell>
-        <mxCell id="KWBQCTX1Ta2DbbYP67Q9-1" edge="1" parent="1" source="vNr0Q58PedRYwXdlyLur-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-11">
+        <mxCell id="KWBQCTX1Ta2DbbYP67Q9-1" edge="1" parent="1" source="YNpdGngMFROGyaUbrbhr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="411" y="650" />
               <mxPoint x="411" y="650" />
             </Array>
           </mxGeometry>
@@ -5577,17 +5578,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vNr0Q58PedRYwXdlyLur-3" edge="1" parent="1" source="YNpdGngMFROGyaUbrbhr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vNr0Q58PedRYwXdlyLur-1" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="411" y="650" />
-            </Array>
-            <mxPoint x="411" y="740" as="sourcePoint" />
-            <mxPoint x="411" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vNr0Q58PedRYwXdlyLur-1" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
-          <mxGeometry height="48" width="48" x="387" y="450" as="geometry" />
+          <mxGeometry height="48" width="48" x="388" y="548" as="geometry" />
         </mxCell>
         <mxCell id="vNr0Q58PedRYwXdlyLur-2" parent="vNr0Q58PedRYwXdlyLur-1" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-cloud--key-protect" value="" vertex="1">
           <mxGeometry height="24" relative="1" width="24" as="geometry">
