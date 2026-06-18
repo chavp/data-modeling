@@ -5446,7 +5446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MNocMebzaIFX8RBu_DYx" name="Deves Insuraces Microservices">
-    <mxGraphModel dx="1558" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1266" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5567,6 +5567,18 @@
         <mxCell id="YNpdGngMFROGyaUbrbhr-8" parent="YNpdGngMFROGyaUbrbhr-6" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
           <mxGeometry height="40" width="50" x="119.57142857142858" as="geometry" />
         </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-2" parent="YNpdGngMFROGyaUbrbhr-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#2e75b6&quot;&gt;PCS&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="264" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-4" parent="YNpdGngMFROGyaUbrbhr-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#2e75b6&quot;&gt;CHEETAH&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="334" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-5" parent="YNpdGngMFROGyaUbrbhr-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#2e75b6&quot;&gt;AGENTCOM&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="75" x="404" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-6" parent="YNpdGngMFROGyaUbrbhr-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#2e75b6&quot;&gt;CREDITLIMIT&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="84" width="96" x="484" y="216" as="geometry" />
+        </mxCell>
         <mxCell id="KWBQCTX1Ta2DbbYP67Q9-1" edge="1" parent="1" source="YNpdGngMFROGyaUbrbhr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -5628,6 +5640,39 @@
         </mxCell>
         <mxCell id="Rkgxptif9Ixna_bJ6Rkf-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Developer" vertex="1">
           <mxGeometry height="60" width="30" x="1390" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-7" edge="1" parent="1" source="WrsnWQhAQkbqXrg1UV5s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bzFKZOjZW0pi0qRdEOq_-2" value="read">
+          <mxGeometry relative="1" x="-0.5604" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="690" y="790" />
+              <mxPoint x="630" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-8" edge="1" parent="1" source="WrsnWQhAQkbqXrg1UV5s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bzFKZOjZW0pi0qRdEOq_-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="740" />
+              <mxPoint x="690" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-9" edge="1" parent="1" source="WrsnWQhAQkbqXrg1UV5s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bzFKZOjZW0pi0qRdEOq_-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="790" />
+              <mxPoint x="777" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-10" edge="1" parent="1" source="WrsnWQhAQkbqXrg1UV5s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bzFKZOjZW0pi0qRdEOq_-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="790" />
+              <mxPoint x="868" y="790" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
