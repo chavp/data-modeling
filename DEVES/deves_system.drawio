@@ -5446,7 +5446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MNocMebzaIFX8RBu_DYx" name="Deves Insuraces Microservices">
-    <mxGraphModel dx="1842" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1558" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5615,6 +5615,16 @@
         </mxCell>
         <mxCell id="ssLnPHRHvtS9ZaogOoS9-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Agent / Broker" vertex="1">
           <mxGeometry height="60" width="30" x="158" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="MgaflTIg9pFiiVm3uWu4-1" edge="1" parent="1" source="Rkgxptif9Ixna_bJ6Rkf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-16" value="commit / push">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1405" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rkgxptif9Ixna_bJ6Rkf-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Developer" vertex="1">
+          <mxGeometry height="60" width="30" x="1390" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
