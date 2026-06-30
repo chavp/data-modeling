@@ -10259,7 +10259,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves DB">
-    <mxGraphModel dx="4879" dy="3061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10271,12 +10271,12 @@
         <mxCell id="aCs4q8-tcxM-JiCqcimE-2" parent="aCs4q8-tcxM-JiCqcimE-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# CNTTYPE_PREFIX : string (2)&lt;br&gt;&lt;div&gt;# COVER_CODE : string (2)&lt;/div&gt;&lt;/div&gt;* Id : int&lt;div&gt;&lt;div&gt;&lt;div&gt;o COVER_NAME_TH: string (100)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="230" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DVS_AGENTS" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Packages" vertex="1">
           <mxGeometry height="105" width="210" x="-170" y="-472.5" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-4" parent="aCs4q8-tcxM-JiCqcimE-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# ID&lt;/div&gt;" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-4" parent="aCs4q8-tcxM-JiCqcimE-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;" vertex="1">
           <mxGeometry height="55" width="210" y="50" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-5" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Campaigns" vertex="1">
@@ -10309,12 +10309,12 @@
         <mxCell id="aCs4q8-tcxM-JiCqcimE-10" parent="aCs4q8-tcxM-JiCqcimE-9" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Code: string (10) {&amp;nbsp;&amp;nbsp;VOUCHER, DISCOUNT, FREE }&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="310" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;u&gt;AgentsCampaigns&lt;/u&gt;" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;u&gt;PackagesCampaigns&lt;/u&gt;" vertex="1">
           <mxGeometry height="160" width="240" x="225" y="-500" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-19" parent="aCs4q8-tcxM-JiCqcimE-18" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK: Agents.Id&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;Campaigns&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* EffectiveFromDate : DateOnly&lt;/div&gt;&lt;div&gt;* EffectivToDate : &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DateOnly&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-19" parent="aCs4q8-tcxM-JiCqcimE-18" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;Packages&lt;/span&gt;.Id&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;Campaigns&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* EffectiveFromDate : DateOnly&lt;/div&gt;&lt;div&gt;* EffectivToDate : &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DateOnly&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="240" y="50" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-20" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Recomendations" vertex="1">
@@ -10354,12 +10354,12 @@
         <mxCell id="aCs4q8-tcxM-JiCqcimE-32" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-27" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;u&gt;AgentsRecomendations&lt;/u&gt;" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-27" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;u&gt;PackagesRecomendations&lt;/u&gt;" vertex="1">
           <mxGeometry height="160" width="230" x="-570" y="-500" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-28" parent="aCs4q8-tcxM-JiCqcimE-27" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK: Agents.Id&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Recomendations.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* EffectiveFromDate : DateOnly&lt;/div&gt;&lt;div&gt;* EffectivToDate :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DateOnly&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-28" parent="aCs4q8-tcxM-JiCqcimE-27" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;Packages&lt;/span&gt;.Id&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Recomendations.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* EffectiveFromDate : DateOnly&lt;/div&gt;&lt;div&gt;* EffectivToDate :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DateOnly&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-34" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="MotorCoverCampaigns" vertex="1">
@@ -10470,6 +10470,14 @@
             <mxPoint x="740" y="780" as="sourcePoint" />
             <mxPoint x="450" y="930" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-58" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DVS_AGENTS" vertex="1">
+          <mxGeometry height="105" width="210" x="-170" y="-730" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-59" parent="aCs4q8-tcxM-JiCqcimE-58" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# ID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="210" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
