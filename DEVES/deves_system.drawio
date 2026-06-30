@@ -10486,24 +10486,6 @@
             <mxPoint x="260" y="-650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-4" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DVS_M_MOTOR_COVER" vertex="1">
-          <mxGeometry height="130" width="270" x="70" y="400" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-5" parent="Gc8GA9z1jqPsiSBK_zbb-4" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# CNTTYPE_PREFIX : string (2)&lt;br&gt;&lt;div&gt;# COVER_CODE : string (2)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;* Id : int&lt;div&gt;&lt;div&gt;&lt;div&gt;o COVER_NAME_TH: string (100)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="270" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-6" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" target="Gc8GA9z1jqPsiSBK_zbb-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="380" y="360" />
-              <mxPoint x="205" y="360" />
-            </Array>
-            <mxPoint x="660" y="300" as="sourcePoint" />
-            <mxPoint x="390" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Gc8GA9z1jqPsiSBK_zbb-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="OrderItems" vertex="1">
           <mxGeometry height="120" width="210" x="732.5" y="280" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
