@@ -10259,7 +10259,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves DB">
-    <mxGraphModel dx="2375" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="2352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10435,47 +10435,6 @@
             <mxPoint x="1000" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-46" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MotorApplications" vertex="1">
-          <mxGeometry height="130" width="325" x="587.5" y="430" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-47" parent="aCs4q8-tcxM-JiCqcimE-46" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Applications.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;DVS_MOTOR_APPLICATIONS&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 14px; text-align: center;&quot;&gt;.ID&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="325" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-48" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="Gc8GA9z1jqPsiSBK_zbb-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="750" y="380" />
-              <mxPoint x="1140" y="380" />
-            </Array>
-            <mxPoint x="510" y="520" as="sourcePoint" />
-            <mxPoint x="510" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-51" connectable="0" parent="aCs4q8-tcxM-JiCqcimE-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="hierarchy&amp;nbsp;" vertex="1">
-          <mxGeometry relative="1" x="0.1743" y="-4" as="geometry">
-            <mxPoint x="-198" y="16" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-52" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DVS_MOTOR_APPLICATIONS" vertex="1">
-          <mxGeometry height="130" width="230" x="635" y="620" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-53" parent="aCs4q8-tcxM-JiCqcimE-52" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# ID&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="230" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-54" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" target="aCs4q8-tcxM-JiCqcimE-52">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="750" y="590" />
-              <mxPoint x="750" y="590" />
-            </Array>
-            <mxPoint x="740" y="780" as="sourcePoint" />
-            <mxPoint x="450" y="930" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-64" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -10541,32 +10500,6 @@
             <mxPoint x="390" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-9" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DVS_PA_APPLICATIONS" vertex="1">
-          <mxGeometry height="130" width="230" x="1110" y="620" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-10" parent="Gc8GA9z1jqPsiSBK_zbb-9" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# ID&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="230" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-15" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="PaApplications" vertex="1">
-          <mxGeometry height="130" width="325" x="1030" y="420" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-16" parent="Gc8GA9z1jqPsiSBK_zbb-15" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Applications.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;DVS_PA_APPLICATIONS&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 14px; text-align: center;&quot;&gt;.ID&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="325" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-17" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" target="Gc8GA9z1jqPsiSBK_zbb-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1200" y="600" />
-              <mxPoint x="1200" y="600" />
-            </Array>
-            <mxPoint x="1010" y="590" as="sourcePoint" />
-            <mxPoint x="1010" y="670" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Gc8GA9z1jqPsiSBK_zbb-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="OrderItems" vertex="1">
           <mxGeometry height="90" width="210" x="1080" y="240" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
@@ -10581,61 +10514,8 @@
             <mxPoint x="990" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-21" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="Gc8GA9z1jqPsiSBK_zbb-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1185" y="400" />
-              <mxPoint x="1185" y="400" />
-            </Array>
-            <mxPoint x="1310" y="440" as="sourcePoint" />
-            <mxPoint x="1753" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-22" connectable="0" parent="Gc8GA9z1jqPsiSBK_zbb-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="hierarchy&amp;nbsp;" vertex="1">
-          <mxGeometry relative="1" x="0.1743" y="-4" as="geometry">
-            <mxPoint x="36" y="33" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-23" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="TaApplications" vertex="1">
-          <mxGeometry height="130" width="325" x="1500" y="420" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-24" parent="Gc8GA9z1jqPsiSBK_zbb-23" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Applications.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;DVS_PA_APPLICATIONS&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 14px; text-align: center;&quot;&gt;.ID&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="325" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-25" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="Gc8GA9z1jqPsiSBK_zbb-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1725" y="380" />
-              <mxPoint x="1240" y="380" />
-            </Array>
-            <mxPoint x="1725" y="420" as="sourcePoint" />
-            <mxPoint x="1600" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-26" connectable="0" parent="Gc8GA9z1jqPsiSBK_zbb-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="hierarchy&amp;nbsp;" vertex="1">
-          <mxGeometry relative="1" x="0.1743" y="-4" as="geometry">
-            <mxPoint x="333" y="24" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-27" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DVS_TA_APPLICATIONS" vertex="1">
-          <mxGeometry height="130" width="230" x="1550" y="620" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-28" parent="Gc8GA9z1jqPsiSBK_zbb-27" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# ID&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="230" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-29" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" target="Gc8GA9z1jqPsiSBK_zbb-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1730" y="590" as="sourcePoint" />
-            <mxPoint x="1730" y="660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Gc8GA9z1jqPsiSBK_zbb-32" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="PolicyHeaderOrderItems" vertex="1">
-          <mxGeometry height="130" width="325" x="1502.5" y="80" as="geometry">
+          <mxGeometry height="130" width="325" x="1020" y="440" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -10645,8 +10525,8 @@
         <mxCell id="Gc8GA9z1jqPsiSBK_zbb-36" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="Gc8GA9z1jqPsiSBK_zbb-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1340" y="150" />
-              <mxPoint x="1340" y="285" />
+              <mxPoint x="1202" y="480" />
+              <mxPoint x="1200" y="480" />
             </Array>
             <mxPoint x="1825" y="250" as="sourcePoint" />
             <mxPoint x="1340" y="160" as="targetPoint" />
@@ -10654,11 +10534,11 @@
         </mxCell>
         <mxCell id="Gc8GA9z1jqPsiSBK_zbb-37" connectable="0" parent="Gc8GA9z1jqPsiSBK_zbb-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="hierarchy&amp;nbsp;" vertex="1">
           <mxGeometry relative="1" x="0.1743" y="-4" as="geometry">
-            <mxPoint x="24" y="-61" as="offset" />
+            <mxPoint x="34" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Gc8GA9z1jqPsiSBK_zbb-38" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="T_POLICY_HEADER" vertex="1">
-          <mxGeometry height="130" width="230" x="1953" y="80" as="geometry">
+          <mxGeometry height="130" width="230" x="1067.5" y="710" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
