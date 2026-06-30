@@ -10259,12 +10259,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves DB">
-    <mxGraphModel dx="2117" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2178" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aCs4q8-tcxM-JiCqcimE-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="DVS_M_MOTOR_COVER" vertex="1">
-          <mxGeometry height="130" width="230" x="-590" y="230" as="geometry">
+          <mxGeometry height="130" width="230" x="-170" y="180" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -10290,11 +10290,11 @@
         <mxCell id="aCs4q8-tcxM-JiCqcimE-11" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="aCs4q8-tcxM-JiCqcimE-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-33" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-5">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-33" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Benefits" vertex="1">
-          <mxGeometry height="210" width="330" x="640" y="-250" as="geometry">
+          <mxGeometry height="210" width="330" x="640" y="-290" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -10302,20 +10302,12 @@
           <mxGeometry height="160" width="330" y="50" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-9" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="BenefitTypes" vertex="1">
-          <mxGeometry height="130" width="230" x="1110" y="-210" as="geometry">
+          <mxGeometry height="130" width="310" x="1100" y="-250" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-10" parent="aCs4q8-tcxM-JiCqcimE-9" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Code: string (10) {&amp;nbsp;&amp;nbsp;Voucher, Discount }&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="230" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-14" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="DVS_M_MOTOR_COVER_Campaigns" vertex="1">
-          <mxGeometry height="130" width="350" x="200" y="115" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-15" parent="aCs4q8-tcxM-JiCqcimE-14" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# CNTTYPE_PREFIX : string (2)&lt;br&gt;&lt;div&gt;# COVER_CODE : string (2)&lt;/div&gt;&lt;/div&gt;* Id : int&lt;div&gt;&lt;div&gt;&lt;div&gt;o COVER_NAME_TH: string (100)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="350" y="50" as="geometry" />
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-10" parent="aCs4q8-tcxM-JiCqcimE-9" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Code: string (10) {&amp;nbsp;&amp;nbsp;Voucher, Discount, Free }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="310" y="50" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="AgentsCampaigns" vertex="1">
           <mxGeometry height="130" width="230" x="240" y="-490" as="geometry">
@@ -10364,6 +10356,23 @@
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-28" parent="aCs4q8-tcxM-JiCqcimE-27" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK: Agents.Id&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Recomendations.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* EffectiveFromDate : DateOnly&lt;/div&gt;&lt;div&gt;* EffectivToDate :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DateOnly&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-34" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MotorCoverCampaigns" vertex="1">
+          <mxGeometry height="130" width="350" x="170" y="-30" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-35" parent="aCs4q8-tcxM-JiCqcimE-34" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id :&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;Campaigns&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#, FK:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DVS_M_MOTOR_COVER.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CNTTYPE_PREFIX&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#, FK:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DVS_M_MOTOR_COVER.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;COVER_CODE&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="350" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-36" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="335" />
+            </Array>
+            <mxPoint x="350" y="200" as="sourcePoint" />
+            <mxPoint x="655" y="335" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
