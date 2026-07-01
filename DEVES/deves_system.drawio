@@ -10259,7 +10259,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves DB">
-    <mxGraphModel dx="2178" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2093" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10286,12 +10286,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="PromotionBenefits" vertex="1">
-          <mxGeometry height="235" width="360" x="570" y="-287.5" as="geometry">
+          <mxGeometry height="277.5" width="360" x="570" y="-308.75" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-8" parent="aCs4q8-tcxM-JiCqcimE-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Promotions.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;PromotionBenefitType&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;s.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;* Order ; int&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;o Code : string ( 10 )&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Value : decimal ( default = 0 )&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Unit : string (10 ) { Code, Amount, Percentage, Item }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;o CoverImage : byte[]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;o CoverImageEn : byte[]&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="185" width="360" y="50" as="geometry" />
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-8" parent="aCs4q8-tcxM-JiCqcimE-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Promotions.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;PromotionBenefitType&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;s.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;* Order ; int&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;o Code : string ( 10 )&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Value : decimal ( default = 0 )&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Unit : string (10 ) { Code, Amount, Percentage, Item }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Title : string (200)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o TitleEn : string (200)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;o CoverImage : byte[]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;o CoverImageEn : byte[]&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="227.5" width="360" y="50" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-9" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="PromotionBenefitTypes" vertex="1">
           <mxGeometry height="130" width="310" x="1050" y="-235" as="geometry">
@@ -10546,6 +10546,14 @@
             <mxPoint x="96" y="190" as="sourcePoint" />
             <mxPoint x="-70" y="90" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-59" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Units" vertex="1">
+          <mxGeometry height="130" width="430" x="1100" y="-31.25" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-60" parent="Gc8GA9z1jqPsiSBK_zbb-59" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* Code: string (10) {&amp;nbsp; CODE, AMOUNT, PERCENTAGE, ITEM }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="430" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
