@@ -10263,14 +10263,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DVS_M_MOTOR_COVER" vertex="1">
-          <mxGeometry height="130" width="270" x="-190" y="180" as="geometry">
-            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-2" parent="aCs4q8-tcxM-JiCqcimE-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# CNTTYPE_PREFIX : string (2)&lt;br&gt;&lt;div&gt;# COVER_CODE : string (2)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;* Id : int&lt;div&gt;&lt;div&gt;&lt;div&gt;o COVER_NAME_TH: string (100)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="270" y="50" as="geometry" />
-        </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="MarketPackages" vertex="1">
           <mxGeometry height="105" width="210" x="-170" y="-472.5" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
@@ -10317,13 +10309,6 @@
         <mxCell id="aCs4q8-tcxM-JiCqcimE-21" parent="aCs4q8-tcxM-JiCqcimE-20" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* U: FactorCode : string (500)&lt;/div&gt;&lt;div&gt;* Order ; int&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Title : string (200)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o TitleEn : string (200)&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="230" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-25" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" target="aCs4q8-tcxM-JiCqcimE-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-490" y="250" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-26" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -10359,22 +10344,13 @@
         <mxCell id="aCs4q8-tcxM-JiCqcimE-28" parent="aCs4q8-tcxM-JiCqcimE-27" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;MarketPackages&lt;/span&gt;.Id&lt;/div&gt;&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Recomendations.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* EffectiveFromDate : DateOnly&lt;/div&gt;&lt;div&gt;* EffectivToDate :&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DateOnly&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="290" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-34" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MotorCoverPremiumTablePromotions" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-34" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MotorPackagePromotions" vertex="1">
           <mxGeometry height="190" width="310" x="190" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-35" parent="aCs4q8-tcxM-JiCqcimE-34" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;Promotions&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#, FK:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DVS_M_MOTOR_COVER&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CNTTYPE_PREFIX&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#, FK:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DVS_M_MOTOR_COVER.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;COVER_CODE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;# &lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21); background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;Campaign Code&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(163, 21, 21); background-color: rgb(255, 255, 255); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;# Premium Table Name&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="aCs4q8-tcxM-JiCqcimE-35" parent="aCs4q8-tcxM-JiCqcimE-34" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center;&quot;&gt;Promotions&lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* U : &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TypeCode : string (5)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;* U : &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CoverType &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;: string (5)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;* U : &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Code : string (50 )&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="310" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-36" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERone;endFill=0;" target="aCs4q8-tcxM-JiCqcimE-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="250" />
-            </Array>
-            <mxPoint x="350" y="200" as="sourcePoint" />
-            <mxPoint x="655" y="335" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-37" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" target="aCs4q8-tcxM-JiCqcimE-3">
           <mxGeometry relative="1" as="geometry">
@@ -10554,6 +10530,21 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="830" y="-350" as="sourcePoint" />
             <mxPoint x="950" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-54" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Motor Inquiry Packages&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;- Recomendation Factor Code {&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;TypeCode,&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;CoverType,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;Code&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: medium; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&amp;nbsp;}&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: medium; font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="520" x="-330" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-55" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-54" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" target="aCs4q8-tcxM-JiCqcimE-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-140" y="130" as="sourcePoint" />
+            <mxPoint x="-90" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gc8GA9z1jqPsiSBK_zbb-56" edge="1" parent="1" source="Gc8GA9z1jqPsiSBK_zbb-54" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" target="aCs4q8-tcxM-JiCqcimE-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="96" y="190" as="sourcePoint" />
+            <mxPoint x="-70" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
