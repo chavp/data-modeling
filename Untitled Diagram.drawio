@@ -25,13 +25,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PULm32-483bZ5G5xLR3R-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Parties" vertex="1">
-          <mxGeometry height="78" width="170" x="240" y="230" as="geometry" />
+          <mxGeometry height="78" width="180" x="370" y="70" as="geometry" />
         </mxCell>
         <mxCell id="PULm32-483bZ5G5xLR3R-2" parent="PULm32-483bZ5G5xLR3R-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
-          <mxGeometry height="26" width="170" y="26" as="geometry" />
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="PULm32-483bZ5G5xLR3R-3" parent="PULm32-483bZ5G5xLR3R-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o Description: string(300)" vertex="1">
-          <mxGeometry height="26" width="170" y="52" as="geometry" />
+          <mxGeometry height="26" width="180" y="52" as="geometry" />
         </mxCell>
         <mxCell id="PULm32-483bZ5G5xLR3R-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PartyRoles" vertex="1">
           <mxGeometry height="78" width="170" x="80" y="30" as="geometry" />
@@ -53,6 +53,9 @@
         </mxCell>
         <mxCell id="PULm32-483bZ5G5xLR3R-11" parent="PULm32-483bZ5G5xLR3R-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* Code: string(50)" vertex="1">
           <mxGeometry height="26" width="170" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n5bHQcU1tqpc8jvGUDYd-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Nursing Home Roles&lt;/h1&gt;&lt;p&gt;NURSE&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="-550" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
