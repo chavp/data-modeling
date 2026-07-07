@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zFk7fF187ZyAKbubGscW" name="Parties">
-    <mxGraphModel dx="1642" dy="1579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1786" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,13 +73,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="People" vertex="1">
-          <mxGeometry height="78" width="180" x="260" y="230" as="geometry" />
+          <mxGeometry height="104" width="180" x="260" y="230" as="geometry" />
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-6" parent="RsXIA-GkZSuqD9qvixf9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
           <mxGeometry height="26" width="180" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="RsXIA-GkZSuqD9qvixf9-7" parent="RsXIA-GkZSuqD9qvixf9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o Description: string(300)" vertex="1">
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-7" parent="RsXIA-GkZSuqD9qvixf9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o DateOfBirth : DateOnly" vertex="1">
           <mxGeometry height="26" width="180" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-9" parent="RsXIA-GkZSuqD9qvixf9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o Gender : string(5)" vertex="1">
+          <mxGeometry height="26" width="180" y="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
