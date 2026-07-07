@@ -156,7 +156,7 @@
           <mxGeometry height="120" width="180" x="1120" y="-40" as="geometry" />
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-43" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Countries" vertex="1">
-          <mxGeometry height="78" width="180" x="335" y="-170" as="geometry" />
+          <mxGeometry height="78" width="180" x="890" y="-170" as="geometry" />
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-44" parent="RsXIA-GkZSuqD9qvixf9-43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
           <mxGeometry height="26" width="180" y="26" as="geometry" />
@@ -196,6 +196,18 @@
             <mxPoint x="580" y="282" as="sourcePoint" />
             <mxPoint x="700" y="160" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-57" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Titles" vertex="1">
+          <mxGeometry height="104" width="180" x="335" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-58" parent="RsXIA-GkZSuqD9qvixf9-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-59" parent="RsXIA-GkZSuqD9qvixf9-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* Name: string(300)" vertex="1">
+          <mxGeometry height="26" width="180" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-60" parent="RsXIA-GkZSuqD9qvixf9-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o Description: string(300)" vertex="1">
+          <mxGeometry height="26" width="180" y="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
