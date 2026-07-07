@@ -215,6 +215,31 @@
             <mxPoint x="690" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-62" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LanguageTitles" vertex="1">
+          <mxGeometry height="78" width="180" x="20" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-63" parent="RsXIA-GkZSuqD9qvixf9-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-64" parent="RsXIA-GkZSuqD9qvixf9-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* Name: string(300)" vertex="1">
+          <mxGeometry height="26" width="180" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-66" edge="1" parent="1" source="RsXIA-GkZSuqD9qvixf9-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" target="RsXIA-GkZSuqD9qvixf9-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="-140" as="sourcePoint" />
+            <mxPoint x="-60" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-67" edge="1" parent="1" source="RsXIA-GkZSuqD9qvixf9-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" target="RsXIA-GkZSuqD9qvixf9-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="-211" />
+              <mxPoint x="430" y="-210" />
+            </Array>
+            <mxPoint x="260" y="26" as="sourcePoint" />
+            <mxPoint x="260" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
