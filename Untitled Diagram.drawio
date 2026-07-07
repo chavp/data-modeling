@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zFk7fF187ZyAKbubGscW" name="Parties">
-    <mxGraphModel dx="1708" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,7 @@
         <mxCell id="PULm32-483bZ5G5xLR3R-7" parent="PULm32-483bZ5G5xLR3R-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* Description: string(300)" vertex="1">
           <mxGeometry height="26" width="170" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="PULm32-483bZ5G5xLR3R-12" edge="1" parent="1" source="PULm32-483bZ5G5xLR3R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PULm32-483bZ5G5xLR3R-5">
+        <mxCell id="PULm32-483bZ5G5xLR3R-12" edge="1" parent="1" source="PULm32-483bZ5G5xLR3R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="PULm32-483bZ5G5xLR3R-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PULm32-483bZ5G5xLR3R-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PartyRoleTypes" vertex="1">
