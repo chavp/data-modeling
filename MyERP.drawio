@@ -84,6 +84,24 @@
         <mxCell id="RsXIA-GkZSuqD9qvixf9-9" parent="RsXIA-GkZSuqD9qvixf9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o Gender : string(5)" vertex="1">
           <mxGeometry height="26" width="180" y="78" as="geometry" />
         </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-14" edge="1" parent="1" source="RsXIA-GkZSuqD9qvixf9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RsXIA-GkZSuqD9qvixf9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PersonNames" vertex="1">
+          <mxGeometry height="130" width="180" x="-30" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-11" parent="RsXIA-GkZSuqD9qvixf9-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-12" parent="RsXIA-GkZSuqD9qvixf9-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* FirstName : string (500)" vertex="1">
+          <mxGeometry height="26" width="180" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-13" parent="RsXIA-GkZSuqD9qvixf9-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* LastName: string (500)" vertex="1">
+          <mxGeometry height="26" width="180" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-15" parent="RsXIA-GkZSuqD9qvixf9-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o MidleName: string (500)" vertex="1">
+          <mxGeometry height="26" width="180" y="104" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
