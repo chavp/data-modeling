@@ -37,7 +37,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PULm32-483bZ5G5xLR3R-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PartyRoles" vertex="1">
-          <mxGeometry height="130" width="170" x="70" y="4" as="geometry" />
+          <mxGeometry height="130" width="170" x="80" y="4" as="geometry" />
         </mxCell>
         <mxCell id="PULm32-483bZ5G5xLR3R-6" parent="PULm32-483bZ5G5xLR3R-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
           <mxGeometry height="26" width="170" y="26" as="geometry" />
@@ -68,6 +68,18 @@
         </mxCell>
         <mxCell id="n5bHQcU1tqpc8jvGUDYd-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Nursing Home Roles&lt;/h1&gt;&lt;li data-section-id=&quot;rs22er&quot; data-start=&quot;983&quot; data-end=&quot;998&quot;&gt;Administrator&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;1n7flta&quot; data-start=&quot;999&quot; data-end=&quot;1013&quot;&gt;&lt;br&gt;Care Manager&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;16vik3b&quot; data-start=&quot;1014&quot; data-end=&quot;1021&quot;&gt;&lt;br&gt;Nurse&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;19c0t82&quot; data-start=&quot;1022&quot; data-end=&quot;1033&quot;&gt;&lt;br&gt;Caregiver&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;128ccwm&quot; data-start=&quot;1034&quot; data-end=&quot;1045&quot;&gt;&lt;br&gt;Physician&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;q8vo76&quot; data-start=&quot;1046&quot; data-end=&quot;1058&quot;&gt;&lt;br&gt;Pharmacist&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;frve7j&quot; data-start=&quot;1059&quot; data-end=&quot;1070&quot;&gt;&lt;br&gt;Dietitian&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;1dv9aig&quot; data-start=&quot;1071&quot; data-end=&quot;1090&quot;&gt;&lt;br&gt;&lt;strong data-start=&quot;1073&quot; data-end=&quot;1090&quot;&gt;Kitchen Staff&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;1tk1rm9&quot; data-start=&quot;1091&quot; data-end=&quot;1115&quot;&gt;&lt;br&gt;&lt;strong data-start=&quot;1093&quot; data-end=&quot;1115&quot;&gt;Housekeeping Staff&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;1vzqzr3&quot; data-start=&quot;1116&quot; data-end=&quot;1151&quot;&gt;&lt;br&gt;Maintenance Staff (ช่างซ่อมบำรุง)&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;c3lr10&quot; data-start=&quot;1152&quot; data-end=&quot;1183&quot;&gt;&lt;br&gt;Laundry Staff (พนักงานซักรีด)&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;137qxep&quot; data-start=&quot;1184&quot; data-end=&quot;1215&quot;&gt;&lt;br&gt;Receptionist (พนักงานต้อนรับ)&lt;br&gt;&lt;/li&gt;&lt;p&gt;&lt;br&gt;Patient&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;li data-section-id=&quot;1t4zfl2&quot; data-start=&quot;1216&quot; data-end=&quot;1262&quot;&gt;&lt;br&gt;Security Guard (เจ้าหน้าที่รักษาความปลอดภัย)&lt;/li&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="470" width="280" x="-565" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-8" edge="1" parent="1" source="RsXIA-GkZSuqD9qvixf9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="PULm32-483bZ5G5xLR3R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="People" vertex="1">
+          <mxGeometry height="78" width="180" x="260" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-6" parent="RsXIA-GkZSuqD9qvixf9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RsXIA-GkZSuqD9qvixf9-7" parent="RsXIA-GkZSuqD9qvixf9-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o Description: string(300)" vertex="1">
+          <mxGeometry height="26" width="180" y="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
