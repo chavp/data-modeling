@@ -10618,7 +10618,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CpDtt8Gye_5ERye8JKWs-4" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="CmpBenefitItems" vertex="1">
-          <mxGeometry height="130" width="255" x="1037.5" y="230" as="geometry">
+          <mxGeometry height="130" width="255" x="1020" y="230" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -10627,7 +10627,10 @@
         </mxCell>
         <mxCell id="CpDtt8Gye_5ERye8JKWs-6" edge="1" parent="1" source="CpDtt8Gye_5ERye8JKWs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="1k4oeVpASwUmOVQtiTMO-2">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="1150" y="200" />
+              <mxPoint x="1150" y="200" />
+            </Array>
             <mxPoint x="1250" y="305" as="sourcePoint" />
             <mxPoint x="1250" y="210" as="targetPoint" />
           </mxGeometry>
@@ -10649,7 +10652,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1480" y="180" />
-              <mxPoint x="1165" y="180" />
+              <mxPoint x="1180" y="180" />
             </Array>
             <mxPoint x="1350" y="270" as="sourcePoint" />
             <mxPoint x="1350" y="160" as="targetPoint" />
