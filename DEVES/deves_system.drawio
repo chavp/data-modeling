@@ -5636,6 +5636,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="e4-07a420sF8983_Glph-4" connectable="0" parent="KWBQCTX1Ta2DbbYP67Q9-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https" vertex="1">
+          <mxGeometry relative="1" x="-0.15" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DIM5nwG1esVx-hSQRv-G-1" edge="1" parent="1" source="YNpdGngMFROGyaUbrbhr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-7" value="get access token">
           <mxGeometry relative="1" x="-0.5534" y="-52" as="geometry">
             <mxPoint as="offset" />
@@ -5643,6 +5648,11 @@
               <mxPoint x="529" y="580" />
               <mxPoint x="529" y="580" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4-07a420sF8983_Glph-3" connectable="0" parent="DIM5nwG1esVx-hSQRv-G-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https" vertex="1">
+          <mxGeometry relative="1" x="0.1695" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vNr0Q58PedRYwXdlyLur-1" parent="1" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" value="OAuth2" vertex="1">
@@ -5666,6 +5676,11 @@
             <mxPoint x="-13" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="e4-07a420sF8983_Glph-2" connectable="0" parent="-32oiOra6nGeLzGu5GUl-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https" vertex="1">
+          <mxGeometry relative="1" x="0.6453" y="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ssLnPHRHvtS9ZaogOoS9-2" edge="1" parent="1" source="ssLnPHRHvtS9ZaogOoS9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YNpdGngMFROGyaUbrbhr-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -5674,17 +5689,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="e4-07a420sF8983_Glph-5" connectable="0" parent="ssLnPHRHvtS9ZaogOoS9-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https" vertex="1">
+          <mxGeometry relative="1" x="-0.3486" y="-5" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ssLnPHRHvtS9ZaogOoS9-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Agent / Broker" vertex="1">
           <mxGeometry height="60" width="30" x="158" y="770" as="geometry" />
         </mxCell>
-        <mxCell id="MgaflTIg9pFiiVm3uWu4-1" edge="1" parent="1" source="Rkgxptif9Ixna_bJ6Rkf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-16" value="commit / push">
+        <mxCell id="MgaflTIg9pFiiVm3uWu4-1" edge="1" parent="1" source="Rkgxptif9Ixna_bJ6Rkf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-16" value="https, commit / push">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1405" y="335" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bzFKZOjZW0pi0qRdEOq_-1" edge="1" parent="1" source="Rkgxptif9Ixna_bJ6Rkf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-15" value="build / deploy">
+        <mxCell id="bzFKZOjZW0pi0qRdEOq_-1" edge="1" parent="1" source="Rkgxptif9Ixna_bJ6Rkf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WrsnWQhAQkbqXrg1UV5s-15" value="https, build / deploy">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rkgxptif9Ixna_bJ6Rkf-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Developer" vertex="1">
