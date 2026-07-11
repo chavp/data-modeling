@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="ERP" id="1dGozrZbbg-b1558PS68">
-    <mxGraphModel dx="673" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="902" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zFk7fF187ZyAKbubGscW" name="Parties">
-    <mxGraphModel dx="3875" dy="2363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3347" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,7 +197,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-57" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Titles" vertex="1">
-          <mxGeometry height="78" width="180" x="310" y="-250" as="geometry" />
+          <mxGeometry height="78" width="180" x="290" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-58" parent="RsXIA-GkZSuqD9qvixf9-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
           <mxGeometry height="26" width="180" y="26" as="geometry" />
@@ -216,7 +216,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-62" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LanguageTitles" vertex="1">
-          <mxGeometry height="78" width="180" x="20" y="-250" as="geometry" />
+          <mxGeometry height="78" width="180" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-63" parent="RsXIA-GkZSuqD9qvixf9-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
           <mxGeometry height="26" width="180" y="26" as="geometry" />
@@ -233,11 +233,11 @@
         <mxCell id="RsXIA-GkZSuqD9qvixf9-67" edge="1" parent="1" source="RsXIA-GkZSuqD9qvixf9-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERzeroToMany;startFill=0;" target="RsXIA-GkZSuqD9qvixf9-57">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="270" y="-211" />
-              <mxPoint x="390" y="-210" />
+              <mxPoint x="250" y="-211" />
+              <mxPoint x="370" y="-210" />
             </Array>
-            <mxPoint x="260" y="26" as="sourcePoint" />
-            <mxPoint x="260" y="-80" as="targetPoint" />
+            <mxPoint x="240" y="26" as="sourcePoint" />
+            <mxPoint x="240" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RsXIA-GkZSuqD9qvixf9-68" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PartyTypes" vertex="1">
