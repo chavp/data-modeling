@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zFk7fF187ZyAKbubGscW" name="Parties">
-    <mxGraphModel dx="3694" dy="2122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2848" dy="1688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,10 +279,10 @@
         <mxCell id="mtY94fsHspQrsw4L9fGF-2" parent="mtY94fsHspQrsw4L9fGF-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
           <mxGeometry height="26" width="170" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="mtY94fsHspQrsw4L9fGF-3" parent="mtY94fsHspQrsw4L9fGF-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* Description: string(300)" vertex="1">
+        <mxCell id="mtY94fsHspQrsw4L9fGF-3" parent="mtY94fsHspQrsw4L9fGF-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="*&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LegalName&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: string(200)&lt;/span&gt;" vertex="1">
           <mxGeometry height="26" width="170" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="mtY94fsHspQrsw4L9fGF-4" parent="mtY94fsHspQrsw4L9fGF-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* EffectiveDate: DateOnly" vertex="1">
+        <mxCell id="mtY94fsHspQrsw4L9fGF-4" parent="mtY94fsHspQrsw4L9fGF-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="o Information: string(500)" vertex="1">
           <mxGeometry height="26" width="170" y="78" as="geometry" />
         </mxCell>
         <mxCell id="mtY94fsHspQrsw4L9fGF-5" parent="mtY94fsHspQrsw4L9fGF-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* ExpiryDate: DateOnly" vertex="1">
