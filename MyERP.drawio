@@ -298,6 +298,15 @@
             <mxPoint x="480" y="-170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mtY94fsHspQrsw4L9fGF-7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LegalStructures" vertex="1">
+          <mxGeometry height="78" width="170" x="490" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="mtY94fsHspQrsw4L9fGF-8" parent="mtY94fsHspQrsw4L9fGF-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Id: guid" vertex="1">
+          <mxGeometry height="26" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mtY94fsHspQrsw4L9fGF-9" parent="mtY94fsHspQrsw4L9fGF-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="* Code: string(50)" vertex="1">
+          <mxGeometry height="26" width="170" y="52" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
