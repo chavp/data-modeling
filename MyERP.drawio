@@ -755,6 +755,22 @@
         <mxCell id="DFRnP4zSqiH8itncpPAu-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Employee" vertex="1">
           <mxGeometry height="50" width="99.77" x="50" y="364.28" as="geometry" />
         </mxCell>
+        <mxCell id="iCaUEil_-XXUfMGd6RHi-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyIdentity" vertex="1">
+          <mxGeometry height="60" width="164.99" x="540" y="799.28" as="geometry" />
+        </mxCell>
+        <mxCell id="jA2ggVtbTTXFQI0CQQMM-1" edge="1" parent="1" source="iCaUEil_-XXUfMGd6RHi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="U4hYDMhdRpOtA1KS_dux-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="760" />
+              <mxPoint x="623" y="760" />
+            </Array>
+            <mxPoint x="600" y="1010" as="sourcePoint" />
+            <mxPoint x="600" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jA2ggVtbTTXFQI0CQQMM-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyIdentityType" vertex="1">
+          <mxGeometry height="60" width="164.99" x="720" y="799.28" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
