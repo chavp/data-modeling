@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="24">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="25">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
     <mxGraphModel dx="5987" dy="5611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8136,7 +8136,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-v9v-GB5H7FLa6-WTGxB" name="P2026-010 LINE BCRM">
-    <mxGraphModel dx="1290" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10804,6 +10804,84 @@
             <mxPoint x="970" y="-170" as="sourcePoint" />
             <mxPoint x="1132" y="-170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ju-qQBPiz2GSLAB-7_yY" name="DApp">
+    <mxGraphModel dx="2234" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-21" edge="1" parent="1" source="AlNVlBdVpGhC_r6lxD9y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AlNVlBdVpGhC_r6lxD9y-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="95" />
+              <mxPoint x="610" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-22" connectable="0" parent="AlNVlBdVpGhC_r6lxD9y-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="https" vertex="1">
+          <mxGeometry relative="1" x="0.452" as="geometry">
+            <mxPoint x="-105" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-24" edge="1" parent="1" source="AlNVlBdVpGhC_r6lxD9y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AlNVlBdVpGhC_r6lxD9y-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DApp&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stack: ASP.NET Framework 8, Angular 1.0&lt;br&gt;&lt;br&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;scbbranchsit.deves.co.th&lt;/span&gt;&amp;nbsp;/&amp;nbsp;&lt;span data-teams=&quot;true&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;10.103.0.46&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-23" edge="1" parent="1" source="AlNVlBdVpGhC_r6lxD9y-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AlNVlBdVpGhC_r6lxD9y-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="API" vertex="1">
+          <mxGeometry height="340" width="240" x="680" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-13" parent="AlNVlBdVpGhC_r6lxD9y-19" style="rounded=1;whiteSpace=wrap;html=1;" value="uapimvip.deves.co.th" vertex="1">
+          <mxGeometry height="60" width="150" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-15" parent="AlNVlBdVpGhC_r6lxD9y-19" style="rounded=1;whiteSpace=wrap;html=1;" value="iapisvuat" vertex="1">
+          <mxGeometry height="60" width="150" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-16" parent="AlNVlBdVpGhC_r6lxD9y-19" style="rounded=1;whiteSpace=wrap;html=1;" value="apisvuat" vertex="1">
+          <mxGeometry height="60" width="150" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-17" parent="AlNVlBdVpGhC_r6lxD9y-19" style="rounded=1;whiteSpace=wrap;html=1;" value="192.168.78/TAXONEUAT" vertex="1">
+          <mxGeometry height="60" width="150" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Data" vertex="1">
+          <mxGeometry height="330" width="610" x="-170" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-6" edge="1" parent="AlNVlBdVpGhC_r6lxD9y-20" source="AlNVlBdVpGhC_r6lxD9y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AlNVlBdVpGhC_r6lxD9y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-2" parent="AlNVlBdVpGhC_r6lxD9y-20" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&amp;lt;&amp;lt;primary&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span data-teams=&quot;true&quot;&gt;MongoDB&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;192.168.4.75&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="100" x="100" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-4" parent="AlNVlBdVpGhC_r6lxD9y-20" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&amp;lt;&amp;lt;secondary&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span data-teams=&quot;true&quot;&gt;MongoDB&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;192.168.4.76&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="100" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-5" parent="AlNVlBdVpGhC_r6lxD9y-20" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&amp;lt;&amp;lt;secondary&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;span data-teams=&quot;true&quot;&gt;MongoDB&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;192.168.4.77&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="100" x="180" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-8" edge="1" parent="AlNVlBdVpGhC_r6lxD9y-20" source="AlNVlBdVpGhC_r6lxD9y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="AlNVlBdVpGhC_r6lxD9y-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="160" />
+              <mxPoint x="230" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-9" parent="AlNVlBdVpGhC_r6lxD9y-20" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SQL Server&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;server session&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;192.168.4.75&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="100" x="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AlNVlBdVpGhC_r6lxD9y-12" parent="AlNVlBdVpGhC_r6lxD9y-20" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SQL Server&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;core database&lt;br&gt;&lt;/span&gt;&lt;span data-teams=&quot;true&quot;&gt;Polisy400Dev&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;192.168.3.83&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="450" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
