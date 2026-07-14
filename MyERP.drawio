@@ -816,10 +816,20 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductFeatureApplicability" vertex="1">
-          <mxGeometry height="90" width="210" x="180" y="345" as="geometry" />
+          <mxGeometry height="90" width="210" x="240" y="290" as="geometry" />
         </mxCell>
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductFeature" vertex="1">
-          <mxGeometry height="90" width="210" x="180" y="540" as="geometry" />
+          <mxGeometry height="90" width="210" x="240" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="lFbs2GCGzoo1iz7KUpcX-8" edge="1" parent="1" source="lFbs2GCGzoo1iz7KUpcX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="lFbs2GCGzoo1iz7KUpcX-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="335" />
+              <mxPoint x="540" y="335" />
+            </Array>
+            <mxPoint x="460" y="500" as="sourcePoint" />
+            <mxPoint x="460" y="605" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
