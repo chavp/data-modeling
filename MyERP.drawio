@@ -849,10 +849,10 @@
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Organization" vertex="1">
           <mxGeometry height="60" width="180" x="-600" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="lFbs2GCGzoo1iz7KUpcX-19" edge="1" parent="1" source="lFbs2GCGzoo1iz7KUpcX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;dashed=1;" target="lFbs2GCGzoo1iz7KUpcX-18">
+        <mxCell id="lFbs2GCGzoo1iz7KUpcX-19" edge="1" parent="1" source="lFbs2GCGzoo1iz7KUpcX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;dashed=1;" target="lFbs2GCGzoo1iz7KUpcX-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="865" y="170" />
+              <mxPoint x="-40" y="170" />
             </Array>
             <mxPoint x="-280" y="170" as="sourcePoint" />
             <mxPoint x="-300" y="530" as="targetPoint" />
@@ -863,6 +863,9 @@
         </mxCell>
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductPackage" vertex="1">
           <mxGeometry height="60" width="180" x="730" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lFbs2GCGzoo1iz7KUpcX-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductRole" vertex="1">
+          <mxGeometry height="60" width="180" x="-120" y="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
