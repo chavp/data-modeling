@@ -1254,6 +1254,31 @@
         <mxCell id="uexsjOJxkqQ0xtEvtAhg-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="DSS Share&lt;div&gt;\dss\attachments&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UAT, PRD&lt;/div&gt;" vertex="1">
           <mxGeometry height="95" width="230" x="4870" y="-470" as="geometry" />
         </mxCell>
+        <mxCell id="uexsjOJxkqQ0xtEvtAhg-4" edge="1" parent="1" source="Ls9AKRGu1LaMKWpJcmZh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uexsjOJxkqQ0xtEvtAhg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4930" y="-593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uexsjOJxkqQ0xtEvtAhg-6" connectable="0" parent="uexsjOJxkqQ0xtEvtAhg-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="upload / dowload" vertex="1">
+          <mxGeometry relative="1" x="0.1815" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uexsjOJxkqQ0xtEvtAhg-5" edge="1" parent="1" source="Ls9AKRGu1LaMKWpJcmZh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uexsjOJxkqQ0xtEvtAhg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4650" y="-412" />
+              <mxPoint x="4650" y="-412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uexsjOJxkqQ0xtEvtAhg-7" connectable="0" parent="uexsjOJxkqQ0xtEvtAhg-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="upload / dowload" vertex="1">
+          <mxGeometry relative="1" x="0.4621" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
