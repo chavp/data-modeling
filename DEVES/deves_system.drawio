@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="25">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
-    <mxGraphModel dx="2525" dy="3320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3554" dy="3178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7132,7 +7132,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="viXMmUQFmoAUGWqhKGZh" name="TAXONE">
-    <mxGraphModel dx="3699" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2912" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7148,7 +7148,7 @@
         <mxCell id="WQhZC0d1QeZH-DHMvNYJ-5" edge="1" parent="1" source="WQhZC0d1QeZH-DHMvNYJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WQhZC0d1QeZH-DHMvNYJ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WQhZC0d1QeZH-DHMvNYJ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="HSM Cert Store&lt;div&gt;UAT / PRD&lt;/div&gt;" vertex="1">
+        <mxCell id="WQhZC0d1QeZH-DHMvNYJ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="HSM Cert Store&lt;div&gt;UAT / PRD&lt;/div&gt;&lt;div&gt;&amp;nbsp;192.168.9.14&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="160" x="598" y="370" as="geometry" />
         </mxCell>
         <mxCell id="WQhZC0d1QeZH-DHMvNYJ-7" edge="1" parent="1" source="WQhZC0d1QeZH-DHMvNYJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WQhZC0d1QeZH-DHMvNYJ-6">
@@ -7879,7 +7879,7 @@
         <mxCell id="P_qCUjS47rAz3716_0MR-3" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="100" width="205" x="588" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="P_qCUjS47rAz3716_0MR-4" parent="P_qCUjS47rAz3716_0MR-3" style="rounded=1;whiteSpace=wrap;html=1;" value="TAXONE&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;http://192.168.3.78:8090/TAXONEUAT/login.html&quot;&gt;UAT&lt;/a&gt;,&lt;/div&gt;&lt;div&gt;ashita.k / ast2026@uat&lt;/div&gt;" vertex="1">
+        <mxCell id="P_qCUjS47rAz3716_0MR-4" parent="P_qCUjS47rAz3716_0MR-3" style="rounded=1;whiteSpace=wrap;html=1;" value="TAXONE&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;http://192.168.3.78:8090/TAXONEUAT/login.html&quot;&gt;UAT&lt;/a&gt;,&lt;/div&gt;&lt;div&gt;ashita.k / ast2026@uat&lt;/div&gt;&lt;div&gt;10.103.1.78&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="180" y="20" as="geometry" />
         </mxCell>
         <mxCell id="P_qCUjS47rAz3716_0MR-5" parent="P_qCUjS47rAz3716_0MR-3" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
