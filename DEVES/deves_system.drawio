@@ -11006,6 +11006,14 @@
         <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-2" parent="h-mkUBSB3Ga6Qw9UgJRQ-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Code : string (10)&lt;/div&gt;&lt;div&gt;* Name : string (200)&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="210" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Roles" vertex="1">
+          <mxGeometry height="120" width="210" x="2080" y="30" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-4" parent="h-mkUBSB3Ga6Qw9UgJRQ-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Code : string (10)&lt;/div&gt;&lt;div&gt;* Name : string (200)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
