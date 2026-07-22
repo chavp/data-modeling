@@ -799,12 +799,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RKRyjjYTpa3Ycdxl93eV" name="Products">
-    <mxGraphModel dx="2427" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2742" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Product" vertex="1">
-          <mxGeometry height="170" width="350" x="730" y="290" as="geometry" />
+          <mxGeometry height="170" width="950" x="730" y="290" as="geometry" />
         </mxCell>
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=5;" value="Good" vertex="1">
           <mxGeometry height="60" width="120" x="870" y="330" as="geometry" />
@@ -867,7 +867,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ye-cCGhdrMI7G7guk9aW-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Organization" vertex="1">
-          <mxGeometry height="60" width="1300" x="-90" y="150" as="geometry" />
+          <mxGeometry height="60" width="1920" x="-90" y="150" as="geometry" />
         </mxCell>
         <mxCell id="NwoAzKyxVXPavqYwlq_p-1" edge="1" parent="1" source="lFbs2GCGzoo1iz7KUpcX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;dashed=1;" target="ye-cCGhdrMI7G7guk9aW-1">
           <mxGeometry relative="1" as="geometry">
@@ -949,6 +949,9 @@
             <mxPoint x="700" y="850" as="sourcePoint" />
             <mxPoint x="700" y="590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kisNdo2xsJLQSLnCE0fd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductCategory" vertex="1">
+          <mxGeometry height="60" width="160" x="2000" y="325" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
