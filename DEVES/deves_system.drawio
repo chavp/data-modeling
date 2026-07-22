@@ -8303,7 +8303,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-v9v-GB5H7FLa6-WTGxB" name="P2026-010 LINE BCRM">
-    <mxGraphModel dx="1144" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1873" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9390,7 +9390,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OwOnzyxRq_uA8g6Q68sW-2" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#82b366;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;fillColor=#d5e8d4;fontSize=16;fontStyle=1" value="&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;LineBCRM&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#97d077&quot;&gt;&lt;a href=&quot;https://www.figma.com/design/Wxjnr0stQ5X4YOPrnFNt1d/VendorTeam_Review_Deves?node-id=2051-235964&quot;&gt;UX/UI&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#97d077&quot;&gt;(&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;TH SarabunPSK&amp;quot;, sans-serif; font-size: 14pt; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: rgb(255, 255, 255);&quot;&gt;mural-pro-armor-metric&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(151, 208, 119), rgb(41, 90, 13)); background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="18" x="3115" y="1420" as="geometry" />
+          <mxGeometry height="30" width="18" x="2860" y="1379" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -10531,7 +10531,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves-Insurance-Platforms">
-    <mxGraphModel dx="4181" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3565" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10996,6 +10996,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qx645v1fCOmbOqI9MaE--2" parent="qx645v1fCOmbOqI9MaE--1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Name : string (100)&lt;/div&gt;&lt;div&gt;* Domain : string (100)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Features" vertex="1">
+          <mxGeometry height="120" width="210" x="2300" y="-230" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-2" parent="h-mkUBSB3Ga6Qw9UgJRQ-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Name : string (100)&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="210" y="50" as="geometry" />
         </mxCell>
       </root>
