@@ -1300,7 +1300,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TVuW50gGT5xral0VGjrq" name="Team Topologies">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7374" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2223,7 +2223,7 @@
           <mxGeometry height="80" width="120" x="-4700" y="1195" as="geometry" />
         </mxCell>
         <mxCell id="E9P0ZBaY-OE_Jz0fn7On-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Teams Practices&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://dvsins-my.sharepoint.com/:w:/g/personal/parinya_c_deves_co_th/IQBrzl4ZKwQRQLvVlTMBOMOBAQccqAHXkWAUQtw6UOPkiGM?e=4EZ6B5&quot;&gt;Definition Of Done (DoD)&lt;/a&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="330" x="-3940" y="1320" as="geometry" />
+          <mxGeometry height="120" width="330" x="-4545" y="1390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -10537,7 +10537,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves-Insurance-Platforms">
-    <mxGraphModel dx="3565" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4198" dy="2161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10981,9 +10981,6 @@
             <mxPoint x="1132" y="-170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KcP6pcNSzCYrtJgaT8PE-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="120" width="240" x="-2040" y="-780" as="geometry" />
-        </mxCell>
         <mxCell id="4ovqr25ALflSMkla8bub-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Deves Insurance Platforms (DIP) Architecture&lt;/h1&gt;" vertex="1">
           <mxGeometry height="38" width="650" x="-2330" y="-1020" as="geometry" />
         </mxCell>
@@ -11036,8 +11033,11 @@
         <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-4" parent="h-mkUBSB3Ga6Qw9UgJRQ-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Code : string (10)&lt;/div&gt;&lt;div&gt;* Name : string (100)&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="210" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="5mLSiymbAt53S2uqdixs-5" edge="1" parent="1" source="5mLSiymbAt53S2uqdixs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="5mLSiymbAt53S2uqdixs-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5mLSiymbAt53S2uqdixs-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2173" y="110.00105263157919" as="sourcePoint" />
+            <mxPoint x="2280" y="110.00105263157919" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5mLSiymbAt53S2uqdixs-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AuditLogHeaders" vertex="1">
           <mxGeometry height="230" width="210" x="1963" y="-15.620000000000005" as="geometry">
@@ -11048,7 +11048,7 @@
           <mxGeometry height="180" width="210" y="50" as="geometry" />
         </mxCell>
         <mxCell id="5mLSiymbAt53S2uqdixs-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AuditLogDetails" vertex="1">
-          <mxGeometry height="155.62" width="210" x="2280" y="21.57" as="geometry">
+          <mxGeometry height="155.62" width="210" x="2280" y="34.38" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -11063,6 +11063,15 @@
             <mxPoint x="1820" as="sourcePoint" />
             <mxPoint x="1977" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="469haqYH9lOi8OHNwGmd-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="180" x="-1990" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="KcP6pcNSzCYrtJgaT8PE-1" parent="469haqYH9lOi8OHNwGmd-2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="Deves.Orders.Api" vertex="1">
+          <mxGeometry height="70" width="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="469haqYH9lOi8OHNwGmd-1" parent="469haqYH9lOi8OHNwGmd-2" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
