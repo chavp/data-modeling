@@ -10537,7 +10537,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves-Insurance-Platforms">
-    <mxGraphModel dx="4066" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3244" dy="1610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11052,7 +11052,7 @@
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5mLSiymbAt53S2uqdixs-4" parent="5mLSiymbAt53S2uqdixs-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* EventTime : DateTime&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o FieldName: string (100)&lt;/div&gt;&lt;div&gt;o&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OldValue:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;text&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;NewValue: text&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="5mLSiymbAt53S2uqdixs-4" parent="5mLSiymbAt53S2uqdixs-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;o FieldName: string (100)&lt;/div&gt;&lt;div&gt;o&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OldValue:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;text&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;NewValue: text&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="105.62" width="210" y="50" as="geometry" />
         </mxCell>
         <mxCell id="5mLSiymbAt53S2uqdixs-6" edge="1" parent="1" source="qx645v1fCOmbOqI9MaE--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="5mLSiymbAt53S2uqdixs-1">
