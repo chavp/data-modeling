@@ -11040,7 +11040,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5mLSiymbAt53S2uqdixs-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AuditLogHeaders" vertex="1">
-          <mxGeometry height="230" width="210" x="1963" y="50" as="geometry">
+          <mxGeometry height="230" width="210" x="1963" y="-15.620000000000005" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -11048,17 +11048,17 @@
           <mxGeometry height="180" width="210" y="50" as="geometry" />
         </mxCell>
         <mxCell id="5mLSiymbAt53S2uqdixs-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AuditLogDetails" vertex="1">
-          <mxGeometry height="230" width="210" x="2330" y="50" as="geometry">
+          <mxGeometry height="230" width="210" x="2310" y="-15.620000000000005" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5mLSiymbAt53S2uqdixs-4" parent="5mLSiymbAt53S2uqdixs-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* EventTime : DateTime&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;o Action : string (30)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o EntityName : string (100)&lt;/div&gt;&lt;div&gt;o&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EntityId : string (255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ModuleName : string (100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;o IpAddress : string(50)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;o RequestId : string(100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;o Remark : string(1000)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="5mLSiymbAt53S2uqdixs-4" parent="5mLSiymbAt53S2uqdixs-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* EventTime : DateTime&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o FieldName: string (100)&lt;/div&gt;&lt;div&gt;o&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OldValue:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;text&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;NewValue: text&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="210" y="50" as="geometry" />
         </mxCell>
         <mxCell id="5mLSiymbAt53S2uqdixs-6" edge="1" parent="1" source="qx645v1fCOmbOqI9MaE--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="5mLSiymbAt53S2uqdixs-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1890" y="165" />
+              <mxPoint x="1890" y="110" />
             </Array>
             <mxPoint x="1820" as="sourcePoint" />
             <mxPoint x="1977" as="targetPoint" />
