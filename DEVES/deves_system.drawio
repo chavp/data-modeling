@@ -4240,7 +4240,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="METj8osW96wvoyNKLInQ" name="Car Inspect Architecture">
-    <mxGraphModel dx="2298" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10537,7 +10537,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves-Insurance-Platforms">
-    <mxGraphModel dx="4770" dy="2491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3769" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10999,7 +10999,7 @@
         <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-5" edge="1" parent="1" source="qx645v1fCOmbOqI9MaE--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERzeroToMany;startFill=0;" target="h-mkUBSB3Ga6Qw9UgJRQ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-8" connectable="0" parent="h-mkUBSB3Ga6Qw9UgJRQ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=4" value="UserRoles" vertex="1">
+        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-8" connectable="0" parent="h-mkUBSB3Ga6Qw9UgJRQ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=4" value="UserRole" vertex="1">
           <mxGeometry relative="1" x="-0.006" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11023,7 +11023,7 @@
         <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-6" edge="1" parent="1" source="h-mkUBSB3Ga6Qw9UgJRQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERzeroToMany;startFill=0;" target="h-mkUBSB3Ga6Qw9UgJRQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-9" connectable="0" parent="h-mkUBSB3Ga6Qw9UgJRQ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=4" value="RoleFeatures" vertex="1">
+        <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-9" connectable="0" parent="h-mkUBSB3Ga6Qw9UgJRQ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=4" value="RoleFeature" vertex="1">
           <mxGeometry relative="1" x="-0.0129" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -11035,6 +11035,14 @@
         </mxCell>
         <mxCell id="h-mkUBSB3Ga6Qw9UgJRQ-4" parent="h-mkUBSB3Ga6Qw9UgJRQ-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* Code : string (10)&lt;/div&gt;&lt;div&gt;* Name : string (100)&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5mLSiymbAt53S2uqdixs-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="AuditLogHeaders" vertex="1">
+          <mxGeometry height="230" width="210" x="1963" y="50" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5mLSiymbAt53S2uqdixs-2" parent="5mLSiymbAt53S2uqdixs-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;# Id : Guid&lt;/div&gt;&lt;div&gt;* EventTime : DateTime&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;o Action : string (30)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o EntityName : string (100)&lt;/div&gt;&lt;div&gt;o&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EntityId : string (255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;o &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;ModuleName : string (100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;o IpAddress : string(50)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;o RequestId : string(100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;o Remark : string(1000)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="210" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
