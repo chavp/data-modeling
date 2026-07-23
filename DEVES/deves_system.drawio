@@ -4367,9 +4367,6 @@
         <mxCell id="TvFuPuogqnGUrUCQ4m4j-39" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;size=0.5;rotation=-179;" value="" vertex="1">
           <mxGeometry height="142.7" width="20" x="129.8" y="412.7" as="geometry" />
         </mxCell>
-        <mxCell id="NNHZjWjdumX8tllD71UH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" value="Car Inspect&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UAT&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="190" x="160" y="1380" as="geometry" />
-        </mxCell>
         <mxCell id="Ks6GJHTnTuLEpQxokc_X-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Super Car Ins" vertex="1">
           <mxGeometry height="60" width="30" x="-600" y="1380" as="geometry" />
         </mxCell>
@@ -4435,6 +4432,15 @@
         </mxCell>
         <mxCell id="Ks6GJHTnTuLEpQxokc_X-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการวันหยุด" vertex="1">
           <mxGeometry height="86" width="140" x="-370" y="3380" as="geometry" />
+        </mxCell>
+        <mxCell id="q1gJFoVDiKgGkRmoh7hm-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="83" width="220" x="160" y="1367" as="geometry" />
+        </mxCell>
+        <mxCell id="NNHZjWjdumX8tllD71UH-1" parent="q1gJFoVDiKgGkRmoh7hm-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" value="Car Inspect&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://carinspuat.deves.co.th/deves/login&quot;&gt;UAT&lt;/a&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="160" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="q1gJFoVDiKgGkRmoh7hm-1" parent="q1gJFoVDiKgGkRmoh7hm-2" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="47.400000000000006" width="60" x="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
