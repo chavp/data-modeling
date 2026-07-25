@@ -1038,7 +1038,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SzUuNk3BSspJCtgLgV-c" name="Ordering Products">
-    <mxGraphModel dx="2703" dy="1387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1071,7 +1071,7 @@
         <mxCell id="aauiVtu1N5Q4QR85y0eh-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Product" vertex="1">
           <mxGeometry height="80" width="435" x="410" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="aauiVtu1N5Q4QR85y0eh-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;">
+        <mxCell id="aauiVtu1N5Q4QR85y0eh-9" edge="1" parent="1" source="aauiVtu1N5Q4QR85y0eh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="765" y="300" as="sourcePoint" />
@@ -1090,6 +1090,9 @@
             <mxPoint x="915" y="660" as="sourcePoint" />
             <mxPoint x="915" y="755" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="teTZe5w-zz2mAu_39tBa-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Party" vertex="1">
+          <mxGeometry height="80" width="1140" x="430" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
