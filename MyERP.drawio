@@ -979,6 +979,19 @@
         <mxCell id="tW3NLq3MGPfZjxPdHA9u-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InventoryItem" vertex="1">
           <mxGeometry height="90" width="390" x="1430" y="710" as="geometry" />
         </mxCell>
+        <mxCell id="tW3NLq3MGPfZjxPdHA9u-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Facility" vertex="1">
+          <mxGeometry height="90" width="1000" x="1260" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="tW3NLq3MGPfZjxPdHA9u-3" edge="1" parent="1" source="tW3NLq3MGPfZjxPdHA9u-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=ERzeroToOne;endFill=0;" target="tW3NLq3MGPfZjxPdHA9u-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="850" />
+              <mxPoint x="1520" y="850" />
+            </Array>
+            <mxPoint x="1550" y="890.0044827586207" as="sourcePoint" />
+            <mxPoint x="1720" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
