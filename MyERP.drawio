@@ -1051,6 +1051,14 @@
         <mxCell id="aauiVtu1N5Q4QR85y0eh-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="PurchaseOrder" vertex="1">
           <mxGeometry height="50" width="130" x="490" y="180" as="geometry" />
         </mxCell>
+        <mxCell id="aauiVtu1N5Q4QR85y0eh-8" edge="1" parent="1" source="aauiVtu1N5Q4QR85y0eh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="aauiVtu1N5Q4QR85y0eh-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="730" />
+              <mxPoint x="580" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aauiVtu1N5Q4QR85y0eh-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="OrderItem" vertex="1">
           <mxGeometry height="170" width="680" x="240" y="465" as="geometry" />
         </mxCell>
