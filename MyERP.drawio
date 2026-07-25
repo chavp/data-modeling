@@ -1038,7 +1038,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SzUuNk3BSspJCtgLgV-c" name="Ordering Products">
-    <mxGraphModel dx="2742" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2742" dy="2071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1095,10 +1095,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="teTZe5w-zz2mAu_39tBa-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Party" vertex="1">
-          <mxGeometry height="80" width="1570" y="10" as="geometry" />
+          <mxGeometry height="80" width="1570" x="-10" y="-20" as="geometry" />
         </mxCell>
-        <mxCell id="teTZe5w-zz2mAu_39tBa-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Order" vertex="1">
-          <mxGeometry height="170" width="680" x="-360" y="150" as="geometry" />
+        <mxCell id="teTZe5w-zz2mAu_39tBa-3" edge="1" parent="1" source="teTZe5w-zz2mAu_39tBa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="teTZe5w-zz2mAu_39tBa-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="90" />
+              <mxPoint x="160" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teTZe5w-zz2mAu_39tBa-4" edge="1" parent="1" source="teTZe5w-zz2mAu_39tBa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aauiVtu1N5Q4QR85y0eh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="205" />
+              <mxPoint x="410" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teTZe5w-zz2mAu_39tBa-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="OrderRole" vertex="1">
+          <mxGeometry height="150" width="320" y="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
