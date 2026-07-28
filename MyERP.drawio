@@ -1251,7 +1251,7 @@
           <mxGeometry height="50" width="160" x="230" y="60" as="geometry" />
         </mxCell>
         <mxCell id="uyneLRsUZITV8s5K4VKh-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="WorkEffortPartyAssignment" vertex="1">
-          <mxGeometry height="80" width="435" x="1275" y="1000" as="geometry" />
+          <mxGeometry height="80" width="435" x="1275" y="950" as="geometry" />
         </mxCell>
         <mxCell id="uyneLRsUZITV8s5K4VKh-33" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="uyneLRsUZITV8s5K4VKh-1">
           <mxGeometry relative="1" as="geometry">
@@ -1271,6 +1271,16 @@
             </Array>
             <mxPoint x="1500.5" y="1330" as="sourcePoint" />
             <mxPoint x="1500.5" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="WorkEffortRoleType" vertex="1">
+          <mxGeometry height="50" width="160" x="1412.5" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-36" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="uyneLRsUZITV8s5K4VKh-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1650.5" y="1150" as="sourcePoint" />
+            <mxPoint x="1650.5" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
