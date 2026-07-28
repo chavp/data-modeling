@@ -1051,7 +1051,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SzUuNk3BSspJCtgLgV-c" name="Ordering Products">
-    <mxGraphModel dx="2952" dy="2179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3761" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1082,7 +1082,7 @@
           <mxGeometry height="50" width="130" x="605" y="505" as="geometry" />
         </mxCell>
         <mxCell id="aauiVtu1N5Q4QR85y0eh-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Product" vertex="1">
-          <mxGeometry height="80" width="435" x="410" y="720" as="geometry" />
+          <mxGeometry height="80" width="435" x="400" y="1140" as="geometry" />
         </mxCell>
         <mxCell id="aauiVtu1N5Q4QR85y0eh-9" edge="1" parent="1" source="aauiVtu1N5Q4QR85y0eh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;">
           <mxGeometry relative="1" as="geometry">
@@ -1095,7 +1095,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aauiVtu1N5Q4QR85y0eh-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductFeature" vertex="1">
-          <mxGeometry height="80" width="435" x="865" y="720" as="geometry" />
+          <mxGeometry height="80" width="435" x="855" y="1140" as="geometry" />
         </mxCell>
         <mxCell id="aauiVtu1N5Q4QR85y0eh-11" edge="1" parent="1" source="aauiVtu1N5Q4QR85y0eh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="aauiVtu1N5Q4QR85y0eh-10">
           <mxGeometry relative="1" as="geometry">
@@ -1108,13 +1108,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="teTZe5w-zz2mAu_39tBa-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Party" vertex="1">
-          <mxGeometry height="80" width="1570" x="-10" y="-20" as="geometry" />
+          <mxGeometry height="80" width="1410" x="10" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="teTZe5w-zz2mAu_39tBa-3" edge="1" parent="1" source="teTZe5w-zz2mAu_39tBa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="teTZe5w-zz2mAu_39tBa-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="90" />
-              <mxPoint x="160" y="90" />
+              <mxPoint x="160.08" y="1020" />
+              <mxPoint x="160.08" y="1020" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1174,13 +1174,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uyneLRsUZITV8s5K4VKh-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Facility" vertex="1">
-          <mxGeometry height="80" width="370" x="1590" y="-20" as="geometry" />
+          <mxGeometry height="80" width="370" x="1580" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="uyneLRsUZITV8s5K4VKh-8" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="uyneLRsUZITV8s5K4VKh-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1750" y="220" />
-              <mxPoint x="1750" y="220" />
+              <mxPoint x="1765" y="1000" />
+              <mxPoint x="1765" y="1000" />
             </Array>
             <mxPoint x="1930.5" y="595" as="sourcePoint" />
             <mxPoint x="1930.5" y="500" as="targetPoint" />
