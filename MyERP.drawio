@@ -1051,7 +1051,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SzUuNk3BSspJCtgLgV-c" name="Ordering Products">
-    <mxGraphModel dx="3373" dy="2395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2952" dy="2179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1160,9 +1160,9 @@
         <mxCell id="uyneLRsUZITV8s5K4VKh-5" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;innerLoopWaypoints=1;" target="uyneLRsUZITV8s5K4VKh-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2020" y="765" />
-              <mxPoint x="2020" y="670.05" />
-              <mxPoint x="1840" y="670.05" />
+              <mxPoint x="1970" y="760" />
+              <mxPoint x="1970" y="660" />
+              <mxPoint x="1880" y="660" />
             </Array>
             <mxPoint x="2090.5" y="835" as="sourcePoint" />
             <mxPoint x="2090.5" y="740" as="targetPoint" />
@@ -1170,7 +1170,7 @@
         </mxCell>
         <mxCell id="uyneLRsUZITV8s5K4VKh-6" connectable="0" parent="uyneLRsUZITV8s5K4VKh-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="breakdown from" vertex="1">
           <mxGeometry relative="1" x="0.3097" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="23" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uyneLRsUZITV8s5K4VKh-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Facility" vertex="1">
@@ -1184,6 +1184,19 @@
             </Array>
             <mxPoint x="1930.5" y="595" as="sourcePoint" />
             <mxPoint x="1930.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="WorkEffortธัยำ" vertex="1">
+          <mxGeometry height="50" width="130" x="2020" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-10" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="uyneLRsUZITV8s5K4VKh-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1980" y="785" />
+              <mxPoint x="1980" y="785" />
+            </Array>
+            <mxPoint x="1790.5" y="1145" as="sourcePoint" />
+            <mxPoint x="1790.5" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
