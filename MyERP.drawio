@@ -1155,7 +1155,23 @@
           <mxGeometry height="50" width="130" x="1440" y="770" as="geometry" />
         </mxCell>
         <mxCell id="uyneLRsUZITV8s5K4VKh-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Activity" vertex="1">
-          <mxGeometry height="50" width="130" x="1600" y="770" as="geometry" />
+          <mxGeometry height="50" width="130" x="1590" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-5" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;innerLoopWaypoints=1;" target="uyneLRsUZITV8s5K4VKh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2020" y="765" />
+              <mxPoint x="2020" y="670.05" />
+              <mxPoint x="1840" y="670.05" />
+            </Array>
+            <mxPoint x="2090.5" y="835" as="sourcePoint" />
+            <mxPoint x="2090.5" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-6" connectable="0" parent="uyneLRsUZITV8s5K4VKh-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="breakdown from" vertex="1">
+          <mxGeometry relative="1" x="0.3097" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
