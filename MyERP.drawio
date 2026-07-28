@@ -1227,6 +1227,26 @@
         <mxCell id="uyneLRsUZITV8s5K4VKh-20" parent="uyneLRsUZITV8s5K4VKh-22" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="WorkEffortConcurrency" vertex="1">
           <mxGeometry height="50" width="160" x="230" y="60" as="geometry" />
         </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-23" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="uyneLRsUZITV8s5K4VKh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1675.05" y="990" />
+              <mxPoint x="1675.05" y="990" />
+            </Array>
+            <mxPoint x="1810" y="1055" as="sourcePoint" />
+            <mxPoint x="1810" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyneLRsUZITV8s5K4VKh-24" edge="1" parent="1" source="uyneLRsUZITV8s5K4VKh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="uyneLRsUZITV8s5K4VKh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1880" y="930" />
+              <mxPoint x="1880" y="930" />
+            </Array>
+            <mxPoint x="1830" y="1070" as="sourcePoint" />
+            <mxPoint x="1830" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
