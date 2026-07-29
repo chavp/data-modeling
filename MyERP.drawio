@@ -1575,7 +1575,7 @@
           <mxGeometry height="130" width="640" x="700" y="260" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Product" vertex="1">
-          <mxGeometry height="50" width="435" x="460" y="740" as="geometry" />
+          <mxGeometry height="50" width="275" x="620" y="740" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductFeature" vertex="1">
           <mxGeometry height="50" width="160" x="910" y="740" as="geometry" />
@@ -1626,7 +1626,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Party" vertex="1">
-          <mxGeometry height="50" width="1330" x="-230" y="890" as="geometry" />
+          <mxGeometry height="50" width="550" x="-230" y="890" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoiceRole" vertex="1">
           <mxGeometry height="50" width="230" x="-180" y="280" as="geometry" />
@@ -1684,6 +1684,29 @@
         <mxCell id="5xA5_ZL9vCpX0XgFydee-21" connectable="0" parent="5xA5_ZL9vCpX0XgFydee-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Billed to" vertex="1">
           <mxGeometry relative="1" x="-0.0001" y="4" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ContactMechanism" vertex="1">
+          <mxGeometry height="50" width="270" x="330" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-23" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-1" value="Addressed to">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="520" />
+              <mxPoint x="380" y="520" />
+            </Array>
+            <mxPoint x="440" y="1090" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-24" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-1" value="Sent from">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="600" />
+              <mxPoint x="460" y="600" />
+            </Array>
+            <mxPoint x="540" y="1070" as="sourcePoint" />
+            <mxPoint x="540" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
