@@ -1556,10 +1556,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3XKz44SAfgex9B5AMaVx" name="Invoices">
-    <mxGraphModel dx="1892" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pF-R-hj1QrV8nefuwvtL-3" edge="1" parent="1" source="pF-R-hj1QrV8nefuwvtL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="300" />
+              <mxPoint x="530" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pF-R-hj1QrV8nefuwvtL-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Invoince" vertex="1">
+          <mxGeometry height="80" width="260" x="130" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pF-R-hj1QrV8nefuwvtL-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoinceItem" vertex="1">
+          <mxGeometry height="140" width="430" x="570" y="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
