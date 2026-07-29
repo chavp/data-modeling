@@ -1572,7 +1572,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3XKz44SAfgex9B5AMaVx" name="Invoices">
-    <mxGraphModel dx="3761" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2842" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1852,10 +1852,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="WorkEffort" vertex="1">
-          <mxGeometry height="50" width="245" x="1510" y="950" as="geometry" />
+          <mxGeometry height="50" width="245" x="1970" y="950" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimeEntry" vertex="1">
-          <mxGeometry height="50" width="220" x="1780" y="950" as="geometry" />
+          <mxGeometry height="50" width="220" x="1730" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="V3fT3T7EblVZIK11_qCI-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimeEntryBilling" vertex="1">
+          <mxGeometry height="60" width="190" x="1790" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="V3fT3T7EblVZIK11_qCI-13" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1930" y="370" />
+              <mxPoint x="1930" y="370" />
+            </Array>
+            <mxPoint x="1930" y="965" as="sourcePoint" />
+            <mxPoint x="1930" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3fT3T7EblVZIK11_qCI-14" edge="1" parent="1" source="pF-R-hj1QrV8nefuwvtL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="220" />
+              <mxPoint x="1840" y="220" />
+            </Array>
+            <mxPoint x="1480" y="315" as="sourcePoint" />
+            <mxPoint x="1480" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3fT3T7EblVZIK11_qCI-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimeEntryBilling" vertex="1">
+          <mxGeometry height="60" width="360" x="1720" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V3fT3T7EblVZIK11_qCI-16" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2020" y="730" />
+              <mxPoint x="2020" y="730" />
+            </Array>
+            <mxPoint x="2070" y="1025" as="sourcePoint" />
+            <mxPoint x="2070" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3fT3T7EblVZIK11_qCI-17" edge="1" parent="1" source="pF-R-hj1QrV8nefuwvtL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1760" y="150" />
+              <mxPoint x="1760" y="150" />
+            </Array>
+            <mxPoint x="1660" y="200" as="sourcePoint" />
+            <mxPoint x="1660" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
