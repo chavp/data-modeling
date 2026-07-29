@@ -1556,7 +1556,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3XKz44SAfgex9B5AMaVx" name="Invoices">
-    <mxGraphModel dx="3373" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2952" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1710,6 +1710,55 @@
             </Array>
             <mxPoint x="540" y="1070" as="sourcePoint" />
             <mxPoint x="540" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="BillingAccount" vertex="1">
+          <mxGeometry height="50" width="230" x="-100" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-26" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50.07" y="460" />
+              <mxPoint x="50.07" y="460" />
+            </Array>
+            <mxPoint x="-270" y="670" as="sourcePoint" />
+            <mxPoint x="-270" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="BillingAccountRole" vertex="1">
+          <mxGeometry height="50" width="230" x="-250" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="BillingAccountRoleType" vertex="1">
+          <mxGeometry height="50" width="160" x="-350" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-29" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-60" y="490" />
+              <mxPoint x="-60" y="490" />
+            </Array>
+            <mxPoint x="-30" y="770" as="sourcePoint" />
+            <mxPoint x="-30" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-30" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-135" y="780" />
+              <mxPoint x="-135" y="780" />
+            </Array>
+            <mxPoint x="-160" y="660" as="sourcePoint" />
+            <mxPoint x="-160" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xA5_ZL9vCpX0XgFydee-31" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" y="470" />
+              <mxPoint x="-220" y="470" />
+            </Array>
+            <mxPoint x="-270" y="670" as="sourcePoint" />
+            <mxPoint x="-270" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
