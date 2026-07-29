@@ -802,7 +802,27 @@
           <mxGeometry height="60" width="325" x="530" y="10" as="geometry" />
         </mxCell>
         <mxCell id="g9OByWTJofx7Rk2SmI0B-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyContactMechanismPurposeType" vertex="1">
-          <mxGeometry height="60" width="230" x="760" y="110" as="geometry" />
+          <mxGeometry height="60" width="230" x="760" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g9OByWTJofx7Rk2SmI0B-3" edge="1" parent="1" source="g9OByWTJofx7Rk2SmI0B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="U4hYDMhdRpOtA1KS_dux-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="120" />
+              <mxPoint x="570" y="120" />
+            </Array>
+            <mxPoint x="682.9921875" y="261.72265625" as="sourcePoint" />
+            <mxPoint x="682.9921875" y="170.72265625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g9OByWTJofx7Rk2SmI0B-4" edge="1" parent="1" source="g9OByWTJofx7Rk2SmI0B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="g9OByWTJofx7Rk2SmI0B-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="110" />
+              <mxPoint x="810" y="110" />
+            </Array>
+            <mxPoint x="660" y="170" as="sourcePoint" />
+            <mxPoint x="660" y="441" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
