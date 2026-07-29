@@ -1629,13 +1629,13 @@
           <mxGeometry height="50" width="980" x="-660" y="890" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoiceRole" vertex="1">
-          <mxGeometry height="50" width="230" x="-430" y="410" as="geometry" />
+          <mxGeometry height="50" width="230" x="-560" y="120" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-15" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-350" y="470" />
-              <mxPoint x="-350" y="470" />
+              <mxPoint x="-460" y="510" />
+              <mxPoint x="-460" y="510" />
             </Array>
             <mxPoint x="270" y="600" as="sourcePoint" />
             <mxPoint x="270" y="690" as="targetPoint" />
@@ -1646,7 +1646,10 @@
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-17" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-13">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="-529.93" y="350" />
+              <mxPoint x="-529.93" y="350" />
+            </Array>
             <mxPoint x="40" y="410" as="sourcePoint" />
             <mxPoint x="40" y="500" as="targetPoint" />
           </mxGeometry>
@@ -1654,8 +1657,8 @@
         <mxCell id="5xA5_ZL9vCpX0XgFydee-18" edge="1" parent="1" source="pF-R-hj1QrV8nefuwvtL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-350" y="390" />
-              <mxPoint x="-350" y="390" />
+              <mxPoint x="-380" y="220" />
+              <mxPoint x="-380" y="220" />
             </Array>
             <mxPoint x="-180" y="450" as="sourcePoint" />
             <mxPoint x="-120" y="450" as="targetPoint" />
