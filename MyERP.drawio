@@ -1556,7 +1556,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3XKz44SAfgex9B5AMaVx" name="Invoices">
-    <mxGraphModel dx="2652" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2570" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1569,7 +1569,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pF-R-hj1QrV8nefuwvtL-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Invoice" vertex="1">
-          <mxGeometry height="120" width="410" x="130" y="260" as="geometry" />
+          <mxGeometry height="120" width="680" x="-140" y="260" as="geometry" />
         </mxCell>
         <mxCell id="pF-R-hj1QrV8nefuwvtL-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoiceItem" vertex="1">
           <mxGeometry height="130" width="640" x="700" y="260" as="geometry" />
@@ -1626,23 +1626,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Party" vertex="1">
-          <mxGeometry height="50" width="550" x="-230" y="890" as="geometry" />
+          <mxGeometry height="50" width="980" x="-660" y="890" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoiceRole" vertex="1">
-          <mxGeometry height="50" width="230" x="-180" y="280" as="geometry" />
+          <mxGeometry height="50" width="230" x="-430" y="280" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-15" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="600" />
-              <mxPoint x="10" y="600" />
+              <mxPoint x="-350" y="470" />
+              <mxPoint x="-350" y="470" />
             </Array>
             <mxPoint x="270" y="600" as="sourcePoint" />
             <mxPoint x="270" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoiceRoleType" vertex="1">
-          <mxGeometry height="50" width="150" x="-390" y="280" as="geometry" />
+          <mxGeometry height="50" width="150" x="-660" y="280" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-17" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-13">
           <mxGeometry relative="1" as="geometry">
@@ -1654,8 +1654,8 @@
         <mxCell id="5xA5_ZL9vCpX0XgFydee-18" edge="1" parent="1" source="pF-R-hj1QrV8nefuwvtL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="5xA5_ZL9vCpX0XgFydee-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="305" />
-              <mxPoint x="110" y="305" />
+              <mxPoint x="-170" y="305" />
+              <mxPoint x="-170" y="305" />
             </Array>
             <mxPoint x="-180" y="450" as="sourcePoint" />
             <mxPoint x="-120" y="450" as="targetPoint" />
