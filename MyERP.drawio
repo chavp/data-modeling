@@ -321,7 +321,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vsfAjrV-K4g-M2d2Z1-q" name="People &amp; Organization">
-    <mxGraphModel dx="3215" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1997" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,7 +337,7 @@
           <mxGeometry height="60" width="145.01" x="1220" y="429.28" as="geometry" />
         </mxCell>
         <mxCell id="U4hYDMhdRpOtA1KS_dux-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyRoleType" vertex="1">
-          <mxGeometry height="60" width="305.01" x="160.86" y="190" as="geometry" />
+          <mxGeometry height="60" width="379.14" x="160.86" y="190" as="geometry" />
         </mxCell>
         <mxCell id="U4hYDMhdRpOtA1KS_dux-4" edge="1" parent="1" source="U4hYDMhdRpOtA1KS_dux-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="U4hYDMhdRpOtA1KS_dux-3">
           <mxGeometry relative="1" as="geometry">
@@ -350,7 +350,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U4hYDMhdRpOtA1KS_dux-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyContactMechanism" vertex="1">
-          <mxGeometry height="60" width="260" x="294.9978125" y="340.71734375" as="geometry" />
+          <mxGeometry height="60" width="325" x="295" y="340.72" as="geometry" />
         </mxCell>
         <mxCell id="U4hYDMhdRpOtA1KS_dux-6" edge="1" parent="1" source="U4hYDMhdRpOtA1KS_dux-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="U4hYDMhdRpOtA1KS_dux-24">
           <mxGeometry relative="1" as="geometry">
@@ -797,6 +797,12 @@
         </mxCell>
         <mxCell id="diumF-F1Yf8NWZ8iVCCJ-5" parent="diumF-F1Yf8NWZ8iVCCJ-6" style="rounded=1;whiteSpace=wrap;html=1;" value="Contractor" vertex="1">
           <mxGeometry height="50" width="99.77" x="130" y="39.27999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="g9OByWTJofx7Rk2SmI0B-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyContactMechanismPurpose" vertex="1">
+          <mxGeometry height="60" width="325" x="530" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="g9OByWTJofx7Rk2SmI0B-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PartyContactMechanismPurposeType" vertex="1">
+          <mxGeometry height="60" width="230" x="760" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
