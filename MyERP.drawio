@@ -1844,6 +1844,13 @@
         <mxCell id="V3fT3T7EblVZIK11_qCI-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoiceTermType" vertex="1">
           <mxGeometry height="50" width="180" x="1010" y="10" as="geometry" />
         </mxCell>
+        <mxCell id="V3fT3T7EblVZIK11_qCI-9" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1200" y="190" as="sourcePoint" />
+            <mxPoint x="1200" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
