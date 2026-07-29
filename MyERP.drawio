@@ -1330,7 +1330,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Timesheet" vertex="1">
-          <mxGeometry height="80" width="330" x="2320" y="1075" as="geometry" />
+          <mxGeometry height="80" width="440" x="2210" y="1075" as="geometry" />
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="PartyRole" vertex="1">
           <mxGeometry height="80" width="900" x="1960" y="1560" as="geometry" />
@@ -1379,6 +1379,29 @@
             </Array>
             <mxPoint x="2080" y="1270" as="sourcePoint" />
             <mxPoint x="2080" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYD3Z6f3nGmlpfjONjbB-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimesheetRole" vertex="1">
+          <mxGeometry height="50" width="190" x="2110" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="NYD3Z6f3nGmlpfjONjbB-11" edge="1" parent="1" source="NYD3Z6f3nGmlpfjONjbB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="teTZe5w-zz2mAu_39tBa-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2190" y="1410" />
+              <mxPoint x="2190" y="1410" />
+            </Array>
+            <mxPoint x="2190" y="1300" as="sourcePoint" />
+            <mxPoint x="2190" y="1355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NYD3Z6f3nGmlpfjONjbB-12" edge="1" parent="1" source="NYD3Z6f3nGmlpfjONjbB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="NYD3Z6f3nGmlpfjONjbB-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2270" y="1200" />
+              <mxPoint x="2270" y="1200" />
+            </Array>
+            <mxPoint x="2280" y="1420" as="sourcePoint" />
+            <mxPoint x="2280" y="1350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
