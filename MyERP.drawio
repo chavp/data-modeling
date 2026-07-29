@@ -1061,7 +1061,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SzUuNk3BSspJCtgLgV-c" name="Ordering Products">
-    <mxGraphModel dx="2495" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3761" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1333,7 +1333,7 @@
           <mxGeometry height="80" width="440" x="2210" y="1075" as="geometry" />
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="PartyRole" vertex="1">
-          <mxGeometry height="60" width="900" x="1970" y="1660" as="geometry" />
+          <mxGeometry height="60" width="650" x="2220" y="1660" as="geometry" />
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Worker" vertex="1">
           <mxGeometry height="40" width="160" x="2345" y="1670" as="geometry" />
@@ -1374,38 +1374,37 @@
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-9" edge="1" parent="1" source="NYD3Z6f3nGmlpfjONjbB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="teTZe5w-zz2mAu_39tBa-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2080" y="1740" />
-              <mxPoint x="2080" y="1740" />
+              <mxPoint x="2300" y="1730" />
+              <mxPoint x="2300" y="1730" />
             </Array>
             <mxPoint x="2080" y="1580" as="sourcePoint" />
             <mxPoint x="2080" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimesheetRole" vertex="1">
-          <mxGeometry height="50" width="190" x="2110" y="1210" as="geometry" />
+          <mxGeometry height="50" width="190" x="1950" y="1090" as="geometry" />
         </mxCell>
-        <mxCell id="NYD3Z6f3nGmlpfjONjbB-11" edge="1" parent="1" source="NYD3Z6f3nGmlpfjONjbB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="teTZe5w-zz2mAu_39tBa-1">
+        <mxCell id="NYD3Z6f3nGmlpfjONjbB-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2190" y="1410" />
-              <mxPoint x="2190" y="1410" />
+              <mxPoint x="2044.56" y="1620" />
+              <mxPoint x="2044.56" y="1620" />
             </Array>
-            <mxPoint x="2190" y="1300" as="sourcePoint" />
-            <mxPoint x="2190" y="1355" as="targetPoint" />
+            <mxPoint x="2044.56347826087" y="1140" as="sourcePoint" />
+            <mxPoint x="2044.56347826087" y="1780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-12" edge="1" parent="1" source="NYD3Z6f3nGmlpfjONjbB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="NYD3Z6f3nGmlpfjONjbB-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2270" y="1200" />
-              <mxPoint x="2270" y="1200" />
+              <mxPoint x="2270.04" y="1115.04" />
             </Array>
             <mxPoint x="2280" y="1420" as="sourcePoint" />
             <mxPoint x="2280" y="1350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimesheetRoleType" vertex="1">
-          <mxGeometry height="50" width="150" x="1900" y="1210" as="geometry" />
+          <mxGeometry height="50" width="150" x="1750" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="NYD3Z6f3nGmlpfjONjbB-14" edge="1" parent="1" source="NYD3Z6f3nGmlpfjONjbB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="NYD3Z6f3nGmlpfjONjbB-13">
           <mxGeometry relative="1" as="geometry">
