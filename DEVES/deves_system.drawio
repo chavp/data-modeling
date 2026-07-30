@@ -10537,7 +10537,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves-Insurance-Platforms">
-    <mxGraphModel dx="3402" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3781" dy="1869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10601,11 +10601,6 @@
               <mxPoint x="-965" />
               <mxPoint x="-485" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aCs4q8-tcxM-JiCqcimE-50" connectable="0" parent="aCs4q8-tcxM-JiCqcimE-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="inherite" vertex="1">
-          <mxGeometry relative="1" x="0.0632" as="geometry">
-            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-22" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MotorPackageRecomendations" vertex="1">
@@ -11117,6 +11112,21 @@
         </mxCell>
         <mxCell id="xnEhqC-NagPbf_S7wEMi-2" parent="xnEhqC-NagPbf_S7wEMi-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Recomendations.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;* U :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Cascadia Mono&quot;&gt;ContactType&lt;/font&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;Cascadia Mono&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;: string (5)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;* U :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PackageCode : string (20)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="350" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xnEhqC-NagPbf_S7wEMi-3" edge="1" parent="1" source="xnEhqC-NagPbf_S7wEMi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-485" y="-20" />
+              <mxPoint x="-485" y="-20" />
+            </Array>
+            <mxPoint x="-390" y="235" as="sourcePoint" />
+            <mxPoint x="90" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnEhqC-NagPbf_S7wEMi-4" connectable="0" parent="xnEhqC-NagPbf_S7wEMi-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="inherite" vertex="1">
+          <mxGeometry relative="1" x="0.0632" as="geometry">
+            <mxPoint x="25" y="-47" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
