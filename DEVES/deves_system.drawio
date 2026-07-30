@@ -10629,7 +10629,7 @@
           <mxGeometry height="110" width="290" y="50" as="geometry" />
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-34" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MotorPackagePromotions" vertex="1">
-          <mxGeometry height="190" width="310" x="190" as="geometry">
+          <mxGeometry height="190" width="310" x="-180" y="112" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -10654,13 +10654,17 @@
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-39" edge="1" parent="1" source="aCs4q8-tcxM-JiCqcimE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-5">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-25" y="40" />
+              <mxPoint x="345" y="40" />
+            </Array>
             <mxPoint x="40" y="5" as="sourcePoint" />
             <mxPoint x="40" y="-100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-49" connectable="0" parent="aCs4q8-tcxM-JiCqcimE-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="inherite" vertex="1">
           <mxGeometry relative="1" x="-0.0121" y="-3" as="geometry">
-            <mxPoint y="-1" as="offset" />
+            <mxPoint x="197" y="-63" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aCs4q8-tcxM-JiCqcimE-40" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Orders" vertex="1">
@@ -11129,6 +11133,24 @@
         <mxCell id="xnEhqC-NagPbf_S7wEMi-4" connectable="0" parent="xnEhqC-NagPbf_S7wEMi-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="inherite" vertex="1">
           <mxGeometry relative="1" x="0.0632" as="geometry">
             <mxPoint x="25" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnEhqC-NagPbf_S7wEMi-7" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="TaPackagePromotions" vertex="1">
+          <mxGeometry height="180" width="350" x="190" y="117" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnEhqC-NagPbf_S7wEMi-8" parent="xnEhqC-NagPbf_S7wEMi-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Recomendations.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;* U :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Cascadia Mono&quot;&gt;ContactType&lt;/font&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;Cascadia Mono&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;: string (5)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;* U :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PackageCode : string (20)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="350" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xnEhqC-NagPbf_S7wEMi-9" edge="1" parent="1" source="xnEhqC-NagPbf_S7wEMi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="30" />
+              <mxPoint x="345" y="30" />
+            </Array>
+            <mxPoint x="460" y="237" as="sourcePoint" />
+            <mxPoint x="830" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
