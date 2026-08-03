@@ -11069,7 +11069,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-2" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="180" x="-1830" y="-800" as="geometry" />
+          <mxGeometry height="90" width="180" x="-1940" y="-520" as="geometry" />
         </mxCell>
         <mxCell id="KcP6pcNSzCYrtJgaT8PE-1" parent="469haqYH9lOi8OHNwGmd-2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="Deves.Orders.Api" vertex="1">
           <mxGeometry height="70" width="160" y="20" as="geometry" />
@@ -11093,10 +11093,10 @@
           <mxGeometry height="48" width="50" x="130" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-7" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="WIndow Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;192.168.2.197&quot;&gt;UAT&lt;/a&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="500" x="-2240" y="-50" as="geometry" />
+          <mxGeometry height="250" width="500" x="-2320" y="210" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-13" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110" width="280" x="-2310" y="-810" as="geometry" />
+          <mxGeometry height="110" width="280" x="-2320" y="-380" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-8" parent="469haqYH9lOi8OHNwGmd-13" style="rounded=1;whiteSpace=wrap;html=1;" value="deves-insurance-platforms-admin" vertex="1">
           <mxGeometry height="90" width="250" y="20" as="geometry" />
@@ -11108,7 +11108,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-15" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110" width="280" x="-2160" y="10" as="geometry" />
+          <mxGeometry height="110" width="280" x="-2240" y="270" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-16" parent="469haqYH9lOi8OHNwGmd-15" style="rounded=1;whiteSpace=wrap;html=1;" value="deves-insurance-platforms-admin" vertex="1">
           <mxGeometry height="90" width="250" y="20" as="geometry" />
@@ -11156,6 +11156,18 @@
             <mxPoint x="460" y="237" as="sourcePoint" />
             <mxPoint x="830" y="40" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OdtAxG1bqNyyl-0RIFLE-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="180" x="-1940" y="-820" as="geometry" />
+        </mxCell>
+        <mxCell id="OdtAxG1bqNyyl-0RIFLE-3" parent="OdtAxG1bqNyyl-0RIFLE-2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="PolicyRequest" vertex="1">
+          <mxGeometry height="70" width="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OdtAxG1bqNyyl-0RIFLE-4" parent="OdtAxG1bqNyyl-0RIFLE-2" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OdtAxG1bqNyyl-0RIFLE-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="-1940" y="-560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
