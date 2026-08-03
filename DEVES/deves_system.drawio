@@ -11096,7 +11096,7 @@
           <mxGeometry height="250" width="500" x="-2340" y="480" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-13" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110" width="280" x="-1930" y="-470" as="geometry" />
+          <mxGeometry height="110" width="280" x="-1930" y="-480" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-8" parent="469haqYH9lOi8OHNwGmd-13" style="rounded=1;whiteSpace=wrap;html=1;" value="deves-insurance-platforms-admin" vertex="1">
           <mxGeometry height="90" width="250" y="20" as="geometry" />
@@ -11105,7 +11105,12 @@
           <mxGeometry height="52" width="65" x="215" as="geometry" />
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-14" edge="1" parent="1" source="469haqYH9lOi8OHNwGmd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KcP6pcNSzCYrtJgaT8PE-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1805" y="-550" />
+              <mxPoint x="-1805" y="-550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="469haqYH9lOi8OHNwGmd-15" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="110" width="280" x="-2260" y="540" as="geometry" />
@@ -11169,8 +11174,26 @@
         <mxCell id="OdtAxG1bqNyyl-0RIFLE-6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Developments&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://dvsins.sharepoint.com/:x:/s/DevesITProject/IQDvHHIL9y0TRY7-C4eadlaaAYTdaFWrIzctbCDRWCAFENw?e=5vc5p2&quot;&gt;Estimated &amp;amp; Planning&lt;/a&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="180" x="-2345" y="-280" as="geometry" />
         </mxCell>
+        <mxCell id="OdtAxG1bqNyyl-0RIFLE-8" edge="1" parent="1" source="OdtAxG1bqNyyl-0RIFLE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OdtAxG1bqNyyl-0RIFLE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2060" y="-765" />
+              <mxPoint x="-2060" y="-765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OdtAxG1bqNyyl-0RIFLE-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="APIMVIP" vertex="1">
-          <mxGeometry height="290" width="110" x="-2310" y="-860" as="geometry" />
+          <mxGeometry height="500" width="110" x="-2290" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="OdtAxG1bqNyyl-0RIFLE-9" edge="1" parent="1" source="OdtAxG1bqNyyl-0RIFLE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KcP6pcNSzCYrtJgaT8PE-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2100" y="-625" />
+              <mxPoint x="-2100" y="-625" />
+            </Array>
+            <mxPoint x="-2020" y="-630" as="sourcePoint" />
+            <mxPoint x="-1720" y="-630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
