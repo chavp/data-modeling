@@ -10541,7 +10541,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves-Insurance-Platforms">
-    <mxGraphModel dx="3952" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4294" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11213,6 +11213,15 @@
               <mxPoint x="-2170" y="-700" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ey5iHR5xR9iGg7jjQtI0-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DVS_POLICYREQUEST" vertex="1">
+          <mxGeometry height="120" width="190" x="-1320" y="-815" as="geometry" />
+        </mxCell>
+        <mxCell id="ey5iHR5xR9iGg7jjQtI0-2" edge="1" parent="1" source="KcP6pcNSzCYrtJgaT8PE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ey5iHR5xR9iGg7jjQtI0-1" value="orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ey5iHR5xR9iGg7jjQtI0-3" edge="1" parent="1" source="OdtAxG1bqNyyl-0RIFLE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ey5iHR5xR9iGg7jjQtI0-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
