@@ -10541,7 +10541,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="21rrjVEQNmDZmeOCbLTR" name="Deves-Insurance-Platforms">
-    <mxGraphModel dx="5025" dy="2161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4779" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11189,8 +11189,12 @@
         <mxCell id="ey5iHR5xR9iGg7jjQtI0-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DVS_POLICYREQUEST" vertex="1">
           <mxGeometry height="120" width="190" x="-1990" y="-965" as="geometry" />
         </mxCell>
-        <mxCell id="ey5iHR5xR9iGg7jjQtI0-2" edge="1" parent="1" source="KcP6pcNSzCYrtJgaT8PE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="orders">
+        <mxCell id="ey5iHR5xR9iGg7jjQtI0-2" edge="1" parent="1" source="KcP6pcNSzCYrtJgaT8PE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ey5iHR5xR9iGg7jjQtI0-1" value="orders">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2250" y="-500" />
+              <mxPoint x="-2250" y="-900" />
+            </Array>
             <mxPoint x="-1860" y="-400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -11266,13 +11270,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LnH-cZPKzRfyyeQ9O7tj-23" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PPGDB" vertex="1">
-          <mxGeometry height="120" width="180" x="-2390" y="725" as="geometry" />
+          <mxGeometry height="120" width="180" x="-1985" y="-550" as="geometry" />
         </mxCell>
         <mxCell id="LnH-cZPKzRfyyeQ9O7tj-24" edge="1" parent="1" source="KcP6pcNSzCYrtJgaT8PE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LnH-cZPKzRfyyeQ9O7tj-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2300" y="55" />
-              <mxPoint x="-2300" y="55" />
+              <mxPoint x="-2200" y="-500" />
+              <mxPoint x="-2200" y="-500" />
             </Array>
           </mxGeometry>
         </mxCell>
