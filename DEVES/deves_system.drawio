@@ -11429,6 +11429,17 @@
         <mxCell id="LnH-cZPKzRfyyeQ9O7tj-62" parent="LnH-cZPKzRfyyeQ9O7tj-60" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
           <mxGeometry height="48" width="50" x="209.44444444444446" as="geometry" />
         </mxCell>
+        <mxCell id="LnH-cZPKzRfyyeQ9O7tj-63" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PCSDIS" vertex="1">
+          <mxGeometry height="120" width="180" x="-1785" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="LnH-cZPKzRfyyeQ9O7tj-64" edge="1" parent="1" source="LnH-cZPKzRfyyeQ9O7tj-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LnH-cZPKzRfyyeQ9O7tj-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1980" y="-529" />
+              <mxPoint x="-1980" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
