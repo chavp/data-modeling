@@ -11223,14 +11223,20 @@
         <mxCell id="ey5iHR5xR9iGg7jjQtI0-3" edge="1" parent="1" source="OdtAxG1bqNyyl-0RIFLE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ey5iHR5xR9iGg7jjQtI0-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sAzhW38rlRjZM9DFTTbl-3" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="170" x="-2090" y="-630" as="geometry" />
+        <mxCell id="LnH-cZPKzRfyyeQ9O7tj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="180" x="-1700" y="-630" as="geometry" />
         </mxCell>
-        <mxCell id="sAzhW38rlRjZM9DFTTbl-1" parent="sAzhW38rlRjZM9DFTTbl-3" style="rounded=1;whiteSpace=wrap;html=1;" value="PaymentConfirm" vertex="1">
-          <mxGeometry height="72" width="145.7142857142857" y="18" as="geometry" />
+        <mxCell id="LnH-cZPKzRfyyeQ9O7tj-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="199.99571428571426" x="-2040" y="-640" as="geometry" />
         </mxCell>
-        <mxCell id="sAzhW38rlRjZM9DFTTbl-2" parent="sAzhW38rlRjZM9DFTTbl-3" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SchedulerJobCollection.svg;" value="" vertex="1">
-          <mxGeometry height="51.6" width="60" x="109.28571428571428" as="geometry" />
+        <mxCell id="sAzhW38rlRjZM9DFTTbl-3" connectable="0" parent="LnH-cZPKzRfyyeQ9O7tj-2" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sAzhW38rlRjZM9DFTTbl-1" parent="sAzhW38rlRjZM9DFTTbl-3" style="rounded=1;whiteSpace=wrap;html=1;" value="ConfirmPayment" vertex="1">
+          <mxGeometry height="72" width="160" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAzhW38rlRjZM9DFTTbl-2" parent="LnH-cZPKzRfyyeQ9O7tj-2" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SchedulerJobCollection.svg;" value="" vertex="1">
+          <mxGeometry height="51.6" width="60" x="139.99571428571426" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
