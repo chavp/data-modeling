@@ -11192,7 +11192,8 @@
         <mxCell id="ey5iHR5xR9iGg7jjQtI0-2" edge="1" parent="1" source="KcP6pcNSzCYrtJgaT8PE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" target="ey5iHR5xR9iGg7jjQtI0-1" value="orders">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2250" y="-500" />
+              <mxPoint x="-2571" y="-390" />
+              <mxPoint x="-2250" y="-390" />
               <mxPoint x="-2250" y="-910" />
             </Array>
             <mxPoint x="-1880" y="-900" as="targetPoint" />
@@ -11268,8 +11269,9 @@
         <mxCell id="LnH-cZPKzRfyyeQ9O7tj-24" edge="1" parent="1" source="KcP6pcNSzCYrtJgaT8PE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LnH-cZPKzRfyyeQ9O7tj-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2200" y="-500" />
-              <mxPoint x="-2200" y="-500" />
+              <mxPoint x="-2571" y="-390" />
+              <mxPoint x="-1980" y="-390" />
+              <mxPoint x="-1980" y="-507" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -11417,6 +11419,15 @@
               <mxPoint x="-1980" y="345" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LnH-cZPKzRfyyeQ9O7tj-60" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="290" x="-2690" y="-584" as="geometry" />
+        </mxCell>
+        <mxCell id="LnH-cZPKzRfyyeQ9O7tj-61" parent="LnH-cZPKzRfyyeQ9O7tj-60" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;div&gt;Payments&lt;/div&gt;QRCodehub_API" vertex="1">
+          <mxGeometry height="70" width="257.77777777777777" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LnH-cZPKzRfyyeQ9O7tj-62" parent="LnH-cZPKzRfyyeQ9O7tj-60" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="209.44444444444446" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
