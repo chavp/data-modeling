@@ -1572,7 +1572,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3XKz44SAfgex9B5AMaVx" name="Invoices">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4003" dy="2718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1591,10 +1591,10 @@
           <mxGeometry height="130" width="1120" x="770" y="235" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Product" vertex="1">
-          <mxGeometry height="50" width="225" x="780" y="1000" as="geometry" />
+          <mxGeometry height="50" width="225" x="1310" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ProductFeature" vertex="1">
-          <mxGeometry height="50" width="160" x="1020" y="1000" as="geometry" />
+          <mxGeometry height="50" width="160" x="1550" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="SalesInvoice" vertex="1">
           <mxGeometry height="50" width="130" x="160" y="260" as="geometry" />
@@ -1611,38 +1611,38 @@
         <mxCell id="5xA5_ZL9vCpX0XgFydee-7" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="910" y="650" />
-              <mxPoint x="910" y="650" />
+              <mxPoint x="1422.5" y="620" />
+              <mxPoint x="1422.5" y="620" />
             </Array>
-            <mxPoint x="940" y="530" as="sourcePoint" />
-            <mxPoint x="1140" y="530" as="targetPoint" />
+            <mxPoint x="1480" y="530" as="sourcePoint" />
+            <mxPoint x="1450.000000000001" y="365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-8" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1060" y="450" />
-              <mxPoint x="1060" y="450" />
+              <mxPoint x="1630" y="660" />
+              <mxPoint x="1630" y="660" />
             </Array>
-            <mxPoint x="1120" y="735" as="sourcePoint" />
-            <mxPoint x="1120" y="510" as="targetPoint" />
+            <mxPoint x="1660" y="735" as="sourcePoint" />
+            <mxPoint x="1600.000000000001" y="365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InventoryItem" vertex="1">
-          <mxGeometry height="50" width="190" x="1200" y="1000" as="geometry" />
+          <mxGeometry height="50" width="190" x="1730" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-10" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1260" y="480" />
-              <mxPoint x="1260" y="480" />
+              <mxPoint x="1825" y="660" />
+              <mxPoint x="1825" y="660" />
             </Array>
-            <mxPoint x="1310" y="930" as="sourcePoint" />
-            <mxPoint x="1310" y="580" as="targetPoint" />
+            <mxPoint x="1850" y="930" as="sourcePoint" />
+            <mxPoint x="1800.000000000001" y="365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Party" vertex="1">
-          <mxGeometry height="50" width="1390" x="-650" y="1140" as="geometry" />
+          <mxGeometry height="50" width="1390" x="-660" y="1470" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvoiceRole" vertex="1">
           <mxGeometry height="50" width="230" x="-560" y="120" as="geometry" />
@@ -1706,7 +1706,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ContactMechanism" vertex="1">
-          <mxGeometry height="50" width="390" x="-100" y="1070" as="geometry" />
+          <mxGeometry height="50" width="390" x="-110" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="5xA5_ZL9vCpX0XgFydee-23" edge="1" parent="1" source="5xA5_ZL9vCpX0XgFydee-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="pF-R-hj1QrV8nefuwvtL-1" value="Addressed to">
           <mxGeometry relative="1" as="geometry">
@@ -1852,10 +1852,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="WorkEffort" vertex="1">
-          <mxGeometry height="50" width="150" x="1960" y="1070" as="geometry" />
+          <mxGeometry height="50" width="150" x="1950" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimeEntry" vertex="1">
-          <mxGeometry height="50" width="140" x="1800" y="1070" as="geometry" />
+          <mxGeometry height="50" width="140" x="1790" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimeEntryBilling" vertex="1">
           <mxGeometry height="60" width="190" x="1790" y="115" as="geometry" />
@@ -1904,7 +1904,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="OrderItem" vertex="1">
-          <mxGeometry height="50" width="250" x="2130" y="1070" as="geometry" />
+          <mxGeometry height="50" width="250" x="2120" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="OrderItemBilling" vertex="1">
           <mxGeometry height="60" width="580" x="1630" y="-70" as="geometry" />
