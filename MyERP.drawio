@@ -401,7 +401,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U4hYDMhdRpOtA1KS_dux-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="LegalStructure" vertex="1">
-          <mxGeometry height="50" width="120" x="-500.0021875" y="319.99734375" as="geometry" />
+          <mxGeometry height="50" width="120" x="-470.0021875" y="319.99734375" as="geometry" />
         </mxCell>
         <mxCell id="U4hYDMhdRpOtA1KS_dux-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PartyClassification" vertex="1">
           <mxGeometry height="60" width="140" x="24.9978125" y="599.99734375" as="geometry" />
@@ -471,12 +471,9 @@
         <mxCell id="U4hYDMhdRpOtA1KS_dux-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="PartyRole" vertex="1">
           <mxGeometry height="30" width="60" x="-290.0021875" y="289.99734375" as="geometry" />
         </mxCell>
-        <mxCell id="U4hYDMhdRpOtA1KS_dux-28" edge="1" parent="1" source="U4hYDMhdRpOtA1KS_dux-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="U4hYDMhdRpOtA1KS_dux-15">
+        <mxCell id="U4hYDMhdRpOtA1KS_dux-28" edge="1" parent="1" source="U4hYDMhdRpOtA1KS_dux-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="U4hYDMhdRpOtA1KS_dux-15">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-320" y="345" />
-              <mxPoint x="-320" y="345" />
-            </Array>
+            <Array as="points" />
             <mxPoint x="265.0078125" y="529.27734375" as="sourcePoint" />
             <mxPoint x="265.0078125" y="689.27734375" as="targetPoint" />
           </mxGeometry>
