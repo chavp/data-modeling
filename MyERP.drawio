@@ -2053,13 +2053,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D2xcskgkOzII3zkc2vmt-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="FinancialAccount" vertex="1">
-          <mxGeometry height="110" width="405" x="730" y="1105.39" as="geometry" />
+          <mxGeometry height="110" width="405" x="715" y="1150" as="geometry" />
         </mxCell>
         <mxCell id="D2xcskgkOzII3zkc2vmt-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InvestmentAccount" vertex="1">
-          <mxGeometry height="40.77" width="150" x="810" y="1160" as="geometry" />
+          <mxGeometry height="40.77" width="150" x="795" y="1204.61" as="geometry" />
         </mxCell>
         <mxCell id="D2xcskgkOzII3zkc2vmt-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="BankAccount" vertex="1">
-          <mxGeometry height="40.77" width="150" x="970" y="1160" as="geometry" />
+          <mxGeometry height="40.77" width="150" x="955" y="1204.61" as="geometry" />
+        </mxCell>
+        <mxCell id="D2xcskgkOzII3zkc2vmt-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="FinancialAccountType" vertex="1">
+          <mxGeometry height="50" width="160" x="715" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="D2xcskgkOzII3zkc2vmt-12" edge="1" parent="1" source="D2xcskgkOzII3zkc2vmt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="D2xcskgkOzII3zkc2vmt-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="1130" />
+              <mxPoint x="795" y="1130" />
+            </Array>
+            <mxPoint x="1090" y="1140" as="sourcePoint" />
+            <mxPoint x="1090" y="1070" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
