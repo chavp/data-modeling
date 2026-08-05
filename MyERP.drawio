@@ -1572,7 +1572,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3XKz44SAfgex9B5AMaVx" name="Invoices">
-    <mxGraphModel dx="4003" dy="2718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3553" dy="2487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1930,16 +1930,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-25" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="130" width="420" x="470" y="630" as="geometry" />
+          <mxGeometry height="130" width="930" x="470" y="630" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-22" parent="V3fT3T7EblVZIK11_qCI-25" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Payment" vertex="1">
-          <mxGeometry height="130" width="420" as="geometry" />
+          <mxGeometry height="130" width="930" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-23" parent="V3fT3T7EblVZIK11_qCI-25" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Receipt" vertex="1">
-          <mxGeometry height="50" width="130" x="130" y="50" as="geometry" />
+          <mxGeometry height="50" width="150" x="570" y="50" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-24" parent="V3fT3T7EblVZIK11_qCI-25" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Disbursement" vertex="1">
-          <mxGeometry height="50" width="130" x="270" y="50" as="geometry" />
+          <mxGeometry height="50" width="150" x="750" y="50" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="PaymentApplication" vertex="1">
           <mxGeometry height="70" width="420" x="470" y="500" as="geometry" />
@@ -1966,7 +1966,10 @@
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-29" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-26">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="680" y="610" />
+              <mxPoint x="680" y="610" />
+            </Array>
             <mxPoint x="680" y="410" as="sourcePoint" />
             <mxPoint x="680" y="550.0000000000005" as="targetPoint" />
           </mxGeometry>
