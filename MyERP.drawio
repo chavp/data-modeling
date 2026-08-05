@@ -1572,7 +1572,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3XKz44SAfgex9B5AMaVx" name="Invoices">
-    <mxGraphModel dx="2742" dy="2071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4003" dy="2718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1852,22 +1852,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="WorkEffort" vertex="1">
-          <mxGeometry height="50" width="150" x="1950" y="1400" as="geometry" />
+          <mxGeometry height="50" width="150" x="2070" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimeEntry" vertex="1">
-          <mxGeometry height="50" width="140" x="1790" y="1400" as="geometry" />
+          <mxGeometry height="50" width="140" x="1910" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TimeEntryBilling" vertex="1">
-          <mxGeometry height="60" width="190" x="1790" y="115" as="geometry" />
+          <mxGeometry height="60" width="310" x="1790" y="115" as="geometry" />
         </mxCell>
-        <mxCell id="V3fT3T7EblVZIK11_qCI-13" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-12">
+        <mxCell id="V3fT3T7EblVZIK11_qCI-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1930" y="370" />
-              <mxPoint x="1930" y="370" />
+              <mxPoint x="1990" y="385" />
+              <mxPoint x="1990" y="385" />
             </Array>
-            <mxPoint x="1930" y="965" as="sourcePoint" />
-            <mxPoint x="1930" y="450" as="targetPoint" />
+            <mxPoint x="1990.000000000001" y="1415" as="sourcePoint" />
+            <mxPoint x="1990.000000000001" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-14" edge="1" parent="1" source="pF-R-hj1QrV8nefuwvtL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-12">
@@ -1881,13 +1881,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="WorkEffortBilling" vertex="1">
-          <mxGeometry height="60" width="360" x="1720" y="20" as="geometry" />
+          <mxGeometry height="60" width="560" x="1720" y="20" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-16" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2020" y="730" />
-              <mxPoint x="2020" y="730" />
+              <mxPoint x="2140" y="410" />
+              <mxPoint x="2140" y="410" />
             </Array>
             <mxPoint x="2070" y="1025" as="sourcePoint" />
             <mxPoint x="2070" y="250" as="targetPoint" />
@@ -1904,19 +1904,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="OrderItem" vertex="1">
-          <mxGeometry height="50" width="250" x="2120" y="1400" as="geometry" />
+          <mxGeometry height="50" width="180" x="2240" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="OrderItemBilling" vertex="1">
-          <mxGeometry height="60" width="580" x="1630" y="-70" as="geometry" />
+          <mxGeometry height="60" width="800" x="1630" y="-70" as="geometry" />
         </mxCell>
-        <mxCell id="V3fT3T7EblVZIK11_qCI-20" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-19">
+        <mxCell id="V3fT3T7EblVZIK11_qCI-20" edge="1" parent="1" source="V3fT3T7EblVZIK11_qCI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2160" y="810" />
-              <mxPoint x="2160" y="810" />
+              <mxPoint x="2340" y="1050" />
+              <mxPoint x="2340" y="1050" />
             </Array>
-            <mxPoint x="2180" y="949.9999999999995" as="sourcePoint" />
-            <mxPoint x="2180" y="-10" as="targetPoint" />
+            <mxPoint x="2420" y="1425.000000000001" as="sourcePoint" />
+            <mxPoint x="2340.000000000001" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V3fT3T7EblVZIK11_qCI-21" edge="1" parent="1" source="pF-R-hj1QrV8nefuwvtL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" target="V3fT3T7EblVZIK11_qCI-19">
@@ -2083,17 +2083,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D2xcskgkOzII3zkc2vmt-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="FinancialAccountRole" vertex="1">
-          <mxGeometry height="50" width="190" x="1040" y="1050" as="geometry" />
+          <mxGeometry height="50" width="160" x="1040" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="D2xcskgkOzII3zkc2vmt-15" edge="1" parent="1" source="D2xcskgkOzII3zkc2vmt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="5xA5_ZL9vCpX0XgFydee-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1190" y="1190" />
-              <mxPoint x="1190" y="1190" />
+              <mxPoint x="1160" y="1250" />
+              <mxPoint x="1160" y="1250" />
             </Array>
             <mxPoint x="1220" y="1180" as="sourcePoint" />
             <mxPoint x="1220" y="1230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="D2xcskgkOzII3zkc2vmt-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="FinancialAccountType" vertex="1">
+          <mxGeometry height="50" width="160" x="1230" y="1050" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
