@@ -2230,6 +2230,16 @@
         <mxCell id="tsPfR-LMothTYqulvPVA-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ExternalAccountingTransaction" vertex="1">
           <mxGeometry height="120" width="430" x="1360" y="-30" as="geometry" />
         </mxCell>
+        <mxCell id="tsPfR-LMothTYqulvPVA-8" edge="1" parent="1" source="tsPfR-LMothTYqulvPVA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="tsPfR-LMothTYqulvPVA-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1575.03" y="870" />
+              <mxPoint x="1575.03" y="870" />
+            </Array>
+            <mxPoint x="1450.23" y="270" as="sourcePoint" />
+            <mxPoint x="1450.23" y="1211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
