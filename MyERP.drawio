@@ -321,7 +321,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vsfAjrV-K4g-M2d2Z1-q" name="People &amp; Organization">
-    <mxGraphModel dx="2742" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2262" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -675,7 +675,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DFRnP4zSqiH8itncpPAu-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Room" vertex="1">
-          <mxGeometry height="50" width="90" x="1490" y="755" as="geometry" />
+          <mxGeometry height="50" width="90" x="1410" y="755" as="geometry" />
         </mxCell>
         <mxCell id="DFRnP4zSqiH8itncpPAu-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="FacilityRole" vertex="1">
           <mxGeometry height="70" width="320" x="1020" y="930.72" as="geometry" />
@@ -714,21 +714,7 @@
           <mxGeometry height="50" width="90" x="1210" y="755" as="geometry" />
         </mxCell>
         <mxCell id="DFRnP4zSqiH8itncpPAu-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Floor" vertex="1">
-          <mxGeometry height="50" width="90" x="1350" y="755" as="geometry" />
-        </mxCell>
-        <mxCell id="DFRnP4zSqiH8itncpPAu-18" edge="1" parent="1" source="DFRnP4zSqiH8itncpPAu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="DFRnP4zSqiH8itncpPAu-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1670" y="910.72" as="sourcePoint" />
-            <mxPoint x="1620" y="910.72" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DFRnP4zSqiH8itncpPAu-19" edge="1" parent="1" source="DFRnP4zSqiH8itncpPAu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="DFRnP4zSqiH8itncpPAu-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1560" y="860.72" as="sourcePoint" />
-            <mxPoint x="1460" y="860.72" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="50" width="90" x="1310" y="755.36" as="geometry" />
         </mxCell>
         <mxCell id="DFRnP4zSqiH8itncpPAu-22" edge="1" parent="1" source="U4hYDMhdRpOtA1KS_dux-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="U4hYDMhdRpOtA1KS_dux-41">
           <mxGeometry relative="1" as="geometry">
@@ -826,6 +812,9 @@
         </mxCell>
         <mxCell id="y2P7Ye4IEbQV5lOPJCC0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;" value="ThirdPartyRole" vertex="1">
           <mxGeometry height="110" width="279.77" x="-30" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="3R9_33tB9voabsqGaLhk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Bed" vertex="1">
+          <mxGeometry height="50" width="90" x="1510" y="755.36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
