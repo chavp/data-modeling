@@ -2199,7 +2199,7 @@
           <mxGeometry height="160" width="1610" x="200" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="tsPfR-LMothTYqulvPVA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="AccountingTransactionType" vertex="1">
-          <mxGeometry height="70" width="210" x="200" y="-170" as="geometry" />
+          <mxGeometry height="70" width="210" x="1140" y="-180" as="geometry" />
         </mxCell>
         <mxCell id="tsPfR-LMothTYqulvPVA-3" edge="1" parent="1" source="tsPfR-LMothTYqulvPVA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="tsPfR-LMothTYqulvPVA-1">
           <mxGeometry relative="1" as="geometry">
@@ -2241,16 +2241,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tsPfR-LMothTYqulvPVA-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TransactionDetail" vertex="1">
-          <mxGeometry height="120" width="430" x="1360" y="-250" as="geometry" />
+          <mxGeometry height="70" width="270" x="70" y="-200" as="geometry" />
         </mxCell>
         <mxCell id="tsPfR-LMothTYqulvPVA-10" edge="1" parent="1" source="tsPfR-LMothTYqulvPVA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="tsPfR-LMothTYqulvPVA-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1575.06" y="-60" />
-              <mxPoint x="1575.06" y="-60" />
+              <mxPoint x="290" y="-90" />
+              <mxPoint x="290" y="-90" />
             </Array>
             <mxPoint x="1180" y="-130" as="sourcePoint" />
             <mxPoint x="1180" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsPfR-LMothTYqulvPVA-11" edge="1" parent="1" source="tsPfR-LMothTYqulvPVA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="CrZjZsMFdGZnV3-I7ipA-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="30" />
+              <mxPoint x="160" y="30" />
+            </Array>
+            <mxPoint x="490" y="-110" as="sourcePoint" />
+            <mxPoint x="490" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
