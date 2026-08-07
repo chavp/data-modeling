@@ -2112,7 +2112,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VleOEuy4iv6jj-yjfwke" name="Accounting">
-    <mxGraphModel dx="1412" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="974" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2196,7 +2196,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tsPfR-LMothTYqulvPVA-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="AccountingTransaction" vertex="1">
-          <mxGeometry height="160" width="1150" x="200" y="-50" as="geometry" />
+          <mxGeometry height="160" width="1610" x="200" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="tsPfR-LMothTYqulvPVA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="AccountingTransactionType" vertex="1">
           <mxGeometry height="70" width="210" x="200" y="-170" as="geometry" />
@@ -2223,6 +2223,12 @@
         </mxCell>
         <mxCell id="tsPfR-LMothTYqulvPVA-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="InternalAccountingTransaction" vertex="1">
           <mxGeometry height="120" width="430" x="890" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="tsPfR-LMothTYqulvPVA-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="Party" vertex="1">
+          <mxGeometry height="50" width="1390" x="320" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="tsPfR-LMothTYqulvPVA-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="ExternalAccountingTransaction" vertex="1">
+          <mxGeometry height="120" width="430" x="1360" y="-30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
