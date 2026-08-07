@@ -2112,7 +2112,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VleOEuy4iv6jj-yjfwke" name="Accounting">
-    <mxGraphModel dx="2017" dy="2273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="2242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2238,6 +2238,19 @@
             </Array>
             <mxPoint x="1450.23" y="270" as="sourcePoint" />
             <mxPoint x="1450.23" y="1211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tsPfR-LMothTYqulvPVA-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;" value="TransactionDetail" vertex="1">
+          <mxGeometry height="120" width="430" x="1360" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="tsPfR-LMothTYqulvPVA-10" edge="1" parent="1" source="tsPfR-LMothTYqulvPVA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="tsPfR-LMothTYqulvPVA-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1575.06" y="-60" />
+              <mxPoint x="1575.06" y="-60" />
+            </Array>
+            <mxPoint x="1180" y="-130" as="sourcePoint" />
+            <mxPoint x="1180" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
