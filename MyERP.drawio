@@ -2527,13 +2527,12 @@
           <mxGeometry height="50" width="230" x="1820" y="215" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="SalaryStep" vertex="1">
-          <mxGeometry height="50" width="500" x="1650" y="305" as="geometry" />
+          <mxGeometry height="50" width="210" x="1920" y="305" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-37" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-36">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1740" y="285" />
-              <mxPoint x="1740" y="285" />
+              <mxPoint x="1760.06" y="330.06" />
             </Array>
             <mxPoint x="1780" y="205" as="sourcePoint" />
             <mxPoint x="1780" y="255" as="targetPoint" />
@@ -2586,13 +2585,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PayGrade" vertex="1">
-          <mxGeometry height="50" width="120" x="1650" y="405" as="geometry" />
+          <mxGeometry height="50" width="120" x="2010" y="410" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-46" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1710.06" y="365" />
-              <mxPoint x="1710.06" y="365" />
+              <mxPoint x="2070.06" y="380" />
+              <mxPoint x="2070.06" y="380" />
             </Array>
             <mxPoint x="1910" y="445" as="sourcePoint" />
             <mxPoint x="1910" y="495" as="targetPoint" />
@@ -2694,6 +2693,16 @@
               <mxPoint x="1405" y="710" />
               <mxPoint x="1405" y="710" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtSVXUjpxFXLkYXQ_IRu-15" edge="1" parent="1" source="QtSVXUjpxFXLkYXQ_IRu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1880" y="370" />
+              <mxPoint x="1880" y="370" />
+            </Array>
+            <mxPoint x="1790" y="400" as="sourcePoint" />
+            <mxPoint x="1790" y="455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
