@@ -2304,7 +2304,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lxQ6Ts-0HuFLtUDIt9dx" name="HR">
-    <mxGraphModel dx="2059" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2909" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2740,7 +2740,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QtSVXUjpxFXLkYXQ_IRu-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="EmploymentApplication" vertex="1">
-          <mxGeometry height="70" width="310" x="-570" y="410" as="geometry" />
+          <mxGeometry height="100" width="310" x="-570" y="410" as="geometry" />
         </mxCell>
         <mxCell id="QtSVXUjpxFXLkYXQ_IRu-22" edge="1" parent="1" source="QtSVXUjpxFXLkYXQ_IRu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RISiHd30zT9Z0lX0FFse-23">
           <mxGeometry relative="1" as="geometry">
@@ -2771,6 +2771,12 @@
           <mxGeometry relative="1" x="-0.7943" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QtSVXUjpxFXLkYXQ_IRu-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="EmploymentApplicationStatusType" vertex="1">
+          <mxGeometry height="40" width="230" x="-870" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QtSVXUjpxFXLkYXQ_IRu-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="EmploymentApplicationSourceType" vertex="1">
+          <mxGeometry height="40" width="230" x="-870" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
