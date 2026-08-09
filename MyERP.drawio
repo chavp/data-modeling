@@ -820,7 +820,7 @@
           <mxGeometry height="130" width="470" x="2300" y="70" as="geometry" />
         </mxCell>
         <mxCell id="zBOdEUYFsUEOOinyE-Lp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionResponsibility" vertex="1">
-          <mxGeometry height="50" width="470" x="2580" y="-90" as="geometry" />
+          <mxGeometry height="50" width="340" x="2570" y="-60" as="geometry" />
         </mxCell>
         <mxCell id="zBOdEUYFsUEOOinyE-Lp-3" edge="1" parent="1" source="zBOdEUYFsUEOOinyE-Lp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="zBOdEUYFsUEOOinyE-Lp-1">
           <mxGeometry relative="1" as="geometry">
@@ -833,13 +833,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zBOdEUYFsUEOOinyE-Lp-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionResponsibilityType" vertex="1">
-          <mxGeometry height="50" width="190" x="3130" y="-90" as="geometry" />
+          <mxGeometry height="50" width="190" x="2810" y="80" as="geometry" />
         </mxCell>
         <mxCell id="zBOdEUYFsUEOOinyE-Lp-5" edge="1" parent="1" source="zBOdEUYFsUEOOinyE-Lp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="zBOdEUYFsUEOOinyE-Lp-4">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="2870" y="20" />
+              <mxPoint x="2870" y="20" />
+            </Array>
             <mxPoint x="2900" y="20" as="sourcePoint" />
             <mxPoint x="2900" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBOdEUYFsUEOOinyE-Lp-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="ValidResponsibility" vertex="1">
+          <mxGeometry height="50" width="250" x="2940" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBOdEUYFsUEOOinyE-Lp-7" edge="1" parent="1" source="zBOdEUYFsUEOOinyE-Lp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="zBOdEUYFsUEOOinyE-Lp-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2980" y="30" />
+              <mxPoint x="2980" y="30" />
+            </Array>
+            <mxPoint x="3090" y="20" as="sourcePoint" />
+            <mxPoint x="3090" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
