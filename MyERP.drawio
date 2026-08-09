@@ -2302,21 +2302,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lxQ6Ts-0HuFLtUDIt9dx" name="HR">
-    <mxGraphModel dx="1657" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2262" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RISiHd30zT9Z0lX0FFse-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="Position" vertex="1">
-          <mxGeometry height="110" width="770" x="-70" y="330" as="geometry" />
+          <mxGeometry height="110" width="770" x="-80" y="410" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionResponsibility" vertex="1">
           <mxGeometry height="50" width="340" x="500" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="RISiHd30zT9Z0lX0FFse-3" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;">
+        <mxCell id="RISiHd30zT9Z0lX0FFse-3" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600.0300000000002" y="230" />
-              <mxPoint x="600.0300000000002" y="230" />
+              <mxPoint x="580" y="230" />
+              <mxPoint x="580" y="230" />
             </Array>
             <mxPoint x="730" y="229.27999999999997" as="sourcePoint" />
             <mxPoint x="600.0588235294122" y="330" as="targetPoint" />
@@ -2349,16 +2349,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionType" vertex="1">
-          <mxGeometry height="50" width="940" x="810" y="320" as="geometry" />
+          <mxGeometry height="50" width="940" x="800" y="400" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-9" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="730" y="345" />
-              <mxPoint x="730" y="345" />
+              <mxPoint x="720" y="425" />
+              <mxPoint x="720" y="425" />
             </Array>
-            <mxPoint x="710" y="345.05882352941194" as="sourcePoint" />
-            <mxPoint x="760" y="550" as="targetPoint" />
+            <mxPoint x="700" y="425.05882352941194" as="sourcePoint" />
+            <mxPoint x="750" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-10" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-8">
@@ -2437,16 +2437,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionStatusType" vertex="1">
-          <mxGeometry height="50" width="210" x="810" y="390" as="geometry" />
+          <mxGeometry height="50" width="210" x="800" y="470" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-22" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="730" y="415" />
-              <mxPoint x="730" y="415" />
+              <mxPoint x="720" y="495" />
+              <mxPoint x="720" y="495" />
             </Array>
-            <mxPoint x="710" y="415.05882352941194" as="sourcePoint" />
-            <mxPoint x="860" y="540" as="targetPoint" />
+            <mxPoint x="700" y="495.05882352941194" as="sourcePoint" />
+            <mxPoint x="850" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;spacingLeft=6;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Person&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -2465,11 +2465,11 @@
         <mxCell id="RISiHd30zT9Z0lX0FFse-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionReportingStructure" vertex="1">
           <mxGeometry height="70" width="380" x="80" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="RISiHd30zT9Z0lX0FFse-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;">
+        <mxCell id="RISiHd30zT9Z0lX0FFse-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="220" />
-              <mxPoint x="180" y="220" />
+              <mxPoint x="180" y="350" />
+              <mxPoint x="180" y="350" />
             </Array>
             <mxPoint x="180" y="180" as="sourcePoint" />
             <mxPoint x="180" y="330" as="targetPoint" />
@@ -2480,11 +2480,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RISiHd30zT9Z0lX0FFse-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;">
+        <mxCell id="RISiHd30zT9Z0lX0FFse-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="370" y="300" />
-              <mxPoint x="370" y="300" />
+              <mxPoint x="370" y="370" />
+              <mxPoint x="370" y="370" />
             </Array>
             <mxPoint x="370" y="180" as="sourcePoint" />
             <mxPoint x="370" y="330" as="targetPoint" />
@@ -2525,7 +2525,7 @@
           <mxGeometry height="50" width="140" x="1990" y="210" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="SalaryStep" vertex="1">
-          <mxGeometry height="50" width="180" x="1810" y="320" as="geometry" />
+          <mxGeometry height="50" width="180" x="1800" y="400" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-37" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-36">
           <mxGeometry relative="1" as="geometry">
