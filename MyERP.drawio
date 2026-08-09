@@ -1,20 +1,14 @@
 <mxfile host="app.diagrams.net" pages="10">
-  <diagram name="ERP" id="1dGozrZbbg-b1558PS68">
-    <mxGraphModel dx="902" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Economics" id="1dGozrZbbg-b1558PS68">
+    <mxGraphModel dx="1209" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Cu73C0accCHV96dUy6MK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Parties" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="210" as="geometry" />
+        <mxCell id="Cu73C0accCHV96dUy6MK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="Macroeconomics" vertex="1">
+          <mxGeometry height="60" width="350" x="130" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="Cu73C0accCHV96dUy6MK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Orders" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="Cu73C0accCHV96dUy6MK-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Products" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="210" as="geometry" />
-        </mxCell>
-        <mxCell id="Cu73C0accCHV96dUy6MK-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Invoices" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="280" as="geometry" />
+        <mxCell id="Cu73C0accCHV96dUy6MK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="Microeconomics" vertex="1">
+          <mxGeometry height="60" width="370" x="260" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2266,41 +2260,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="0WFfht1ruZmcpwSQqGDQ" name="Architecture">
-    <mxGraphModel dx="1892" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="GODp7Nz22NhjunXIePpr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Organizations *" vertex="1">
-          <mxGeometry height="60" width="200" x="170" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="GODp7Nz22NhjunXIePpr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Products" vertex="1">
-          <mxGeometry height="60" width="200" x="390" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="LgHnNxMyfQOWlHjSQnPw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FlowenterAgents" vertex="1">
-          <mxGeometry height="60" width="860" x="170" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="x7z1ehmy2mO2X6TFDKy5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Orders **" vertex="1">
-          <mxGeometry height="60" width="200" x="610" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="x7z1ehmy2mO2X6TFDKy5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Invoices **" vertex="1">
-          <mxGeometry height="60" width="200" x="830" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="oAPhlCKDpPCO1glw1Ayo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="30" width="200" x="170" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="oAPhlCKDpPCO1glw1Ayo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="30" width="200" x="390" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="oAPhlCKDpPCO1glw1Ayo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="30" width="200" x="610" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="oAPhlCKDpPCO1glw1Ayo-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="30" width="200" x="830" y="400" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="lxQ6Ts-0HuFLtUDIt9dx" name="HR">
     <mxGraphModel dx="2059" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2595,6 +2554,41 @@
             <mxPoint x="2040" y="440" as="sourcePoint" />
             <mxPoint x="2040" y="490" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0WFfht1ruZmcpwSQqGDQ" name="Architecture">
+    <mxGraphModel dx="1028" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GODp7Nz22NhjunXIePpr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Organizations *" vertex="1">
+          <mxGeometry height="60" width="200" x="170" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="GODp7Nz22NhjunXIePpr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Products" vertex="1">
+          <mxGeometry height="60" width="200" x="390" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHnNxMyfQOWlHjSQnPw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FlowenterAgents" vertex="1">
+          <mxGeometry height="60" width="860" x="170" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="x7z1ehmy2mO2X6TFDKy5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Orders **" vertex="1">
+          <mxGeometry height="60" width="200" x="610" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="x7z1ehmy2mO2X6TFDKy5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Invoices **" vertex="1">
+          <mxGeometry height="60" width="200" x="830" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="oAPhlCKDpPCO1glw1Ayo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="200" x="170" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oAPhlCKDpPCO1glw1Ayo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="200" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oAPhlCKDpPCO1glw1Ayo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="200" x="610" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oAPhlCKDpPCO1glw1Ayo-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="200" x="830" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
