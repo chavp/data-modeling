@@ -2465,6 +2465,36 @@
         <mxCell id="RISiHd30zT9Z0lX0FFse-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionReportingStructure" vertex="1">
           <mxGeometry height="70" width="380" x="80" y="110" as="geometry" />
         </mxCell>
+        <mxCell id="RISiHd30zT9Z0lX0FFse-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="220" />
+              <mxPoint x="180" y="220" />
+            </Array>
+            <mxPoint x="180" y="180" as="sourcePoint" />
+            <mxPoint x="180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RISiHd30zT9Z0lX0FFse-28" connectable="0" parent="RISiHd30zT9Z0lX0FFse-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="managed by" vertex="1">
+          <mxGeometry relative="1" x="-0.6978" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RISiHd30zT9Z0lX0FFse-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="300" />
+              <mxPoint x="370" y="300" />
+            </Array>
+            <mxPoint x="370" y="180" as="sourcePoint" />
+            <mxPoint x="370" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RISiHd30zT9Z0lX0FFse-30" connectable="0" parent="RISiHd30zT9Z0lX0FFse-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="reports to" vertex="1">
+          <mxGeometry relative="1" x="-0.6533" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
