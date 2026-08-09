@@ -2304,7 +2304,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lxQ6Ts-0HuFLtUDIt9dx" name="HR">
-    <mxGraphModel dx="2319" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3420" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2573,7 +2573,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="Employment" vertex="1">
-          <mxGeometry height="50" width="760" x="1770" y="825" as="geometry" />
+          <mxGeometry height="50" width="760" x="1770" y="820" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-44" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-43">
           <mxGeometry relative="1" as="geometry">
@@ -2629,16 +2629,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QtSVXUjpxFXLkYXQ_IRu-1" connectable="0" parent="1" style="group;fillColor=none;strokeColor=none;" value="" vertex="1">
-          <mxGeometry height="130" width="1012.5" x="570" y="780" as="geometry" />
+          <mxGeometry height="160" width="1012.5" x="570" y="780" as="geometry" />
         </mxCell>
         <mxCell id="QtSVXUjpxFXLkYXQ_IRu-2" parent="QtSVXUjpxFXLkYXQ_IRu-1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Payment" vertex="1">
-          <mxGeometry height="130" width="1012.4999999999999" as="geometry" />
+          <mxGeometry height="160" width="1012.4999999999999" as="geometry" />
         </mxCell>
         <mxCell id="QtSVXUjpxFXLkYXQ_IRu-4" parent="QtSVXUjpxFXLkYXQ_IRu-1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Disbursement" vertex="1">
-          <mxGeometry height="80" width="260" x="719.84" y="20" as="geometry" />
+          <mxGeometry height="137.69" width="260" x="719.84" y="12.31" as="geometry" />
         </mxCell>
         <mxCell id="QtSVXUjpxFXLkYXQ_IRu-5" parent="QtSVXUjpxFXLkYXQ_IRu-1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Paycheck" vertex="1">
-          <mxGeometry height="40" width="190" x="780" y="50" as="geometry" />
+          <mxGeometry height="79.61" width="190" x="770" y="55.39" as="geometry" />
+        </mxCell>
+        <mxCell id="QtSVXUjpxFXLkYXQ_IRu-6" edge="1" parent="1" source="QtSVXUjpxFXLkYXQ_IRu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="RISiHd30zT9Z0lX0FFse-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="850" />
+              <mxPoint x="1600" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtSVXUjpxFXLkYXQ_IRu-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="InternalOrganization" vertex="1">
+          <mxGeometry height="50" width="270" x="1770" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="QtSVXUjpxFXLkYXQ_IRu-8" edge="1" parent="1" source="QtSVXUjpxFXLkYXQ_IRu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="QtSVXUjpxFXLkYXQ_IRu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="900" />
+              <mxPoint x="1680" y="900" />
+            </Array>
+            <mxPoint x="1630" y="980" as="sourcePoint" />
+            <mxPoint x="1870" y="980" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
