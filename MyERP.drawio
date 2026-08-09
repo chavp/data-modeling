@@ -2522,10 +2522,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PeriodType" vertex="1">
-          <mxGeometry height="50" width="250" x="1930" y="210" as="geometry" />
+          <mxGeometry height="50" width="230" x="1950" y="210" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="SalaryStep" vertex="1">
-          <mxGeometry height="50" width="180" x="1770" y="400" as="geometry" />
+          <mxGeometry height="50" width="500" x="1780" y="300" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-37" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-36">
           <mxGeometry relative="1" as="geometry">
@@ -2558,6 +2558,16 @@
             </Array>
             <mxPoint x="2310" y="250" as="sourcePoint" />
             <mxPoint x="2310" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RISiHd30zT9Z0lX0FFse-42" edge="1" parent="1" source="RISiHd30zT9Z0lX0FFse-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2225" y="270" />
+              <mxPoint x="2225" y="270" />
+            </Array>
+            <mxPoint x="2280" y="220" as="sourcePoint" />
+            <mxPoint x="2280" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
