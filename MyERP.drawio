@@ -2416,7 +2416,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionFulfillment" vertex="1">
-          <mxGeometry height="70" width="320" x="-260" y="110" as="geometry" />
+          <mxGeometry height="70" width="270" x="-230" y="110" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;spacingLeft=6;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Organization&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="300" x="-150" y="830" as="geometry" />
@@ -2468,7 +2468,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" value="PositionReportingStructure" vertex="1">
-          <mxGeometry height="70" width="380" x="80" y="110" as="geometry" />
+          <mxGeometry height="70" width="320" x="120" y="110" as="geometry" />
         </mxCell>
         <mxCell id="RISiHd30zT9Z0lX0FFse-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-1">
           <mxGeometry relative="1" as="geometry">
@@ -2818,6 +2818,16 @@
             </Array>
             <mxPoint x="2250" y="90" as="sourcePoint" />
             <mxPoint x="2250" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2qglc_AJ01lFdWB-eDh-5" edge="1" parent="1" source="X2qglc_AJ01lFdWB-eDh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#cdeb8b;strokeColor=#36393d;" target="RISiHd30zT9Z0lX0FFse-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="110" />
+              <mxPoint x="80" y="110" />
+            </Array>
+            <mxPoint x="90" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="198" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
