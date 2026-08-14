@@ -11599,7 +11599,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IP9qS6X0DHyDXdz00qzJ" name="DevesOneStopServices">
-    <mxGraphModel dx="858" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1212" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11660,13 +11660,13 @@
           <mxGeometry height="77" width="78" x="545" y="506.5" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-24" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="30" width="429.52" x="710" y="330" as="geometry" />
+          <mxGeometry height="30" width="390" x="870" y="270" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-15" parent="7HnV5LqwvmgPujibaB8Y-24" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="2" vertex="1">
           <mxGeometry height="30" width="30" as="geometry" />
         </mxCell>
-        <mxCell id="7HnV5LqwvmgPujibaB8Y-16" parent="7HnV5LqwvmgPujibaB8Y-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Query All AS400 users by AD users [password &amp;lt;= 14 days expired]" vertex="1">
-          <mxGeometry height="30" width="390" x="39.52" as="geometry" />
+        <mxCell id="7HnV5LqwvmgPujibaB8Y-16" parent="7HnV5LqwvmgPujibaB8Y-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Get All AS400 users by AD users [password &amp;lt;= 14 days expired]" vertex="1">
+          <mxGeometry height="30" width="344.48" x="39.52" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-25" connectable="0" parent="1" style="group;fontStyle=1" value="" vertex="1">
           <mxGeometry height="30" width="247.36999999999998" x="320" y="400" as="geometry" />
@@ -11702,7 +11702,7 @@
           <mxGeometry height="30" width="139.65904761904764" x="32.860952380952384" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-43" connectable="0" parent="1" style="group;fontSize=14;fontStyle=1;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="104.2" width="160" x="1110" y="192.3" as="geometry" />
+          <mxGeometry height="104.2" width="160" x="1270" y="192.3" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-12" parent="7HnV5LqwvmgPujibaB8Y-43" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;SSQ API&lt;/b&gt;" vertex="1">
           <mxGeometry height="80.00000000000001" width="155.00363636363636" y="24.199999999999996" as="geometry" />
@@ -11720,13 +11720,13 @@
           <mxGeometry height="30" width="197.47" x="24.95" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-47" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="30" width="279" x="870" y="210" as="geometry" />
+          <mxGeometry height="30" width="390" x="870" y="300" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-48" parent="7HnV5LqwvmgPujibaB8Y-47" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="6" vertex="1">
-          <mxGeometry height="21.461538461538463" width="21.461538461538463" y="14.27" as="geometry" />
+          <mxGeometry height="30" width="30" y="10" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-49" parent="7HnV5LqwvmgPujibaB8Y-47" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Apply user change AS400 password" vertex="1">
-          <mxGeometry height="30" width="246.43569230769234" x="28.272000000000002" y="10" as="geometry" />
+          <mxGeometry height="30" width="344.48" x="39.52" y="10" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-51" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="30" width="172.52" x="800" y="790" as="geometry" />
@@ -11755,21 +11755,21 @@
         <mxCell id="7HnV5LqwvmgPujibaB8Y-59" parent="7HnV5LqwvmgPujibaB8Y-56" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" value="" vertex="1">
           <mxGeometry height="30" width="33.91" x="44" y="-4" as="geometry" />
         </mxCell>
-        <mxCell id="7HnV5LqwvmgPujibaB8Y-64" edge="1" parent="1" source="7HnV5LqwvmgPujibaB8Y-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;dashed=1;">
+        <mxCell id="7HnV5LqwvmgPujibaB8Y-64" edge="1" parent="1" source="7HnV5LqwvmgPujibaB8Y-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="490" as="targetPoint" />
+            <mxPoint x="880" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;&lt;font&gt;C# Examples&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;(1)&amp;nbsp;&lt;a href=&quot;https://dvsins.sharepoint.com/:u:/s/DevesITProject/IQClT4rrbhK_T54yK6bcujl8AfqRLu5Ho4h-KyKBr_PBN-E?e=2syPWn&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Get all AD users [&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Every days: 9:00 AM&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;(5)&amp;nbsp;&lt;a href=&quot;https://dvsins.sharepoint.com/:u:/s/DevesITProject/IQCnnKq-3_oyRr9mHnIvBooAAU6trigLADFfacL4Zuj6uiE?e=7i9Idn&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Apply AD user change password&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="300" x="60" y="580" as="geometry" />
+          <mxGeometry height="90" width="300" x="1240" y="580" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;&lt;font&gt;SSQ API&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;(2)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Get All AS400 users by AD users [password &amp;lt;= 14 days expired]&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(6)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Apply user change AS400 password&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="420" x="1170" y="500" as="geometry" />
+          <mxGeometry height="90" width="420" x="1368.22" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="7HnV5LqwvmgPujibaB8Y-67" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;dashed=1;">
+        <mxCell id="7HnV5LqwvmgPujibaB8Y-67" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1170" y="490" as="sourcePoint" />
-            <mxPoint x="970" y="390" as="targetPoint" />
+            <mxPoint x="1340" y="380" as="sourcePoint" />
+            <mxPoint x="1140" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e8pfBLRS7zZuN2PHu3Ev-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Policy400H" vertex="1">
