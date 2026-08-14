@@ -11599,7 +11599,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IP9qS6X0DHyDXdz00qzJ" name="DevesOneStopServices">
-    <mxGraphModel dx="1813" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1471" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11672,6 +11672,18 @@
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-27" parent="7HnV5LqwvmgPujibaB8Y-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Get all AD users" vertex="1">
           <mxGeometry height="30" width="106.04761904761905" x="24.952380952380953" as="geometry" />
+        </mxCell>
+        <mxCell id="7HnV5LqwvmgPujibaB8Y-30" edge="1" parent="1" source="7HnV5LqwvmgPujibaB8Y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="7HnV5LqwvmgPujibaB8Y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7HnV5LqwvmgPujibaB8Y-31" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="30" width="197.47" x="80" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7HnV5LqwvmgPujibaB8Y-32" parent="7HnV5LqwvmgPujibaB8Y-31" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="-12.53" as="geometry" />
+        </mxCell>
+        <mxCell id="7HnV5LqwvmgPujibaB8Y-33" parent="7HnV5LqwvmgPujibaB8Y-31" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Notify for change password" vertex="1">
+          <mxGeometry height="30" width="172.52" x="24.95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
