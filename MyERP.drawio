@@ -371,7 +371,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vsfAjrV-K4g-M2d2Z1-q" name="People &amp; Organization">
-    <mxGraphModel dx="2511" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2660" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -868,6 +868,29 @@
         </mxCell>
         <mxCell id="3R9_33tB9voabsqGaLhk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Bed" vertex="1">
           <mxGeometry height="50" width="90" x="1510" y="755.36" as="geometry" />
+        </mxCell>
+        <mxCell id="v4eyh5gkAyR-kIYR-5ER-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Facility&lt;/span&gt;ContactMechanism" vertex="1">
+          <mxGeometry height="60" width="325" x="1390" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="v4eyh5gkAyR-kIYR-5ER-2" edge="1" parent="1" source="v4eyh5gkAyR-kIYR-5ER-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="gpQp3yWBFs5NHnyI9dj6-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1552.57" y="670" />
+              <mxPoint x="1552.57" y="670" />
+            </Array>
+            <mxPoint x="1630" y="620" as="sourcePoint" />
+            <mxPoint x="1630" y="929" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4eyh5gkAyR-kIYR-5ER-3" edge="1" parent="1" source="v4eyh5gkAyR-kIYR-5ER-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="U4hYDMhdRpOtA1KS_dux-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="450" />
+              <mxPoint x="1560" y="450" />
+            </Array>
+            <mxPoint x="1780.43" y="630" as="sourcePoint" />
+            <mxPoint x="1780.43" y="780" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
