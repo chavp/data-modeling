@@ -896,7 +896,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RKRyjjYTpa3Ycdxl93eV" name="Products">
-    <mxGraphModel dx="3553" dy="1387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2059" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -949,7 +949,7 @@
           <mxGeometry height="50" width="120" x="220" y="570" as="geometry" />
         </mxCell>
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="PriceCoponent" vertex="1">
-          <mxGeometry height="170" width="550" x="390" y="790" as="geometry" />
+          <mxGeometry height="180" width="550" x="390" y="790" as="geometry" />
         </mxCell>
         <mxCell id="lFbs2GCGzoo1iz7KUpcX-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="ProductFeatureCategory" vertex="1">
           <mxGeometry height="60" width="160" x="-70" y="565" as="geometry" />
@@ -1137,6 +1137,19 @@
             </Array>
             <mxPoint x="220" y="1050" as="sourcePoint" />
             <mxPoint x="220" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htfdD0q0_DKvkZhpyLMw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ProductName" vertex="1">
+          <mxGeometry height="60" width="120" x="1020" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PEHaHPxrpZiL2KZk5vhl-1" edge="1" parent="1" source="lFbs2GCGzoo1iz7KUpcX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" target="htfdD0q0_DKvkZhpyLMw-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="240" />
+              <mxPoint x="1080" y="240" />
+            </Array>
+            <mxPoint x="1430" y="200" as="sourcePoint" />
+            <mxPoint x="1330" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
