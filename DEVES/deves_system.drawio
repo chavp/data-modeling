@@ -7934,7 +7934,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SJ-Zfgvep_OpJNtkiWFE" name="Deves Azure DevOps">
-    <mxGraphModel dx="2298" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1685" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8309,11 +8309,17 @@
         <mxCell id="jRP_pUnBWmb5kop3CEFc-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;GitLab Flow&lt;/h1&gt;" vertex="1">
           <mxGeometry height="40" width="180" x="-504" y="-320" as="geometry" />
         </mxCell>
-        <mxCell id="Z9d5vAGHEvCMM4pkzKnz-1" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.devops;verticalAlign=bottom;" value="" vertex="1">
-          <mxGeometry height="60" width="60" x="80" y="-1010" as="geometry" />
+        <mxCell id="tnNAtlq5NAS6PHBRNbS--1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="60" x="-30" y="-1130" as="geometry" />
         </mxCell>
-        <mxCell id="Z9d5vAGHEvCMM4pkzKnz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://dev.azure.com/deves-devops/&quot;&gt;Deves Azure DevOps&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="80" y="-950" as="geometry" />
+        <mxCell id="Z9d5vAGHEvCMM4pkzKnz-1" parent="tnNAtlq5NAS6PHBRNbS--1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.devops;verticalAlign=bottom;" value="" vertex="1">
+          <mxGeometry height="60" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9d5vAGHEvCMM4pkzKnz-2" parent="tnNAtlq5NAS6PHBRNbS--1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://dev.azure.com/deves-devops/&quot;&gt;Deves Azure DevOps&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tnNAtlq5NAS6PHBRNbS--2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Developer" vertex="1">
+          <mxGeometry height="60" width="30" x="-324" y="-1130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
