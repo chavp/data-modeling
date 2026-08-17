@@ -11611,7 +11611,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IP9qS6X0DHyDXdz00qzJ" name="DevesOneStopServices">
-    <mxGraphModel dx="1030" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1471" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11690,10 +11690,14 @@
           <mxGeometry height="30" width="222.42" x="24.95" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-30" edge="1" parent="1" source="7HnV5LqwvmgPujibaB8Y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeWidth=3;" target="7HnV5LqwvmgPujibaB8Y-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-31" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="30" width="197.47" x="210" y="220" as="geometry" />
+          <mxGeometry height="30" width="197.47" x="170" y="151" as="geometry" />
         </mxCell>
         <mxCell id="7HnV5LqwvmgPujibaB8Y-32" parent="7HnV5LqwvmgPujibaB8Y-31" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="4" vertex="1">
           <mxGeometry height="30" width="30" x="6.470000000000001" as="geometry" />
@@ -11805,6 +11809,18 @@
         </mxCell>
         <mxCell id="e8pfBLRS7zZuN2PHu3Ev-6" parent="e8pfBLRS7zZuN2PHu3Ev-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Get AS400 users where password &amp;lt;= 14 days expired" vertex="1">
           <mxGeometry height="30" width="344.48" x="39.52" as="geometry" />
+        </mxCell>
+        <mxCell id="cC8MP6IjwuuCicciZN4i-6" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="30" width="290" x="170" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cC8MP6IjwuuCicciZN4i-7" parent="cC8MP6IjwuuCicciZN4i-6" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="8" vertex="1">
+          <mxGeometry height="30" width="30" x="6.470000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="cC8MP6IjwuuCicciZN4i-8" parent="cC8MP6IjwuuCicciZN4i-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Notify for password aready changed" vertex="1">
+          <mxGeometry height="30" width="210" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cC8MP6IjwuuCicciZN4i-9" parent="cC8MP6IjwuuCicciZN4i-6" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.email;" value="" vertex="1">
+          <mxGeometry height="30" width="33.91" x="44" y="-4" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
