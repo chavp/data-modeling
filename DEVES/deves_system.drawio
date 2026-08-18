@@ -11544,6 +11544,21 @@
         <mxCell id="LREx76tphEgIPt3R5oGC-2" parent="LREx76tphEgIPt3R5oGC-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#, FK:&amp;nbsp;&lt;span style=&quot;font-size: 14px; text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Recomendations.Id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;* U : PrefixPackeName&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;: string (50)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="350" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="LREx76tphEgIPt3R5oGC-3" edge="1" parent="1" source="LREx76tphEgIPt3R5oGC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="aCs4q8-tcxM-JiCqcimE-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="10" />
+              <mxPoint x="845" y="10" />
+            </Array>
+            <mxPoint x="900" y="272" as="sourcePoint" />
+            <mxPoint x="1105" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LREx76tphEgIPt3R5oGC-4" connectable="0" parent="LREx76tphEgIPt3R5oGC-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="inherite" vertex="1">
+          <mxGeometry relative="1" x="0.0632" as="geometry">
+            <mxPoint x="25" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
