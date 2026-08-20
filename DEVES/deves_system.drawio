@@ -11888,7 +11888,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page-1" id="C898bMbbEK2ob8d54HLl">
-    <mxGraphModel dx="1406" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12303,7 +12303,7 @@
           <mxGeometry height="90" width="72" x="3268" y="-469" as="geometry" />
         </mxCell>
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-144" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="สัญลักษณ์" vertex="1">
-          <mxGeometry height="190" width="1140" x="480" y="-40" as="geometry" />
+          <mxGeometry height="190" width="1290" x="480" y="-40" as="geometry" />
         </mxCell>
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-129" parent="AmNQyuPpRn7hjsxg0QVx-144" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" value="Database" vertex="1">
           <mxGeometry height="93.5" width="72" x="39.999999999999986" y="50.00000000000004" as="geometry" />
@@ -12341,6 +12341,15 @@
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-143" parent="AmNQyuPpRn7hjsxg0QVx-144" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.apps;" value="Line BCRM App" vertex="1">
           <mxGeometry height="60" width="60" x="899.0000000000002" y="50.00000000000006" as="geometry" />
         </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-6" parent="AmNQyuPpRn7hjsxg0QVx-144" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="NoSQL Database" vertex="1">
+          <mxGeometry height="90" width="73.8" x="992" y="51.6" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-7" parent="AmNQyuPpRn7hjsxg0QVx-144" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_multi_az_db_cluster;" value="Cluster" vertex="1">
+          <mxGeometry height="70" width="70" x="1080" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-8" parent="AmNQyuPpRn7hjsxg0QVx-144" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" value="SQL Database" vertex="1">
+          <mxGeometry height="93.51" width="72" x="1190" y="56.6" as="geometry" />
+        </mxCell>
         <mxCell id="RUfZwxSrNGkUrGZUczPG-11" edge="1" parent="1" source="AmNQyuPpRn7hjsxg0QVx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" target="AmNQyuPpRn7hjsxg0QVx-24" value="API">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -12349,6 +12358,18 @@
             <mxPoint x="1410" y="-160" as="sourcePoint" />
             <mxPoint x="1575" y="-65" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;DSS&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="72" x="1810" y="-640" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-2" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" value="CHEETAH-DB" vertex="1">
+          <mxGeometry height="93.51" width="72" x="1790" y="-461.8" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-4" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="MongoDB" vertex="1">
+          <mxGeometry height="90" width="73.8" x="1808.2" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-5" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_multi_az_db_cluster;" value="" vertex="1">
+          <mxGeometry height="40.2" width="40.2" x="1862" y="-273.9" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
