@@ -12096,6 +12096,27 @@
             <mxPoint x="1551" y="-271" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-16" edge="1" parent="1" source="AmNQyuPpRn7hjsxg0QVx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOgMBo9XPgaCQ71-5BfO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-17" connectable="0" parent="MOgMBo9XPgaCQ71-5BfO-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="read" vertex="1">
+          <mxGeometry relative="1" x="-0.1717" y="-3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-18" edge="1" parent="1" source="AmNQyuPpRn7hjsxg0QVx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOgMBo9XPgaCQ71-5BfO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1563" y="-80" />
+              <mxPoint x="1916" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-19" connectable="0" parent="MOgMBo9XPgaCQ71-5BfO-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="write" vertex="1">
+          <mxGeometry relative="1" x="-0.0103" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-24" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Deves Sales Orders&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="90" width="72" x="1527" y="-239" as="geometry" />
         </mxCell>
@@ -12375,6 +12396,11 @@
               <mxPoint x="1757.8" y="-320" />
               <mxPoint x="1916" y="-320" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-15" connectable="0" parent="MOgMBo9XPgaCQ71-5BfO-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="write" vertex="1">
+          <mxGeometry relative="1" x="-0.6509" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MOgMBo9XPgaCQ71-5BfO-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;DSS&lt;/font&gt;&lt;/span&gt;" vertex="1">
