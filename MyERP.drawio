@@ -35,48 +35,48 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0WFfht1ruZmcpwSQqGDQ" name="Software Architecture">
-    <mxGraphModel dx="1412" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1661" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GODp7Nz22NhjunXIePpr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Organizations Agent" vertex="1">
-          <mxGeometry height="60" width="200" x="90" y="590" as="geometry" />
+        <mxCell id="GODp7Nz22NhjunXIePpr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="Organizations Agent" vertex="1">
+          <mxGeometry height="240" width="200" x="90" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="GODp7Nz22NhjunXIePpr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Products Agent" vertex="1">
-          <mxGeometry height="60" width="200" x="310" y="590" as="geometry" />
+        <mxCell id="GODp7Nz22NhjunXIePpr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="Products Agent" vertex="1">
+          <mxGeometry height="240" width="200" x="310" y="590" as="geometry" />
         </mxCell>
         <mxCell id="LgHnNxMyfQOWlHjSQnPw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Micro Agent" vertex="1">
           <mxGeometry height="60" width="1270" x="90" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="x7z1ehmy2mO2X6TFDKy5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Orders Agent" vertex="1">
-          <mxGeometry height="60" width="200" x="530" y="590" as="geometry" />
+        <mxCell id="x7z1ehmy2mO2X6TFDKy5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="Orders Agent" vertex="1">
+          <mxGeometry height="240" width="200" x="530" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="x7z1ehmy2mO2X6TFDKy5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Invoices Agent" vertex="1">
-          <mxGeometry height="60" width="200" x="950" y="590" as="geometry" />
+        <mxCell id="x7z1ehmy2mO2X6TFDKy5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="Invoices Agent" vertex="1">
+          <mxGeometry height="240" width="200" x="950" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="iTcvfkm9sGcOt3vWZ-ko-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Works Agent" vertex="1">
-          <mxGeometry height="60" width="200" x="740" y="590" as="geometry" />
+        <mxCell id="iTcvfkm9sGcOt3vWZ-ko-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="Works Agent" vertex="1">
+          <mxGeometry height="240" width="200" x="740" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="iTcvfkm9sGcOt3vWZ-ko-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Accountings Agent" vertex="1">
-          <mxGeometry height="60" width="200" x="1160" y="590" as="geometry" />
+        <mxCell id="iTcvfkm9sGcOt3vWZ-ko-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="Accountings Agent" vertex="1">
+          <mxGeometry height="240" width="200" x="1160" y="590" as="geometry" />
         </mxCell>
         <mxCell id="iTcvfkm9sGcOt3vWZ-ko-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Organizations&amp;nbsp;" vertex="1">
-          <mxGeometry height="90" width="90" x="230" y="740" as="geometry" />
+          <mxGeometry height="90" width="90" x="145" y="700" as="geometry" />
         </mxCell>
         <mxCell id="iTcvfkm9sGcOt3vWZ-ko-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Products" vertex="1">
-          <mxGeometry height="90" width="90" x="365" y="740" as="geometry" />
+          <mxGeometry height="90" width="90" x="365" y="700" as="geometry" />
         </mxCell>
         <mxCell id="iTcvfkm9sGcOt3vWZ-ko-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Orders&amp;nbsp;" vertex="1">
-          <mxGeometry height="90" width="90" x="520" y="740" as="geometry" />
+          <mxGeometry height="90" width="90" x="590" y="710" as="geometry" />
         </mxCell>
         <mxCell id="iTcvfkm9sGcOt3vWZ-ko-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Works" vertex="1">
-          <mxGeometry height="90" width="90" x="680" y="740" as="geometry" />
+          <mxGeometry height="90" width="90" x="798" y="710" as="geometry" />
         </mxCell>
         <mxCell id="iTcvfkm9sGcOt3vWZ-ko-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Invoices" vertex="1">
-          <mxGeometry height="90" width="90" x="840" y="740" as="geometry" />
+          <mxGeometry height="90" width="90" x="1005" y="710" as="geometry" />
         </mxCell>
         <mxCell id="iTcvfkm9sGcOt3vWZ-ko-10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Accountings" vertex="1">
-          <mxGeometry height="90" width="90" x="1000" y="740" as="geometry" />
+          <mxGeometry height="90" width="90" x="1215" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
