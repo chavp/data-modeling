@@ -12081,20 +12081,6 @@
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-22" edge="1" parent="1" source="AmNQyuPpRn7hjsxg0QVx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" target="AmNQyuPpRn7hjsxg0QVx-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AmNQyuPpRn7hjsxg0QVx-25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2397" y="-206" />
-            </Array>
-            <mxPoint x="2397" y="-426.68871125850706" as="sourcePoint" />
-            <mxPoint x="2577.1425042703754" y="-206" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AmNQyuPpRn7hjsxg0QVx-26" connectable="0" parent="AmNQyuPpRn7hjsxg0QVx-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="API" vertex="1">
-          <mxGeometry relative="1" x="0.3914" y="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-20" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;API Management&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="90" width="72" x="1327" y="-496" as="geometry" />
         </mxCell>
@@ -12357,6 +12343,15 @@
         </mxCell>
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-143" parent="AmNQyuPpRn7hjsxg0QVx-144" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.apps;" value="Line BCRM App" vertex="1">
           <mxGeometry height="60" width="60" x="899.0000000000002" y="50.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="RUfZwxSrNGkUrGZUczPG-11" edge="1" parent="1" source="AmNQyuPpRn7hjsxg0QVx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" target="AmNQyuPpRn7hjsxg0QVx-24" value="API">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="-180" />
+            </Array>
+            <mxPoint x="1410" y="-160" as="sourcePoint" />
+            <mxPoint x="1575" y="-65" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
