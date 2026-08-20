@@ -11888,7 +11888,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page-1" id="C898bMbbEK2ob8d54HLl">
-    <mxGraphModel dx="1036" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+    <mxGraphModel dx="740" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12051,6 +12051,9 @@
         </mxCell>
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-10" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="SFTP Service&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22group%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2273.2%22%20width%3D%2260%22%20x%3D%22780%22%20y%3D%2210%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20parent%3D%222%22%20style%3D%22text%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3B%22%20value%3D%22WAF%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%2260%22%20y%3D%2243.2%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20parent%3D%222%22%20style%3D%22points%3D%5B%5D%3Baspect%3Dfixed%3Bhtml%3D1%3Balign%3Dcenter%3Bshadow%3D0%3Bdashed%3D0%3BfillColor%3D%23FF6A00%3BstrokeColor%3Dnone%3Bshape%3Dmxgraph.alibaba_cloud.waf_web_application_firewall%3B%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2243.199999999999996%22%20width%3D%2249.199999999999996%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3ESys&lt;/span&gt;" vertex="1">
           <mxGeometry height="90" width="72" x="1524" y="-650" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-13" edge="1" parent="1" source="AmNQyuPpRn7hjsxg0QVx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOgMBo9XPgaCQ71-5BfO-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AmNQyuPpRn7hjsxg0QVx-14" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Policy Request&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="90" width="72" x="1527" y="-363.90000000000003" as="geometry" />
@@ -12359,17 +12362,41 @@
             <mxPoint x="1575" y="-65" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-10" edge="1" parent="1" source="MOgMBo9XPgaCQ71-5BfO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOgMBo9XPgaCQ71-5BfO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1757.86" y="-324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-11" edge="1" parent="1" source="MOgMBo9XPgaCQ71-5BfO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOgMBo9XPgaCQ71-5BfO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1757.8" y="-320" />
+              <mxPoint x="1916" y="-320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MOgMBo9XPgaCQ71-5BfO-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;DSS&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="90" width="72" x="1810" y="-640" as="geometry" />
+          <mxGeometry height="90" width="72" x="1721.8" y="-498" as="geometry" />
         </mxCell>
         <mxCell id="MOgMBo9XPgaCQ71-5BfO-2" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" value="CHEETAH-DB" vertex="1">
-          <mxGeometry height="93.51" width="72" x="1790" y="-461.8" as="geometry" />
+          <mxGeometry height="93.51" width="72" x="1880" y="-239" as="geometry" />
         </mxCell>
-        <mxCell id="MOgMBo9XPgaCQ71-5BfO-4" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="MongoDB" vertex="1">
-          <mxGeometry height="90" width="73.8" x="1808.2" y="-280" as="geometry" />
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="94" x="1720" y="-240" as="geometry" />
         </mxCell>
-        <mxCell id="MOgMBo9XPgaCQ71-5BfO-5" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_multi_az_db_cluster;" value="" vertex="1">
-          <mxGeometry height="40.2" width="40.2" x="1862" y="-273.9" as="geometry" />
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-4" parent="MOgMBo9XPgaCQ71-5BfO-9" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="MongoDB" vertex="1">
+          <mxGeometry height="90" width="73.8" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-5" parent="MOgMBo9XPgaCQ71-5BfO-9" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_multi_az_db_cluster;" value="" vertex="1">
+          <mxGeometry height="40.2" width="40.2" x="53.799999999999955" y="6.100000000000023" as="geometry" />
+        </mxCell>
+        <mxCell id="MOgMBo9XPgaCQ71-5BfO-14" edge="1" parent="1" source="AmNQyuPpRn7hjsxg0QVx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOgMBo9XPgaCQ71-5BfO-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="-280" as="sourcePoint" />
+            <mxPoint x="1808" y="-201" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
