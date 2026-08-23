@@ -3178,10 +3178,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="D3vPMxlAgiHWi04JkMW3" name="Applications">
-    <mxGraphModel dx="1414" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1707" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ocMK3cL20J9Q4U8p_DHf-1" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="RR33piJAjyt3IMJEW53a-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Application" vertex="1">
           <mxGeometry height="60" width="150" x="100" y="220" as="geometry" />
         </mxCell>
@@ -3242,8 +3245,8 @@
             <mxPoint x="490" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RR33piJAjyt3IMJEW53a-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Agent" vertex="1">
-          <mxGeometry height="60" width="150" x="365" y="-160" as="geometry" />
+        <mxCell id="RR33piJAjyt3IMJEW53a-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BusinessModelType" vertex="1">
+          <mxGeometry height="60" width="150" x="-180" y="220" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-19" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
           <mxGeometry relative="1" as="geometry">
