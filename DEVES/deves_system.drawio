@@ -12682,7 +12682,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zjoxbS--_lmTdQla7dDk" name="BRMS Replace Solution">
-    <mxGraphModel dx="1340" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2010" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12690,9 +12690,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="351" y="330" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Deves Sales System (DSS)" vertex="1">
-          <mxGeometry height="60" width="140" x="281" y="200" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-5" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Horizontal Container" vertex="1">
           <mxGeometry height="200" width="410" x="140" y="370" as="geometry" />
@@ -12738,21 +12735,18 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-14" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="932" y="280" />
-              <mxPoint x="932" y="280" />
+              <mxPoint x="912" y="280" />
+              <mxPoint x="912" y="280" />
             </Array>
-            <mxPoint x="932.1176470588236" y="290" as="targetPoint" />
+            <mxPoint x="912.1176470588236" y="290" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Deves Sales System (DSS)" vertex="1">
-          <mxGeometry height="60" width="140" x="855" y="200" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-19" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="840.17" y="330" />
+              <mxPoint x="820.17" y="330" />
             </Array>
-            <mxPoint x="932" y="354" as="sourcePoint" />
+            <mxPoint x="912" y="354" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-28" connectable="0" parent="80Vzs6iayD4jaK4F4389-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ok" vertex="1">
@@ -12766,9 +12760,9 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-20" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1030.17" y="330" />
+              <mxPoint x="1010.1700000000001" y="330" />
             </Array>
-            <mxPoint x="932" y="354" as="sourcePoint" />
+            <mxPoint x="912" y="354" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-29" connectable="0" parent="80Vzs6iayD4jaK4F4389-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Failback" vertex="1">
@@ -12780,28 +12774,52 @@
           <mxGeometry height="30" width="166" x="262" y="130" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="Frontend Solution" vertex="1">
-          <mxGeometry height="30" width="166" x="842" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-32" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
-          <mxGeometry height="40" width="50.63" x="400" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-33" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
-          <mxGeometry height="40" width="50.63" x="980" y="180" as="geometry" />
+          <mxGeometry height="30" width="166" x="822" y="130" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-40" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=10;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="620" y="610" as="sourcePoint" />
-            <mxPoint x="620" y="50" as="targetPoint" />
+            <mxPoint x="640" y="610" as="sourcePoint" />
+            <mxPoint x="640" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;DSS API&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="780" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;&amp;lt;&amp;lt;VM1&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
-          <mxGeometry height="60" width="120" x="964" y="440" as="geometry" />
-        </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
-          <mxGeometry height="60" width="64" x="900" y="300" as="geometry" />
+          <mxGeometry height="60" width="64" x="880" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-44" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="140" x="760" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-17" parent="80Vzs6iayD4jaK4F4389-44" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;DSS API&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-42" parent="80Vzs6iayD4jaK4F4389-44" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="90" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-45" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="146" x="944" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-18" parent="80Vzs6iayD4jaK4F4389-45" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;&amp;lt;&amp;lt;VM1&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
+          <mxGeometry height="60" width="120" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-43" parent="80Vzs6iayD4jaK4F4389-45" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="96" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-46" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="175.6300000000001" x="835" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-15" parent="80Vzs6iayD4jaK4F4389-46" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Deves Sales System (DSS)" vertex="1">
+          <mxGeometry height="60" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-33" parent="80Vzs6iayD4jaK4F4389-46" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="40" width="50.63" x="125" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-47" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="169.63" x="281" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-1" parent="80Vzs6iayD4jaK4F4389-47" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Deves Sales System (DSS)" vertex="1">
+          <mxGeometry height="60" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-32" parent="80Vzs6iayD4jaK4F4389-47" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="40" width="50.63" x="119" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
