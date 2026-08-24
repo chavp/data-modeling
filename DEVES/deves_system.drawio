@@ -12692,7 +12692,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves Sales System (DSS)" vertex="1">
-          <mxGeometry height="60" width="140" x="321" y="100" as="geometry" />
+          <mxGeometry height="60" width="140" x="321" y="130" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-5" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Horizontal Container" vertex="1">
           <mxGeometry height="200" width="410" x="180" y="300" as="geometry" />
@@ -12729,13 +12729,17 @@
             <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-14" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+        <mxCell id="80Vzs6iayD4jaK4F4389-14" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-26">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="972.06" y="200" />
+              <mxPoint x="972.06" y="200" />
+            </Array>
             <mxPoint x="965" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves Sales System (DSS)" vertex="1">
-          <mxGeometry height="60" width="140" x="895" y="110" as="geometry" />
+          <mxGeometry height="60" width="140" x="895" y="130" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-16" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Horizontal Container" vertex="1">
           <mxGeometry height="200" width="410" x="760" y="299" as="geometry" />
@@ -12746,26 +12750,10 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-18" parent="80Vzs6iayD4jaK4F4389-16" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;VM1&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-26" parent="80Vzs6iayD4jaK4F4389-16" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Frecons_one-2153/cancel_cancelled_fail_failed_failure-1364.svg;imageBackground=default;imageBorder=default;" value="" vertex="1">
-          <mxGeometry height="64" width="64" x="173" y="-29" as="geometry" />
-        </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-20" edge="1" parent="80Vzs6iayD4jaK4F4389-16" source="80Vzs6iayD4jaK4F4389-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="80Vzs6iayD4jaK4F4389-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="310.05999999999995" y="20.060000000000002" />
-            </Array>
-            <mxPoint x="250" y="20.058823529411825" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-29" connectable="0" parent="80Vzs6iayD4jaK4F4389-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Failback" vertex="1">
-          <mxGeometry relative="1" x="0.3971" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="880" y="319" />
+              <mxPoint x="880.06" y="319.06" />
             </Array>
             <mxPoint x="932" y="319.0588235294118" as="sourcePoint" />
           </mxGeometry>
@@ -12777,6 +12765,22 @@
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-23" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Frecons_one-2153/cancel_cancelled_fail_failed_failure-1364.svg;imageBackground=default;imageBorder=default;" value="" vertex="1">
           <mxGeometry height="64" width="64" x="359" y="266" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-26" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Frecons_one-2153/cancel_cancelled_fail_failed_failure-1364.svg;imageBackground=default;imageBorder=default;" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="940" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-20" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="80Vzs6iayD4jaK4F4389-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070.06" y="319.06" />
+            </Array>
+            <mxPoint x="1010" y="319.0588235294118" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-29" connectable="0" parent="80Vzs6iayD4jaK4F4389-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Failback" vertex="1">
+          <mxGeometry relative="1" x="0.3971" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
