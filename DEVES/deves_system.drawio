@@ -12682,20 +12682,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zjoxbS--_lmTdQla7dDk" name="BRMS Replace Solution">
-    <mxGraphModel dx="1149" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1582" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="80Vzs6iayD4jaK4F4389-11" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="391" y="260" as="targetPoint" />
+            <mxPoint x="351" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Deves Sales System (DSS)" vertex="1">
-          <mxGeometry height="60" width="140" x="321" y="130" as="geometry" />
+          <mxGeometry height="60" width="140" x="281" y="200" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-5" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Horizontal Container" vertex="1">
-          <mxGeometry height="200" width="410" x="180" y="300" as="geometry" />
+          <mxGeometry height="200" width="410" x="140" y="370" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-2" parent="80Vzs6iayD4jaK4F4389-5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;&amp;lt;&amp;lt;VM1&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
           <mxGeometry height="60" width="120" x="60" y="80" as="geometry" />
@@ -12712,9 +12712,9 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-12" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="299.94" y="310" />
+              <mxPoint x="259.94" y="380" />
             </Array>
-            <mxPoint x="352" y="320" as="sourcePoint" />
+            <mxPoint x="312" y="390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-24" connectable="0" parent="80Vzs6iayD4jaK4F4389-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Active" vertex="1">
@@ -12725,9 +12725,9 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-13" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="489.94" y="310" />
+              <mxPoint x="449.94" y="380" />
             </Array>
-            <mxPoint x="429.9999999999998" y="320" as="sourcePoint" />
+            <mxPoint x="389.9999999999998" y="390" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-25" connectable="0" parent="80Vzs6iayD4jaK4F4389-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Stand By" vertex="1">
@@ -12738,17 +12738,17 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-14" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="972.06" y="200" />
-              <mxPoint x="972.06" y="200" />
+              <mxPoint x="932.06" y="270" />
+              <mxPoint x="932.06" y="270" />
             </Array>
-            <mxPoint x="965" y="270" as="targetPoint" />
+            <mxPoint x="925" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Deves Sales System (DSS)" vertex="1">
-          <mxGeometry height="60" width="140" x="895" y="130" as="geometry" />
+          <mxGeometry height="60" width="140" x="855" y="200" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-16" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Horizontal Container" vertex="1">
-          <mxGeometry height="200" width="410" x="760" y="299" as="geometry" />
+          <mxGeometry height="200" width="410" x="720" y="369" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-17" parent="80Vzs6iayD4jaK4F4389-16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;DSS API&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="60" y="80" as="geometry" />
@@ -12765,9 +12765,9 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-19" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="880.06" y="319.06" />
+              <mxPoint x="840.06" y="389.06" />
             </Array>
-            <mxPoint x="932" y="319.0588235294118" as="sourcePoint" />
+            <mxPoint x="892" y="389.0588235294118" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-28" connectable="0" parent="80Vzs6iayD4jaK4F4389-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Active" vertex="1">
@@ -12776,17 +12776,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-23" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Frecons_one-2153/cancel_cancelled_fail_failed_failure-1364.svg;imageBackground=default;imageBorder=default;" value="Failover" vertex="1">
-          <mxGeometry height="64" width="64" x="359" y="266" as="geometry" />
+          <mxGeometry height="64" width="64" x="319" y="336" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-26" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Frecons_one-2153/cancel_cancelled_fail_failed_failure-1364.svg;imageBackground=default;imageBorder=default;" value="Failover" vertex="1">
-          <mxGeometry height="64" width="64" x="940" y="270" as="geometry" />
+          <mxGeometry height="64" width="64" x="900" y="340" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-20" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="80Vzs6iayD4jaK4F4389-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1070.06" y="319.06" />
+              <mxPoint x="1030.06" y="389.06" />
             </Array>
-            <mxPoint x="1010" y="319.0588235294118" as="sourcePoint" />
+            <mxPoint x="970" y="389.0588235294118" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-29" connectable="0" parent="80Vzs6iayD4jaK4F4389-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Failback" vertex="1">
@@ -12795,16 +12795,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="TechBerry Solution" vertex="1">
-          <mxGeometry height="30" width="166" x="302" y="60" as="geometry" />
+          <mxGeometry height="30" width="166" x="262" y="130" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="Frontend Solution" vertex="1">
-          <mxGeometry height="30" width="166" x="882" y="60" as="geometry" />
+          <mxGeometry height="30" width="166" x="842" y="130" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-32" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
-          <mxGeometry height="40" width="50.63" x="440" y="110" as="geometry" />
+          <mxGeometry height="40" width="50.63" x="400" y="180" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-33" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
-          <mxGeometry height="40" width="50.63" x="1020" y="110" as="geometry" />
+          <mxGeometry height="40" width="50.63" x="980" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-40" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=10;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="610" as="sourcePoint" />
+            <mxPoint x="620" y="50" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
