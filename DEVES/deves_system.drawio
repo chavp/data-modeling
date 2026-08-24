@@ -12686,8 +12686,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="80Vzs6iayD4jaK4F4389-11" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves Sales System (DSS)" vertex="1">
-          <mxGeometry height="60" width="140" x="315" y="90" as="geometry" />
+          <mxGeometry height="60" width="140" x="321" y="100" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-5" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Horizontal Container" vertex="1">
           <mxGeometry height="200" width="410" x="180" y="300" as="geometry" />
@@ -12697,6 +12700,20 @@
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-6" parent="80Vzs6iayD4jaK4F4389-5" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;VM2&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-12" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-13" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-10" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.network_load_balancer;" value="Load Balancing" vertex="1">
           <mxGeometry height="78" width="78" x="352" y="260" as="geometry" />
