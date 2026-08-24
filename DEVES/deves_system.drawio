@@ -12682,7 +12682,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zjoxbS--_lmTdQla7dDk" name="BRMS Replace Solution">
-    <mxGraphModel dx="1407" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12702,6 +12702,12 @@
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-6" parent="80Vzs6iayD4jaK4F4389-5" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;VM2&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-34" parent="80Vzs6iayD4jaK4F4389-5" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-35" parent="80Vzs6iayD4jaK4F4389-5" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="340" y="61" as="geometry" />
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-12" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-2">
           <mxGeometry relative="1" as="geometry">
@@ -12750,6 +12756,12 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-18" parent="80Vzs6iayD4jaK4F4389-16" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;VM1&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-36" parent="80Vzs6iayD4jaK4F4389-16" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="150" y="61" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-37" parent="80Vzs6iayD4jaK4F4389-16" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="340" y="61" as="geometry" />
+        </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-19" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -12787,6 +12799,12 @@
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Frontend-1 Solution" vertex="1">
           <mxGeometry height="30" width="166" x="882" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-32" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="40" width="50.63" x="440" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-33" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="40" width="50.63" x="1020" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
