@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="29">
   <diagram name="System Context" id="MQ-g69Ar-BA-1JctEcRM">
-    <mxGraphModel dx="3554" dy="3178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3020" dy="3330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1295,6 +1295,15 @@
         </mxCell>
         <mxCell id="0tPGIOqWPwYMQyBDE_zt-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: x-large;&quot;&gt;User : crm_test1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: x-large;&quot;&gt;Pass : P@ss!@$1&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="2470" y="142.22" as="geometry" />
+        </mxCell>
+        <mxCell id="7BE_I7Lz6kA6QYxjnnVD-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="240" x="3250" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="7BE_I7Lz6kA6QYxjnnVD-2" parent="7BE_I7Lz6kA6QYxjnnVD-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves Master Managment&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;[Container:ASP.NET]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;a href=&quot;https://iwebsvuat.deves.co.th/DevesMasterManagement/pg_Master/m_cover_List.aspx&quot;&gt;UAT&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85.55555555555556" width="200" y="24.444444444444446" as="geometry" />
+        </mxCell>
+        <mxCell id="7BE_I7Lz6kA6QYxjnnVD-3" parent="7BE_I7Lz6kA6QYxjnnVD-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" value="" vertex="1">
+          <mxGeometry height="42.22222222222222" width="52.77777777777778" x="173.33333333333334" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -12682,7 +12691,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zjoxbS--_lmTdQla7dDk" name="BRMS Replace Solution">
-    <mxGraphModel dx="2193" dy="2161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1316" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12851,10 +12860,10 @@
         <mxCell id="ClemobwKYWOOyIdx1pnb-9" edge="1" parent="1" source="ClemobwKYWOOyIdx1pnb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ClemobwKYWOOyIdx1pnb-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClemobwKYWOOyIdx1pnb-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="To Be" vertex="1">
+        <mxCell id="ClemobwKYWOOyIdx1pnb-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="&lt;u&gt;To Be&lt;/u&gt;" vertex="1">
           <mxGeometry height="30" width="166" x="302" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="ClemobwKYWOOyIdx1pnb-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="To Be" vertex="1">
+        <mxCell id="ClemobwKYWOOyIdx1pnb-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="&lt;u&gt;To Be&lt;/u&gt;" vertex="1">
           <mxGeometry height="30" width="166" x="869" y="340" as="geometry" />
         </mxCell>
       </root>
