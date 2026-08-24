@@ -12729,8 +12729,10 @@
             <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-14" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="80Vzs6iayD4jaK4F4389-14" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="971" y="259" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deves Sales System (DSS)" vertex="1">
           <mxGeometry height="60" width="140" x="901" y="99" as="geometry" />
@@ -12738,28 +12740,40 @@
         <mxCell id="80Vzs6iayD4jaK4F4389-16" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Horizontal Container" vertex="1">
           <mxGeometry height="200" width="410" x="760" y="299" as="geometry" />
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-17" parent="80Vzs6iayD4jaK4F4389-16" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;VM1&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
+        <mxCell id="80Vzs6iayD4jaK4F4389-17" parent="80Vzs6iayD4jaK4F4389-16" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;DSS API&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="60" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-18" parent="80Vzs6iayD4jaK4F4389-16" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;VM2&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
+        <mxCell id="80Vzs6iayD4jaK4F4389-18" parent="80Vzs6iayD4jaK4F4389-16" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;VM1&amp;gt;&amp;gt;&lt;/div&gt;BRMS" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-19" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-17">
+        <mxCell id="80Vzs6iayD4jaK4F4389-26" parent="80Vzs6iayD4jaK4F4389-16" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Frecons_one-2153/cancel_cancelled_fail_failed_failure-1364.svg" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="173" y="-29" as="geometry" />
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="880" y="319" />
             </Array>
+            <mxPoint x="932" y="319.0588235294118" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-20" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-18">
+        <mxCell id="80Vzs6iayD4jaK4F4389-28" connectable="0" parent="80Vzs6iayD4jaK4F4389-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Active" vertex="1">
+          <mxGeometry relative="1" x="0.3533" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80Vzs6iayD4jaK4F4389-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="80Vzs6iayD4jaK4F4389-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1070" y="319" />
             </Array>
+            <mxPoint x="1010" y="319.0588235294118" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="80Vzs6iayD4jaK4F4389-21" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.network_load_balancer;" value="Fail Over" vertex="1">
-          <mxGeometry height="78" width="78" x="932" y="259" as="geometry" />
+        <mxCell id="80Vzs6iayD4jaK4F4389-29" connectable="0" parent="80Vzs6iayD4jaK4F4389-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Failback" vertex="1">
+          <mxGeometry relative="1" x="0.3971" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="80Vzs6iayD4jaK4F4389-23" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Frecons_one-2153/cancel_cancelled_fail_failed_failure-1364.svg" value="" vertex="1">
           <mxGeometry height="64" width="64" x="359" y="266" as="geometry" />
