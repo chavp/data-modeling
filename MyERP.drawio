@@ -3186,72 +3186,72 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Application" vertex="1">
-          <mxGeometry height="60" width="150" x="100" y="220" as="geometry" />
+          <mxGeometry height="60" width="150" x="-280" y="340" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="User" vertex="1">
-          <mxGeometry height="60" width="150" x="365" y="60" as="geometry" />
+          <mxGeometry height="60" width="150" x="-15" y="180" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Role" vertex="1">
-          <mxGeometry height="60" width="150" x="630" y="220" as="geometry" />
+          <mxGeometry height="60" width="150" x="250" y="340" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Feature" vertex="1">
-          <mxGeometry height="60" width="150" x="100" y="370" as="geometry" />
+          <mxGeometry height="60" width="150" x="-280" y="490" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-7" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4" value="ApplicationUser" vertex="1">
-          <mxGeometry height="60" width="150" x="100" y="60" as="geometry" />
+          <mxGeometry height="60" width="150" x="-280" y="180" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-8" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="180" as="sourcePoint" />
-            <mxPoint x="320" y="280" as="targetPoint" />
+            <mxPoint x="-60" y="300" as="sourcePoint" />
+            <mxPoint x="-60" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-9" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175" y="370" as="sourcePoint" />
-            <mxPoint x="380" y="340" as="targetPoint" />
+            <mxPoint x="-205" y="490" as="sourcePoint" />
+            <mxPoint y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4" value="UserRole" vertex="1">
-          <mxGeometry height="60" width="150" x="630" y="60" as="geometry" />
+          <mxGeometry height="60" width="150" x="250" y="180" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-12" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="190" as="sourcePoint" />
-            <mxPoint x="635" y="190" as="targetPoint" />
+            <mxPoint x="140" y="310" as="sourcePoint" />
+            <mxPoint x="255" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-13" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="655" y="200" as="sourcePoint" />
-            <mxPoint x="540" y="200" as="targetPoint" />
+            <mxPoint x="275" y="320" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-14" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="280" as="sourcePoint" />
-            <mxPoint x="440" y="260" as="targetPoint" />
+            <mxPoint x="20" y="400" as="sourcePoint" />
+            <mxPoint x="60" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4" value="Permission" vertex="1">
-          <mxGeometry height="60" width="150" x="630" y="370" as="geometry" />
+          <mxGeometry height="60" width="150" x="250" y="490" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-16" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="300" as="sourcePoint" />
-            <mxPoint x="490" y="390" as="targetPoint" />
+            <mxPoint x="110" y="420" as="sourcePoint" />
+            <mxPoint x="110" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BusinessModelType" vertex="1">
-          <mxGeometry height="60" width="150" x="-180" y="220" as="geometry" />
+          <mxGeometry height="60" width="150" x="-560" y="340" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-19" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="645" y="290" as="sourcePoint" />
-            <mxPoint x="530" y="290" as="targetPoint" />
+            <mxPoint x="265" y="410" as="sourcePoint" />
+            <mxPoint x="150" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
