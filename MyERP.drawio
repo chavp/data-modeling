@@ -3178,7 +3178,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="D3vPMxlAgiHWi04JkMW3" name="Applications">
-    <mxGraphModel dx="2867" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2617" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3195,7 +3195,7 @@
           <mxGeometry height="60" width="150" x="630" y="220" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Feature" vertex="1">
-          <mxGeometry height="60" width="150" x="100" y="370" as="geometry" />
+          <mxGeometry height="60" width="150" x="365" y="450" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-7" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
           <mxGeometry relative="1" as="geometry" />
@@ -3207,12 +3207,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="180" as="sourcePoint" />
             <mxPoint x="320" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RR33piJAjyt3IMJEW53a-9" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175" y="370" as="sourcePoint" />
-            <mxPoint x="380" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4" value="UserRole" vertex="1">
@@ -3232,12 +3226,16 @@
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-14" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-3">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="400" />
+              <mxPoint x="705" y="400" />
+            </Array>
             <mxPoint x="400" y="280" as="sourcePoint" />
             <mxPoint x="440" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4" value="Permission" vertex="1">
-          <mxGeometry height="60" width="150" x="630" y="370" as="geometry" />
+          <mxGeometry height="60" width="150" x="640" y="450" as="geometry" />
         </mxCell>
         <mxCell id="RR33piJAjyt3IMJEW53a-16" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-4">
           <mxGeometry relative="1" as="geometry">
@@ -3253,6 +3251,9 @@
             <mxPoint x="645" y="290" as="sourcePoint" />
             <mxPoint x="530" y="290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LmxNgwczQ11zmJLuxJ0a-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ApplicationFeature" vertex="1">
+          <mxGeometry height="60" width="150" x="100" y="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
