@@ -3178,7 +3178,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="D3vPMxlAgiHWi04JkMW3" name="Applications">
-    <mxGraphModel dx="2912" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2087" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3248,10 +3248,10 @@
         <mxCell id="RR33piJAjyt3IMJEW53a-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BusinessModelType" vertex="1">
           <mxGeometry height="60" width="150" x="-560" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="RR33piJAjyt3IMJEW53a-19" edge="1" parent="1" source="RR33piJAjyt3IMJEW53a-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
+        <mxCell id="RR33piJAjyt3IMJEW53a-19" edge="1" parent="1" source="SKYSApErtVSGD3TqgySp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="410" as="sourcePoint" />
-            <mxPoint x="150" y="410" as="targetPoint" />
+            <mxPoint x="210" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SKYSApErtVSGD3TqgySp-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4" value="ApplicationFeature" vertex="1">
@@ -3261,6 +3261,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="440" as="sourcePoint" />
             <mxPoint x="65" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKYSApErtVSGD3TqgySp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=4" value="ApplicationRole" vertex="1">
+          <mxGeometry height="60" width="150" x="-15" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="SKYSApErtVSGD3TqgySp-4" edge="1" parent="1" source="SKYSApErtVSGD3TqgySp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;" target="RR33piJAjyt3IMJEW53a-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="330" as="sourcePoint" />
+            <mxPoint x="65" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
