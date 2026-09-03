@@ -13256,8 +13256,16 @@
         <mxCell id="-LGyPHFO8mArQOA9PoyY-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Premium" vertex="1">
           <mxGeometry height="80" width="160" x="-1540" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Y2gtphXEap0ErsQ3IpgH-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
-          <mxGeometry height="100" width="90" x="810" y="920" as="geometry" />
+        <mxCell id="Y2gtphXEap0ErsQ3IpgH-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;products&lt;/div&gt;PPGB" vertex="1">
+          <mxGeometry height="100" width="90" x="805" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2gtphXEap0ErsQ3IpgH-3" edge="1" parent="1" source="80Vzs6iayD4jaK4F4389-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Y2gtphXEap0ErsQ3IpgH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2gtphXEap0ErsQ3IpgH-4" connectable="0" parent="Y2gtphXEap0ErsQ3IpgH-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="read / write" vertex="1">
+          <mxGeometry relative="1" x="-0.1941" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
