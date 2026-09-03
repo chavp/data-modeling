@@ -13279,12 +13279,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-6" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="CompulsoryFeatures" vertex="1">
-          <mxGeometry height="210" width="230" x="1350" y="830" as="geometry">
+          <mxGeometry height="195" width="230" x="1350" y="830" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-7" parent="j-K3pTVnPesn393fjfeW-6" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CarCode: string(50)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;*&amp;nbsp;ModelRepresent: string(10)&lt;/div&gt;&lt;div&gt;* Cc: int = 0&lt;/div&gt;&lt;div&gt;* Seat: int = 0&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Weight: int = 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;* &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;Hp: int = 0 // Horse Power&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="230" y="50" as="geometry" />
+          <mxGeometry height="145" width="230" y="50" as="geometry" />
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-17" edge="1" parent="1" source="j-K3pTVnPesn393fjfeW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="j-K3pTVnPesn393fjfeW-6">
           <mxGeometry relative="1" as="geometry">
@@ -13349,6 +13349,22 @@
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-16" parent="j-K3pTVnPesn393fjfeW-15" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;*, U&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Code&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;: string(1)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-23" edge="1" parent="1" source="j-K3pTVnPesn393fjfeW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;" target="j-K3pTVnPesn393fjfeW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-24" connectable="0" parent="j-K3pTVnPesn393fjfeW-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="only one effective" vertex="1">
+          <mxGeometry relative="1" x="0.024" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-21" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Premiums" vertex="1">
+          <mxGeometry height="195" width="230" x="1350" y="1150" as="geometry">
+            <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-22" parent="j-K3pTVnPesn393fjfeW-21" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CarCode: string(50)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;*&amp;nbsp;ModelRepresent: string(10)&lt;/div&gt;&lt;div&gt;* Cc: int = 0&lt;/div&gt;&lt;div&gt;* Seat: int = 0&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Weight: int = 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;* &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;Hp: int = 0 // Horse Power&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="230" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
