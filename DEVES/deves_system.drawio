@@ -13279,12 +13279,20 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-6" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="CompulsoryFeatures" vertex="1">
-          <mxGeometry height="170" width="230" x="1350" y="830" as="geometry">
+          <mxGeometry height="210" width="230" x="1350" y="830" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-7" parent="j-K3pTVnPesn393fjfeW-6" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CarCode: string(50)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;*&amp;nbsp;ModelRepresent: string(10)&lt;/div&gt;&lt;div&gt;* Cc: int = 0&lt;/div&gt;&lt;div&gt;* Seat: int = 0&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Weight: int = 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;* &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;Hp: int = 0 // Horse Power&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="230" y="50" as="geometry" />
+          <mxGeometry height="160" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-17" edge="1" parent="1" source="j-K3pTVnPesn393fjfeW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="j-K3pTVnPesn393fjfeW-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1690" y="820" />
+              <mxPoint x="1690" y="880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-9" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MotorTypes" vertex="1">
           <mxGeometry height="100" width="230" x="1750" y="770" as="geometry">
@@ -13294,6 +13302,14 @@
         <mxCell id="j-K3pTVnPesn393fjfeW-10" parent="j-K3pTVnPesn393fjfeW-9" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;*, U&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Description&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;: string(200)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-18" edge="1" parent="1" source="j-K3pTVnPesn393fjfeW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="j-K3pTVnPesn393fjfeW-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1710" y="915" />
+              <mxPoint x="1710" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-11" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MotorBodyTypes" vertex="1">
           <mxGeometry height="100" width="230" x="1750" y="890" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
@@ -13302,16 +13318,32 @@
         <mxCell id="j-K3pTVnPesn393fjfeW-12" parent="j-K3pTVnPesn393fjfeW-11" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;*, U&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Description&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;: string(200)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-19" edge="1" parent="1" source="j-K3pTVnPesn393fjfeW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="j-K3pTVnPesn393fjfeW-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1690" y="1075" />
+              <mxPoint x="1690" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-13" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="MotorUseTypes" vertex="1">
-          <mxGeometry height="100" width="230" x="1750" y="1010" as="geometry">
+          <mxGeometry height="100" width="230" x="1750" y="1025" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-14" parent="j-K3pTVnPesn393fjfeW-13" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="# Id ; Guid&lt;div&gt;*, U&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Description&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;: string(200)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="230" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="j-K3pTVnPesn393fjfeW-20" edge="1" parent="1" source="j-K3pTVnPesn393fjfeW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" target="j-K3pTVnPesn393fjfeW-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="1220" />
+              <mxPoint x="1660" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="j-K3pTVnPesn393fjfeW-15" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="CarriageTypes" vertex="1">
-          <mxGeometry height="100" width="230" x="1750" y="1130" as="geometry">
+          <mxGeometry height="100" width="230" x="1750" y="1160" as="geometry">
             <mxRectangle height="50" width="100" x="250" y="230" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
