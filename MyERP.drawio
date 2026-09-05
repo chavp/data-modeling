@@ -1427,7 +1427,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dhbn5lY72Qewktr6fomH" name="Shipments">
-    <mxGraphModel dx="3765" dy="2200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3470" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1921,6 +1921,29 @@
             </Array>
             <mxPoint x="1950" y="40" as="sourcePoint" />
             <mxPoint x="1950" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyCEFkusAkyTjmvBKLCN-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Facility" vertex="1">
+          <mxGeometry height="80" width="370" x="1950" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="dyCEFkusAkyTjmvBKLCN-2" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="dyCEFkusAkyTjmvBKLCN-1" value="from">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="30" />
+              <mxPoint x="2070" y="30" />
+            </Array>
+            <mxPoint x="2170" y="120" as="sourcePoint" />
+            <mxPoint x="2170" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyCEFkusAkyTjmvBKLCN-3" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="dyCEFkusAkyTjmvBKLCN-1" value="to">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2240" y="40" />
+              <mxPoint x="2240" y="40" />
+            </Array>
+            <mxPoint x="2260" y="100" as="sourcePoint" />
+            <mxPoint x="2260" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
