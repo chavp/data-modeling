@@ -1427,7 +1427,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dhbn5lY72Qewktr6fomH" name="Shipments">
-    <mxGraphModel dx="5240" dy="2986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3765" dy="2200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1442,7 +1442,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PFjVLCadCoVnMktzcicB-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="Shipment" vertex="1">
-          <mxGeometry height="280" width="760" x="250" y="230" as="geometry" />
+          <mxGeometry height="280" width="1320" x="250" y="230" as="geometry" />
         </mxCell>
         <mxCell id="xs3EiEG8q0rgMCW-Px6j-7" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="140" width="250" x="270" y="280" as="geometry" />
@@ -1857,6 +1857,32 @@
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="OtherShippingDocument" vertex="1">
           <mxGeometry height="60" width="200" x="-1465" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="ShipmentRouteSegment" vertex="1">
+          <mxGeometry height="60" width="580" x="1140" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-64" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="PFjVLCadCoVnMktzcicB-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" />
+              <mxPoint x="1280" />
+            </Array>
+            <mxPoint x="1330" y="30" as="sourcePoint" />
+            <mxPoint x="1330" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="ShipmentMethodType" vertex="1">
+          <mxGeometry height="60" width="200" x="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-66" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="-20" />
+              <mxPoint x="1430" y="-20" />
+            </Array>
+            <mxPoint x="1280" y="-250" as="sourcePoint" />
+            <mxPoint x="1280" y="-190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
