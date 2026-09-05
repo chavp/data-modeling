@@ -1629,7 +1629,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="ShipmentReceipt" vertex="1">
-          <mxGeometry height="60" width="415" x="-780" y="240" as="geometry" />
+          <mxGeometry height="60" width="680" x="-780" y="240" as="geometry" />
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="InventoryItem" vertex="1">
           <mxGeometry height="50" width="925" x="-800" y="880" as="geometry" />
@@ -1652,6 +1652,16 @@
             </Array>
             <mxPoint x="-620" y="530" as="sourcePoint" />
             <mxPoint x="-620" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-28" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-230" y="430" />
+              <mxPoint x="-230" y="430" />
+            </Array>
+            <mxPoint x="-50" y="350" as="sourcePoint" />
+            <mxPoint x="-50" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
