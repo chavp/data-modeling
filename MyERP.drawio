@@ -1698,7 +1698,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="PicklistItem" vertex="1">
-          <mxGeometry height="60" width="270" x="-1000" y="110" as="geometry" />
+          <mxGeometry height="60" width="280" x="-1010" y="110" as="geometry" />
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-34" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-33">
           <mxGeometry relative="1" as="geometry">
@@ -1708,6 +1708,19 @@
             </Array>
             <mxPoint x="-820" y="-20" as="sourcePoint" />
             <mxPoint x="-820" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="Picklist" vertex="1">
+          <mxGeometry height="60" width="160" x="-1010" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-36" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-930" y="180" />
+              <mxPoint x="-930" y="180" />
+            </Array>
+            <mxPoint x="-740" y="360" as="sourcePoint" />
+            <mxPoint x="-740" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
