@@ -1859,7 +1859,7 @@
           <mxGeometry height="60" width="200" x="-1465" y="320" as="geometry" />
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="ShipmentRouteSegment" vertex="1">
-          <mxGeometry height="60" width="580" x="1140" y="-150" as="geometry" />
+          <mxGeometry height="60" width="350" x="1140" y="-150" as="geometry" />
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-64" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="PFjVLCadCoVnMktzcicB-1">
           <mxGeometry relative="1" as="geometry">
@@ -1872,7 +1872,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="ShipmentMethodType" vertex="1">
-          <mxGeometry height="60" width="200" x="1320" as="geometry" />
+          <mxGeometry height="60" width="290" x="1340" as="geometry" />
         </mxCell>
         <mxCell id="eEdf1bpNWjdId-TgNI5t-66" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-65">
           <mxGeometry relative="1" as="geometry">
@@ -1882,6 +1882,35 @@
             </Array>
             <mxPoint x="1280" y="-250" as="sourcePoint" />
             <mxPoint x="1280" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="CarrierShipment" vertex="1">
+          <mxGeometry height="60" width="310" x="1520" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="OrganizationRole" vertex="1">
+          <mxGeometry height="100" width="560" x="1610" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Carrier" vertex="1">
+          <mxGeometry height="50" width="350" x="1720" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-70" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="-60" />
+              <mxPoint x="1580" y="-60" />
+            </Array>
+            <mxPoint x="1660" y="-60" as="sourcePoint" />
+            <mxPoint x="1660" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-71" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1770" y="160" />
+              <mxPoint x="1770" y="160" />
+            </Array>
+            <mxPoint x="1730" y="-30" as="sourcePoint" />
+            <mxPoint x="1730" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
