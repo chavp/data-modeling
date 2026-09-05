@@ -1628,6 +1628,32 @@
             <mxPoint x="-150" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="ShipmentReceipt" vertex="1">
+          <mxGeometry height="60" width="415" x="-780" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=0;spacingLeft=0;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="InventoryItem" vertex="1">
+          <mxGeometry height="50" width="925" x="-800" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-26" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="820" />
+              <mxPoint x="60" y="820" />
+            </Array>
+            <mxPoint x="60" y="830" as="sourcePoint" />
+            <mxPoint x="60" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEdf1bpNWjdId-TgNI5t-27" edge="1" parent="1" source="eEdf1bpNWjdId-TgNI5t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" target="eEdf1bpNWjdId-TgNI5t-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-720" y="450" />
+              <mxPoint x="-720" y="450" />
+            </Array>
+            <mxPoint x="-620" y="530" as="sourcePoint" />
+            <mxPoint x="-620" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
